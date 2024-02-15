@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+    <t t-name="VideoCallPopup" >
+        <div class="o_task_navbar_item o-dropdown dropdown o-dropdown--no-caret">
+            <a href="#" title="Shedule Video Call">
+                <i class="fa fa-video-camera"/> 
+            </a>
+        </div>
+    </t>
+   
+</templates>
