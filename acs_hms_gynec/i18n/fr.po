@@ -2227,29 +2227,29 @@ msgstr ""
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__presentation__oblique
 msgid "Oblique"
-msgstr ""
+msgstr "Oblique"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_calendar
 msgid "Obstetric Sonographies"
-msgstr ""
+msgstr "Échographies obstétricales"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.hms_obstetric_sonography
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_obstetric
 msgid "Obstetric Sonography"
-msgstr ""
+msgstr "Échographie obstétricale"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Obstetrics"
-msgstr ""
+msgstr "Obstétrique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__fetus_presentation__occiput
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal_monitor__fetus_position__output
 msgid "Occiput / Cephalic Posterior"
-msgstr ""
+msgstr "Occiput / Céphalique Postérieur"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
@@ -2263,27 +2263,27 @@ msgstr ""
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_puerperium_monitor__lochia_odor__offensive
 msgid "Offensive"
-msgstr ""
+msgstr "Offensif"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__oligohydramnios
 msgid "Oligohydramnios"
-msgstr ""
+msgstr "Oligohydramnios"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_menstrual_history__frequency__oligomenorrhea
 msgid "Oligomenorrhea"
-msgstr ""
+msgstr "Oligoménorrhée"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__contraception_method__oral
 msgid "Oral"
-msgstr ""
+msgstr "Oral"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__overweight
 msgid "Overweight"
-msgstr ""
+msgstr "En surpoids"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_systemic_examination__pa
@@ -2311,42 +2311,42 @@ msgstr ""
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_patient_pap_history
 msgid "PAP Test History"
-msgstr ""
+msgstr "Historique des tests PAP"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__pap_history_ids
 msgid "PAP smear History"
-msgstr ""
+msgstr "Frottis AP Historique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__pap_test
 msgid "PAP test"
-msgstr ""
+msgstr "Test Pap"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_menstrual_history__dysmenorrhea
 msgid "Painful menstruation, typically involving abdominal cramps."
-msgstr ""
+msgstr "Menstruations douloureuses, impliquant généralement des crampes abdominales."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Pap Details"
-msgstr ""
+msgstr "Détails du PAP"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Pap Tests"
-msgstr ""
+msgstr "Tests PAP"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_child_birth_view
 msgid "Parent's Information"
-msgstr ""
+msgstr "Informations des parents"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__parity
 msgid "Parity"
-msgstr ""
+msgstr "Parité"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.hms_action_female_patient
@@ -2366,18 +2366,18 @@ msgstr ""
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__patient_education
 msgid "Patient Education"
-msgstr ""
+msgstr "Éducation du patient"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_menstrual_history_form
 msgid "Patient Menstrual History"
-msgstr ""
+msgstr "Antécédents menstruels du patient"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_patient_pregnancy
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__patient_preg_id
 msgid "Patient Pregnancy"
-msgstr ""
+msgstr "Grossesse des patientes"
 
 #. module: acs_hms_gynec
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_patient
@@ -2390,12 +2390,12 @@ msgstr ""
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_pelvis
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_calendar
 msgid "Pelvis Sonography"
-msgstr ""
+msgstr "Échographie du bassin"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_systemic_examination__pa
 msgid "Per Abdominal Examination"
-msgstr ""
+msgstr "Par examen abdominal"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
