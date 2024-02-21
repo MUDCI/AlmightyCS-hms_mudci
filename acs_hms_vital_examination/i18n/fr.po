@@ -1,0 +1,2256 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: MUDCI\n"
+"Language: fr\n"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_capillary_refill
+msgid "(<3 Sec)"
+msgstr "(<3 secondes)"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "(Auscultation)"
+msgstr "(Auscultation)"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "4-Quadrant"
+msgstr "4 quadrants"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Abdomen"
+msgstr "Abdomen"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_abdominal_gases
+msgid "Abdominal Gases"
+msgstr "Gaz abdominaux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_abdominal_pain
+msgid "Abdominal Pain"
+msgstr "Douleur abdominale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_abdominal_scar
+msgid "Abdominal scar"
+msgstr "Cicatrice abdominale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_gross_hearing__abnormal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_symmetry__abnormal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_head_symmetry__abnormal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_odor__abnormal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_smell__abnormal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_swallow__abnormal
+msgid "Abnormal"
+msgstr "Anormal"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_motor__3
+msgid "Abnormal flexion to painful stimuli decerebrate response"
+msgstr "Une flexion anormale face à des stimuli douloureux entraîne une décérébration de la réponse"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_abscess
+msgid "Abscess"
+msgstr "Abcès"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_llq__absent
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_luq__absent
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_rlq__absent
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_ruq__absent
+msgid "Absent"
+msgstr "Absent"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__abstraction
+msgid "Abstraction"
+msgstr "Abstraction"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_accomodation
+msgid "Accomodation"
+msgstr "Hébergement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_llq__active
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_luq__active
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_rlq__active
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_ruq__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__alert
+msgid "Alert"
+msgstr "Alerte"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nuerological_alertness
+msgid "Alertness"
+msgstr "Vigilance"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_female__ambiguous
+msgid "Ambiguous"
+msgstr "Ambiguë"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_anal_fissures
+msgid "Anal fissures"
+msgstr "Fissures anales"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_ankle_joint_pain
+msgid "Ankle joint pain"
+msgstr "Douleur à la cheville"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_ankle_twist
+msgid "Ankle twist"
+msgstr "Torsion de la cheville"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Anus"
+msgstr "Anus"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_pulse_apical_radial
+msgid "Apical-Radial"
+msgstr "Apical-Radial"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model,name:acs_hms_vital_examination.model_hms_appointment
+msgid "Appointment"
+msgstr "Rendez-vous"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_movements__asymmetrical
+msgid "Asymmetrical"
+msgstr "Asymétrique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_chest_auscultation
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_hr_auscultation
+msgid "Auscultation"
+msgstr "Auscultation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_autistic_red_flag
+msgid "Autistic red flag"
+msgstr "Drapeau rouge autiste"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__awake
+msgid "Awake"
+msgstr "Éveillé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_back
+msgid "Back"
+msgstr "Dos"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_bedsores
+msgid "Bedsores"
+msgstr "Escarres"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_visual__bleeding
+msgid "Bleeding"
+msgstr "Saignement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_blisters
+msgid "Blisters"
+msgstr "Ampoules"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_blocked_nose
+msgid "Blocked Nose"
+msgstr "Nez bouché"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_blood_in_stool
+msgid "Blood in stool"
+msgstr "Sang dans les selles"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_bloody_urine
+msgid "Bloody urine"
+msgstr "Urine sanglante"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Bowel"
+msgstr "Intestin"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_chest_breathing_sounds
+msgid "Breathing Sounds"
+msgstr "Sons de respiration"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_reaction__brisk
+msgid "Brisk"
+msgstr "Rapide"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_carotid__bruit
+msgid "Bruit"
+msgstr "Bruit"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_burns
+msgid "Burns"
+msgstr "Brûlures"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "CARDIOVASCULAR"
+msgstr "CARDIOVASCULAIRE"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__calculation_ability
+msgid "Calculation Ability"
+msgstr "Capacité de calcul"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Capillary Refill"
+msgstr "Recharge capillaire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_cardio_thoracic_scar
+msgid "Cardio-thoracic scar"
+msgstr "Cicatrice cardio-thoracique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_pulse_carotid
+msgid "Carotid"
+msgstr "Carotide"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_cesarean_section
+msgid "Cesarean section"
+msgstr "Césarienne"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Chest"
+msgstr "Poitrine"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Chest & Heart"
+msgstr "Poitrine et coeur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_chest_compression
+msgid "Chest compression"
+msgstr "Compression thoracique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_chest_crackles
+msgid "Chest crackles"
+msgstr "La poitrine crépite"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_chest_crepitation
+msgid "Chest crepitation"
+msgstr "Crépitation thoracique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_chest_deformity
+msgid "Chest deformity"
+msgstr "Malformation thoracique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_chest_tightness
+msgid "Chest tightness"
+msgstr "Oppression thoracique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_clogged_ears
+msgid "Clogged Ears"
+msgstr "Oreille bouchée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_feet_position__clubbed
+msgid "Clubbed"
+msgstr "Clubbed"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_temperature__cold
+msgid "Cold to Touch"
+msgstr "Froid au toucher"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_visual__cold
+msgid "Cold to touch"
+msgstr "Froid au toucher"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_skin_color
+msgid "Color/Moisture"
+msgstr "Couleur/humidité"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__coma
+msgid "Coma"
+msgstr "Coma"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__confused
+msgid "Confused"
+msgstr "Confus"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_verbal__4
+msgid "Confused,disoriented"
+msgstr "Confus, désorienté"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_congestion
+msgid "Congestion"
+msgstr "Congestion"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_conjunctivitis
+msgid "Conjunctivitis"
+msgstr "Conjonctivite"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_constipation
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_movements__constipation
+msgid "Constipation"
+msgstr "Constipation"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Cranial Nerve"
+msgstr "Nerf crânien"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_auscultation__cripitation
+msgid "Cripitation"
+msgstr "Critération"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_cut_wound
+msgid "Cut wound"
+msgstr "Plaie coupée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_cutting_urination
+msgid "Cutting urination"
+msgstr "Couper la miction"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__cyanotic
+msgid "Cyanotic"
+msgstr "Cyanotique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dark_urine
+msgid "Dark urine"
+msgstr "Urine foncée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__decerebrate
+msgid "Decerebrate"
+msgstr "Décérébrer"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__decorticate
+msgid "Decorticate"
+msgstr "Décortiquer"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_capillary_refill__delayed
+msgid "Delayed"
+msgstr "Retardé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dental_cares
+msgid "Dental cares"
+msgstr "Soins dentaires"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dental_pain
+msgid "Dental pain"
+msgstr "Douleur dentaire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_depression_red_flag
+msgid "Depression red flag"
+msgstr "Drapeau rouge de la dépression"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_breathing_sounds__depth
+msgid "Depth"
+msgstr "Profondeur"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Device"
+msgstr "Appareil"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_diabetic_foot
+msgid "Diabetic foot"
+msgstr "Pied diabétique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__diaphoretic
+msgid "Diaphoretic"
+msgstr "Diaphorétique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_diarrhea
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_movements__diarrhea
+msgid "Diarrhea"
+msgstr "Diarrhée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_urinary_discharge
+msgid "Discharge"
+msgstr "Décharge"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_urinary_discharge_comment
+msgid "Discharge Describe"
+msgstr "Décharge Décrire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__d
+msgid "Disgust"
+msgstr "Dégoûter"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_hips__dislocatable
+msgid "Dislocatable"
+msgstr "Disloquable"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_hips__dislocated
+msgid "Dislocated"
+msgstr "Disloqué"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_shape__distended
+msgid "Distended"
+msgstr "Distendu"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_distention
+msgid "Distention"
+msgstr "Dilatation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dizziness
+msgid "Dizziness"
+msgstr "Vertiges"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_eyes__1
+msgid "Does not Open Eyes"
+msgstr "N'ouvre pas les yeux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_drainage
+msgid "Drainage"
+msgstr "Drainage"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_drainage_comment
+msgid "Drainage Describe"
+msgstr "Drainage Décrire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_drowsiness
+msgid "Drowsiness"
+msgstr "Somnolence"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_veins__dry
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_color__dry
+msgid "Dry"
+msgstr "Sec"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dry_cough
+msgid "Dry Cough"
+msgstr "Toux sèche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dry_eye
+msgid "Dry eye"
+msgstr "Oeil sec"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dry_skin
+msgid "Dry skin"
+msgstr "Peau sèche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dysmenorrhea
+msgid "Dysmenorrhea"
+msgstr "Dysménorrhée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dyspnea
+msgid "Dyspnea"
+msgstr "Dyspnée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_dysuria
+msgid "Dysuria"
+msgstr "Dysurie"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "ENT"
+msgstr "ORL"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "EXTREMITIES"
+msgstr "EXTRÉMITÉS"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_ear_drum_redness
+msgid "Ear drum redness"
+msgstr "Rougeur du tympan"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_ear_rash
+msgid "Ear rash"
+msgstr "Éruption cutanée aux oreilles"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_earache
+msgid "Earache"
+msgstr "Mal d'oreille"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Ears"
+msgstr "Oreilles"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Edema"
+msgstr "Œdème"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_elbow_joint_pain
+msgid "Elbow joint pain"
+msgstr "Douleurs articulaires du coude"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_enlarged_cervical_ln
+msgid "Enlarged Cervical LN"
+msgstr "LN cervical élargi"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_epigastric_pain
+msgid "Epigastric pain"
+msgstr "Douleur épigastrique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_epistaxis
+msgid "Epistaxis"
+msgstr "Épistaxis"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_equal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_breathing_sounds__equal
+msgid "Equal"
+msgstr "Égal"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__e
+msgid "Euphoria"
+msgstr "Euphorie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_orientation_level__event
+msgid "Event"
+msgstr "Événement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_motor__2
+msgid "Extension to painful stimuli decerebrate response"
+msgstr "Extension aux stimuli douloureux, réponse décérébrée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_fingers__extra_fingers
+msgid "Extra Fingers"
+msgstr "Doigts supplémentaires"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Eye"
+msgstr "Œil"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_eye_lid_pimple
+msgid "Eye lid pimple"
+msgstr "Bouton des paupières"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_eye_redness
+msgid "Eye redness"
+msgstr "Rougeur des yeux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_eye_secretions
+msgid "Eye secretions"
+msgstr "Sécrétions oculaires"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_eye_skin_color_change
+msgid "Eye skin color change"
+msgstr "Changement de couleur de la peau des yeux"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Eyes"
+msgstr "Yeux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_hr_auscultation__faint
+msgid "Faint"
+msgstr "S'évanouir"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_fatigue
+msgid "Fatigue"
+msgstr "Fatigue"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__f
+msgid "Fear"
+msgstr "Peur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_feet_position
+msgid "Feet position"
+msgstr "Position des pieds"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_fingers
+msgid "Fingers"
+msgstr "Des doigts"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_fissured_skin
+msgid "Fissured skin"
+msgstr "Peau fissurée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_visual__flare
+msgid "Flare"
+msgstr "Éclater"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__flashed
+msgid "Flashed"
+msgstr "Flashé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__fl
+msgid "Flat"
+msgstr "Plat"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_motor__4
+msgid "Flexion/Withdrawal to painful stimuli "
+msgstr "Flexion/retrait face à des stimuli douloureux "
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_foot_oedema
+msgid "Foot oedema"
+msgstr "Œdème du pied"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_arms__fracture
+msgid "Fracture"
+msgstr "Fracture"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_frequency
+msgid "Frequency"
+msgstr "Fréquence"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_furuncles
+msgid "Furuncles"
+msgstr "Furoncles"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "GENITO URINARY"
+msgstr "GÉNITO URINAIRE"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "GIT"
+msgstr "GIT"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_gastric_regurgitation
+msgid "Gastric regurgitation"
+msgstr "Insuffisance gastrique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_general_anxiety
+msgid "General anxiety"
+msgstr "Anxiété générale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_general_body_aches
+msgid "General body aches"
+msgstr "Douleurs générales du corps"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_general_checkup
+msgid "General checkup"
+msgstr "Bilan général"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_general_weakness
+msgid "General weakness"
+msgstr "Faiblesse générale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_arms
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_urinary_genitalia_female
+msgid "Genitalia Female"
+msgstr "Organes génitaux féminins"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_urinary_genitalia_male
+msgid "Genitalia Male"
+msgstr "Organes génitaux masculins"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_geographic_tongue
+msgid "Geographic tongue"
+msgstr "Langue géographique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__loc_eyes
+msgid "Glasgow - Eyes"
+msgstr "Glasgow - Yeux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__loc_motor
+msgid "Glasgow - Motor"
+msgstr "Glasgow - Moteur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__loc_verbal
+msgid "Glasgow - Verbal"
+msgstr "Glasgow – Verbal"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Glasgow Coma Scale"
+msgstr "Échelle de coma de Glasgow"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_gluteal_pimple
+msgid "Gluteal pimple"
+msgstr "Bouton fessier"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_ears_gross_hearing
+msgid "Gross Hearing"
+msgstr "Audition grossière"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hair_cracking
+msgid "Hair cracking"
+msgstr "Fissuration des cheveux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hair_loss
+msgid "Hair loss"
+msgstr "Chute de cheveux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__h
+msgid "Happy"
+msgstr "Heureux"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Head"
+msgstr "Tête"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_head_trauma
+msgid "Head Trauma"
+msgstr "Traumatisme crânien"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Head and Neck"
+msgstr "Tête et cou"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_headaches
+msgid "Headache"
+msgstr "Mal de tête"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_headedness
+msgid "Headedness"
+msgstr "Entêtement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hearing_loss
+msgid "Hearing loss"
+msgstr "Perte auditive"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_heart_murmurs
+msgid "Heart murmurs"
+msgstr "Souffles au coeur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_heartburn
+msgid "Heartburn"
+msgstr "Brûlures d'estomac"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Hearth Rythmn"
+msgstr "Rythme du foyer"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hemiplegia
+msgid "Hemiplegia"
+msgstr "Hémiplégie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hemoptysis
+msgid "Hemoptysis"
+msgstr "Hémoptysie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hemorrhagia
+msgid "Hemorrhagia"
+msgstr "Hémorragie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hemorrhoids
+msgid "Hemorrhoids(Piles)"
+msgstr "Hémorroïdes (pilules)"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_male__hernia
+msgid "Hernia"
+msgstr "Hernie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_hip_joint_pain
+msgid "Hip joint pain"
+msgstr "Douleur à la hanche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_hips
+msgid "Hips"
+msgstr "Les hanches"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_llq__hyper
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_luq__hyper
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_rlq__hyper
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_ruq__hyper
+msgid "Hyper"
+msgstr "Hyper"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_auscultation__hyperinflation
+msgid "Hyperinflation"
+msgstr "Hyperinflation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_male__hypospadias
+msgid "Hypospadias"
+msgstr "Hypospadias"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_palpitation__imperforate
+msgid "Imperforate"
+msgstr "Non perforé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_verbal__2
+msgid "Incomprehensible Sounds"
+msgstr "Des sons incompréhensibles"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_visual__intact
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_sensory__intact
+msgid "Intact"
+msgstr "Intact"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_hr_auscultation__irregular
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_lymp_nodes__irregular
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_tracheal_alignment__irregular
+msgid "Irregular"
+msgstr "Irrégulier"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_irregular_menstruation
+msgid "Irregular menstruation"
+msgstr "Menstruations irrégulières"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_itching
+msgid "Itching"
+msgstr "Démangeaison"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_itching_dry_throat
+msgid "Itching Dry Throat"
+msgstr "Démangeaisons de la gorge sèche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_itching_eye
+msgid "Itching eye"
+msgstr "Oeil qui démange"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__jaundice
+msgid "Jaundice"
+msgstr "Jaunisse"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_joint_swelling
+msgid "Joint swelling"
+msgstr "Gonflement des articulations"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__judgment
+msgid "Jugdment"
+msgstr "Jugement"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Jugular Vein"
+msgstr "Veine jugulaire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_knee_joint_pain
+msgid "Knee joint pain"
+msgstr "Douleurs articulaires du genou"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__knowledge_current_events
+msgid "Knowledge of Current Events"
+msgstr "Connaissance de l'actualité"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_pedal__labsent
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_radial__labsent
+msgid "L Absent"
+msgstr "L Absent"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_lnoreaction
+msgid "L No Reaction"
+msgstr "L Aucune réaction"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_pedal__lpalpable
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_radial__lpalpable
+msgid "L Palpable"
+msgstr "L Palpable"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_labnormal
+msgid "L abnormal shape"
+msgstr "L forme anormale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_llarge
+msgid "L larger"
+msgstr "L plus grand"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_llq
+msgid "LLQ"
+msgstr "LLQ"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "LOC"
+msgstr "LOC"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_luq
+msgid "LUQ"
+msgstr "LUQ"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_laboratory_checkup
+msgid "Laboratory checkup"
+msgstr "Contrôle de laboratoire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_lacrimation
+msgid "Lacrimation"
+msgstr "Larmoiement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_accomodation__left
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_carotid__left
+msgid "Left"
+msgstr "Gauche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_left_lower_quadrant_pain
+msgid "Left lower quadrant pain"
+msgstr "Douleur du quadrant inférieur gauche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_left_upper_quadrant_pain
+msgid "Left upper quadrant pain"
+msgstr "Douleur du quadrant supérieur gauche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_legs
+msgid "Legs"
+msgstr "Jambes"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_ears_lesion
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_mouth_lesion
+msgid "Lesion"
+msgstr "Lésion"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_ears_lesion_comment
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_mouth_lesion_comment
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_skin_lesions_comment
+msgid "Lesion Describe"
+msgstr "Lésion Décrire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_skin_lesions
+msgid "Lesions"
+msgstr "Lésions"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__lethargic
+msgid "Lethargic"
+msgstr "Léthargique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__loc
+msgid "Level of Consciousness"
+msgstr "Niveau de conscience"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_limitation_of_movements
+msgid "Limitation of movements"
+msgstr "Limitation des mouvements"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_limited_neck_movements
+msgid "Limited Neck Movements"
+msgstr "Mouvements limités du cou"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_lips_fissures
+msgid "Lips fissures"
+msgstr "Fissures des lèvres"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_motor__5
+msgid "Localizes painful stimuli"
+msgstr "Localise les stimuli douloureux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_loin_pain
+msgid "Loin pain"
+msgstr "Douleurs aux reins"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_lot_of_ear_wax
+msgid "Lot Of Ear Wax"
+msgstr "Beaucoup de cérumen"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_pain_level__low
+msgid "Low"
+msgstr "Faible"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_low_hearing_equity
+msgid "Low Hearing Equity"
+msgstr "Faible équité auditive"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_low_back_pain
+msgid "Low back pain"
+msgstr "Lombalgie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_low_energy
+msgid "Low energy"
+msgstr "Batterie faible"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_low_visual_equity
+msgid "Low visual equity"
+msgstr "Faible équité visuelle"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_lowe_limb_oedema
+msgid "Lower limb oedema"
+msgstr "Œdème des membres inférieurs"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_lower_limb_pain
+msgid "Lower limb pain"
+msgstr "Douleur aux membres inférieurs"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_lower_middle_abdominal_pain
+msgid "Lower middle abdominal pain"
+msgstr "Douleur abdominale basse moyenne"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_lymp_nodes
+msgid "Lymp Nodes"
+msgstr "Ganglions lymphatiques"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_motor__1
+msgid "Make no movement"
+msgstr "Ne faites aucun mouvement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_verbal__1
+msgid "Make no sounds"
+msgstr "Ne fais aucun son"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_medical_advice_request
+msgid "Medical advice request"
+msgstr "Demande d'avis médical"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_medical_certificate_request
+msgid "Medical certificate request"
+msgstr "Demande de certificat médical"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__memory
+msgid "Memory"
+msgstr "Mémoire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_back__meningocele
+msgid "Meningocele"
+msgstr "Méningocèle"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Mental Assessment and Impairments"
+msgstr "Évaluation mentale et déficiences"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Mental Status"
+msgstr "État mental"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_migraine
+msgid "Migraine"
+msgstr "Migraine"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_missed_pills
+msgid "Missed pills"
+msgstr "Pilules oubliées"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_mouth_missing_teeth
+msgid "Missing Teeth/Dentures"
+msgstr "Dents/dentiers manquants"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_visual__moist
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_visual__moist
+msgid "Moist"
+msgstr "Humide"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__mood
+msgid "Mood"
+msgstr "Humeur"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Mouth"
+msgstr "Bouche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_mouth_angles_fissures
+msgid "Mouth angles fissures"
+msgstr "Fissures des angles de la bouche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_mouth_sores
+msgid "Mouth sores"
+msgstr "Plaies buccales"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Mouth/Throat"
+msgstr "Bouche/Gorge"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_chest_movements
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_movements
+msgid "Movements"
+msgstr "Mouvements"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_hr_auscultation__muffled
+msgid "Muffled"
+msgstr "Étouffé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_hr_auscultation__murmur
+msgid "Murmur"
+msgstr "Murmure"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_muscle_pain
+msgid "Muscle pain"
+msgstr "Douleur musculaire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_capillary_refill__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_auscultation__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_breathing_sounds__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_movements__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_device_pacemaker__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_gross_hearing__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_lesion__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_symmetry__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_edema_present__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_arms__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_back__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_feet_position__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_fingers__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_hips__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_legs__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_palmar_creases__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_toes__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_accomodation__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_equal__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_reaction__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_reactive_to_light__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_round__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_llq__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_luq__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_movements__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_palpitation__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_rlq__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_ruq__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_shape__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_visual__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_head_sign_symptoms_of_infection__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_head_symmetry__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_hr_auscultation__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_jugular_vein_visual__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_lesion__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_missing_teeth__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_visual__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_palpitation__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_veins__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_visual__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_congestion__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_drainage__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_lymp_nodes__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_odor__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_smell__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_swallow__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_tracheal_alignment__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_orientation_level__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_pain_level__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_sensory__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_apical_radial__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_carotid__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_pedal__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_radial__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_color__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_lesions__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_temperature__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_discharge__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_female__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_male__na
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_symptomps__na
+msgid "N/A"
+msgstr "N / A"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "NEUROLOGICAL"
+msgstr "NEUROLOGIQUE"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_device_pacemaker__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_lesion__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_equal__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_reactive_to_light__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_round__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_head_sign_symptoms_of_infection__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_lesion__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_missing_teeth__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_palpitation__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_congestion__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_drainage__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_lesions__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_discharge__no
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_symptomps__no
+msgid "NO"
+msgstr "NON"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_nails_cracking
+msgid "Nails cracking"
+msgstr "Ongles fissurés"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_nails_fungal_infection
+msgid "Nails fungal infection"
+msgstr "Infection fongique des ongles"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_nausea
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_movements__nausea
+msgid "Nausea"
+msgstr "Nausée"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Neck"
+msgstr "Cou"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_neck_pain
+msgid "Neck Pain"
+msgstr "La douleur du cou"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_neuropathic_pain
+msgid "Neuropathic pain"
+msgstr "Douleur neuropathique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_new_born_baby_checkup
+msgid "New born baby checkup"
+msgstr "Bilan du nouveau-né"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_sensory__non_intact
+msgid "Non-intact"
+msgstr "Non intact"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_edema_present__non_pitting
+msgid "Non-pitting"
+msgstr "Sans piqûre"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__n
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_capillary_refill__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_auscultation__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_gross_hearing__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_symmetry__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_arms__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_back__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_feet_position__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_fingers__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_hips__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_legs__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_palmar_creases__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_toes__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_shape__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_visual__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_head_symmetry__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_veins__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_odor__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_smell__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_swallow__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_pain_level__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_apical_radial__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_color__normal
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_female__normal
+msgid "Normal"
+msgstr "Normale"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Nose"
+msgstr "Nez"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_arms__not_moving
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_legs__not_moving
+msgid "Not Moving"
+msgstr "Immobile"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_jugular_vein_visual__not_visible
+msgid "Not Visible"
+msgstr "Invisible"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_numbness
+msgid "Numbness"
+msgstr "Engourdissement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_motor__6
+msgid "Obeys commands"
+msgstr "Obéit aux commandes"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__object_recognition
+msgid "Object Recognition"
+msgstr "Reconnaissance d'objets"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_alertness__obtumded
+msgid "Obtumded"
+msgstr "Obsédé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_odor
+msgid "Odor"
+msgstr "Odeur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_eyes__2
+msgid "Opens eyes in response to painful stimuli"
+msgstr "Ouvre les yeux en réponse à des stimuli douloureux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_eyes__3
+msgid "Opens eyes in response to voice"
+msgstr "Ouvre les yeux en réponse à la voix"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_eyes__4
+msgid "Opens eyes spontaneously"
+msgstr "Ouvre les yeux spontanément"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_oral_bad_odor
+msgid "Oral bad odor"
+msgstr "Mauvaise odeur buccale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_oral_blisters
+msgid "Oral blisters"
+msgstr "Ampoules buccales"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_oral_white_patches
+msgid "Oral white patches"
+msgstr "Taches blanches buccales"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__orientation
+msgid "Orientation"
+msgstr "Orientation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nuerological_orientation_level
+msgid "Orientation Level"
+msgstr "Niveau d'orientation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_verbal__5
+msgid "Oriented, converses normally"
+msgstr "Orienté, converse normalement"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Orthopedic & Neuro"
+msgstr "Orthopédie et Neuro"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_orthopnea
+msgid "Orthopnea"
+msgstr "Orthopnée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_over_sweating
+msgid "Over sweating"
+msgstr "Transpiration excessive"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_device_pacemaker
+msgid "Pacemaker"
+msgstr "Stimulateur cardiaque"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_device_pacemaker_comment
+msgid "Pacemaker Describe"
+msgstr "Décrire le stimulateur cardiaque"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__symptom_pain
+msgid "Pain"
+msgstr "Douleur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nuerological_pain_level
+msgid "Pain Level"
+msgstr "Niveau de douleur"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Pain level"
+msgstr "Niveau de douleur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_painful_cervical_ln
+msgid "Painful cervical LN"
+msgstr "LN cervicale douloureuse"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_painful_ear_auricle
+msgid "Painful ear auricle"
+msgstr "Pavillon de l'oreille douloureux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_painful_eye
+msgid "Painful eye"
+msgstr "Oeil douloureux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__pale
+msgid "Pale"
+msgstr "Pâle"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_palmar_creases
+msgid "Palmar Creases"
+msgstr "Plis palmaires"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_palpitation
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_neck_palpitation
+msgid "Palpitation"
+msgstr "Palpitation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_palpitations
+msgid "Palpitations"
+msgstr "Palpitations"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_para_umbilical_pain
+msgid "Para-umbilical pain"
+msgstr "Douleur para-ombilicale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_paraplegia
+msgid "Paraplegia"
+msgstr "Paraplégie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_paresthesia
+msgid "Paresthesia"
+msgstr "Paresthésie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_palpitation__patent
+msgid "Patent"
+msgstr "Brevet"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_pulse_pedal
+msgid "Pedal"
+msgstr "Pédale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_orientation_level__person
+msgid "Person"
+msgstr "Personne"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_pharyngitis
+msgid "Pharyngitis"
+msgstr "Pharyngite"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Physical Examination"
+msgstr "Examen physique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_pimples
+msgid "Pimples"
+msgstr "Boutons"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__pink
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_visual__pink
+msgid "Pink"
+msgstr "Rose"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_edema_present__pitting
+msgid "Pitting"
+msgstr "Piqûres"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_orientation_level__place
+msgid "Place"
+msgstr "Lieu"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_fingers__polydactyl
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_toes__polydactyl
+msgid "Polydactyl"
+msgstr "Polydactyle"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__symptom_proctorrhagia
+msgid "Polyphagia"
+msgstr "Polyphagie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_feet_position__positional_deformity
+msgid "Positional Deformity"
+msgstr "Déformation de position"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_post_nasal_drip
+msgid "Post nasal drip"
+msgstr "Sécrétions post-nasales"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__praxis
+msgid "Praxis"
+msgstr "Praxis"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_preschool_checkup
+msgid "Preschool checkup"
+msgstr "Bilan préscolaire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_edema_present
+msgid "Present"
+msgstr "Présent"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_psychic_trauma
+msgid "Psychic trauma"
+msgstr "Traumatisme psychique"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Pulse"
+msgstr "Impulsion"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_apical_radial__pulse_deficit
+msgid "Pulse Deficit"
+msgstr "Déficit de pouls"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_quadriplegia
+msgid "Quadriplegia"
+msgstr "Quadriplégie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_pedal__rabsent
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_radial__rabsent
+msgid "R Absent"
+msgstr "R Absent"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_rnoreaction
+msgid "R No Reaction"
+msgstr "R Aucune réaction"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_pedal__rpalpable
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_radial__rpalpable
+msgid "R Palpable"
+msgstr "R Palpable"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_rabnormal
+msgid "R abnormal shape"
+msgstr "R forme anormale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_rlarge
+msgid "R larger"
+msgstr "R plus grand"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_rlq
+msgid "RLQ"
+msgstr "RLQ"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_ruq
+msgid "RUQ"
+msgstr "RUQ"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_pulse_radial
+msgid "Radial"
+msgstr "Radial"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__r
+msgid "Rage"
+msgstr "Rage"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_reaction
+msgid "Reaction"
+msgstr "Réaction"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_reactive_to_light
+msgid "Reactive to light"
+msgstr "Réactif à la lumière"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_red_eye_lid
+msgid "Red eye lid"
+msgstr "Paupière rouge"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_red_patches
+msgid "Red patches"
+msgstr "Taches rouges"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_redness
+msgid "Redness"
+msgstr "Rougeur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_referral_request
+msgid "Referral request"
+msgstr "Demande de référencement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_hr_auscultation__regular
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_lymp_nodes__regular
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_tracheal_alignment__regular
+msgid "Regular"
+msgstr "Régulier"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_renal_colic
+msgid "Renal colic"
+msgstr "Colique néphrétique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_orientation_level__touch_voice
+msgid "Response to touch and voice"
+msgstr "Réponse au toucher et à la voix"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_rhinitis
+msgid "Rhinitis"
+msgstr "Rhinite"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_accomodation__right
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_carotid__right
+msgid "Right"
+msgstr "Droite"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_right_lower_quadrant_pain
+msgid "Right lower quadrant pain"
+msgstr "Douleur dans le quadrant inférieur droit"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_right_upper_quadrant_pain
+msgid "Right upper quadrant pain"
+msgstr "Douleur dans le quadrant supérieur droit"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_eyes_round
+msgid "Round"
+msgstr "Rond"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_cardio_membrane__ruddy
+msgid "Ruddy"
+msgstr "Rouge"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_runny_nose
+msgid "Runny Nose"
+msgstr "Nez qui coule"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_back__sacral_dimple
+msgid "Sacral Dimple"
+msgstr "Fossette sacrée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__mood__s
+msgid "Sad"
+msgstr "Triste"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_shape__scaphoid
+msgid "Scaphoid"
+msgstr "Scaphoïde"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_scars
+msgid "Scars"
+msgstr "Cicatrices"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_back__scoliosis
+msgid "Scoliosis"
+msgstr "Scoliose"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_second_opinion_consultation
+msgid "Second opinion consultation"
+msgstr "Consultation de deuxième avis"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nuerological_sensory
+msgid "Sensory/Motor"
+msgstr "Moteur sensoriel"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_pain_level__severe
+msgid "Severe"
+msgstr "Grave"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_movements__shallow
+msgid "Shallow"
+msgstr "Peu profond"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_shape
+msgid "Shape"
+msgstr "Forme"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_head_symmetry
+msgid "Shape/Symmetry"
+msgstr "Forme/Symétrie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_shortness_of_breath
+msgid "Shortness of breath"
+msgstr "Essoufflement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_shoulder_pain
+msgid "Shoulder pain"
+msgstr "Mal d'épaule"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_sick_leave_request
+msgid "Sick leave request"
+msgstr "Demande d'arrêt maladie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_urinary_symptomps
+msgid "Signs and Symptoms of Infection"
+msgstr "Signes et symptômes d'infection"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_urinary_symptomps_comment
+msgid "Signs and Symptoms of Infection Describe"
+msgstr "Signes et symptômes d'infection Décrire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_head_sign_symptoms_of_infection
+msgid "Signs and Symptoms of infection"
+msgstr "Signes et symptômes d'infection"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_palmar_creases__single_crease
+msgid "Single Crease"
+msgstr "Pli unique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_sinusitis
+msgid "Sinusitis"
+msgstr "Sinusite"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Skin"
+msgstr "Peau"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_skin_crackles
+msgid "Skin crackles"
+msgstr "La peau crépite"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_skin_rash
+msgid "Skin rash"
+msgstr "Démangeaison de la peau"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Skin/Mucous Membrane"
+msgstr "Peau/muqueuse"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_cardio_membrane
+msgid "Skin/Mucous membrane"
+msgstr "Peau/muqueuse"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_reaction__sluggish
+msgid "Sluggish"
+msgstr "Paresseux"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_smell
+msgid "Smell"
+msgstr "Odeur"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_sneezing
+msgid "Sneezing"
+msgstr "Éternuements"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_sore_throat
+msgid "Sore throat"
+msgstr "Mal de gorge"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_squint
+msgid "Squint"
+msgstr "Strabisme"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_strawberry_tongue
+msgid "Strawberry tongue"
+msgstr "Langue de fraise"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_stuffy_nose
+msgid "Stuffy Nose"
+msgstr "Nez encombré"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Surgery"
+msgstr "Chirurgie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_surgical_wound
+msgid "Surgical wound"
+msgstr "Plaie chirurgicale"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_swallow
+msgid "Swallow"
+msgstr "Avaler"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_swallowing_pain
+msgid "Swallowing pain"
+msgstr "Douleur à la déglutition"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_swollen_ear_lobule
+msgid "Swollen ear lobule"
+msgstr "Lobule de l'oreille enflé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_swollen_eye
+msgid "Swollen eye"
+msgstr "Oeil gonflé"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_swollen_eye_lid
+msgid "Swollen eye lid"
+msgstr "Paupière gonflée"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_swollen_lips
+msgid "Swollen lips"
+msgstr "Lèvres gonflées"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_movements__symmetrical
+msgid "Symmetrical"
+msgstr "Symétrique"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_ears_symmetry
+msgid "Symmetry"
+msgstr "Symétrie"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Symptoms"
+msgstr "Symptômes"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_fingers__syndactyl
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_toes__syndactyl
+msgid "Syndactyl"
+msgstr "Syndactyle"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_teething
+msgid "Teething"
+msgstr "Dentition"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_teleconsultation
+msgid "Teleconsultation"
+msgstr "Téléconsultation"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_skin_temperature
+msgid "Temperature"
+msgstr "Température"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_shape__tender
+msgid "Tender"
+msgstr "Tendre"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_male__testes_descended
+msgid "Testes Descended"
+msgstr "Testicules descendus"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_pulse_carotid__thrill
+msgid "Thrill"
+msgstr "Ravir"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nuerological_orientation_level__time
+msgid "Time"
+msgstr "Temps"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_tingling
+msgid "Tingling"
+msgstr "Des picotements"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_tinnitus
+msgid "Tinnitus"
+msgstr "Acouphène"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_extremities_toes
+msgid "Toes"
+msgstr "Orteils"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_tongue_sores
+msgid "Tongue sores"
+msgstr "Plaies à la langue"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_tonsillitis
+msgid "Tonsillitis"
+msgstr "Amygdalite"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_toothache
+msgid "Toothache"
+msgstr "Mal aux dents"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_nose_tracheal_alignment
+msgid "Tracheal Alignment"
+msgstr "Alignement trachéal"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_extremities_back__tuft_of_hair
+msgid "Tuft of Hair"
+msgstr "Touffe de cheveux"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Umbilicus"
+msgstr "Ombilic"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_genitalia_male__undescended
+msgid "Undescended"
+msgstr "Non descendu"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_upper_back_pain
+msgid "Upper back pain"
+msgstr "Douleur dans le haut du dos"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_urgency
+msgid "Urgency"
+msgstr "Urgence"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Urinary & gynecology"
+msgstr "Urinaire & gynécologie"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__loc_verbal__3
+msgid "Utters inappropriate words"
+msgstr "Prononce des mots inappropriés"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_varicose_veins
+msgid "Varicose veins"
+msgstr "Varices"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_neck_veins
+msgid "Veins"
+msgstr "Veines"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_vertigo
+msgid "Vertigo"
+msgstr "vertige"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__violent
+msgid "Violent Behaviour"
+msgstr "Comportement violent"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_jugular_vein_visual__visible
+msgid "Visible"
+msgstr "Visible"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_git_visual
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_jugular_vein_visual
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_mouth_visual
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__pe_neck_visual
+msgid "Visual"
+msgstr "Visuel"
+
+#. module: acs_hms_vital_examination
+#: model_terms:ir.ui.view,arch_db:acs_hms_vital_examination.view_hms_appointment_form
+msgid "Vital Signs & Symptoms"
+msgstr "Signes vitaux et symptômes"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__vocabulary
+msgid "Vocabulary"
+msgstr "Vocabulaire"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_vomiting
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_git_movements__vomiting
+msgid "Vomiting"
+msgstr "Vomissement"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_temperature__warm
+msgid "Warm to Touch"
+msgstr "Chaud au toucher"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_visual__warm
+msgid "Warm to touch"
+msgstr "Chaud au toucher"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_weak_reflexes
+msgid "Weak reflexes"
+msgstr "Faibles réflexes"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_wet_cough
+msgid "Wet cough"
+msgstr "Toux grasse"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_chest_auscultation__wheeze
+msgid "Wheeze"
+msgstr "Respiration sifflante"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_wheezy_chest
+msgid "Wheezy chest"
+msgstr "Poitrine sifflante"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_white_colored_tongue
+msgid "White colored tongue"
+msgstr "Langue de couleur blanche"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_device_pacemaker__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_ears_lesion__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_equal__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_reactive_to_light__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_eyes_round__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_head_sign_symptoms_of_infection__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_lesion__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_mouth_missing_teeth__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_neck_palpitation__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_congestion__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_nose_drainage__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_skin_lesions__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_discharge__yes
+#: model:ir.model.fields.selection,name:acs_hms_vital_examination.selection__hms_appointment__pe_urinary_symptomps__yes
+msgid "YES"
+msgstr "OUI"
+
+#. module: acs_hms_vital_examination
+#: model:ir.model.fields,field_description:acs_hms_vital_examination.field_hms_appointment__doctor_yellow_green_phlegm
+msgid "Yellow, green phlegm"
+msgstr "Flegme jaune et vert"
+
