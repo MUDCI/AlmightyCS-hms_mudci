@@ -34,11 +34,11 @@
         <field name="arch" type="xml">
             <form string="Video Call">
                 <header>
-                    <button name="action_plan" states="draft" type="object" string="Confirm" class="oe_highlight"/>
-                    <button name="action_send_invitaion" states="planned" type="object" string="Send Invitation" class="oe_highlight"/>
-                    <button name="action_done" states="planned" type="object" string="Done" class="oe_highlight"/>
-                    <button name="action_cancel" states="planned" type="object" string="Cancel" class="oe_highlight"/>
-                    <button name="action_draft" states="cancel" type="object" string="Set to Draft" class="oe_highlight"/>
+                    <button name="action_plan" invisivle="state != 'draft'" type="object" string="Confirm" class="oe_highlight"/>
+                    <button name="action_send_invitaion" invisivle="state != 'planned'" type="object" string="Send Invitation" class="oe_highlight"/>
+                    <button name="action_done" invisivle="state != 'planned'" type="object" string="Done" class="oe_highlight"/>
+                    <button name="action_cancel" invisivle="state != 'planned'" type="object" string="Cancel" class="oe_highlight"/>
+                    <button name="action_draft" invisivle="state != 'cancel'" type="object" string="Set to Draft" class="oe_highlight"/>
                     <field name="state" widget="statusbar" statusbar_visible="draft,planned,done"/>
                 </header>
                 <sheet>
