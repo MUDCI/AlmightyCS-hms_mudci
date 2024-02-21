@@ -2405,22 +2405,22 @@ msgstr ""
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_systemic_examination__pr
 msgid "Per Rectal Examination"
-msgstr ""
+msgstr "Par examen rectal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_systemic_examination__pv
 msgid "Per Vaginal Examination"
-msgstr ""
+msgstr "Par examen vaginal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_prenatal_evaluation__invasive_placentation__percreta
 msgid "Percreta"
-msgstr ""
+msgstr "Percreta"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 msgid "Perinatal Evaluations"
-msgstr ""
+msgstr "Évaluations périnatales"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__perinatal_ids
