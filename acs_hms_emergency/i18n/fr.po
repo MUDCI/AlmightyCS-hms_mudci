@@ -19,49 +19,46 @@ msgstr ""
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
 msgid " Days"
-msgstr ""
+msgstr " Jours"
 
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
 msgid " Month "
-msgstr ""
+msgstr " Mois "
 
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
 msgid " Year"
-msgstr ""
+msgstr " Année"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_hms_patient__emergency_count
 msgid "# of Emergency"
-msgstr ""
+msgstr "Nombre d'urgences"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__invoice_count
 msgid "#Invoices"
-msgstr ""
+msgstr "#Factures"
 
 #. module: acs_hms_emergency
 #: model:ir.actions.report,print_report_name:acs_hms_emergency.report_acs_medical_advice_id
 msgid "(object.name or 'Emergency').replace('/','_')"
-msgstr ""
+msgstr "(object.name ou 'Emergency').replace('/','_')"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_kanban
 msgid "<b>Age:</b>"
-msgstr ""
+msgstr "<b>Âge :</b>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_kanban
 msgid "<b>Diseas:</b>"
-msgstr ""
+msgstr "<b>Maladies :</b>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_kanban
@@ -71,32 +68,32 @@ msgstr "Médecin"
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_kanban
 msgid "<i class=\"fa fa-bed\" aria-label=\"Ward/Bed\" role=\"img\" title=\"Ward/Bed\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-bed\" aria-label=\"Salle/Lit\" role=\"img\" title=\"Salle/Lit\"/>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<span><u><b>Differential Diagnosis</b></u>:</span><br/>"
-msgstr ""
+msgstr "<span><u><b>Diagnostic différentiel</b></u> :</span><br/>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<span><u><b>Disease:</b></u>:</span><br/>"
-msgstr ""
+msgstr "<span><u><b>Maladie :</b></u> :</span><br/>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<span><u><b>Medical Advice</b></u>:</span><br/>"
-msgstr ""
+msgstr "<span><u><b>Conseil médical</b></u> :</span><br/>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<span><u><b>Notes</b></u>:</span><br/>"
-msgstr ""
+msgstr "<span><u><b>Remarques</b></u> :</span><br/>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<strong>Age: </strong>"
-msgstr ""
+msgstr "<strong>Âge : </strong>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
@@ -106,17 +103,17 @@ msgstr "Produits/Services consommés"
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<strong>Date: </strong>"
-msgstr ""
+msgstr "<strong>Date : </strong>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<strong>Emergency Report</strong>"
-msgstr ""
+msgstr "<strong>Rapport d'urgence</strong>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<strong>Patient: </strong>"
-msgstr ""
+msgstr "<strong>Patient : </strong>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
@@ -126,54 +123,54 @@ msgstr "Médecin"
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "<strong>Prescribed Medicines</strong>"
-msgstr ""
+msgstr "<strong>Médicaments prescrits</strong>"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
-msgid ""
-"<u><b>Doctor's Stamp/Signature</b></u>\n"
+msgid "<u><b>Doctor's Stamp/Signature</b></u>\n"
 "                        <br/>"
-msgstr ""
+msgstr "<u><b>Cachet/signature du médecin</b></u>\n"
+"                        <br/>"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__accommodation_history_ids
 msgid "Accommodation History"
-msgstr ""
+msgstr "Histoire de l'hébergement"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Action nécessaire"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Activité Exception Décoration"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "État d'activité"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icône de type d'activité"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Add Kit Products"
-msgstr ""
+msgstr "Ajouter des produits en kit"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.actions.act_window,help:acs_hms_emergency.action_hospital_bed
 msgid "Add a Bed from Hospitalization menu with Emergencey Department."
-msgstr ""
+msgstr "Ajouter un lit depuis le menu Hospitalisation avec le service d'urgence."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__date
@@ -183,43 +180,43 @@ msgstr "Date d'admission"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__age
 msgid "Age"
-msgstr ""
+msgstr "Âge"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_res_company__emergency_invoicing
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_res_config_settings__emergency_invoicing
 msgid "Allow Emergency Invoicing"
-msgstr ""
+msgstr "Autoriser la facturation d'urgence"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.res_config_settings_view_form
 msgid "Allow user to Invoice for Emergency process"
-msgstr ""
+msgstr "Autoriser l'utilisateur à facturer le processus d'urgence"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Apply/Remove"
-msgstr ""
+msgstr "Appliquer/Supprimer"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Nombre de pièces jointes"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__attachment_ids
 msgid "Attachments"
-msgstr ""
+msgstr "Pièces jointes"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__bmi_state
 msgid "BMI State"
-msgstr ""
+msgstr "État de l'IMC"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "BP:"
-msgstr ""
+msgstr "PA :"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__bed_id
@@ -230,17 +227,17 @@ msgstr "N° de Lit"
 #: model:ir.actions.act_window,name:acs_hms_emergency.action_hospital_bed
 #: model:ir.ui.menu,name:acs_hms_emergency.menuitem_action_emergency_bed
 msgid "Beds"
-msgstr ""
+msgstr "Des lits"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__bmi
 msgid "Body Mass Index"
-msgstr ""
+msgstr "Indice de masse corporelle"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.actions.act_window,help:acs_hms_emergency.action_hms_emergency
 msgid "Click to add an Emergency."
-msgstr ""
+msgstr "Cliquez pour ajouter une urgence."
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
@@ -250,52 +247,52 @@ msgstr "Évaluation clinique"
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Entreprises"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__age
 msgid "Computed patient age at the moment of the record creation"
-msgstr ""
+msgstr "Âge calculé du patient au moment de la création du dossier"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Paramètres de configuration"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__consumable_line_ids
 msgid "Consumable Line"
-msgstr ""
+msgstr "Ligne de consommables"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Consumed Products/Services"
-msgstr ""
+msgstr "Produits/Services consommés"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Create Evaluation"
-msgstr ""
+msgstr "Créer une évaluation"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Create Invoice"
-msgstr ""
+msgstr "Créer une facture"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Create Prescription"
-msgstr ""
+msgstr "Créer une ordonnance"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Créé par"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Créé sur"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
@@ -305,7 +302,7 @@ msgstr "D/D & Conseils"
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_search
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_hr_department
@@ -317,33 +314,33 @@ msgstr "Département"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__radiological_report
 msgid "Details of the Radiological Report"
-msgstr ""
+msgstr "Détails du rapport radiologique"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__lab_report
 msgid "Details of the lab report."
-msgstr ""
+msgstr "Détails du rapport de laboratoire."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__diastolic_bp
 msgid "Diastolic BP"
-msgstr ""
+msgstr "TA diastolique"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__differencial_diagnosis
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Differential Diagnosis"
-msgstr ""
+msgstr "Diagnostic différentiel"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Differential Diagnosis..."
-msgstr ""
+msgstr "Diagnostic différentiel..."
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Discharge"
-msgstr ""
+msgstr "Décharge"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__discharge_date
@@ -364,17 +361,17 @@ msgstr "Maladies"
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Diseases History"
-msgstr ""
+msgstr "Histoire des maladies"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Afficher un nom"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__attach_count
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields.selection,name:acs_hms_emergency.selection__acs_hms_emergency__state__done
@@ -440,27 +437,27 @@ msgstr "Frais de service d'urgence"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__evaluation_id
 msgid "Evaluation"
-msgstr ""
+msgstr "Évaluation"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__evaluation_ids
 msgid "Evaluations"
-msgstr ""
+msgstr "Évaluations"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Suiveurs"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Abonnés (partenaires)"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icône géniale de police, par exemple. tâches fat"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
@@ -470,111 +467,111 @@ msgstr "Informations générales"
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_search
 msgid "Group By..."
-msgstr ""
+msgstr "Par groupe..."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__hr
 msgid "HR"
-msgstr ""
+msgstr "HEURE"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "HR:"
-msgstr ""
+msgstr "HEURE:"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "A un message"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__hr
 msgid "Heart Rate"
-msgstr ""
+msgstr "Rythme cardiaque"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__height
 msgid "Height"
-msgstr ""
+msgstr "Hauteur"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__height
 msgid "Height in cm"
-msgstr ""
+msgstr "Hauteur en cm"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__company_id
 msgid "Hospital"
-msgstr ""
+msgstr "Hôpital"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_hr_department__department_type
 msgid "Hospital Department"
-msgstr ""
+msgstr "Département hospitalier"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_account_bank_statement_line__hospital_invoice_type
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_account_move__hospital_invoice_type
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_account_payment__hospital_invoice_type
 msgid "Hospital Invoice Type"
-msgstr ""
+msgstr "Type de facture d'hôpital"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_product_product__hospital_product_type
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_product_template__hospital_product_type
 msgid "Hospital Product Type"
-msgstr ""
+msgstr "Type de produit hospitalier"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Hospitalization"
-msgstr ""
+msgstr "Hospitalisation"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__hospitalization_ids
 msgid "Hospitalizations"
-msgstr ""
+msgstr "Hospitalisations"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__id
 msgid "ID"
-msgstr ""
+msgstr "IDENTIFIANT"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Icône"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Icône pour indiquer une activité d'exception."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Si cette case est cochée, les nouveaux messages nécessitent votre attention."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__message_has_error
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Si coché, certains messages ont une erreur de livraison."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__pricelist_id
 msgid "If you change the pricelist, related invoice will be affected."
-msgstr ""
+msgstr "Si vous modifiez la liste de prix, la facture associée sera affectée."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__image_128
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_search
 msgid "In Progress"
-msgstr ""
+msgstr "En cours"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__invoice_exempt
@@ -586,175 +583,175 @@ msgstr "Facture exonérée"
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__invoice_ids
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Invoices"
-msgstr ""
+msgstr "Factures"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Est un suiveur"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_account_move
 msgid "Journal Entry"
-msgstr ""
+msgstr "Entrée de journal"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_kit_id
 msgid "Kit"
-msgstr ""
+msgstr "Trousse"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_kit_qty
 msgid "Kit Qty"
-msgstr ""
+msgstr "Qté du kit"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__lab_report
 msgid "Lab Report"
-msgstr ""
+msgstr "Rapport de laboratoire"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Laboratory"
-msgstr ""
+msgstr "Laboratoire"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Laboratory Report..."
-msgstr ""
+msgstr "Rapport de laboratoire..."
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Last Evaluation:"
-msgstr ""
+msgstr "Dernière évaluation :"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Line"
-msgstr ""
+msgstr "Doubler"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_hms_consumable_line
 msgid "List of Consumables"
-msgstr ""
+msgstr "Liste des consommables"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.res_config_settings_view_form
 msgid "Location to manage consumed product in Emergency Procedures."
-msgstr ""
+msgstr "Emplacement pour gérer le produit consommé dans les procédures d'urgence."
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.res_config_settings_view_form
 msgid "Location to take consumed product in Emergency Procedures."
-msgstr ""
+msgstr "Emplacement pour récupérer le produit consommé dans les procédures d'urgence."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__medical_advice
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Medical Advice"
-msgstr ""
+msgstr "Conseil médical"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Medical Advice..."
-msgstr ""
+msgstr "Conseil médical..."
 
 #. module: acs_hms_emergency
 #: model:ir.actions.report,name:acs_hms_emergency.report_acs_medical_advice_id
 #: model:ir.model,name:acs_hms_emergency.model_acs_hms_emergency
 msgid "Medical Emergency"
-msgstr ""
+msgstr "Urgence médicale"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Erreur de livraison du message"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "messages"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Date limite de mon activité"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "NOTE: Details are shown based on Patient Evaluation."
-msgstr ""
+msgstr "REMARQUE : Les détails sont affichés en fonction de l'évaluation du patient."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__name
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Prochain événement du calendrier d'activités"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "Date limite de la prochaine activité"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Résumé de l'activité suivante"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Type d'activité suivant"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.actions.act_window,help:acs_hms_emergency.action_hms_emergency
 msgid "No Record Found"
-msgstr ""
+msgstr "Aucun Enregistrement Trouvé"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__notes
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Notes"
-msgstr ""
+msgstr "Remarques"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Notes..."
-msgstr ""
+msgstr "Remarques..."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Nombre d'actions"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Nombre d'erreurs"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Nombre de messages nécessitant une action"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Nombre de messages avec erreur de livraison"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
@@ -764,71 +761,71 @@ msgstr "Autres informations"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__spo2
 msgid "Oxygen Saturation, percentage of oxygen bound to hemoglobin"
-msgstr ""
+msgstr "Saturation en oxygène, pourcentage d'oxygène lié à l'hémoglobine"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__pain
 msgid "Pain"
-msgstr ""
+msgstr "Douleur"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__pain_level
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Pain Level"
-msgstr ""
+msgstr "Niveau de douleur"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__medical_history
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Past Medical History"
-msgstr ""
+msgstr "Antécédents médicaux"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_hms_patient
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__patient_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_search
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_patient_accommodation_history
 msgid "Patient Accommodation History"
-msgstr ""
+msgstr "Historique de l'hébergement des patients"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_height_name
 msgid "Patient Height unit of measure label"
-msgstr ""
+msgstr "Étiquette de l'unité de mesure de la taille du patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_acs_hospitalization
 msgid "Patient Hospitalization"
-msgstr ""
+msgstr "Hospitalisation des patients"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__patient_id
 msgid "Patient Name"
-msgstr ""
+msgstr "Nom du patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_rbs_name
 msgid "Patient RBS unit of measure label"
-msgstr ""
+msgstr "Étiquette de l'unité de mesure RBS du patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_spo2_name
 msgid "Patient SpO2 unit of measure label"
-msgstr ""
+msgstr "Étiquette de l'unité de mesure SpO2 du patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_temp_name
 msgid "Patient Temp unit of measure label"
-msgstr ""
+msgstr "Étiquette de l'unité de mesure de température du patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__acs_weight_name
 msgid "Patient Weight unit of measure label"
-msgstr ""
+msgstr "Étiquette de l'unité de mesure du poids du patient"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__physician_id
@@ -844,92 +841,85 @@ msgstr "Nom du médecin"
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
 msgid "Please Set Consultation Service first."
-msgstr ""
+msgstr "Veuillez d'abord définir le service de consultation."
 
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
-msgid ""
-"Please define a emergecny location from where the consumables will be taken."
-msgstr ""
+msgid "Please define a emergecny location from where the consumables will be taken."
+msgstr "Veuillez définir un lieu d'urgence d'où les consommables seront récupérés."
 
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
-msgid ""
-"Please define a location where the consumables will be used during the "
-"emergecny."
-msgstr ""
+msgid "Please define a location where the consumables will be used during the emergecny."
+msgstr "Veuillez définir un endroit où les consommables seront utilisés pendant l'urgence."
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Prescription"
-msgstr ""
+msgstr "Ordonnance"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_prescription_order
 msgid "Prescription Order"
-msgstr ""
+msgstr "Ordonnance sur ordonnance"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__prescription_ids
 msgid "Prescriptions"
-msgstr ""
+msgstr "Ordonnances"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__pricelist_id
 msgid "Pricelist"
-msgstr ""
+msgstr "Liste de prix"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Produit"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__rbs
 msgid "RBS"
-msgstr ""
+msgstr "RBS"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__rr
 msgid "RR"
-msgstr ""
+msgstr "FR"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "RR:"
-msgstr ""
+msgstr "FR :"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Radiological"
-msgstr ""
+msgstr "Radiologique"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__radiological_report
 msgid "Radiological Report"
-msgstr ""
+msgstr "Rapport radiologique"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Radiological Report..."
-msgstr ""
+msgstr "Rapport radiologique..."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__rbs
-msgid ""
-"Random blood sugar measures blood glucose regardless of when you last ate."
-msgstr ""
+msgid "Random blood sugar measures blood glucose regardless of when you last ate."
+msgstr "La glycémie aléatoire mesure la glycémie quelle que soit la date à laquelle vous avez mangé pour la dernière fois."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "Notes"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__ref_physician_id
@@ -945,7 +935,7 @@ msgstr "Médecin référent"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__rr
 msgid "Respiratory Rate"
-msgstr ""
+msgstr "Fréquence respiratoire"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__user_id
@@ -965,121 +955,119 @@ msgstr "Responsable utilisateur"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__user_id
 msgid "Responsible User for appointment validation And further Followup."
-msgstr ""
+msgstr "Utilisateur responsable de la validation des rendez-vous et du suivi ultérieur."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "Erreur de livraison SMS"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_search
 msgid "Search Emergency"
-msgstr ""
+msgstr "Rechercher une urgence"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.res_config_settings_view_form
 msgid "Set this service as default service for Emergency Service Invoice."
-msgstr ""
+msgstr "Définissez ce service comme service par défaut pour la facture de service d'urgence."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__spo2
 msgid "SpO2"
-msgstr ""
+msgstr "SpO2"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "SpO2:"
-msgstr ""
+msgstr "SpO2 :"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_search
 msgid "State"
-msgstr ""
+msgstr "État"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__state
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__activity_state
-msgid ""
-"Status based on activities\n"
+msgid "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
+msgstr "Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date de l'activité est aujourd'hui\n"
+"Prévu : Activités futures."
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.res_config_settings_view_form
 msgid "Stock Location"
-msgstr ""
+msgstr "Emplacement des stocks"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_res_company__emergency_stock_location_id
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_res_config_settings__emergency_stock_location_id
 msgid "Stock Location for Consumed in Emergency"
-msgstr ""
+msgstr "Emplacement du stock pour consommation en urgence"
 
 #. module: acs_hms_emergency
 #: model:ir.model,name:acs_hms_emergency.model_stock_move
 msgid "Stock Move"
-msgstr ""
+msgstr "Mouvement de stock"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.res_config_settings_view_form
 msgid "Stock Usage Location"
-msgstr ""
+msgstr "Emplacement d'utilisation des stocks"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__systolic_bp
 msgid "Systolic BP"
-msgstr ""
+msgstr "TA systolique"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Systolic/Diastolic BP"
-msgstr ""
+msgstr "TA systolique/diastolique"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__temp
 msgid "Temp"
-msgstr ""
+msgstr "Température"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "Temp:"
-msgstr ""
+msgstr "Température :"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__differencial_diagnosis
-msgid ""
-"The process of weighing the probability of one disease versus that of other "
-"diseases possibly accounting for a patient's illness."
-msgstr ""
+msgid "The process of weighing the probability of one disease versus that of other diseases possibly accounting for a patient's illness."
+msgstr "Processus consistant à évaluer la probabilité d'une maladie par rapport à celle d'autres maladies pouvant expliquer la maladie d'un patient."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__medical_advice
-msgid ""
-"The provision of a formal professional opinion regarding what a specific "
-"individual should or should not do to restore or preserve health."
-msgstr ""
+msgid "The provision of a formal professional opinion regarding what a specific individual should or should not do to restore or preserve health."
+msgstr "La fourniture d'un avis professionnel formel sur ce qu'une personne spécifique devrait ou ne devrait pas faire pour restaurer ou préserver la santé."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields.selection,name:acs_hms_emergency.selection__acs_hms_emergency__state__to_invoice
 msgid "To Invoice"
-msgstr ""
+msgstr "Facturer"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.view_hms_emergency_form
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Type d’activité exceptionnelle enregistrée."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields.selection,name:acs_hms_emergency.selection__acs_hms_emergency__state__under_care
@@ -1090,12 +1078,12 @@ msgstr "Sous soins"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_res_config_settings__emergency_usage_location_id
 msgid "Usage Location for Consumed in Emergency"
-msgstr ""
+msgstr "Lieu d'utilisation pour consommation en cas d'urgence"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_res_company__emergency_usage_location_id
 msgid "Usage Location for Consumed in Emergency."
-msgstr ""
+msgstr "Lieu d'utilisation pour consommation en cas d'urgence."
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__ward_id
@@ -1105,31 +1093,30 @@ msgstr "Salle/Chambre"
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Messages du site Web"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historique des communications du site Web"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__weight
 msgid "Weight"
-msgstr ""
+msgstr "Poids"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,help:acs_hms_emergency.field_acs_hms_emergency__weight
 msgid "Weight in KG"
-msgstr ""
+msgstr "Poids en KG"
 
 #. module: acs_hms_emergency
 #: model_terms:ir.ui.view,arch_db:acs_hms_emergency.report_acs_hms_emergency_document
 msgid "Weight:"
-msgstr ""
+msgstr "Poids:"
 
 #. module: acs_hms_emergency
 #. odoo-python
 #: code:addons/acs_hms_emergency/models/hms_emergency.py:0
-#, python-format
 msgid "You can not delete record in done state"
-msgstr ""
+msgstr "Vous ne pouvez pas supprimer l'enregistrement à l'état terminé"
