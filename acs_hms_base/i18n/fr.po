@@ -71,7 +71,7 @@ msgstr ""
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.patient_kanban_view
 msgid "<b>Gender:</b>"
-msgstr "<b>Gendre:</b>"
+msgstr "<b>Genre:</b>"
 
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.patient_kanban_view
