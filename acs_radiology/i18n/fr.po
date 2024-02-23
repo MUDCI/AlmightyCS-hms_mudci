@@ -26,31 +26,31 @@ msgstr ""
 #. odoo-python
 #: code:addons/acs_radiology/models/radiology_request.py:0
 #, python-format
-msgid " Month "
-msgstr ""
+msgid "Month"
+msgstr "Mois"
 
 #. module: acs_radiology
 #. odoo-python
 #: code:addons/acs_radiology/models/radiology_request.py:0
 #: code:addons/acs_radiology/models/radiology_request.py:0
 #, python-format
-msgid " Year"
-msgstr ""
+msgid "Year"
+msgstr "Année"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__invoice_count
 msgid "# Invoices"
-msgstr ""
+msgstr "# Factures"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__meeting_count
 msgid "# Meetings"
-msgstr ""
+msgstr "# Réunions"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_hms_physician__radiology_request_count
 msgid "# Radiology Request"
-msgstr ""
+msgstr "# Demande de radiologie"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_hms_patient__radiology_request_count
@@ -60,47 +60,49 @@ msgstr "Demandes de radiologie"
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_hms_physician__radiology_result_count
 msgid "# Radiology Result"
-msgstr ""
+msgstr "# Résultat de radiologie"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_hms_patient__radiology_test_count
 msgid "# Radiology Tests"
-msgstr ""
+msgstr "# Examens de radiologie"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__supplier_invoice_count
 msgid "# Vendor Bills"
-msgstr ""
+msgstr "# Factures Fournisseurs"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__subscription_count
 msgid "# of Subscription"
-msgstr ""
+msgstr "# De l'abonnements"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__acs_ambulance_drive_count
 msgid "#Ambulance Drives"
-msgstr ""
+msgstr "#Trajets en ambulance"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__acs_blood_issuance_count
 msgid "#Blood Issuance"
-msgstr ""
+msgstr "#Distribution de sang"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__acs_blood_requisition_count
 msgid "#Blood Requisitions"
-msgstr ""
+msgstr "#Demandes de sang"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__whatsapp_announcement_count
 msgid "#whatsapp Announcement Count"
-msgstr ""
+msgstr "#Nombre d'annonces WhatsApp"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__whatsapp_count
 msgid "#whatsapp Count"
-msgstr ""
+msgstr "#Nombre de messages WhatsApp"
 
 #. module: acs_radiology
 #. odoo-python
@@ -108,7 +110,7 @@ msgstr ""
 #: code:addons/acs_radiology/models/radiology_base.py:0
 #, python-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (copie)"
 
 #. module: acs_radiology
 #: model:ir.actions.report,print_report_name:acs_radiology.action_report_acs_radiology_results
@@ -135,22 +137,26 @@ msgid ""
 "- Delivery Address: Preferred address for all deliveries. Selected by default when you deliver an order that belongs to this company.\n"
 "- Other: Other address for the company (e.g. subsidiary, ...)"
 msgstr ""
+"- Contact : Utilisez ceci pour organiser les coordonnées des employés d'une entreprise donnée (par exemple, PDG, DAF, ...).\n"
+"- Adresse de facturation : Adresse préférée pour toutes les factures. Sélectionnée par défaut lorsque vous facturez une commande appartenant à cette entreprise.\n"
+"- Adresse de livraison : Adresse préférée pour toutes les livraisons. Sélectionnée par défaut lorsque vous livrez une commande appartenant à cette entreprise.\n"
+"- Autre : Autre adresse pour l'entreprise (par exemple, filiale, ...)"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
 msgid "<b>Comment:</b><br/>"
-msgstr ""
+msgstr "<b>Commentaire :</b><br/>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
-msgid "<b>Diagnosis:</b><br/>"
-msgstr ""
+msgid "<b>Diagnostic :</b><br/>"
+msgstr "<b>Diagnostic :</b><br/>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
-msgid "<b>Disclaimer: </b>"
-msgstr ""
+msgid "<b>Avertissement :</b>"
+msgstr "<b>Avertissement :</b>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
@@ -158,6 +164,8 @@ msgid ""
 "<b>Doctor’s Stamp/Signature</b>\n"
 "                        <br/>"
 msgstr ""
+"<b>Tampon/Signature du Médecin</b>\n"
+"                        <br/>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
@@ -165,6 +173,8 @@ msgid ""
 "<b>Doctor’s Stamp/Signature</b>\n"
 "                    <br/>"
 msgstr ""
+"<b>Tampon/Signature du Médecin</b>\n"
+"                        <br/>"
 
 #. module: acs_radiology
 #: model:mail.template,body_html:acs_radiology.acs_radiology_req_email
@@ -193,6 +203,31 @@ msgid ""
 "</div>\n"
 "                "
 msgstr ""
+"<div style=\"padding:0px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"    <p>Bonjour <t t-out=\"object.patient_id.name\"></t>,</p>\n"
+"    <p>Nous aimerions effectuer des tests de laboratoire demandés dans le document ci-joint dans votre service de radiologie et nous vous demandons de nous renvoyer les résultats par mail.</p>\n"
+"    <ul>\n"
+"        <li>\n"
+"            <p>Numéro de référence : <t t-out=\"object.name\"></t></p>\n"
+"        </li>\n"
+"        <li t-if=\"object.patient_id\">\n"
+"            <p>Patient : <t t-out=\"object.patient_id.name\"></t></p>\n"
+"        </li>\n"
+"        <li t-if=\"object.physician_id\">\n"
+"            <p>Prescrit par : <t t-out=\"object.physician_id.name\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Date de prescription : <t t-out=\"object.date.date()\"></t></p>\n"
+"        </li>\n"
+"    </ul>\n"
+"\n"
+"    <p>N'hésitez pas à nous appeler à tout moment pour de plus amples informations ou pour toute question.</p>\n"
+"\n"
+"    <p>Cordialement.</p>\n"
+"</div>\n"
+"                "
+msgstr ""
+
 
 #. module: acs_radiology
 #: model:mail.template,body_html:acs_radiology.acs_radiology_test_email
@@ -230,6 +265,38 @@ msgid ""
 "</div>\n"
 "                "
 msgstr ""
+"<div style=\"padding:0px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"    <p>Bonjour <t t-out=\"object.patient_id.name\"></t>,</p><br>\n"
+"    <p>Nous avons attaché les résultats des tests de laboratoire demandés depuis notre service de radiologie. Veuillez trouver ci-joint le rapport de résultats de laboratoire.</p><br>\n"
+"    <ul>\n"
+"        <li>\n"
+"            <p>Numéro de référence : <t t-out=\"object.name\"></t></p>\n"
+"        </li>\n"
+"        <li t-if=\"object.patient_id\">\n"
+"            <p>Patient : <t t-out=\"object.patient_id.name\"></t></p>\n"
+"        </li>\n"
+"        <li t-if=\"object.radiology_request_id\">\n"
+"            <p>Référence de demande de radiologie : <t t-out=\"object.radiology_request_id.name\"></t></p>\n"
+"        </li>\n"
+"        <li t-if=\"object.test_id\">\n"
+"            <p>Test de radiologie : <t t-out=\"object.test_id.name\"></t></p>\n"
+"        </li>\n"
+"        <li t-if=\"object.physician_id\">\n"
+"            <p>Prescrit par : <t t-out=\"object.physician_id.name\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Date du test : <t t-out=\"object.date_analysis\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Responsable : <t t-out=\"object.user_id.name\"></t></p>\n"
+"        </li>\n"
+"    </ul>\n"
+"\n"
+"    <p>N'hésitez pas à nous appeler à tout moment pour de plus amples informations ou pour toute question.</p>\n"
+"\n"
+"    <p>Cordialement.</p><br>\n"
+"</div>\n"
+
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.radiology_requests
@@ -237,7 +304,8 @@ msgid ""
 "<span class=\"badge rounded-pill text-bg-danger\">\n"
 "                                            <span class=\"d-none d-md-inline\"> Cancel</span>\n"
 "                                        </span>"
-msgstr ""
+msgstr "Annuler"
+
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.radiology_requests
@@ -269,7 +337,7 @@ msgid ""
 "<span class=\"badge rounded-pill text-bg-primary\">\n"
 "                                            <span class=\"d-none d-md-inline\"> To Invoice</span>\n"
 "                                        </span>"
-msgstr ""
+msgstr "À facturer"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.radiology_requests
@@ -277,7 +345,7 @@ msgid ""
 "<span class=\"badge rounded-pill text-bg-success\">\n"
 "                                            <span class=\"d-none d-md-inline\"> Done</span>\n"
 "                                        </span>"
-msgstr ""
+msgstr "Terminé"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.radiology_requests
@@ -295,54 +363,58 @@ msgstr "Date"
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 msgid "<strong>Date</strong>"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
 msgid "<strong>Gender</strong>"
-msgstr ""
+msgstr "Genre"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
 msgid "<strong>Patient Age</strong>"
-msgstr ""
+msgstr "<strong>Âge du patient</strong>"
+
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 msgid "<strong>Patient Details</strong>"
-msgstr ""
+msgstr "<strong>Détails du patient</strong>"
+
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
 msgid "<strong>Patient:</strong>"
-msgstr ""
+msgstr "<strong>Patient</strong>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 msgid "<strong>Patient</strong>"
-msgstr ""
+msgstr "<strong>Patient</strong>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_prescription_document
 msgid "<strong>Prescribing Doctor</strong>"
-msgstr "Médecin prescripteur"
+msgstr "<strong>Médecin prescripteur</strong>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
 msgid "<strong>Responsible:</strong>"
-msgstr ""
+msgstr "<strong>Responsable :</strong>"
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.report_acs_radiology_test_document_details
 msgid "<strong>Test Name:</strong>"
-msgstr ""
+msgstr "<strong>Nom du test :</strong>"
+
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.patient_radiology_test_request_form
 msgid "Accept"
-msgstr ""
+msgstr "Accepter"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields.selection,name:acs_radiology.selection__acs_radiology_request__state__accepted
@@ -352,95 +424,101 @@ msgstr "Accepté"
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__access_warning
 msgid "Access warning"
-msgstr ""
+msgstr "Avertissement d'accès"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__property_account_payable_id
 msgid "Account Payable"
-msgstr ""
+msgstr "Compte fournisseur"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__property_account_receivable_id
 msgid "Account Receivable"
-msgstr ""
+msgstr "Créances clients"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__acs_amount_due
 msgid "Acs Amount Due"
-msgstr ""
+msgstr "Montant dû"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__acs_show_in_wc
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__acs_show_in_wc
 msgid "Acs Show In Wc"
-msgstr ""
+msgstr "Afficher dans WC"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__message_needaction
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__message_needaction
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Action requise"
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__active
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_test__active
 msgid "Active"
-msgstr ""
+msgstr "Activer"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__active_lang_count
 msgid "Active Lang Count"
-msgstr ""
+msgstr "Nombre de langues actives"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__activity_ids
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__activity_ids
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__activity_exception_decoration
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__activity_exception_decoration
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Décoration d'exception d'activité"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__activity_state
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__activity_state
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "État de l'activité"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__activity_type_icon
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__activity_type_icon
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icône de type d'activité"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__additional_info
 msgid "Additional info"
-msgstr ""
+msgstr "Informations supplémentaires"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__type
 msgid "Address Type"
-msgstr ""
+msgstr "Type d'adresse"
 
 #. module: acs_radiology
 #: model:ir.model.fields.selection,name:acs_radiology.selection__res_company__acs_radiology_invoice_policy__in_advance
 msgid "Advance"
-msgstr ""
+msgstr "Avance"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__age
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__patient_age
 msgid "Age"
-msgstr ""
+msgstr "Age"
 
 #. module: acs_radiology
 #: model:ir.model.fields,help:acs_radiology.field_acs_radiology__lang
@@ -448,12 +526,18 @@ msgid ""
 "All the emails and documents sent to this contact will be translated in this"
 " language."
 msgstr ""
+"Tous les courriels et documents envoyés à ce contact seront traduits dans "
+"cette langue."
+
 
 #. module: acs_radiology
 #: model_terms:ir.ui.view,arch_db:acs_radiology.res_config_settings_view_form
 msgid ""
 "Allow user to Autheticate Radiology Result by scanning QrCode from report."
 msgstr ""
+"Autoriser l'utilisateur à authentifier le résultat de radiologie en scannant "
+"le code QR depuis le rapport."
+
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__acs_ambulance_drive_ids
@@ -500,7 +584,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology_request__message_attachment_count
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Nombre de pièces jointes"
 
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_patient_radiology_test__attachment_ids
