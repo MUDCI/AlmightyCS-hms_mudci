@@ -140,7 +140,7 @@ msgstr ""
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__api_key_ids
 msgid "API Keys"
-msgstr ""
+msgstr "Clé API"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__property_account_payable_id
@@ -1088,7 +1088,7 @@ msgstr "E-mail formaté"
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__gender
 #: model:ir.model.fields,field_description:acs_hms_base.field_res_partner__gender
 msgid "Gender"
-msgstr "Gendre"
+msgstr "Genre"
 
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_move_form

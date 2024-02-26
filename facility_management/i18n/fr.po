@@ -1,0 +1,526 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* facility_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-14 06:05+0000\n"
+"PO-Revision-Date: 2022-03-14 06:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_needaction
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_needaction
+msgid "Action Needed"
+msgstr "Action nécessaire"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_ids
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: facility_management
+#: model:ir.actions.act_window,name:facility_management.action_facility_activity
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_form
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+msgid "Activity"
+msgstr "Activité"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_exception_decoration
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activité Exception Décoration"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_name
+msgid "Activity Name"
+msgstr "Nom de l'activité"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_state
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_state
+msgid "Activity State"
+msgstr "État d'activité"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_type_icon
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Activity Type Icon"
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_search
+msgid "Assigned"
+msgstr "Attribué"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__user_id
+msgid "Assigned To"
+msgstr "Assigné à"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_attachment_count
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_attachment_count
+msgid "Attachment Count"
+msgstr "Attachment Count"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__state__cancel
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: facility_management
+#: model_terms:ir.actions.act_window,help:facility_management.action_facility_activity
+msgid "Click to add a Activity."
+msgstr "Click to add a Activity."
+
+#. module: facility_management
+#: model_terms:ir.actions.act_window,help:facility_management.action_facility_master
+msgid "Click to add a Master Data."
+msgstr "Cliquez pour ajouter des données de base."
+
+#. module: facility_management
+#: model:ir.ui.menu,name:facility_management.menu_master
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: facility_management
+#: model:ir.actions.server,name:facility_management.ir_cron_create_activity_ir_actions_server
+#: model:ir.cron,cron_name:facility_management.ir_cron_create_activity
+#: model:ir.cron,name:facility_management.ir_cron_create_activity
+msgid "Create Facility Activities"
+msgstr "Créer des activités d'installation"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__create_uid
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__create_date
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__date_activity
+msgid "Date"
+msgstr "Date"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__recurring_type__daily
+msgid "Day(s)"
+msgstr "Jour(s)"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__display_name
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_activity__state__done
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__state__done
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_form
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_form
+msgid "Done"
+msgstr "Fait"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_activity__state__draft
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__state__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__end_date
+msgid "End Date"
+msgstr "Date de fin"
+
+#. module: facility_management
+#: model:ir.module.category,name:facility_management.module_category_facility
+#: model:ir.ui.menu,name:facility_management.menu_facility_management
+msgid "Facility"
+msgstr "Facilité"
+
+#. module: facility_management
+#: model:ir.model,name:facility_management.model_facility_activity
+#: model:ir.ui.menu,name:facility_management.menu_facility
+msgid "Facility Activity"
+msgstr "Activité de l'installation"
+
+#. module: facility_management
+#: model:ir.module.category,description:facility_management.module_category_facility
+msgid "Facility Management"
+msgstr "Gestion des installations"
+
+#. module: facility_management
+#: model:ir.model,name:facility_management.model_facility_master
+msgid "Facility Master"
+msgstr "Maître des installations"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_follower_ids
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_follower_ids
+msgid "Followers"
+msgstr "Followers"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_partner_ids
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (partenaires)"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__activity_type_icon
+#: model:ir.model.fields,help:facility_management.field_facility_master__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_search
+msgid "Group By..."
+msgstr "Regrouper par"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__has_message
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__has_message
+msgid "Has Message"
+msgstr "A un message"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__id
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__id
+msgid "ID"
+msgstr "ID"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_exception_icon
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_exception_icon
+msgid "Icon"
+msgstr "Icône"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__activity_exception_icon
+#: model:ir.model.fields,help:facility_management.field_facility_master__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icône pour indiquer une activité d'exception"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__message_needaction
+#: model:ir.model.fields,help:facility_management.field_facility_activity__message_unread
+#: model:ir.model.fields,help:facility_management.field_facility_master__message_needaction
+#: model:ir.model.fields,help:facility_management.field_facility_master__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si cette case est cochée, les nouveaux messages nécessitent votre attention."
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__message_has_error
+#: model:ir.model.fields,help:facility_management.field_facility_master__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si coché, certains messages ont une erreur de livraison."
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_is_follower
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_is_follower
+msgid "Is Follower"
+msgstr "Est un suiveur"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity____last_update
+#: model:ir.model.fields,field_description:facility_management.field_facility_master____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__write_uid
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__write_date
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_main_attachment_id
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale"
+
+#. module: facility_management
+#: model:res.groups,name:facility_management.group_facility_manager
+msgid "Manager"
+msgstr "Gestionnaire"
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_form
+msgid "Master Configuration"
+msgstr "Configuration principale"
+
+#. module: facility_management
+#: model:ir.actions.act_window,name:facility_management.action_facility_master
+#: model:ir.ui.menu,name:facility_management.menu_facility_master
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_search
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_tree
+msgid "Master Data"
+msgstr "Données de base"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_has_error
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur de livraison du message"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_ids
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__recurring_type__monthly
+msgid "Month(s)"
+msgstr "Mois"
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_search
+msgid "My Activities"
+msgstr "Mes activités"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__my_activity_date_deadline
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Date limite de mon activité"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__facility_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_master__user_id
+msgid "Name of the person who is responsible for the task"
+msgstr "Nom de la personne responsable de la tâche"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__user_id
+msgid "Name of the reviewer who is Assigned the Activity"
+msgstr "Nom du réviseur à qui l'activité est attribuée"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__reviewer_id
+msgid "Name of the reviewer who is reviewing the Activity"
+msgstr "Nom du réviseur qui examine l'activité"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_master__reviewer_id
+msgid "Name of the reviewer who is reviewing the task"
+msgstr "Nom du réviseur qui révise la tâche"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_calendar_event_id
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Next Activity Calendar Event"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_date_deadline
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Date limite de la prochaine activité"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_summary
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_summary
+msgid "Next Activity Summary"
+msgstr "Résumé de l'activité suivante"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_type_id
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_type_id
+msgid "Next Activity Type"
+msgstr "Type d'activité suivant"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__next_execution_date
+msgid "Next Execution Date"
+msgstr "Prochaine date d'exécution"
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+msgid "Not Done"
+msgstr "Pas fini"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_needaction_counter
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_has_error_counter
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'erreurs"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__message_needaction_counter
+#: model:ir.model.fields,help:facility_management.field_facility_master__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages nécessitant une action"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__message_has_error_counter
+#: model:ir.model.fields,help:facility_management.field_facility_master__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec erreur de livraison"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__message_unread_counter
+#: model:ir.model.fields,help:facility_management.field_facility_master__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de messages non lus"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__recurring_type
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_form
+msgid "Recurring Period"
+msgstr "Période récurrente"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__remark
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__remark
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_form
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_form
+msgid "Remark"
+msgstr "Remarque"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__recurring_interval
+msgid "Repeat Every"
+msgstr "Répéter tous les"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__user_id
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__activity_user_id
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__activity_user_id
+msgid "Responsible User"
+msgstr "Utilisateur responsable"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__date_review
+msgid "Review Date"
+msgstr "Date de révision"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__reviewer_id
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__reviewer_id
+msgid "Reviewer"
+msgstr "Critique"
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_search
+msgid "Reviwer"
+msgstr "Critique"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__state__running
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_form
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_master_search
+msgid "Running"
+msgstr "En cours d'exécution"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__name
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__name
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__start_date
+msgid "Start Date"
+msgstr "Date de début"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__state
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__state
+msgid "Status"
+msgstr "Statut"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__activity_state
+#: model:ir.model.fields,help:facility_management.field_facility_master__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: facility_management
+#: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#. module: facility_management
+#: model:ir.model.fields,help:facility_management.field_facility_activity__activity_exception_decoration
+#: model:ir.model.fields,help:facility_management.field_facility_master__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d’activité exceptionnelle enregistrée."
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_unread
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_unread
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: facility_management
+#: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_unread_counter
+#: model:ir.model.fields,field_description:facility_management.field_facility_master__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: facility_management
+#: model:res.groups,name:facility_management.group_facility_user
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__recurring_type__weekly
+msgid "Week(s)"
+msgstr "Semaines"
+
+#. module: facility_management
+#: model:ir.model.fields.selection,name:facility_management.selection__facility_master__recurring_type__yearly
+msgid "Year(s)"
+msgstr "Années"
+
+#. module: facility_management
+#: code:addons/facility_management/models/facility_management.py:0
+#: code:addons/facility_management/models/facility_management.py:0
+#, python-format
+msgid "You cannot delete an record which is not draft or cancelled."
+msgstr "Vous ne pouvez pas supprimer un enregistrement qui n'est pas un brouillon ou annulé."

@@ -27,7 +27,7 @@
     'support': 'info@almightycs.com',
     'website': 'https://www.almightycs.com',
     'license': 'OPL-1',
-    'depends': ['calendar','acs_video_call'],
+    'depends': ['calendar'],
     'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
