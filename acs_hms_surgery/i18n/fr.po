@@ -83,7 +83,7 @@ msgstr ""
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.report_acs_surgery_document
 msgid "<strong>Age/Gender:</strong>"
-msgstr "<strong>Age/Gendre:</strong>"
+msgstr "<strong>Age/Genre:</strong>"
 
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.report_acs_surgery_document
