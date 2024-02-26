@@ -47,7 +47,7 @@ msgstr "Ophtalmologie"
 #. module: acs_hms_ophthalmology
 #: model:ir.actions.report,print_report_name:acs_hms_ophthalmology.report_acs_medical_advice_id
 msgid "(object.name or 'Ophthalmology').replace('/','_')"
-msgstr ""
+msgstr "(object.name ou 'Ophtalmologie').remplacer('/','_')"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__1_meter_fc
@@ -59,7 +59,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__1_meter_fc
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__1_meter_fc
 msgid "1 Meter FC"
-msgstr ""
+msgstr "1 Mètre FC"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__1_2_meter_fc
@@ -71,7 +71,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__1_2_meter_fc
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__1_2_meter_fc
 msgid "1/2 Meter FC"
-msgstr ""
+msgstr "1/2 Mètre FC"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__1_60
@@ -83,7 +83,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__1_60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__1_60
 msgid "1/60"
-msgstr ""
+msgstr "1/60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__2_60
@@ -95,7 +95,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__2_60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__2_60
 msgid "2/60"
-msgstr ""
+msgstr "2/60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__3_60
@@ -107,7 +107,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__3_60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__3_60
 msgid "3/60"
-msgstr ""
+msgstr "3/60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__4_60
@@ -119,7 +119,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__4_60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__4_60
 msgid "4/60"
-msgstr ""
+msgstr "4/60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__5_60
@@ -131,7 +131,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__5_60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__5_60
 msgid "5/60"
-msgstr ""
+msgstr "5/60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_12
@@ -143,7 +143,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_12
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_12
 msgid "6/12"
-msgstr ""
+msgstr "6/12"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_18
@@ -155,7 +155,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_18
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_18
 msgid "6/18"
-msgstr ""
+msgstr "6/18"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_24
@@ -167,7 +167,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_24
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_24
 msgid "6/24"
-msgstr ""
+msgstr "6/24"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_36
@@ -179,7 +179,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_36
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_36
 msgid "6/36"
-msgstr ""
+msgstr "6/36"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_6
@@ -191,7 +191,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_6
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_6
 msgid "6/6"
-msgstr ""
+msgstr "6/6"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_60
@@ -203,7 +203,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_60
 msgid "6/60"
-msgstr ""
+msgstr "6/60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__6_9
@@ -215,215 +215,191 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__6_9
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__6_9
 msgid "6/9"
-msgstr ""
+msgstr "6/9"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>Age: </strong>"
-msgstr ""
+msgstr "Âge :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>Disease: </strong>"
-msgstr "Maladie:"
+msgstr "Maladie :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-Axis : </strong>"
-msgstr ""
+msgstr "Axe L :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-BCVA - Add : </strong>"
-msgstr ""
+msgstr "L-BCVA - Addition :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-CYL : </strong>"
-msgstr ""
+msgstr "L-CYL :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-Corrected Axis : </strong>"
-msgstr ""
+msgstr "Axe L corrigé :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-Corrected CYL : </strong>"
-msgstr ""
+msgstr "CYL corrigé de L :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-Corrected SPH : </strong>"
-msgstr ""
+msgstr "SPH corrigé de L :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>L-NV Add : </strong>"
-msgstr ""
+msgstr "Ajout NV de L :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>LBCVA : </strong>"
-msgstr ""
+msgstr "LBCVA :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>LBCVANV : </strong>"
-msgstr ""
+msgstr "LBCVANV :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid ""
 "<br/>\n"
 "                        <strong>R-Axis : </strong>"
-msgstr ""
+msgstr "Axe R :"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>R-BCVA - Add : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>R-BCVA - Add : </strong>"
+msgstr "<br/>\n                        <strong>AVCC R - Ajouter : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>R-CYL : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>R-CYL : </strong>"
+msgstr "<br/>\n                        <strong>R-CYL : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>R-Corrected Axis : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>R-Corrected Axis : </strong>"
+msgstr "<br/>\n                        <strong>Axe corrigé R : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>R-Corrected CYL : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>R-Corrected CYL : </strong>"
+msgstr "<br/>\n                        <strong>CYL corrigé R : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>R-Corrected SPH : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>R-Corrected SPH : </strong>"
+msgstr "<br/>\n                        <strong>SPH corrigé R : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>R-NV Add : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>R-NV Add : </strong>"
+msgstr "<br/>\n                        <strong>Ajout NV R : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>RBCVA : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>RBCVA : </strong>"
+msgstr "<br/>\n                        <strong>AVCC R : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>RBCVANV : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>RBCVANV : </strong>"
+msgstr "<br/>\n                        <strong>AVCCNV R : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>RDVA : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>RDVA : </strong>"
+msgstr "<br/>\n                        <strong>AVDO : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>RDVA AID : </strong>"
-msgstr ""
+msgid "<br/>\n                        <strong>RDVA AID : </strong>"
+msgstr "<br/>\n                        <strong>Aide AVDO : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>RDVA Using Pin Hole : </strong>"
-msgstr ""
+msgid "<br/>\n<strong>RDVA Using Pin Hole : </strong>"
+msgstr "<br/>\n<strong>RDVA Utilisant le Trou d'Epingles : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
-msgid ""
-"<br/>\n"
-"                        <strong>RNV : </strong>"
-msgstr ""
+msgid "<br/>\n<strong>RNV : </strong>"
+msgstr "<br/>\n<strong>RNV : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>Doctor: </strong>"
-msgstr ""
+msgstr "<strong>Médecin : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>LIOP : </strong>"
-msgstr ""
+msgstr "<strong>LIOP : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>LSPH : </strong>"
-msgstr ""
+msgstr "<strong>LSPH : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>Method : </strong>"
-msgstr ""
+msgstr "<strong>Méthode : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>Ophthalmology Report</strong>"
-msgstr ""
+msgstr "<strong>Rapport d'Ophtalmologie</strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>Patient: </strong>"
-msgstr ""
+msgstr "<strong>Patient : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>RIOP : </strong>"
-msgstr ""
+msgstr "<strong>RIOP : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<strong>RSPH : </strong>"
-msgstr ""
+msgstr "<strong>RSPH : </strong>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
@@ -431,76 +407,78 @@ msgid ""
 "<u><b>Doctor's Stamp/Signature</b></u>\n"
 "                            <br/>"
 msgstr ""
+"<u><b>Tampon/Signature du Médecin</b></u>\n"
+"                            <br/>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<u><strong>Best Corrected Visual Acuity</strong></u>"
-msgstr ""
+msgstr "<u><strong>Meilleure Acuité Visuelle Corrigée</strong></u>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<u><strong>Left Eye</strong></u>"
-msgstr ""
+msgstr "<u><strong>Œil Gauche</strong></u>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<u><strong>Refraction</strong></u>"
-msgstr ""
+msgstr "<u><strong>Réfraction</strong></u>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<u><strong>Right Eye</strong></u>"
-msgstr ""
+msgstr "<u><strong>Œil Droit</strong></u>"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.report_acs_report_acs_ophthalmology_document
 msgid "<u><strong>Tonometry</strong></u>"
-msgstr ""
+msgstr "<u><strong>Tonométrie</strong></u>"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Action Nécessaire"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Décoration d'Exception d'Activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "État de l'Activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icône de Type d'Activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_finding__affected_eye
 msgid "Affected eye"
-msgstr ""
+msgstr "Œil affecté"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_finding__eye_structure
 msgid "Affected eye structure"
-msgstr ""
+msgstr "Structure de l'œil affecté"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__age
 msgid "Age"
-msgstr ""
+msgstr "Âge"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__anterior_chamber
 msgid "Anterior Chamber"
-msgstr ""
+msgstr "Chambre Antérieure"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.actions.act_window,name:acs_hms_ophthalmology.action_appointment
@@ -518,70 +496,70 @@ msgstr "Rendez-vous"
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Nombre de Pièces Jointes"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Best Corrected Visual Acuity"
-msgstr ""
+msgstr "Meilleure Acuité Visuelle Corrigée"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_patient
 msgid "Click to add a Patient."
-msgstr ""
+msgstr "Cliquez pour ajouter un patient."
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_appointment
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_ophthalmology_appointment
 msgid "Click to add an Ophthalmology Appointment."
-msgstr ""
+msgstr "Cliquez pour ajouter un rendez-vous ophtalmologique."
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_acs_ophthalmology_evaluation
 msgid "Click to add new record."
-msgstr ""
+msgstr "Cliquez pour ajouter un nouvel enregistrement."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__age
 msgid "Computed patient age at the moment of the evaluation"
-msgstr ""
+msgstr "Âge du patient calculé au moment de l'évaluation"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__conjuctiva
 msgid "Conjunctiva"
-msgstr ""
+msgstr "Conjonctive"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__cornea
 msgid "Cornea"
-msgstr ""
+msgstr "Cornée"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__create_uid
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Créé par"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__create_date
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Créé le"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__date
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__date
 msgid "Date of Consultation"
-msgstr ""
+msgstr "Date de Consultation"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model,name:acs_hms_ophthalmology.model_hr_department
 msgid "Department"
-msgstr ""
+msgstr "Département"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__diseases_ids
@@ -592,79 +570,79 @@ msgstr "Maladie"
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__display_name
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nom Affiché"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__state__done
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Done"
-msgstr ""
+msgstr "Terminé"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__state__draft
 msgid "Draft"
-msgstr ""
+msgstr "Brouillon"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__evaluation_id
 msgid "Evaluation"
-msgstr ""
+msgstr "Évaluation"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__affected_eye
 msgid "Eye"
-msgstr ""
+msgstr "Œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__finding
 msgid "Finding"
-msgstr ""
+msgstr "Trouvaille"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__findings_ids
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Findings"
-msgstr ""
+msgstr "Résultats"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Suiveurs"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Suiveurs (Partenaires)"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icône Font Awesome par exemple fa-tasks"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__fundus_disc
 msgid "Fundus Disc"
-msgstr ""
+msgstr "Disque de Fond de l'œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__fundus_background
 msgid "Fundus background"
-msgstr ""
+msgstr "Fond du Fond de l'œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__fundus_vessels
 msgid "Fundus vessels"
-msgstr ""
+msgstr "Vaisseaux du Fond de l'œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__iop_method__goldmann
 msgid "Goldman tonometry"
-msgstr ""
+msgstr "Tonométrie Goldman"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_search
 msgid "Group By..."
-msgstr ""
+msgstr "Regrouper Par..."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__hmfc
@@ -676,252 +654,252 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__hmfc
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__hmfc
 msgid "HMCF"
-msgstr ""
+msgstr "HMCF"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "A un message"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_hr_department__department_type
 msgid "Hospital Department"
-msgstr ""
+msgstr "Département hospitalier"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__id
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Icône"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Icône pour indiquer une activité d'exception."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Si coché, les nouveaux messages nécessitent votre attention."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_has_error
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Si coché, certains messages ont une erreur de livraison."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__state__in_progress
 msgid "In progress"
-msgstr ""
+msgstr "En cours"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__iris
 msgid "Iris"
-msgstr ""
+msgstr "Iris"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Est un suiveur"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__laxis
 msgid "L-Axis"
-msgstr ""
+msgstr "Axe L"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_nv_add
 msgid "L-BCVA - Add"
-msgstr ""
+msgstr "L-BCVA - Ajouter"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lcylinder
 msgid "L-CYL"
-msgstr ""
+msgstr "L-CYL"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_axis
 msgid "L-Corrected Axis"
-msgstr ""
+msgstr "Axe corrigé gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_cylinder
 msgid "L-Corrected CYL"
-msgstr ""
+msgstr "CYL corrigé gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_spherical
 msgid "L-Corrected SPH"
-msgstr ""
+msgstr "SPH corrigé gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lnv_add
 msgid "L-NV Add"
-msgstr ""
+msgstr "Ajout NV gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva
 msgid "LBCVA"
-msgstr ""
+msgstr "BCVA gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_nv
 msgid "LBCVANV"
-msgstr ""
+msgstr "BCVANV gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__ldva
 msgid "LDVA"
-msgstr ""
+msgstr "DVA gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__ldva_aid
 msgid "LDVA AID"
-msgstr ""
+msgstr "Aide LDVA gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__ldva_pinhole
 msgid "LDVA Using Pin Hole"
-msgstr ""
+msgstr "LDVA avec trou d'épingle gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__liop
 msgid "LIOP"
-msgstr ""
+msgstr "LIOP"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lnv
 msgid "LNV"
-msgstr ""
+msgstr "NV gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lspherical
 msgid "LSPH"
-msgstr ""
+msgstr "SPH gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__write_uid
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__write_date
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Left Eye"
-msgstr ""
+msgstr "Œil gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__laxis
 msgid "Left Eye Axis"
-msgstr ""
+msgstr "Axe de l'œil gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_axis
 msgid "Left Eye Best Corrected Axis"
-msgstr ""
+msgstr "Axe corrigé gauche du meilleur œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_cylinder
 msgid "Left Eye Best Corrected Cylinder"
-msgstr ""
+msgstr "Cylindre corrigé gauche du meilleur œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_nv_add
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lnv_add
 msgid "Left Eye Best Corrected NV Add"
-msgstr ""
+msgstr "Ajout NV corrigé gauche du meilleur œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_nv
 msgid "Left Eye Best Corrected Near Vision"
-msgstr ""
+msgstr "Vision de près corrigée du côté gauche de l'œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva_spherical
 msgid "Left Eye Best Corrected Spherical"
-msgstr ""
+msgstr "Sphérique corrigée du côté gauche de l'œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lbcva
 msgid "Left Eye Best Corrected VA"
-msgstr ""
+msgstr "Acuité visuelle corrigée du côté gauche de l'œil"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lcylinder
 msgid "Left Eye Cylinder"
-msgstr ""
+msgstr "Cylindre de l'œil gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lnv
 msgid "Left Eye Near Vision"
-msgstr ""
+msgstr "Vision de près de l'œil gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__lspherical
 msgid "Left Eye Spherical"
-msgstr ""
+msgstr "Sphérique de l'œil gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__ldva_pinhole
 msgid "Left Eye Vision Using Pin Hole"
-msgstr ""
+msgstr "Vision de l'œil gauche en utilisant un trou d'épingle"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__ldva
 msgid "Left Eye Vision of Patient without aid"
-msgstr ""
+msgstr "Vision de l'œil gauche du patient sans aide"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__liop
 msgid "Left Intraocular Pressure in mmHg"
-msgstr ""
+msgstr "Pression intraoculaire gauche en mmHg"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__lens
 msgid "Lens"
-msgstr ""
+msgstr "Lentille"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__lid
 msgid "Lid"
-msgstr ""
+msgstr "Paupière"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__macula
 msgid "Macula"
-msgstr ""
+msgstr "Macula"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Erreur de livraison de message"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__iop_method
 msgid "Method"
-msgstr ""
+msgstr "Méthode"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Ma date limite d'activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n12
@@ -929,7 +907,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n12
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n12
 msgid "N12"
-msgstr ""
+msgstr "N12"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n18
@@ -937,7 +915,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n18
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n18
 msgid "N18"
-msgstr ""
+msgstr "N18"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n24
@@ -945,7 +923,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n24
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n24
 msgid "N24"
-msgstr ""
+msgstr "N24"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n36
@@ -953,7 +931,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n36
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n36
 msgid "N36"
-msgstr ""
+msgstr "N36"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n6
@@ -961,7 +939,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n6
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n6
 msgid "N6"
-msgstr ""
+msgstr "N6"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n60
@@ -969,7 +947,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n60
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n60
 msgid "N60"
-msgstr ""
+msgstr "N60"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva_nv__n8
@@ -977,37 +955,37 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rbcva_nv__n8
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rnv__n8
 msgid "N8"
-msgstr ""
+msgstr "N8"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__name
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__ncs
 msgid "Naso-lacrimal system"
-msgstr ""
+msgstr "Système naso-lacrymal"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Prochain événement de calendrier d'activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "Date limite de la prochaine activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Résumé de la prochaine activité"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Type de prochaine activité"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_acs_ophthalmology_evaluation
@@ -1015,37 +993,37 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_ophthalmology_appointment
 #: model_terms:ir.actions.act_window,help:acs_hms_ophthalmology.action_patient
 msgid "No Record Found"
-msgstr ""
+msgstr "Aucun enregistrement trouvé"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__iop_method__nct
 msgid "Non-contact tonometry"
-msgstr ""
+msgstr "Tonométrie sans contact"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__notes
 msgid "Notes"
-msgstr ""
+msgstr "Remarques"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Nombre d'actions"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Nombre d'erreurs"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Nombre de messages nécessitant une action"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Nombre de messages avec erreur de livraison"
 
 #. module: acs_hms_ophthalmology
 #: model:hr.department,name:acs_hms_ophthalmology.ophthalmology_department
@@ -1072,27 +1050,27 @@ msgstr "Évaluation ophtalmologique"
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_finding_tree
 msgid "Ophthalmology Finding"
-msgstr ""
+msgstr "Trouvaille ophtalmologique"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.actions.report,name:acs_hms_ophthalmology.report_acs_medical_advice_id
 msgid "Ophthalmology Report"
-msgstr ""
+msgstr "Rapport ophtalmologique"
 
 #. module: acs_hms_ophthalmology
 #: model:res.groups,name:acs_hms_ophthalmology.group_hms_ophthalmology
 msgid "Ophthalmology User"
-msgstr ""
+msgstr "Utilisateur d'ophtalmologie"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Optometry"
-msgstr ""
+msgstr "Optométrie"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__other
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__lbcva__p_l
@@ -1104,215 +1082,215 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_aid__p_l
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__rdva_pinhole__p_l
 msgid "P/L"
-msgstr ""
+msgstr "P/L"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.actions.act_window,name:acs_hms_ophthalmology.action_patient
 #: model:ir.model,name:acs_hms_ophthalmology.model_hms_patient
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__patient_id
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.ui.menu,name:acs_hms_ophthalmology.menu_acs_patient
 msgid "Patients"
-msgstr ""
+msgstr "Patients"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__physician_id
 msgid "Physician"
-msgstr "Docteur"
+msgstr "Médecin"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__physician_id
 msgid "Physician's Name"
-msgstr "Nom du docteur"
+msgstr "Nom du médecin"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__pupil
 msgid "Pupil"
-msgstr ""
+msgstr "Pupille"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__raxis
 msgid "R-Axis"
-msgstr ""
+msgstr "Axe D"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_nv_add
 msgid "R-BCVA - Add"
-msgstr ""
+msgstr "OAV D - Ajout"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rcylinder
 msgid "R-CYL"
-msgstr ""
+msgstr "Cylindre D"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_axis
 msgid "R-Corrected Axis"
-msgstr ""
+msgstr "Axe D corrigé"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_cylinder
 msgid "R-Corrected CYL"
-msgstr ""
+msgstr "Cylindre D corrigé"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_spherical
 msgid "R-Corrected SPH"
-msgstr ""
+msgstr "SPH D corrigé"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rnv_add
 msgid "R-NV Add"
-msgstr ""
+msgstr "Ajout NV D"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva
 msgid "RBCVA"
-msgstr ""
+msgstr "OAVD"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_nv
 msgid "RBCVANV"
-msgstr ""
+msgstr "NV Corrigé OAVD"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rdva
 msgid "RDVA"
-msgstr ""
+msgstr "AVD"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rdva_aid
 msgid "RDVA AID"
-msgstr ""
+msgstr "AVD avec aide"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rdva_pinhole
 msgid "RDVA Using Pin Hole"
-msgstr ""
+msgstr "AVD avec trou d'épingle"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__riop
 msgid "RIOP"
-msgstr ""
+msgstr "PIO D"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rnv
 msgid "RNV"
-msgstr ""
+msgstr "NV D"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rspherical
 msgid "RSPH"
-msgstr ""
+msgstr "SPH D"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "Évaluations"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Refraction"
-msgstr ""
+msgstr "Réfraction"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "Utilisateur Responsable"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Right Eye"
-msgstr ""
+msgstr "Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__raxis
 msgid "Right Eye Axis"
-msgstr ""
+msgstr "Axe de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_axis
 msgid "Right Eye Best Corrected Axis"
-msgstr ""
+msgstr "Meilleur Axe Corrigé de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_cylinder
 msgid "Right Eye Best Corrected Cylinder"
-msgstr ""
+msgstr "Meilleur Cylindre Corrigé de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_nv_add
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rnv_add
 msgid "Right Eye Best Corrected NV Add"
-msgstr ""
+msgstr "Ajout de Correction NV de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_nv
 msgid "Right Eye Best Corrected Near Vision"
-msgstr ""
+msgstr "Meilleure Vision de Près Corrigée de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva_spherical
 msgid "Right Eye Best Corrected Spherical"
-msgstr ""
+msgstr "Meilleure Sphère Corrigée de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rbcva
 msgid "Right Eye Best Corrected VA"
-msgstr ""
+msgstr "Meilleure ACV Corrigée de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rcylinder
 msgid "Right Eye Cylinder"
-msgstr ""
+msgstr "Cylindre de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rnv
 msgid "Right Eye Near Vision"
-msgstr ""
+msgstr "Vision de Près de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rspherical
 msgid "Right Eye Spherical"
-msgstr ""
+msgstr "Sphère de l'Œil Droit"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rdva_pinhole
 msgid "Right Eye Vision Using Pin Hole"
-msgstr ""
+msgstr "Vision de l'Œil Droit Utilisant un Trou d'Épingle"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rdva
 msgid "Right Eye Vision of Patient without aid"
-msgstr ""
+msgstr "Vision de l'Œil Droit du Patient sans Aide"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__riop
 msgid "Right Intraocular Pressure in mmHg"
-msgstr ""
+msgstr "Pression Intraoculaire Droite en mmHg"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "Erreur de Livraison SMS"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_evaluation__iop_method__schiotz
 msgid "Schiotz tonometry"
-msgstr ""
+msgstr "Tonométrie de Schiotz"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Start Evaluation"
-msgstr ""
+msgstr "Commencer l'Évaluation"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_search
 msgid "State"
-msgstr ""
+msgstr "État"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__state
@@ -1327,66 +1305,70 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Statut basé sur les activités\n"
+"En retard: La date d'échéance est déjà passée\n"
+"Aujourd'hui: La date de l'activité est aujourd'hui\n"
+"Planifié: Activités futures."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_finding__eye_structure
 msgid "Structure"
-msgstr ""
+msgstr "Structure"
 
 #. module: acs_hms_ophthalmology
 #: model_terms:ir.ui.view,arch_db:acs_hms_ophthalmology.view_acs_ophthalmology_evaluation_form
 msgid "Tonometry"
-msgstr ""
+msgstr "Tonometrie"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__iop_method
 msgid "Tonometry / Intraocular pressure reading method"
-msgstr ""
+msgstr "Méthode de tonométrie / lecture de la pression intraoculaire"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Type de l'activité exceptionnelle enregistrée."
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__ldva_aid
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__rdva_aid
 msgid "Vision with glasses or contact lens"
-msgstr ""
+msgstr "Vision avec lunettes ou lentilles de contact"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__eye_structure__vitreous
 msgid "Vitreous"
-msgstr ""
+msgstr "Vitreux"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,field_description:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Messages du Site Web"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields,help:acs_hms_ophthalmology.field_acs_ophthalmology_evaluation__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historique de communication du site Web"
 
 #. module: acs_hms_ophthalmology
 #. odoo-python
 #: code:addons/acs_hms_ophthalmology/models/hms_ophthalmology.py:0
 #, python-format
 msgid "You can not delete record in done state"
-msgstr ""
+msgstr "Vous ne pouvez pas supprimer l'enregistrement dans l'état terminé"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__affected_eye__both
 msgid "both"
-msgstr ""
+msgstr "les deux"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__affected_eye__left
 msgid "left"
-msgstr ""
+msgstr "gauche"
 
 #. module: acs_hms_ophthalmology
 #: model:ir.model.fields.selection,name:acs_hms_ophthalmology.selection__acs_ophthalmology_finding__affected_eye__right
 msgid "right"
-msgstr ""
+msgstr "droit"

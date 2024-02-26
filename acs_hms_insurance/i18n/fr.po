@@ -25,59 +25,59 @@ msgstr "# Réclamations"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__meeting_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__meeting_count
 msgid "# Meetings"
-msgstr ""
+msgstr "Réunions"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__supplier_invoice_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__supplier_invoice_count
 msgid "# Vendor Bills"
-msgstr ""
+msgstr "Factures de fournisseur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__subscription_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__subscription_count
 msgid "# of Subscription"
-msgstr ""
+msgstr "Nombre d'abonnements"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_ambulance_drive_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_ambulance_drive_count
 msgid "#Ambulance Drives"
-msgstr ""
+msgstr "Conduites d'ambulance"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_blood_issuance_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_blood_issuance_count
 msgid "#Blood Issuance"
-msgstr ""
+msgstr "Distribution de sang"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_blood_requisition_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_blood_requisition_count
 msgid "#Blood Requisitions"
-msgstr ""
+msgstr "Demandes de sang"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__whatsapp_announcement_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__whatsapp_announcement_count
 msgid "#whatsapp Announcement Count"
-msgstr ""
+msgstr "Nombre d'annonces WhatsApp"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__whatsapp_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__whatsapp_count
 msgid "#whatsapp Count"
-msgstr ""
+msgstr "Nombre de messages WhatsApp"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.report,print_report_name:acs_hms_insurance.action_insurance_claim_report
 msgid "(object.name).replace('/','_') + '_claim'"
-msgstr ""
+msgstr "(object.name).replace('/','_') + '_Réclamer'"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "* From the list of rules first matching rule will be applied."
-msgstr ""
+msgstr "* À partir de la liste des règles, la première règle correspondante sera appliquée."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__type
@@ -90,6 +90,13 @@ msgid ""
 "- Follow-up Address: Preferred address for follow-up reports. Selected by default when you send reminders about overdue invoices.\n"
 "- Other: Other address for the company (e.g. subsidiary, ...)"
 msgstr ""
+"- Contact : Utilisez ceci pour organiser les coordonnées des employés d'une entreprise donnée (par exemple, PDG, CFO, ...).\n"
+"- Adresse de facturation : Adresse préférée pour toutes les factures. Sélectionnée par défaut lorsque vous facturez une commande appartenant à cette entreprise.\n"
+"- Adresse de livraison : Adresse préférée pour toutes les livraisons. Sélectionnée par défaut lorsque vous livrez une commande appartenant à cette entreprise.\n"
+"- Privé : Les adresses privées ne sont visibles que par les utilisateurs autorisés et contiennent des données sensibles (adresses personnelles des employés, ...).\n"
+"- Adresse de suivi : Adresse préférée pour les rapports de suivi. Sélectionnée par défaut lorsque vous envoyez des rappels concernant les factures impayées.\n"
+"- Autre : Autre adresse pour l'entreprise (par exemple, filiale, ...)"
+
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
@@ -97,6 +104,8 @@ msgid ""
 "<br/>\n"
 "                        <strong>Claim Date :-</strong>"
 msgstr ""
+"<br/>\n"
+"                        <strong>Date de la demande :-</strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
@@ -104,6 +113,8 @@ msgid ""
 "<br/>\n"
 "                        <strong>Date To :-</strong>"
 msgstr ""
+"<br/>\n"
+"                        <strong>Date jusqu'à :</strong>"
 
 #. module: acs_hms_insurance
 #: model:mail.template,body_html:acs_hms_insurance.acs_claim_email
@@ -131,7 +142,26 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
-
+"<div style=\"margin:auto;background: #FFFFFF;color:#777777\">\n"
+"    <p>Bonjour,</p>\n"
+"    <p>La demande de remboursement pour <t t-out=\"object.patient_id.name\"></t> est en cours avec les détails suivants.</p>\n"
+"    <ul> \n"
+"        <li>\n"
+"            <p>Type de demande : <t t-out=\"object.claim_for\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Numéro de référence : <t t-out=\"object.name\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Assurance : <t t-out=\"object.insurance_id.policy_number\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Date <t t-out=\"object.date\"></t></p>\n"
+"        </li>\n"
+"    </ul>\n"
+"    <p>N'hésitez pas à appeler à tout.</p><br>\n"
+"</div>\n"
+"            "
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid ""
@@ -139,129 +169,129 @@ msgid ""
 "label=\"Info\" title=\"Info\"/> The algorithm for patient share amount "
 "calculation:"
 msgstr ""
+"<i class=\"fa fa-info fa-3x text-info float-left\" role=\"img\" aria-"
+"label=\"Info\" title=\"Info\"/> L'algorithme de calcul du montant de la part du patient :"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "<span class=\"o_stat_text\">Claim Invoice</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Facture de réclamation</span>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "<span class=\"o_stat_text\">Claim Payments</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Paiements de réclamation</span>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<span><u><b>Answer</b></u>:</span><br/>"
-msgstr ""
+msgstr "<span><u><b>Réponse</b></u>:</span><br/>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<span><u><b>Question</b></u>:</span><br/>"
-msgstr ""
+msgstr "<span><u><b>Question</b></u>:</span><br/>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<span>Claim: </span>"
-msgstr "Réclamation"
-
+msgstr "<span>Réclamation : </span>"
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "<strong style=\"margin-left:65px;\">Total:-</strong>"
-msgstr ""
+msgstr "<strong style=\"margin-left:65px;\">Total :-</strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Age/Gender:</strong>"
-msgstr ""
+msgstr "<strong>Âge/Genre :</strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Claim Amount: </strong>"
-msgstr "Montant réclamé"
+msgstr "<strong>Montant de la réclamation : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Claim Date:</strong>"
-msgstr "Date de réclamation"
+msgstr "<strong>Date de la réclamation :</strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Claim Received Date:</strong>"
-msgstr "Date de réception de la réclamation"
+msgstr "<strong>Date de réception de la réclamation :</strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Claim Status: </strong>"
-msgstr "Statut de la réclamation"
+msgstr "<strong>Statut de la réclamation : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "<strong>Date From :-</strong>"
-msgstr "De"
-
+msgstr "<strong>Date de :</strong>"
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Difference Amount: </strong>"
-msgstr "Montant de la différence :"
+msgstr "<strong>Montant de la différence : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Insu. Company:</strong>"
-msgstr ""
+msgstr "<strong>Compagnie d'assurance : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "<strong>Insurance Company :-</strong>"
-msgstr "Compagnie d'assurance"
+msgstr "<strong>Compagnie d'assurance : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Insurance Policy:</strong>"
-msgstr "Police d'assurance"
+msgstr "<strong>Police d'assurance : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Passed Amount: </strong>"
-msgstr "Montant réussi :"
+msgstr "<strong>Montant réussi : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Patient Address:</strong>"
-msgstr ""
+msgstr "<strong>Adresse du patient : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Patient Name:</strong>"
-msgstr "Nom du patient:"
+msgstr "<strong>Nom du patient : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Received Amount: </strong>"
-msgstr "Montant reçu :"
+msgstr "<strong>Montant reçu : </strong>"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>TPA:</strong>"
-msgstr ""
+msgstr "<strong>TPA : </strong>"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_account_payable_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_account_payable_id
 msgid "Account Payable"
-msgstr ""
+msgstr "Compte créditeur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_account_receivable_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_account_receivable_id
 msgid "Account Receivable"
-msgstr ""
+msgstr "Compte débiteur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_amount_due
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_amount_due
 msgid "Acs Amount Due"
-msgstr ""
+msgstr "Montant dû ACS"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_needaction
@@ -269,7 +299,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_needaction
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Action nécessaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__active
@@ -290,7 +320,7 @@ msgstr "Assurance active"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__active_lang_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__active_lang_count
 msgid "Active Lang Count"
-msgstr ""
+msgstr "Compte de langues actives"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_ids
@@ -298,7 +328,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_exception_decoration
@@ -306,7 +336,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_exception_decoration
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Décoration d'exception d'activité"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_state
@@ -314,7 +344,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_state
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "État de l'activité"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_type_icon
@@ -322,30 +352,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_type_icon
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icône de type d'activité"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__additional_info
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__additional_info
 msgid "Additional info"
-msgstr ""
+msgstr "Informations supplémentaires"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__type
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__type
 msgid "Address Type"
-msgstr ""
+msgstr "Type d'adresse"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__age
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__age
 msgid "Age"
-msgstr ""
+msgstr "Âge"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__lang
@@ -354,17 +384,19 @@ msgid ""
 "All the emails and documents sent to this contact will be translated in this"
 " language."
 msgstr ""
+"Tous les e-mails et documents envoyés à ce contact seront traduits dans cette"
+" langue."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_patient_insurance_search
 msgid "Allow Appointment Insurance"
-msgstr ""
+msgstr "Autoriser l'assurance rendez-vous"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_ambulance_drive_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_ambulance_drive_ids
 msgid "Ambulance Drives"
-msgstr ""
+msgstr "Transports en ambulance"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__amount
@@ -380,7 +412,7 @@ msgstr "Montant dû"
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__answer
 msgid "Answer"
-msgstr ""
+msgstr "Réponse"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_hms_appointment
@@ -395,25 +427,25 @@ msgstr "Rendez-vous"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__app_insurance_amount
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__app_insurance_amount
 msgid "Appointment Co-payment"
-msgstr ""
+msgstr "Ticket modérateur du rendez-vous"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__create_claim
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__create_claim
 msgid "Appointment Create Claim"
-msgstr ""
+msgstr "Créer une réclamation pour le rendez-vous"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__app_insurance_limit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__app_insurance_limit
 msgid "Appointment Insurance Limit"
-msgstr "Limite d’assurance rendez-vous"
+msgstr "Limite d'assurance pour le rendez-vous"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__app_insurance_type
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__app_insurance_type
 msgid "Appointment Insurance Type"
-msgstr "Type d'assurance rendez-vous"
+msgstr "Type d'assurance pour le rendez-vous"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__app_insurance_percentage
@@ -431,34 +463,34 @@ msgstr "N° du rendez-vous assuré"
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_claim_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Approuvé"
-msgstr ""
+msgstr "Approved"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.server,name:acs_hms_insurance.ir_cron_archive_policy_ir_actions_server
 msgid "Archive Expired Policy"
-msgstr ""
+msgstr "Archiver les politiques expirées"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "Archived"
-msgstr ""
+msgstr "Archivé"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__assignee_ids
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__assignee_ids
 msgid "Assigned partners for receptionist or doctor etc to see the records"
-msgstr ""
+msgstr "Partenaires assignés pour la réceptionniste ou le médecin, etc., pour voir les dossiers"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__assignee_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__assignee_ids
 msgid "Assignees"
-msgstr ""
+msgstr "Personnes assignées"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_ir_attachment
 msgid "Attachment"
-msgstr ""
+msgstr "Pièce jointe"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_attachment_count
@@ -466,7 +498,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_attachment_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Nombre de pièces jointes"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__authorized_number
@@ -476,166 +508,164 @@ msgstr "ID du numéro d'autorisation"
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__receipt_reminder_email
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__receipt_reminder_email
-msgid ""
-"Automatically send a confirmation email to the vendor X days before the "
-"expected receipt date, asking him to confirm the exact date."
-msgstr ""
+msgid "Automatically send a confirmation email to the vendor X days before the expected receipt date, asking him to confirm the exact date."
+msgstr "Envoyer automatiquement un e-mail de confirmation au fournisseur X jours avant la date de réception prévue, lui demandant de confirmer la date exacte."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__avatar_1920
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__avatar_1920
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__avatar_1024
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__avatar_1024
 msgid "Avatar 1024"
-msgstr ""
+msgstr "Avatar 1024"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__avatar_128
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__avatar_128
 msgid "Avatar 128"
-msgstr ""
+msgstr "Avatar 128"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__avatar_256
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__avatar_256
 msgid "Avatar 256"
-msgstr ""
+msgstr "Avatar 256"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__avatar_512
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__avatar_512
 msgid "Avatar 512"
-msgstr ""
+msgstr "Avatar 512"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__bank_account_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__bank_account_count
 msgid "Bank"
-msgstr ""
+msgstr "Banque"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__bank_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__bank_ids
 msgid "Banks"
-msgstr ""
+msgstr "Banques"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__barcode
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__barcode
 msgid "Barcode"
-msgstr ""
+msgstr "Code-barres"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__today_is_birthday
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__today_is_birthday
 msgid "Birthday Today"
-msgstr ""
+msgstr "Anniversaire aujourd'hui"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_blacklisted
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_blacklisted
 msgid "Blacklist"
-msgstr ""
+msgstr "Liste noire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__mobile_blacklisted
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__mobile_blacklisted
 msgid "Blacklisted Phone Is Mobile"
-msgstr ""
+msgstr "Téléphone en liste noire est mobile"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__phone_blacklisted
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
-msgstr ""
+msgstr "Téléphone en liste noire est fixe"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__blood_group
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__blood_group
 msgid "Blood Group"
-msgstr ""
+msgstr "Groupe sanguin"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_blood_issuance_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_blood_issuance_ids
 msgid "Blood Issuance"
-msgstr ""
+msgstr "Délivrance de sang"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_blood_requisition_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_blood_requisition_ids
 msgid "Blood Requisitions"
-msgstr ""
+msgstr "Demandes de sang"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_bounce
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_bounce
 msgid "Bounce"
-msgstr ""
+msgstr "Retour"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__commission_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__commission_ids
 msgid "Business Commission"
-msgstr ""
+msgstr "Commission d'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__buyer_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__buyer_id
 msgid "Buyer"
-msgstr ""
+msgstr "Acheteur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__can_publish
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__can_publish
 msgid "Can Publish"
-msgstr ""
+msgstr "Peut publier"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__acs_claim_sheet__state__cancel
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_claim_sheet
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_insurance_claim__state__cancel
 msgid "Canceled"
-msgstr ""
+msgstr "Annulé"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__certifications_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__certifications_count
 msgid "Certifications Count"
-msgstr ""
+msgstr "Nombre de certifications"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__channel_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__channel_ids
 msgid "Channels"
-msgstr ""
+msgstr "Canaux"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__is_patient
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__is_patient
 msgid "Check if customer is linked with patient."
-msgstr ""
+msgstr "Vérifiez si le client est lié au patient."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__is_company
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__is_company
 msgid "Check if the contact is a company, otherwise it is a person"
-msgstr ""
+msgstr "Vérifiez si le contact est une entreprise, sinon c'est une personne"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__employee
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__employee
 msgid "Check this box if this contact is an Employee."
-msgstr ""
+msgstr "Cochez cette case si ce contact est un employé."
 
 #. module: acs_hms_insurance
 #: model:ir.actions.act_window,name:acs_hms_insurance.action_checklist_tree
@@ -643,19 +673,19 @@ msgstr ""
 #: model:ir.ui.menu,name:acs_hms_insurance.menu_action_checklist
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Checklist"
-msgstr ""
+msgstr "Liste de contrôle"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__checklist_marked
 msgid "Checklist Progress"
-msgstr ""
+msgstr "Progression de la liste de contrôle"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__city
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__city
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "City"
-msgstr ""
+msgstr "Ville"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.act_window,name:acs_hms_insurance.action_insurance_claim
@@ -675,7 +705,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_claim_tree
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_pivot
 msgid "Claim"
-msgstr ""
+msgstr "Réclamation"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__date
@@ -685,17 +715,17 @@ msgstr "Date de réclamation"
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__name
 msgid "Claim Number"
-msgstr "N° de réclamation"
+msgstr "Numéro de réclamation"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__date_received
 msgid "Claim Received Date"
-msgstr ""
+msgstr "Date de réception de la réclamation"
 
 #. module: acs_hms_insurance
 #: model:mail.template,name:acs_hms_insurance.acs_claim_email
 msgid "Claim Request"
-msgstr ""
+msgstr "Demande de réclamation"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.act_window,name:acs_hms_insurance.action_acs_claim_sheet
@@ -714,7 +744,7 @@ msgstr "Feuille de réclamation"
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "Claim Sheet :-"
-msgstr "Feuille de réclamation"
+msgstr "Feuille de réclamation :"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__claim_for
@@ -736,42 +766,42 @@ msgstr "Date de réclamation"
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_checklist_tree
 msgid "Click to add a new Insurance Claim Checklist."
-msgstr ""
+msgstr "Cliquez pour ajouter une nouvelle liste de contrôle de réclamation d'assurance."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_mediclaim_doc_type
 msgid "Click to add a new Insurance Claim Req Documents."
-msgstr ""
+msgstr "Cliquez pour ajouter un nouveau document requis pour la réclamation d'assurance."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_insurance_claim
 msgid "Click to add a new Insurance Claim."
-msgstr ""
+msgstr "Cliquez pour ajouter une nouvelle réclamation d'assurance."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_insurance_company
 msgid "Click to add a new Insurance Company."
-msgstr ""
+msgstr "Cliquez pour ajouter une nouvelle compagnie d'assurance."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_acs_insurance_plan
 msgid "Click to add a new Insurance Plan."
-msgstr ""
+msgstr "Cliquez pour ajouter un nouveau plan d'assurance."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_hms_patient_insurance
 msgid "Click to add a new Patient Insurance Policy."
-msgstr ""
+msgstr "Cliquez pour ajouter une nouvelle police d'assurance patient."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_acs_claim_sheet
 msgid "Click to add new Business Commission."
-msgstr ""
+msgstr "Cliquez pour ajouter une nouvelle commission d'affaires."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_insurance_tpa
 msgid "Click to define a new Insurance TPA."
-msgstr ""
+msgstr "Cliquez pour définir un nouveau TPA d'assurance."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__peppol_eas
@@ -780,85 +810,87 @@ msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 msgstr ""
+"Code utilisé pour identifier le point de terminaison pour la facturation BIS 3.0 et ses dérivés.\n"
+"             Liste disponible sur https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__color
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__color
 msgid "Color Index"
-msgstr ""
+msgstr "Index de couleur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__commercial_partner_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__commercial_partner_id
 msgid "Commercial Entity"
-msgstr ""
+msgstr "Entité commerciale"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__commission_rule_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__commission_rule_ids
 msgid "Commission Rules"
-msgstr ""
+msgstr "Règles de commission"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__commission_target_rule_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__commission_target_rule_ids
 msgid "Commission Target Rules"
-msgstr ""
+msgstr "Règles de ciblage de la commission"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__ref_company_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__ref_company_ids
 msgid "Companies that refers to partner"
-msgstr ""
+msgstr "Entreprises qui réfèrent à un partenaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__company_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__company_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_patient_insurance_search
 msgid "Company"
-msgstr ""
+msgstr "Entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__certifications_company_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__certifications_company_count
 msgid "Company Certifications Count"
-msgstr ""
+msgstr "Nombre de certifications d'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__company_registry
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__company_registry
 msgid "Company ID"
-msgstr ""
+msgstr "ID de l'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__company_name
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__company_name
 msgid "Company Name"
-msgstr ""
+msgstr "Nom de l'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__commercial_company_name
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__commercial_company_name
 msgid "Company Name Entity"
-msgstr ""
+msgstr "Entité nom de l'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__company_type
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__company_type
 msgid "Company Type"
-msgstr ""
+msgstr "Type d'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__partner_gid
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__partner_gid
 msgid "Company database ID"
-msgstr ""
+msgstr "ID de la base de données de l'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__contact_address
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__contact_address
 msgid "Complete Address"
-msgstr ""
+msgstr "Adresse complète"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__complete_name
@@ -869,13 +901,13 @@ msgstr "Nom complet"
 #. module: acs_hms_insurance
 #: model:ir.ui.menu,name:acs_hms_insurance.main_menu_insurance_configuration
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_claim_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmer"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_insurance_claim__state__confirm
@@ -886,38 +918,38 @@ msgstr "Confirmé"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__child_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__child_ids
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__contact_address_complete
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__contact_address_complete
 msgid "Contact Address Complete"
-msgstr ""
+msgstr "Adresse de contact complète"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__message_bounce
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__message_bounce
 msgid "Counter of the number of bounced emails for this contact"
-msgstr ""
+msgstr "Compteur du nombre d'e-mails rebondis pour ce contact"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__country_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__country_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "Country"
-msgstr ""
+msgstr "Pays"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__country_code
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__country_code
 msgid "Country Code"
-msgstr ""
+msgstr "Code pays"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_insurance_plan_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "Coverage & Deduction"
-msgstr "Couverture et déduction"
+msgstr "Couverture & Déduction"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__create_uid
@@ -931,7 +963,7 @@ msgstr "Couverture et déduction"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__create_uid
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Créé par"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__create_date
@@ -945,25 +977,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__create_date
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Créé le"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__credit_limit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__credit_limit
 msgid "Credit Limit"
-msgstr ""
+msgstr "Limite de crédit"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__credit_to_invoice
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__credit_to_invoice
 msgid "Credit To Invoice"
-msgstr ""
+msgstr "Crédit à facturer"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__credit_limit
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__credit_limit
 msgid "Credit limit specific to this partner."
-msgstr ""
+msgstr "Limite de crédit spécifique à ce partenaire."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__currency_id
@@ -971,25 +1003,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__currency_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Devise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_stock_customer
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_stock_customer
 msgid "Customer Location"
-msgstr ""
+msgstr "Emplacement du client"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_payment_term_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_payment_term_id
 msgid "Customer Payment Terms"
-msgstr ""
+msgstr "Conditions de paiement du client"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__customer_rank
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__customer_rank
 msgid "Customer Rank"
-msgstr ""
+msgstr "Classement du client"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__date
@@ -997,7 +1029,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__date_from
@@ -1007,7 +1039,7 @@ msgstr "De"
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__date_to
 msgid "Date To"
-msgstr "à"
+msgstr "À"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__birthday
@@ -1025,13 +1057,13 @@ msgstr "Date de décès"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__reminder_date_before_receipt
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__reminder_date_before_receipt
 msgid "Days Before Receipt"
-msgstr ""
+msgstr "Jours avant réception"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__days_sales_outstanding
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__days_sales_outstanding
 msgid "Days Sales Outstanding (DSO)"
-msgstr ""
+msgstr "Jours de ventes en attente (DSO)"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__amount_deductible
@@ -1042,13 +1074,13 @@ msgstr "Montant déductible"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__trust
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__trust
 msgid "Degree of trust you have in this debtor"
-msgstr ""
+msgstr "Niveau de confiance que vous avez en ce débiteur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__description
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__description
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__amount_difference
@@ -1067,17 +1099,17 @@ msgstr "Montant de la différence"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__display_name
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nom d'affichage"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__doc_ids
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__acs_claim_sheet__state__done
@@ -1098,7 +1130,7 @@ msgstr "Brouillon"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__duplicated_bank_account_partners_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__duplicated_bank_account_partners_count
 msgid "Duplicated Bank Account Partners Count"
-msgstr ""
+msgstr "Nombre de partenaires avec compte bancaire dupliqué"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__partner_share
@@ -1108,36 +1140,37 @@ msgid ""
 "partner is a customer without access or with a limited access created for "
 "sharing data."
 msgstr ""
+"Soit client (non utilisateur), soit utilisateur partagé. Indique que le partenaire actuel est un client sans accès ou avec un accès limité créé pour partager des données."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__email
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__email
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__employee
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__employee
 msgid "Employee"
-msgstr ""
+msgstr "Employé"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__employee_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__employee_ids
 msgid "Employees"
-msgstr ""
+msgstr "Employés"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__employees_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__employees_count
 msgid "Employees Count"
-msgstr ""
+msgstr "Nombre d'employés"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__vies_valid
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__vies_valid
 msgid "European VAT numbers are automatically checked on the VIES database."
-msgstr ""
+msgstr "Les numéros de TVA européens sont automatiquement vérifiés dans la base de données VIES."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__phone_sanitized
@@ -1146,18 +1179,19 @@ msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
 msgstr ""
+"Champ utilisé pour stocker le numéro de téléphone désinfecté. Aide à accélérer les recherches et les comparaisons."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__fiscal_country_codes
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__fiscal_country_codes
 msgid "Fiscal Country Codes"
-msgstr ""
+msgstr "Codes Pays Fiscaux"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_account_position_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_account_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "Position Fiscale"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__acs_insurance_plan__app_insurance_type__fix
@@ -1165,7 +1199,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_patient_insurance__app_insurance_type__fix
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_patient_insurance__pha_insurance_type__fix
 msgid "Fix-amount"
-msgstr ""
+msgstr "Montant Fixe"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_follower_ids
@@ -1173,7 +1207,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_follower_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Suiveurs"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_partner_ids
@@ -1181,7 +1215,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_partner_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Suiveurs (Partenaires)"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__activity_type_icon
@@ -1189,77 +1223,77 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__activity_type_icon
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icône Font Awesome, par exemple fa-tasks"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__ubl_cii_format
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__ubl_cii_format
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__email_formatted
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr ""
+msgstr "Format de l'adresse email \"Nom <email@domain>\""
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__email_formatted
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__email_formatted
 msgid "Formatted Email"
-msgstr ""
+msgstr "Email formaté"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__gender
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__gender
 msgid "Gender"
-msgstr ""
+msgstr "Genre"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "General Information"
-msgstr ""
+msgstr "Informations générales"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__generated_otp_sms
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__generated_otp_sms
 msgid "Generated OTP SMS"
-msgstr ""
+msgstr "SMS OTP généré"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__generated_otp_whatsapp
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__generated_otp_whatsapp
 msgid "Generated OTP Whatsapp"
-msgstr ""
+msgstr "OTP Whatsapp généré"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__partner_latitude
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__partner_latitude
 msgid "Geo Latitude"
-msgstr ""
+msgstr "Latitude géographique"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__partner_longitude
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__partner_longitude
 msgid "Geo Longitude"
-msgstr ""
+msgstr "Longitude géographique"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__provide_commission
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__provide_commission
 msgid "Give Commission"
-msgstr ""
+msgstr "Donner une commission"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_patient_insurance_search
 msgid "Group By"
-msgstr ""
+msgstr "Regrouper par"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_appointment_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_prescription_order_search
 msgid "Group By..."
-msgstr ""
+msgstr "Regrouper par..."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__has_message
@@ -1267,18 +1301,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__has_message
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "A un message"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__has_unreconciled_entries
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__has_unreconciled_entries
 msgid "Has Unreconciled Entries"
-msgstr ""
+msgstr "A des écritures non rapprochées"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.my_insurance_claim
 msgid "History"
-msgstr ""
+msgstr "Historique"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__company_id
@@ -1287,24 +1321,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Hospital"
-msgstr ""
+msgstr "Hôpital"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__hospital_name
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__hospital_name
 msgid "Hospital Name"
-msgstr "Nom de l'hopital"
+msgstr "Nom de l'hôpital"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_product_product__hospital_product_type
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_product_template__hospital_product_type
 msgid "Hospital Product Type"
-msgstr ""
+msgstr "Type de produit hospitalier"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "Hospitalization No:"
-msgstr ""
+msgstr "Numéro d'hospitalisation :"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__id
@@ -1318,13 +1352,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__im_status
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__im_status
 msgid "IM Status"
-msgstr "Status IM"
+msgstr "Statut IM"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_exception_icon
@@ -1332,7 +1366,7 @@ msgstr "Status IM"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_exception_icon
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Icône"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__activity_exception_icon
@@ -1340,23 +1374,24 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__activity_exception_icon
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Icône pour indiquer une activité exceptionnelle."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__code
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__code
 msgid "Identification Code"
-msgstr ""
+msgstr "Code d'identification"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__code
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__code
 msgid "Identifier provided by the Health Center."
-msgstr ""
+msgstr "Identifiant fourni par le Centre de Santé."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "If any Query"
+msgstr "En cas de toute requête"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__message_needaction
@@ -1364,7 +1399,7 @@ msgid "If any Query"
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__message_needaction
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Si coché, les nouveaux messages nécessitent votre attention."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__message_has_error
@@ -1376,7 +1411,7 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__message_has_error
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Si coché, certains messages ont une erreur de livraison."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__is_blacklisted
@@ -1385,6 +1420,8 @@ msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
 msgstr ""
+"Si l'adresse e-mail est sur liste noire, le contact ne recevra plus de "
+"mailings de masse, de n'importe quelle liste"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__phone_sanitized_blacklisted
@@ -1393,6 +1430,8 @@ msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
+"Si le numéro de téléphone sanitisé est sur liste noire, le contact ne "
+"recevra plus de SMS de mailing de masse, de n'importe quelle liste"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
@@ -1400,47 +1439,50 @@ msgid ""
 "If we have patient share rules configured on the policy it will have First "
 "priority."
 msgstr ""
+"Si nous avons des règles de partage de patients configurées sur la "
+"police, elles auront la priorité."
+
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_insurance_plan__pricelist_id
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_patient_insurance__pricelist_id
 msgid "If you change the pricelist, only newly added lines will be affected."
-msgstr ""
+msgstr "Si vous modifiez la liste de prix, seules les lignes nouvellement ajoutées seront affectées."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__image_1920
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__image_1920
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__image_1024
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__image_1024
 msgid "Image 1024"
-msgstr ""
+msgstr "Image 1024"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__image_128
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__image_128
 msgid "Image 128"
-msgstr ""
+msgstr "Image 128"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__image_256
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__image_256
 msgid "Image 256"
-msgstr ""
+msgstr "Image 256"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__image_512
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__image_512
 msgid "Image 512"
-msgstr ""
+msgstr "Image 512"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_patient_insurance_search
 msgid "Inactive Insurance"
-msgstr ""
+msgstr "Assurance inactive"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__mobile_blacklisted
@@ -1450,6 +1492,9 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+"Indique si un numéro de téléphone mobile sanitisé sur liste noire. Aide à "
+"distinquer quel numéro est sur la liste noire quand il y a à la fois un "
+"champ de téléphone mobile et un champ de téléphone dans un modèle."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__phone_blacklisted
@@ -1459,23 +1504,26 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+"Indique si un numéro de téléphone sanitisé sur liste noire est un numéro de "
+"téléphone. Aide à distinguer quel numéro est sur liste noire quand il y a à "
+"la fois un champ de téléphone mobile et un champ de téléphone dans un modèle."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__industry_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__industry_id
 msgid "Industry"
-msgstr ""
+msgstr "Industrie"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__contact_address_inline
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__contact_address_inline
 msgid "Inlined Complete Address"
-msgstr ""
+msgstr "Adresse complète en ligne"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Inpatient/Appointment Invoice"
-msgstr ""
+msgstr "Facture d'hospitalisation/Rendez-vous"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient__insurance_ids
@@ -1486,12 +1534,12 @@ msgstr "Assurance"
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_hms_insurance_checklist
 msgid "Insurance Checklist"
-msgstr ""
+msgstr "Liste de vérification de l'assurance"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_hms_insurance_checklist_template
 msgid "Insurance Checklist Template"
-msgstr ""
+msgstr "Modèle de liste de vérification de l'assurance"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
@@ -1524,12 +1572,12 @@ msgstr "Compagnie d'assurance"
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_move_form
 msgid "Insurance Details"
-msgstr ""
+msgstr "Détails de l'assurance"
 
 #. module: acs_hms_insurance
 #: model:res.groups,name:acs_hms_insurance.group_hms_insurance_officer
 msgid "Insurance Officer"
-msgstr ""
+msgstr "Agent d'assurance"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.act_window,name:acs_hms_insurance.action_acs_insurance_plan
@@ -1563,7 +1611,7 @@ msgstr "Police d'assurance"
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_hms_insurance_req_doc
 msgid "Insurance Req Doc"
-msgstr ""
+msgstr "Document de demande d'assurance"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.act_window,name:acs_hms_insurance.action_insurance_tpa
@@ -1578,7 +1626,7 @@ msgstr "Assurance TPA"
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_appointment_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_prescription_order_search
 msgid "Insured"
-msgstr "Assured"
+msgstr "Assuré"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__allow_appointment_insurance
@@ -1590,7 +1638,7 @@ msgstr "Rendez-vous assurés"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_appointment__app_insurance_percentage
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_prescription_order__pha_insurance_percentage
 msgid "Insured Percentage"
-msgstr ""
+msgstr "Pourcentage assuré"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__allow_pharmacy_insurance
@@ -1607,31 +1655,31 @@ msgstr "Valeur assurée"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__vies_valid
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__vies_valid
 msgid "Intra-Community Valid"
-msgstr ""
+msgstr "Valide dans la Communauté intra-communautaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__invoice_warn
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__invoice_warn
 msgid "Invoice"
-msgstr ""
+msgstr "Facture"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "Invoice No."
-msgstr ""
+msgstr "Numéro de facture"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__invoice_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__invoice_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__invoice_ids
 msgid "Invoices"
-msgstr ""
+msgstr "Factures"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_driver
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_driver
 msgid "Is Driver"
-msgstr ""
+msgstr "Est chauffeur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_is_follower
@@ -1639,65 +1687,65 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_is_follower
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Est Suiveur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_patient
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_patient
 msgid "Is Patient"
-msgstr ""
+msgstr "Est Patient"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_public
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_public
 msgid "Is Public"
-msgstr ""
+msgstr "Est Public"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_published
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_published
 msgid "Is Published"
-msgstr ""
+msgstr "Est Publié"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_referring_doctor
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_referring_doctor
 msgid "Is Refereinng Physician"
-msgstr ""
+msgstr "Est Médecin Référant"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__is_company
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__is_company
 msgid "Is a Company"
-msgstr ""
+msgstr "Est une entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__function
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__function
 msgid "Job Position"
-msgstr ""
+msgstr "Poste de travail"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_account_move
 msgid "Journal Entry"
-msgstr ""
+msgstr "Entrée de journal"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__journal_item_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__journal_item_count
 msgid "Journal Items"
-msgstr ""
+msgstr "Articles de journal"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 msgid "Lab Report"
-msgstr ""
+msgstr "Rapport de laboratoire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__lang
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__lang
 msgid "Language"
-msgstr ""
+msgstr "Langue"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__write_uid
@@ -1711,7 +1759,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__write_uid
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__write_date
@@ -1725,13 +1773,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__write_date
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__calendar_last_notif_ack
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
-msgstr ""
+msgstr "Dernière notification marquée comme lue à partir du calendrier de base"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__last_time_entries_checked
@@ -1740,30 +1788,34 @@ msgid ""
 "Last time the invoices & payments matching was performed for this partner. "
 "It is set either if there's not at least an unreconciled debit and an "
 "unreconciled credit or if you click the \"Done\" button."
-msgstr "Fait"
+msgstr ""
+"Dernière fois où la correspondance entre les factures et les paiements a été effectuée pour ce partenaire. "
+"Cela est défini soit s'il n'y a pas au moins un débit non réconcilié et un crédit non réconcilié, "
+"soit si vous cliquez sur le bouton \"Terminé\"."
+
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__last_time_entries_checked
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__last_time_entries_checked
 msgid "Latest Invoices & Payments Matching Date"
-msgstr ""
+msgstr "Date de correspondance des dernières factures et paiements"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__claim_line_ids
 msgid "Lines"
-msgstr ""
+msgstr "Lignes"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__image_medium
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__image_medium
 msgid "Medium-sized image"
-msgstr ""
+msgstr "Image de taille moyenne"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__meeting_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__meeting_ids
 msgid "Meetings"
-msgstr ""
+msgstr "Réunions"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_has_error
@@ -1771,25 +1823,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_has_error
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Erreur de livraison de message"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__invoice_warn_msg
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__invoice_warn_msg
 msgid "Message for Invoice"
-msgstr ""
+msgstr "Message pour la facture"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__purchase_warn_msg
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__purchase_warn_msg
 msgid "Message for Purchase Order"
-msgstr ""
+msgstr "Message pour bon de commande"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__picking_warn_msg
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__picking_warn_msg
 msgid "Message for Stock Picking"
-msgstr ""
+msgstr "Message pour la préparation de la commande"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_ids
@@ -1797,13 +1849,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__mobile
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__mobile
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__my_activity_date_deadline
@@ -1811,7 +1863,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__my_activity_date_deadline
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Ma date limite d'activité"
 
 #. module: acs_hms_insurance
 #. odoo-python
@@ -1827,14 +1879,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 #, python-format
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: acs_hms_insurance
 #. odoo-python
 #: code:addons/acs_hms_insurance/controllers/main.py:0
 #, python-format
 msgid "Newest"
-msgstr ""
+msgstr "Le plus récent"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_calendar_event_id
@@ -1842,7 +1894,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_calendar_event_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Événement de calendrier d'activité suivant"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_date_deadline
@@ -1850,7 +1902,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_date_deadline
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "Prochaine date limite d'activité"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_summary
@@ -1858,7 +1910,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_summary
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Résumé de l'activité suivante"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__activity_type_id
@@ -1866,28 +1918,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_type_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Type d'activité suivant"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.actions.act_window,help:acs_hms_insurance.action_acs_claim_sheet
 msgid "No Record Found"
-msgstr ""
+msgstr "Aucun enregistrement trouvé"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__email_normalized
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__email_normalized
 msgid "Normalized Email"
-msgstr ""
+msgstr "E-mail normalisé"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__note
 msgid "Note"
-msgstr ""
+msgstr "Remarque"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__note
@@ -1897,7 +1949,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_insurance_plan_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "Notes"
-msgstr ""
+msgstr "Remarques"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_needaction_counter
@@ -1905,13 +1957,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_needaction_counter
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Nombre d'actions
+
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__reminder_date_before_receipt
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__reminder_date_before_receipt
 msgid "Number of days to send reminder email before the promised receipt date"
-msgstr ""
+msgstr "Nombre de jours pour envoyer un e-mail de rappel avant la date de réception promise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__message_has_error_counter
@@ -1919,7 +1972,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_has_error_counter
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Nombre d'erreurs"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__message_needaction_counter
@@ -1927,7 +1980,7 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__message_needaction_counter
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Nombre de messages nécessitant une action"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__message_has_error_counter
@@ -1935,86 +1988,90 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__message_has_error_counter
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Nombre de messages avec erreur de livraison"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__ocn_token
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__ocn_token
 msgid "OCN Token"
-msgstr ""
+msgstr "Jeton OCN"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_otp_sms
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_otp_sms
 msgid "OTP SMS"
-msgstr ""
+msgstr "SMS OTP"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__acs_otp_whatsapp
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__acs_otp_whatsapp
 msgid "OTP Whatsapp"
-msgstr ""
+msgstr "OTP Whatsapp"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__on_time_rate
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__on_time_rate
 msgid "On-Time Delivery Rate"
-msgstr ""
+msgstr "Taux de livraison à temps"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_insurance_claim__claim_for__other
 msgid "Other"
-msgstr ""
+msgstr "Autre"
+
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__on_time_rate
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__on_time_rate
 msgid ""
 "Over the past x days; the number of products received on time divided by the"
-" number of ordered products.x is either the System Parameter "
+" number of ordered products. x is either the System Parameter "
 "purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
+"Au cours des x derniers jours ; le nombre de produits reçus à temps divisé "
+"par le nombre de produits commandés. x est soit le Paramètre Système "
+"purchase_stock.on_time_delivery_days ou la valeur par défaut 365"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__parent_name
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__parent_name
 msgid "Parent name"
-msgstr ""
+msgstr "Nom du parent"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__partner_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Partenaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__contract_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__contract_ids
 msgid "Partner Contracts"
-msgstr ""
+msgstr "Contrats du partenaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__use_partner_credit_limit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__use_partner_credit_limit
 msgid "Partner Limit"
-msgstr ""
+msgstr "Limite du partenaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__same_company_registry_partner_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__same_company_registry_partner_id
 msgid "Partner with same Company Registry"
-msgstr ""
+msgstr "Partenaire avec le même registre d'entreprise"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__same_vat_partner_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__same_vat_partner_id
 msgid "Partner with same Tax ID"
-msgstr ""
+msgstr "Partenaire avec le même identifiant fiscal"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__amount_pass
 msgid "Passed Amount"
-msgstr ""
+msgstr "Montant validé"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_hms_patient
@@ -2026,39 +2083,40 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_product_document__patient_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_hms_patient_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_tree
 msgid "Patient Insurance"
-msgstr ""
+msgstr "Assurance patient"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_bank_statement_line__patient_invoice_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_move__patient_invoice_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_payment__patient_invoice_id
 msgid "Patient Invoice"
-msgstr ""
+msgstr "Facture patient"
 
+```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_bank_statement_line__patient_invoice_amount
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_move__patient_invoice_amount
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_payment__patient_invoice_amount
 msgid "Patient Invoice Amount"
-msgstr ""
+msgstr "Montant de la facture du patient"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "Patient Name"
-msgstr ""
+msgstr "Nom du patient"
 
 #. module: acs_hms_insurance
 #. odoo-python
 #: code:addons/acs_hms_insurance/wizard/split_wizard.py:0
 #, python-format
 msgid "Patient Share"
-msgstr ""
+msgstr "Partage du patient"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__patient_share_product_id
@@ -2075,43 +2133,43 @@ msgstr "Règles de partage des patients"
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "Patient share calculation works with fix-amount option."
-msgstr ""
+msgstr "Le calcul du partage des patients fonctionne avec l'option de montant fixe."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__debit_limit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__debit_limit
 msgid "Payable Limit"
-msgstr ""
+msgstr "Limite de paiement"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__payment_token_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__payment_token_count
 msgid "Payment Token Count"
-msgstr ""
+msgstr "Nombre de jetons de paiement"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__payment_token_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__payment_token_ids
 msgid "Payment Tokens"
-msgstr ""
+msgstr "Jetons de paiement"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_account_payment
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__payment_ids
 msgid "Payments"
-msgstr ""
+msgstr "Paiements"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__peppol_endpoint
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__peppol_endpoint
 msgid "Peppol Endpoint"
-msgstr ""
+msgstr "Point de terminaison Peppol"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__peppol_eas
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__peppol_eas
 msgid "Peppol e-address (EAS)"
-msgstr ""
+msgstr "Adresse électronique Peppol (EAS)"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__percentage
@@ -2124,12 +2182,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_patient_insurance__pha_insurance_type__percentage
 msgid "Percentage"
 msgstr "Pourcentage"
-
+```
+```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__perform_vies_validation
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__perform_vies_validation
 msgid "Perform Vies Validation"
-msgstr ""
+msgstr "Effectuer la validation Vies"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_insurance_claim__claim_for__pharmacy
@@ -2142,25 +2201,25 @@ msgstr "Pharmacie"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__pha_insurance_amount
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__pha_insurance_amount
 msgid "Pharmacy Co-payment"
-msgstr ""
+msgstr "Quote-part de la pharmacie"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__pha_create_claim
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__pha_create_claim
 msgid "Pharmacy Create Claim"
-msgstr ""
+msgstr "Créer une demande de remboursement de la pharmacie"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__pha_insurance_limit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__pha_insurance_limit
 msgid "Pharmacy Insurance Limit"
-msgstr "Limite d’assurance pharmacie"
+msgstr "Limite d'assurance de la pharmacie"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__pha_insurance_type
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__pha_insurance_type
 msgid "Pharmacy Insurance Type"
-msgstr "Type d'assurance pharmaceutique"
+msgstr "Type d'assurance de la pharmacie"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__pha_insurance_percentage
@@ -2172,31 +2231,32 @@ msgstr "Pourcentage assuré en pharmacie"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__phone
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__phone
 msgid "Phone"
-msgstr ""
+msgstr "Téléphone"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__phone_sanitized_blacklisted
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__phone_sanitized_blacklisted
 msgid "Phone Blacklisted"
-msgstr ""
+msgstr "Téléphone sur liste noire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__phone_mobile_search
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__phone_mobile_search
 msgid "Phone/Mobile"
-msgstr ""
+msgstr "Téléphone/Portable"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__plan_to_change_bike
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__plan_to_change_bike
 msgid "Plan To Change Bike"
-msgstr ""
-
+msgstr "Plan de changement de vélo"
+```
+```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__plan_to_change_car
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__plan_to_change_car
 msgid "Plan To Change Car"
-msgstr ""
+msgstr "Plan de changement de voiture"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__policy_number
@@ -2207,34 +2267,34 @@ msgstr "Numéro de police"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__policy_rule_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__policy_rule_ids
 msgid "Policy Patient Share Rules"
-msgstr ""
+msgstr "Règles de partage des patients de la police"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__pos_order_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__pos_order_ids
 msgid "Pos Order"
-msgstr ""
+msgstr "Commande Pos"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__pos_order_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__pos_order_count
 msgid "Pos Order Count"
-msgstr ""
+msgstr "Nombre de commandes Pos"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__prescription_id
 msgid "Prescription"
-msgstr ""
+msgstr "Ordonnance"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_prescription_order
 msgid "Prescription Order"
-msgstr ""
+msgstr "Commande d'ordonnance"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_product_simple_tree
 msgid "Price"
-msgstr ""
+msgstr "Prix"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__pricelist_id
@@ -2242,13 +2302,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__pricelist_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_product_pricelist
 msgid "Pricelist"
-msgstr ""
+msgstr "Liste de prix"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 msgid "Print"
-msgstr ""
-
+msgstr "Imprimer"
+```
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_product_template
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__product_id
@@ -2263,28 +2323,29 @@ msgstr "Produit"
 msgid "Product Category"
 msgstr "Catégorie de produit"
 
+```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__purchase_line_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__purchase_line_ids
 msgid "Purchase Lines"
-msgstr ""
+msgstr "Lignes d'achat"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__purchase_warn
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__purchase_warn
 msgid "Purchase Order"
-msgstr ""
+msgstr "Bon de commande"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__purchase_order_count
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__purchase_order_count
 msgid "Purchase Order Count"
-msgstr ""
+msgstr "Nombre de bons de commande"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__question
 msgid "Question"
-msgstr ""
+msgstr "Question"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__rating_ids
@@ -2292,13 +2353,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__rating_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "Évaluations"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__receipt_reminder_email
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__receipt_reminder_email
 msgid "Receipt Reminder"
-msgstr ""
+msgstr "Rappel de reçu"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_insurance_claim__state__received
@@ -2317,7 +2378,7 @@ msgstr "Montant reçu"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__ref
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 msgid "Reference"
-msgstr ""
+msgstr "Référence"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_claim_sheet
@@ -2328,18 +2389,19 @@ msgstr "Actualiser les données"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__parent_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__parent_id
 msgid "Related Company"
-msgstr ""
-
+msgstr "Société associée"
+```
+```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__employee_ids
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__employee_ids
 msgid "Related employees based on their private address"
-msgstr ""
+msgstr "Employés associés en fonction de leur adresse privée"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_checklist__remark
 msgid "Remarks"
-msgstr ""
+msgstr "Remarques"
 
 #. module: acs_hms_insurance
 #: model:ir.actions.act_window,name:acs_hms_insurance.action_mediclaim_doc_type
@@ -2363,24 +2425,24 @@ msgstr "Remettre au brouillon"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__activity_user_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "Utilisateur responsable"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__website_id
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__website_id
 msgid "Restrict publishing to this website."
-msgstr ""
+msgstr "Restreindre la publication à ce site web."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.portal_my_home
 msgid "Review all your Insurance Claims"
-msgstr ""
+msgstr "Passer en revue toutes vos demandes d'assurance"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__commission_role_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__commission_role_id
 msgid "Role"
-msgstr ""
+msgstr "Rôle"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__rule_on
@@ -2393,24 +2455,24 @@ msgstr "Règle Sur"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__message_has_sms_error
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "Erreur de livraison SMS"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__user_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__user_id
 msgid "Salesperson"
-msgstr ""
+msgstr "Commercial"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__phone_sanitized
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__phone_sanitized
 msgid "Sanitized Number"
-msgstr ""
-
+msgstr "Numéro masqué"
+```
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
-msgid "Second Priority will be given to rules on the insurace company."
-msgstr ""
+msgid "Second Priority will be given to rules on the insurance company."
+msgstr "La deuxième priorité sera accordée aux règles sur la compagnie d'assurance."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__invoice_warn
@@ -2420,26 +2482,30 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__picking_warn
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__purchase_warn
 msgid ""
-"Selecting the \"Warning\" option will notify user with the message, "
-"Selecting \"Blocking Message\" will throw an exception with the message and "
-"block the flow. The Message has to be written in the next field."
+"Selecting the 'Warning' option will notify the user with the message. "
+"Selecting 'Blocking Message' will throw an exception with the message and "
+"block the flow. The message has to be written in the next field."
 msgstr ""
+"En sélectionnant l'option 'Avertissement', l'utilisateur sera notifié avec "
+"le message. En sélectionnant 'Message Bloquant', une exception sera levée "
+"avec le message et bloquera le flux. Le message doit être écrit dans le "
+"champ suivant."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__self
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__self
 msgid "Self"
-msgstr ""
+msgstr "Soi-même"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Send For Approval"
-msgstr ""
+msgstr "Envoyer pour approbation"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
 msgid "Send by mail"
-msgstr ""
+msgstr "Envoyer par courrier"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_insurance_claim__state__sent
@@ -2451,7 +2517,7 @@ msgstr "Envoyé pour approbation"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_plan__sequence
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Séquence"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_claim_form
@@ -2462,20 +2528,22 @@ msgstr "Définir sur Brouillon"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__partner_share
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__partner_share
 msgid "Share Partner"
-msgstr ""
+msgstr "Partager le partenaire"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid ""
-"Should you have any questions please contact us at your convenience.<br/><br/>\n"
-"                    Best regards,<br/>"
+"If you have any questions, please contact us at your convenience.<br/><br/>\n"
+"Best regards,<br/>"
 msgstr ""
+"Si vous avez des questions, n'hésitez pas à nous contacter à votre convenance.<br/><br/>\n"
+"Cordialement,<br/>"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__show_credit_limit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__show_credit_limit
 msgid "Show Credit Limit"
-msgstr ""
+msgstr "Afficher la limite de crédit"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__patient_share_in_invoice
@@ -2486,47 +2554,47 @@ msgstr "Afficher la part des patients dans la facture d'assurance"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__signup_expiration
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__signup_expiration
 msgid "Signup Expiration"
-msgstr ""
+msgstr "Expiration de l'inscription"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__signup_token
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__signup_token
 msgid "Signup Token"
-msgstr ""
+msgstr "Jeton d'inscription"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__signup_type
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__signup_type
 msgid "Signup Token Type"
-msgstr ""
+msgstr "Type de jeton d'inscription"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__signup_valid
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__signup_valid
 msgid "Signup Token is Valid"
-msgstr ""
+msgstr "Le jeton d'inscription est valide"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__signup_url
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__signup_url
 msgid "Signup URL"
-msgstr ""
+msgstr "URL d'inscription"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_claim_sheet
 msgid "Source Document"
-msgstr ""
+msgstr "Document source"
 
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_split_invoice_wizard
 msgid "Split Invoice Record"
-msgstr ""
+msgstr "Enregistrer la division de la facture"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__starred_message_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__starred_message_ids
 msgid "Starred Message"
-msgstr ""
+msgstr "Message favori"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__state_id
@@ -2534,7 +2602,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "State"
-msgstr ""
+msgstr "État"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__state
@@ -2553,81 +2621,85 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Statut basé sur les activités\n"
+"En retard: La date d'échéance est déjà passée\n"
+"Aujourd'hui: La date de l'activité est aujourd'hui\n"
+"Planifié: Activités futures."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__picking_warn
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__picking_warn
 msgid "Stock Picking"
-msgstr ""
+msgstr "Prélèvement de stock"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__street
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__street
 msgid "Street"
-msgstr ""
+msgstr "Rue"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "Street..."
-msgstr ""
+msgstr "Rue..."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__street2
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__street2
 msgid "Street2"
-msgstr ""
+msgstr "Rue2"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__subscription_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__subscription_ids
 msgid "Subscriptions"
-msgstr ""
+msgstr "Abonnements"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_purchase_currency_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_purchase_currency_id
 msgid "Supplier Currency"
-msgstr ""
+msgstr "Devise du fournisseur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__supplier_rank
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__supplier_rank
 msgid "Supplier Rank"
-msgstr ""
+msgstr "Classement du fournisseur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__tpa_id
 #: model:ir.ui.menu,name:acs_hms_insurance.menu_action_tpa
 msgid "TPA"
-msgstr ""
+msgstr "TPA"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "TPA Name"
-msgstr "Non TPA"
+msgstr "Nom TPA"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__category_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__category_id
 msgid "Tags"
-msgstr ""
+msgstr "Étiquettes"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__target_based_commission
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__target_based_commission
 msgid "Target Based Commission"
-msgstr ""
+msgstr "Commission basée sur les objectifs"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_claim_sheet
 msgid "Tax Excluded"
-msgstr ""
+msgstr "Taxe exclue"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__vat
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__vat
 msgid "Tax ID"
-msgstr ""
+msgstr "Identifiant fiscal"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__country_code
@@ -2636,6 +2708,8 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+"Le code de pays ISO en deux caractères. \n"
+"Vous pouvez utiliser ce champ pour une recherche rapide."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__vat
@@ -2645,6 +2719,9 @@ msgid ""
 "country format. You can use '/' to indicate that the partner is not subject "
 "to tax."
 msgstr ""
+"Le numéro d'identification fiscale. Les valeurs de ce champ seront validées "
+"selon le format du pays. Vous pouvez utiliser '/' pour indiquer que le "
+"partenaire n'est pas assujetti à la taxe."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_account_position_id
@@ -2652,36 +2729,37 @@ msgstr ""
 msgid ""
 "The fiscal position determines the taxes/accounts used for this contact."
 msgstr ""
+"La position fiscale détermine les taxes/comptes utilisés pour ce contact."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__website_url
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__website_url
 msgid "The full URL to access the document through the website."
-msgstr ""
+msgstr "L'URL complet pour accéder au document via le site Web."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__user_id
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__user_id
 msgid "The internal user in charge of this contact."
-msgstr ""
+msgstr "L'utilisateur interne en charge de ce contact."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__verified_mobile_sms
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__verified_mobile_sms
 msgid "The mobile number is verified using the SMS message"
-msgstr ""
+msgstr "Le numéro de mobile est vérifié en utilisant le message SMS"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__verified_mobile_whatsapp
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__verified_mobile_whatsapp
 msgid "The mobile number is verified using the Whatsapp message"
-msgstr ""
+msgstr "Le numéro de mobile est vérifié en utilisant le message Whatsapp"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__pos_order_count
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__pos_order_count
 msgid "The number of point of sales orders related to this customer"
-msgstr ""
+msgstr "Le nombre de commandes de point de vente liées à ce client"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__has_unreconciled_entries
@@ -2690,6 +2768,9 @@ msgid ""
 "The partner has at least one unreconciled debit and credit since last time "
 "the invoices & payments matching was performed."
 msgstr ""
+"Le partenaire a au moins un débit et un crédit non rapprochés depuis la "
+"dernière fois que la correspondance des factures et des paiements a été "
+"effectuée."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_insurance_plan__app_insurance_amount
@@ -2697,7 +2778,7 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_patient_insurance__app_insurance_amount
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_patient_insurance__pha_insurance_amount
 msgid "The patient should pay specific amount 50QR"
-msgstr ""
+msgstr "Le patient doit payer un montant spécifique de 50QR"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__company_registry
@@ -2706,6 +2787,9 @@ msgid ""
 "The registry number of the company. Use it if it is different from the Tax "
 "ID. It must be unique across all partners of a same country"
 msgstr ""
+"Le numéro d'enregistrement de la société. Utilisez-le s'il est différent de "
+"l'identifiant fiscal. Il doit être unique pour tous les partenaires d'un "
+"même pays"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_stock_customer
@@ -2713,6 +2797,8 @@ msgstr ""
 msgid ""
 "The stock location used as destination when sending goods to this contact."
 msgstr ""
+"L'emplacement de stock utilisé comme destination lors de l'envoi de "
+"marchandises à ce contact."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_stock_supplier
@@ -2720,11 +2806,13 @@ msgstr ""
 msgid ""
 "The stock location used as source when receiving goods from this contact."
 msgstr ""
+"L'emplacement de stock utilisé comme source lors de la réception de "
+"marchandises de ce contact."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 msgid "There are currently no Insurance Claims for your account."
-msgstr ""
+msgstr "Il n'y a actuellement aucune réclamation d'assurance pour votre compte."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_account_payable_id
@@ -2733,6 +2821,8 @@ msgid ""
 "This account will be used instead of the default one as the payable account "
 "for the current partner"
 msgstr ""
+"Ce compte sera utilisé à la place de celui par défaut comme compte à payer "
+"pour le partenaire actuel"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_account_receivable_id
@@ -2741,6 +2831,8 @@ msgid ""
 "This account will be used instead of the default one as the receivable "
 "account for the current partner"
 msgstr ""
+"Ce compte sera utilisé à la place de celui par défaut comme compte à "
+"recevoir pour le partenaire actuel"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_purchase_currency_id
@@ -2749,6 +2841,8 @@ msgid ""
 "This currency will be used, instead of the default one, for purchases from "
 "the current partner"
 msgstr ""
+"Cette devise sera utilisée, au lieu de celle par défaut, pour les achats "
+"auprès du partenaire actuel"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__email_normalized
@@ -2757,6 +2851,8 @@ msgid ""
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
 msgstr ""
+"Ce champ est utilisé pour rechercher une adresse e-mail car le champ "
+"d'e-mail principal peut contenir plus qu'une simple adresse e-mail."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_supplier_payment_term_id
@@ -2765,6 +2861,8 @@ msgid ""
 "This payment term will be used instead of the default one for purchase "
 "orders and vendor bills"
 msgstr ""
+"Cette condition de paiement sera utilisée à la place de celle par défaut "
+"pour les bons de commande et les factures de fournisseurs"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_payment_term_id
@@ -2773,6 +2871,8 @@ msgid ""
 "This payment term will be used instead of the default one for sales orders "
 "and customer invoices"
 msgstr ""
+"Cette condition de paiement sera utilisée à la place de celle par défaut "
+"pour les commandes clients et les factures clients"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__property_product_pricelist
@@ -2781,31 +2881,33 @@ msgid ""
 "This pricelist will be used, instead of the default one, for sales to the "
 "current partner"
 msgstr ""
+"Cette liste de prix sera utilisée, au lieu de celle par défaut, pour les "
+"ventes au partenaire actuel"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__tz
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__tz
 msgid "Timezone"
-msgstr ""
+msgstr "Fuseau horaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__tz_offset
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__tz_offset
 msgid "Timezone offset"
-msgstr ""
+msgstr "Décalage horaire"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__title
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__title
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__amount_total
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_acs_claim_sheet
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__amount_requested
@@ -2816,46 +2918,46 @@ msgstr "Montant total de la réclamation"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__total_invoiced
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__total_invoiced
 msgid "Total Invoiced"
-msgstr ""
+msgstr "Total facturé"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__total_invoice_amount
 msgid "Total Invoices"
-msgstr ""
+msgstr "Total des factures"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__debit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__debit
 msgid "Total Payable"
-msgstr ""
+msgstr "Total à payer"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_claim__total_payment_amount
 msgid "Total Payments"
-msgstr ""
+msgstr "Total des paiements"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__credit
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__credit
 msgid "Total Receivable"
-msgstr ""
+msgstr "Total des créances"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__credit
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__credit
 msgid "Total amount this customer owes you."
-msgstr ""
+msgstr "Montant total que ce client vous doit."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__debit
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__debit
 msgid "Total amount you have to pay to this vendor."
-msgstr ""
+msgstr "Montant total que vous devez payer à ce fournisseur."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__rule_type
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__activity_exception_decoration
@@ -2863,7 +2965,7 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__activity_exception_decoration
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Type de l'activité d'exception dans l'enregistrement."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__peppol_endpoint
@@ -2872,18 +2974,20 @@ msgid ""
 "Unique identifier used by the BIS Billing 3.0 and its derivatives, also "
 "known as 'Endpoint ID'."
 msgstr ""
+"Identifiant unique utilisé par le BIS Billing 3.0 et ses dérivés, également "
+"connu sous le nom de « ID de point de terminaison »."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__barcode
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__barcode
 msgid "Use a barcode to identify this contact."
-msgstr ""
+msgstr "Utilisez un code-barres pour identifier ce contact."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__ocn_token
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__ocn_token
 msgid "Used for sending notification to registered devices"
-msgstr ""
+msgstr "Utilisé pour envoyer des notifications aux appareils enregistrés"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__user_id
@@ -2893,8 +2997,8 @@ msgstr "Utilisateur"
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__user_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__user_ids
-msgid "Utilisateurs"
-msgstr ""
+msgid "Users"
+msgstr "Utilisateurs"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_patient_insurance__validity
@@ -2905,55 +3009,55 @@ msgstr "Validité"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_stock_supplier
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_stock_supplier
 msgid "Vendor Location"
-msgstr ""
+msgstr "Emplacement du fournisseur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__property_supplier_payment_term_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__property_supplier_payment_term_id
 msgid "Vendor Payment Terms"
-msgstr ""
+msgstr "Conditions de paiement du fournisseur"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__verified_mobile_sms
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__verified_mobile_sms
 msgid "Verified SMS"
-msgstr ""
+msgstr "SMS vérifié"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__verified_mobile_whatsapp
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__verified_mobile_whatsapp
 msgid "Verified Whatsapp"
-msgstr ""
+msgstr "Whatsapp vérifié"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__vies_vat_to_check
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__vies_vat_to_check
 msgid "Vies Vat To Check"
-msgstr ""
+msgstr "Vérification VIES TVA"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__website_published
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__website_published
 msgid "Visible on current website"
-msgstr ""
+msgstr "Visible sur le site web actuel"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__visitor_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__visitor_ids
 msgid "Visitors"
-msgstr ""
+msgstr "Visiteurs"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__website_id
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__website_id
 msgid "Website"
-msgstr ""
+msgstr "Site web"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__website
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__website
 msgid "Website Link"
-msgstr ""
+msgstr "Lien vers le site web"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_claim_sheet__website_message_ids
@@ -2961,13 +3065,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__website_message_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Messages du site web"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__website_url
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__website_url
 msgid "Website URL"
-msgstr ""
+msgstr "URL du site web"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_acs_claim_sheet__website_message_ids
@@ -2975,7 +3079,7 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__website_message_ids
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historique des communications du site web"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__tz
@@ -2985,6 +3089,9 @@ msgid ""
 "If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
 "Anywhere else, time values are computed according to the time offset of your web client."
 msgstr ""
+"Lors de l'impression de documents et de l'exportation/importation de données, les valeurs de temps sont calculées en fonction de ce fuseau horaire.\n"
+"Si le fuseau horaire n'est pas défini, UTC (Temps Universel Coordonné) est utilisé.\n"
+"Par ailleurs, les valeurs de temps sont calculées en fonction du décalage horaire de votre client web."
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_checklist__is_done
@@ -2996,18 +3103,18 @@ msgstr "O/N"
 #: code:addons/acs_hms_insurance/models/claim_sheet.py:0
 #, python-format
 msgid "You cannot delete an record which is not draft or cancelled."
-msgstr ""
+msgstr "Vous ne pouvez pas supprimer un enregistrement qui n'est pas brouillon ou annulé."
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "ZIP"
-msgstr ""
+msgstr "CODE POSTAL"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__zip
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__zip
 msgid "Zip"
-msgstr ""
+msgstr "Code postal"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__days_sales_outstanding
@@ -3016,19 +3123,21 @@ msgid ""
 "[(Total Receivable/Total Revenue) * number of days since the first invoice] "
 "for this customer"
 msgstr ""
+"[(Total des créances/Total des recettes) * nombre de jours depuis la première facture] "
+"pour ce client"
 
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_insurance_tpa_form
 msgid "e.g. +506 5555 5555"
-msgstr ""
+msgstr "par exemple +506 5555 5555"
 
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__whatsapp_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__whatsapp_ids
 msgid "whatsapp"
-msgstr ""
+msgstr "WhatsApp"
 
 #. module: acs_hms_insurance
 #: model:mail.template,subject:acs_hms_insurance.acs_claim_email
 msgid "{{ object.name }}: Claim for {{ object.patient_id.name }}"
-msgstr ""
+msgstr "{{ object.name }}: Réclamation pour {{ object.patient_id.name }}"
