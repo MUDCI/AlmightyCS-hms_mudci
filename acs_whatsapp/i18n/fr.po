@@ -1,0 +1,457 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_whatsapp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210330\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-09 17:36+0000\n"
+"PO-Revision-Date: 2021-04-09 12:37-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hms_patient__whatsapp_announcement_count
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hms_physician__whatsapp_announcement_count
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_partner__whatsapp_announcement_count
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_users__whatsapp_announcement_count
+msgid "#whatsapp Announcement Count"
+msgstr "Nombre d'annonces #WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hms_patient__whatsapp_count
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hms_physician__whatsapp_count
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_partner__whatsapp_count
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_users__whatsapp_count
+msgid "#whatsapp Count"
+msgstr "Nombre de #WhatsApp"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_partner_form_whatsapp
+msgid "<span class=\"o_stat_text\">WhatsApp Announcements</span>"
+msgstr "<span class=\"o_stat_text\">Annonces WhatsApp</span>"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_partner_form_whatsapp
+msgid "<span class=\"o_stat_text\">WhatsApp</span>"
+msgstr "<span class=\"o_stat_text\">WhatsApp</span>"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__employee_selection_type__all
+msgid "All"
+msgstr "Tout"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__message
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__whatsapp_announcement_id
+#: model:ir.ui.menu,name:acs_whatsapp.menu_partner_announcement
+msgid "Announcement"
+msgstr "Annonce"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__announcement_type
+msgid "Announcement Type"
+msgstr "Type d'annonce"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_send_whatsapp_message
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_partner_form_whatsapp
+msgid "Chat History"
+msgstr "Historique des conversations"
+
+#. module: acs_whatsapp
+#: model_terms:ir.actions.act_window,help:acs_whatsapp.action_whatsapp_announcement
+msgid "Click to add a Announcement."
+msgstr "Cliquez pour ajouter une annonce."
+
+#. module: acs_whatsapp
+#: model_terms:ir.actions.act_window,help:acs_whatsapp.action_acs_whatsapp
+#: model_terms:ir.actions.act_window,help:acs_whatsapp.action_acs_whatsapp_template
+msgid "Click to add new record."
+msgstr "Cliquez pour ajouter un nouvel enregistrement."
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_whatsapp_history
+msgid "Close"
+msgstr "Fermer"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__company_id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__company_id
+msgid "Company"
+msgstr "Entreprise"
+
+#. module: acs_whatsapp
+#: model:ir.ui.menu,name:acs_whatsapp.menu_whatsapp_config
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: acs_whatsapp
+#: model:ir.model,name:acs_whatsapp.model_res_partner
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__partner_id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__partner_id
+msgid "Contact"
+msgstr "Contact"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__partner_ids
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__announcement_type__contacts
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__create_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__create_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__create_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__create_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__create_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__create_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__create_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__create_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__date
+msgid "Date"
+msgstr "Date"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__department_id
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__employee_selection_type__department
+msgid "Department"
+msgstr "Département"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__mobile
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__mobile
+msgid "Destination Number"
+msgstr "Numéro de destination"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_mixin__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__state__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: acs_whatsapp
+#: model:ir.model,name:acs_whatsapp.model_hr_employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__employee_ids
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__employee_ids
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__announcement_type__employees
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__employee_selection_type__employees
+msgid "Employees"
+msgstr "Employés"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__state__error
+msgid "Error"
+msgstr "Erreur"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__error_message
+msgid "Error Message"
+msgstr "Message d'erreur"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__file
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__file
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_send_whatsapp__message_type__file
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__message_type__file
+msgid "File"
+msgstr "Fichier"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__file_name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__file_name
+msgid "File Name"
+msgstr "Nom de fichier"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__file_url
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__file_url
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_send_whatsapp__message_type__file_url
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__message_type__file_url
+msgid "File URL"
+msgstr "URL du fichier"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_mixin__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hr_employee__id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_mixin____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hr_employee____last_update
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__write_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__write_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__write_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__write_uid
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__write_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__write_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__write_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__write_date
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__link
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__link
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_send_whatsapp__message_type__link
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__message_type__link
+msgid "Link"
+msgstr "Lien"
+
+#. module: acs_whatsapp
+#: model:res.groups,name:acs_whatsapp.group_whatsapp_manager
+msgid "Manager"
+msgstr "Gestionnaire"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__message
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_send_whatsapp__message_type__message
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__message_type__message
+msgid "Message"
+msgstr "Message"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__state
+msgid "Message Status"
+msgstr "État du message"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__message_type
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__message_type
+msgid "Message Type"
+msgstr "Type de message"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__mimetype
+msgid "Mime Type"
+msgstr "Type MIME"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__name
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_template__partner_ids
+msgid "Partners"
+msgstr "Partenaires"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__state__draft
+msgid "Queued"
+msgstr "En attente"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__reply_data
+msgid "Reply Data"
+msgstr "Données de réponse"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_form
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_send_whatsapp_message
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.whatsapp_announcement_form
+msgid "Send"
+msgstr "Envoyer"
+
+#. module: acs_whatsapp
+#: model:ir.actions.act_window,name:acs_whatsapp.action_acs_send_whatsapp_message
+#: model:ir.model,name:acs_whatsapp.model_acs_send_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_send_whatsapp_message
+msgid "Send WhatsApp Message"
+msgstr "Envoyer un message WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.actions.server,name:acs_whatsapp.ir_cron_send_whatsapp_action_ir_actions_server
+#: model:ir.cron,cron_name:acs_whatsapp.ir_cron_send_whatsapp_action
+#: model:ir.cron,name:acs_whatsapp.ir_cron_send_whatsapp_action
+msgid "Send WhatsApp Messages"
+msgstr "Envoyer des messages WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_announcement__state__sent
+#: model:ir.model.fields.selection,name:acs_whatsapp.selection__acs_whatsapp_message__state__sent
+msgid "Sent"
+msgstr "Envoyé"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_form
+msgid "Set to Draft"
+msgstr "Définir comme brouillon"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__state
+msgid "Status"
+msgstr "Statut"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__template_id
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__template_id
+msgid "Template"
+msgstr "Modèle"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_announcement__employee_selection_type
+msgid "Type"
+msgstr "Type"
+
+#. module: acs_whatsapp
+#: model:res.groups,name:acs_whatsapp.group_whatsapp_user
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: acs_whatsapp
+#: model:ir.actions.act_window,name:acs_whatsapp.action_acs_whatsapp
+#: model:ir.ui.menu,name:acs_whatsapp.main_menu_whatsapp
+#: model:ir.ui.menu,name:acs_whatsapp.menu_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_form
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_search_view
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_tree
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_whatsapp_graph
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_appointment_pivot
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.actions.act_window,name:acs_whatsapp.action_whatsapp_announcement
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.whatsapp_announcement_form
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.whatsapp_announcement_search
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.whatsapp_announcement_tree_view
+msgid "WhatsApp Announcement"
+msgstr "Annonce WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_history__data
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_whatsapp_history
+msgid "WhatsApp Chat"
+msgstr "Discussion WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.actions.act_window,name:acs_whatsapp.action_acs_whatsapp_history
+#: model:ir.model,name:acs_whatsapp.model_acs_whatsapp_history
+msgid "WhatsApp Chat History"
+msgstr "Historique de discussion WhatsApp"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_company_form
+msgid "WhatsApp Gateway"
+msgstr "Passerelle WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.model,name:acs_whatsapp.model_acs_whatsapp_mixin
+msgid "WhatsApp Mixin"
+msgstr "Mixin WhatsApp"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_company_form
+msgid "WhatsApp Notifications"
+msgstr "Notifications WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.actions.act_window,name:acs_whatsapp.action_acs_whatsapp_template
+#: model:ir.ui.menu,name:acs_whatsapp.menu_whatsapp_template
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_template_form
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_template_search_view
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.acs_whatsapp_template_tree
+msgid "WhatsApp Template"
+msgstr "Modèle WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_send_whatsapp__message
+#: model:ir.model.fields,field_description:acs_whatsapp.field_acs_whatsapp_message__message
+msgid "WhatsApp Text"
+msgstr "Message WhatsApp"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_partner_form_whatsapp
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#. module: acs_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp.view_acs_send_whatsapp_message
+msgid "or"
+msgstr "ou"
+
+#. module: acs_whatsapp
+#: model:ir.model,name:acs_whatsapp.model_acs_whatsapp_message
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hms_patient__whatsapp_ids
+#: model:ir.model.fields,field_description:acs_whatsapp.field_hms_physician__whatsapp_ids
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_partner__whatsapp_ids
+#: model:ir.model.fields,field_description:acs_whatsapp.field_res_users__whatsapp_ids
+#: model:ir.module.category,name:acs_whatsapp.module_category_whatsapp
+msgid "whatsapp"
+msgstr "whatsapp"
+
+#. module: acs_whatsapp
+#: model:ir.model,name:acs_whatsapp.model_acs_whatsapp_announcement
+msgid "whatsapp Announcement"
+msgstr "Annonce WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.module.category,description:acs_whatsapp.module_category_whatsapp
+msgid "whatsapp Management"
+msgstr "Gestion WhatsApp"
+
+#. module: acs_whatsapp
+#: model:ir.model,name:acs_whatsapp.model_acs_whatsapp_template
+msgid "whatsapp Template"
+msgstr "Modèle WhatsApp"
