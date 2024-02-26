@@ -156,7 +156,7 @@ msgstr ""
 "        % endif\n"
 "        % if object.physician_id:\n"
 "        <li>\n"
-"            <p>Prescribed By: {{ object.physician_id.name|safe }}</p><br/>\n"
+"            <p>Prescrire By: {{ object.physician_id.name|safe }}</p><br/>\n"
 "        </li>\n"
 "        % endif\n"
 "        <li>\n"
@@ -207,7 +207,7 @@ msgstr "<span class=\"o_form_label\">Emplacement des stocks utilisé</span>"
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
 msgid "<strong>Centre de collecte:</strong>"
-msgstr ""
+msgstr "<strong>Centre de collecte:</strong>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
@@ -239,17 +239,17 @@ msgstr "<strong>Détails du patient</strong>"
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
 msgid "<strong>Patient:-</strong>"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
 msgid "<strong>Patient:</strong>"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_prescription_document
 msgid "<strong>Patient</strong>"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
@@ -1040,7 +1040,7 @@ msgstr ""
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__gender
 msgid "Gender"
-msgstr "Gendre"
+msgstr "Genre"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__partner_latitude
@@ -2503,7 +2503,7 @@ msgstr "Description du Test"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__name
 msgid "Test ID"
-msgstr ""
+msgstr "ID Test"
 
 #. module: acs_laboratory
 #: model:ir.model,name:acs_laboratory.model_laboratory_request_line
@@ -2932,4 +2932,4 @@ msgstr "Code Postal"
 #. module: acs_laboratory
 #: model:mail.template,report_name:acs_laboratory.acs_lab_req_email
 msgid "{{ (object.name or '').replace('/','_') }}"
-msgstr "{{ (object.name or '').replace('/','_') }}"
+msgstr "{{ (object.nom ou '').replace('/','_') }}"

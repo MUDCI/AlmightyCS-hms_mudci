@@ -1825,7 +1825,7 @@ msgstr "Jours"
 #. module: acs_hms
 #: model:ir.model.fields,field_description:acs_hms.field_hms_physician__appointment_duration
 msgid "Default Consultation Duration"
-msgstr ""
+msgstr "Durée de la consultation par défaut"
 
 #. module: acs_hms
 #: model:ir.model.fields,field_description:acs_hms.field_res_config_settings__auto_followup_days
