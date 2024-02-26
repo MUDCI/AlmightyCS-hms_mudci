@@ -98,7 +98,6 @@ msgstr "#Demandes de sang"
 msgid "#whatsapp Announcement Count"
 msgstr "#Nombre d'annonces WhatsApp"
 
-
 #. module: acs_radiology
 #: model:ir.model.fields,field_description:acs_radiology.field_acs_radiology__whatsapp_count
 msgid "#whatsapp Count"
@@ -227,9 +226,6 @@ msgstr ""
 "\n"
 "    <p>Cordialement.</p>\n"
 "</div>\n"
-"                "
-msgstr ""
-
 
 #. module: acs_radiology
 #: model:mail.template,body_html:acs_radiology.acs_radiology_test_email

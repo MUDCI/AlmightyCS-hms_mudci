@@ -243,12 +243,6 @@ msgid "My Total Treatments Color"
 msgstr "Couleur de mes traitements totaux"
 
 #. module: acs_hms_dashboard
-#: model:ir.model.fields,field_description:acs_hms_dashboard.field_hms_physician__total_open_invoice_color
-#: model:ir.model.fields,field_description:acs_hms_dashboard.field_res_users__total_open_invoice_color
-msgid "Open Invoices"
-msgstr "Factures ouvertes"
-
-#. module: acs_hms_dashboard
 #: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
 msgid "Patient"
 msgstr "Patient(e)"
@@ -413,3 +407,48 @@ msgstr "Utilisateurs"
 #: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
 msgid "Wait Time"
 msgstr "Temps d'attente"
+
+#. module: acs_hms_dashboard
+#: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
+msgid "Average Time"
+msgstr "Temps moyen"
+
+#. module: acs_hms_dashboard
+#: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
+msgid "Treatments"
+msgstr "Traitements"
+
+#. module: acs_hms_dashboard
+#: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
+msgid "Physicians"
+msgstr "Médecins"
+
+#. module: acs_hms_dashboard
+#: model:ir.model.fields,field_description:acs_hms_dashboard.field_hms_physician__total_open_invoice_color
+#: model:ir.model.fields,field_description:acs_hms_dashboard.field_res_users__total_open_invoice_color
+msgid "Open Invoices"
+msgstr "Factures ouvertes"
+
+#. module: acs_hms_dashboard
+#: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
+msgid "Todays Birthday"
+msgstr "Anniversaire d'aujourd'hui"
+
+#. module: acs_hms_dashboard
+#: model_terms:ir.ui.view,arch_db:acs_hms_dashboard.user_dashboard_kanban_view
+msgid ""
+"<span class=\"pull-left\">View Details</span>\n"
+"                                    <span class=\"pull-right\">\n"
+"                                        <i class=\"fa fa-arrow-circle-right"
+"\" aria-label=\"Info\" title=\"Info\"/>\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"pull-left\">Voir les détails</span>\n"
+"                                                <span class=\"pull-right"
+"\">\n"
+"                                                    <i class=\"fa fa-arrow-"
+"circle-right\" aria-label=\"Info\" title=\"Info\"></i>\n"
+"                                                </span>"
+
+
+

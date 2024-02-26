@@ -230,6 +230,7 @@ msgstr "<strong>Statut de la réclamation : </strong>"
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.report_acs_claim_sheet_document
 msgid "<strong>Date From :-</strong>"
 msgstr "<strong>Date de :</strong>"
+
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.claim_report_document
 msgid "<strong>Difference Amount: </strong>"
@@ -2098,7 +2099,6 @@ msgstr "Assurance patient"
 msgid "Patient Invoice"
 msgstr "Facture patient"
 
-```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_bank_statement_line__patient_invoice_amount
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_account_move__patient_invoice_amount
@@ -2182,8 +2182,7 @@ msgstr "Adresse électronique Peppol (EAS)"
 #: model:ir.model.fields.selection,name:acs_hms_insurance.selection__hms_patient_insurance__pha_insurance_type__percentage
 msgid "Percentage"
 msgstr "Pourcentage"
-```
-```
+
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__perform_vies_validation
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__perform_vies_validation
@@ -2250,8 +2249,7 @@ msgstr "Téléphone/Portable"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__plan_to_change_bike
 msgid "Plan To Change Bike"
 msgstr "Plan de changement de vélo"
-```
-```
+
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__plan_to_change_car
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__plan_to_change_car
@@ -2308,7 +2306,7 @@ msgstr "Liste de prix"
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.insurance_claims
 msgid "Print"
 msgstr "Imprimer"
-```
+
 #. module: acs_hms_insurance
 #: model:ir.model,name:acs_hms_insurance.model_product_template
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_acs_insurance_policy_rule__product_id
@@ -2323,7 +2321,6 @@ msgstr "Produit"
 msgid "Product Category"
 msgstr "Catégorie de produit"
 
-```
 #. module: acs_hms_insurance
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_hms_insurance_company__purchase_line_ids
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__purchase_line_ids
@@ -2390,8 +2387,7 @@ msgstr "Actualiser les données"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__parent_id
 msgid "Related Company"
 msgstr "Société associée"
-```
-```
+
 #. module: acs_hms_insurance
 #: model:ir.model.fields,help:acs_hms_insurance.field_hms_insurance_company__employee_ids
 #: model:ir.model.fields,help:acs_hms_insurance.field_insurance_tpa__employee_ids
@@ -2468,7 +2464,7 @@ msgstr "Commercial"
 #: model:ir.model.fields,field_description:acs_hms_insurance.field_insurance_tpa__phone_sanitized
 msgid "Sanitized Number"
 msgstr "Numéro masqué"
-```
+
 #. module: acs_hms_insurance
 #: model_terms:ir.ui.view,arch_db:acs_hms_insurance.view_hms_patient_insurance_form
 msgid "Second Priority will be given to rules on the insurance company."
