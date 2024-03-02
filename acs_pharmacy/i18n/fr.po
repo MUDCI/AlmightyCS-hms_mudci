@@ -378,7 +378,7 @@ msgstr "Ordonnance"
 #: model:ir.actions.act_window,name:acs_pharmacy.act_open_hms_prescription_order_view
 #: model:ir.model,name:acs_pharmacy.model_prescription_order
 msgid "Prescription Order"
-msgstr "Ordonnance d’ordonnance"
+msgstr "Ordre de Prescription"
 
 #. module: acs_pharmacy
 #: model_terms:ir.ui.view,arch_db:acs_pharmacy.view_production_lot_form

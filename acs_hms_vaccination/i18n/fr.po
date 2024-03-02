@@ -13,13 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: fr\n"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_hms_appointment__vaccination_count
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_hms_patient__vaccination_count
 msgid "# Vaccination"
-msgstr ""
+msgstr "Vaccination"
 
 #. module: acs_hms_vaccination
 #: model:ir.actions.report,print_report_name:acs_hms_vaccination.action_report_vaccination_report
@@ -29,155 +29,155 @@ msgstr ""
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Stock Location</span>"
-msgstr ""
+msgstr "Emplacement du stock"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Stock Usage Location</span>"
-msgstr ""
+msgstr "Lieu d'utilisation des stocks"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>Due Date</strong>"
-msgstr ""
+msgstr "Date d'échéance"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>Given Date</strong>"
-msgstr ""
+msgstr "Date donnée"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>Observations</strong>"
-msgstr ""
+msgstr "Observations"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>Physician</strong>"
-msgstr ""
+msgstr "Médecin"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>Ref</strong>"
-msgstr ""
+msgstr "Réf"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>State</strong>"
-msgstr ""
+msgstr "État"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>VACCINATIONS</strong>"
-msgstr ""
+msgstr "VACCINATIONS"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "<strong>Vaccine</strong>"
-msgstr ""
+msgstr "Vaccin"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "ACS Vaccination"
-msgstr ""
+msgstr "Vaccination contre le SCA"
 
 #. module: acs_hms_vaccination
 #: model:product.template,name:acs_hms_vaccination.acs_vaccine_product_0
 msgid "AGGS 10000IU Injection 1's"
-msgstr ""
+msgstr "AGGS 10 000 UI Injection 1"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Action nécessaire"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Activité Exception Décoration"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "État d'activité"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icône de type d'activité"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "Age :"
-msgstr ""
+msgstr "Âge"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_product_product__age_for_vaccine
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_product_template__age_for_vaccine
 msgid "Age for Vaccine"
-msgstr ""
+msgstr "Âge pour le vaccin"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_res_company__vaccination_invoicing
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_res_config_settings__vaccination_invoicing
 msgid "Allow Vaccination Invoicing"
-msgstr ""
+msgstr "Autoriser la facturation des vaccins"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
 msgid "Allow user to Invoice for Vaccination"
-msgstr ""
+msgstr "Autoriser l'utilisateur à facturer la vaccination"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__appointment_id
 msgid "Appointment"
-msgstr ""
+msgstr "Rendez-vous"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Nombre de pièces jointes"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__batch_image
 msgid "Batch Photo"
-msgstr ""
+msgstr "Photo de lot"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_plan_vaccinations_wizard
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields.selection,name:acs_hms_vaccination.selection__acs_vaccination__state__cancel
 msgid "Cancelled"
-msgstr ""
+msgstr "Annulé"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.actions.act_window,help:acs_hms_vaccination.action_hms_vaccination_group
 msgid "Click to add a Vaccination Group."
-msgstr ""
+msgstr "Cliquez pour ajouter un groupe de vaccination"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.actions.act_window,help:acs_hms_vaccination.action_vaccination_vac
 msgid "Click to add a Vaccination."
-msgstr ""
+msgstr "Cliquez pour ajouter une vaccination."
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_plan_vaccinations_wizard
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 msgid "Create Invoice"
-msgstr ""
+msgstr "Créer une facture"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__create_uid
@@ -185,7 +185,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__create_uid
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Créé par"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__create_date
@@ -193,17 +193,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__create_date
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Créé sur"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__date_due_day
 msgid "Days to add"
-msgstr ""
+msgstr "Jours à ajouter"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_vaccination_group_line__date_due_day
 msgid "Days to add for next date"
-msgstr ""
+msgstr "Jours à ajouter pour la prochaine date"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__display_name
@@ -211,90 +211,90 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__display_name
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Afficher un nom"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields.selection,name:acs_hms_vaccination.selection__acs_vaccination__state__done
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 msgid "Done"
-msgstr ""
+msgstr "Fait"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__dose
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Dose #"
-msgstr ""
+msgstr "Dose #"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_product_product__vaccine_dose_number
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_product_template__vaccine_dose_number
 msgid "Dose Number"
-msgstr ""
+msgstr "Numéro de dose"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__due_date
 msgid "Due Date"
-msgstr ""
+msgstr "Date d'échéance"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Due Today"
-msgstr ""
+msgstr "À rendre aujourd'hui"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Suiveurs"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Abonnés (partenaires)"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icône géniale de police, par exemple fa-tasks"
 
 #. module: acs_hms_vaccination
 #: model:product.template,name:acs_hms_vaccination.acs_vaccine_product_1
 msgid "GLATIMER 20mg Injection 1's"
-msgstr ""
+msgstr "GLATIMER 20mg Injection 1"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "Gender :"
-msgstr ""
+msgstr ",Genre :"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__given_date
 msgid "Given Date"
-msgstr ""
+msgstr "Date donnée"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__group_id
 msgid "Group"
-msgstr ""
+msgstr "Groupe"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Group By..."
-msgstr ""
+msgstr "Par groupe..."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__name
 msgid "Group Name"
-msgstr ""
+msgstr "Nom de groupe"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "A un message"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__company_id
 msgid "Hospital"
-msgstr ""
+msgstr "Hôpital"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__id
@@ -302,39 +302,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__id
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__id
 msgid "ID"
-msgstr ""
+msgstr "IDENTIFIANT"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Icône"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Icône pour indiquer une activité d'exception."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_needaction
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Si cette case est cochée, les nouveaux messages nécessitent votre attention."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_has_error
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Si coché, certains messages ont une erreur de livraison."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__invoice_id
 msgid "Invoice"
-msgstr ""
+msgstr "Facture"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Est un suiveur"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations____last_update
@@ -342,7 +342,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group____last_update
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Dernière modification le"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__write_uid
@@ -350,7 +350,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__write_uid
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__write_date
@@ -358,181 +358,181 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__write_date
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
 msgid "Location to manage consumed Vaccines."
-msgstr ""
+msgstr "Emplacement pour gérer les vaccins consommés."
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
 msgid "Location to take consumed Vaccines."
-msgstr ""
+msgstr "Lieu de prise des vaccins consommés."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__vaccine_lot
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Lot Number"
-msgstr ""
+msgstr "Numéro de lot"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "Pièce jointe principale"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group__group_line
 msgid "Medicament line"
-msgstr ""
+msgstr "Ligne de médicaments"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_hms_vaccination_group_form
 msgid "Medicaments Group"
-msgstr ""
+msgstr "Groupe Médicaments"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Erreur de livraison du message"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "messages"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Date limite de mon activité"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "My Vaccination"
-msgstr ""
+msgstr "Mon vaccin"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__name
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Prochain événement du calendrier d'activités"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "Date limite de la prochaine activité"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Résumé de l'activité suivante"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Type d'activité suivant"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Next Dose"
-msgstr ""
+msgstr "Dose suivante"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__next_dose_date
 msgid "Next Dose Date"
-msgstr ""
+msgstr "Date de la prochaine dose"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Not Done"
-msgstr ""
+msgstr "Pas fini"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Nombre d'actions"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Nombre d'erreurs"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Nombre de messages nécessitant une action"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Nombre de messages avec erreur de livraison"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Nombre de messages non lus"
 
 #. module: acs_hms_vaccination
 #: model:product.template,name:acs_hms_vaccination.acs_vaccine_product_2
 msgid "ONCOVAC 40mg Injection"
-msgstr ""
+msgstr "ONCOVAC 40 mg injectable"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__observations
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Observations"
-msgstr ""
+msgstr "Observations"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Overdue"
-msgstr ""
+msgstr "En retard"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__patient_id
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__patient_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "Patient :"
-msgstr ""
+msgstr "Patient :"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__physician_id
 msgid "Physician"
-msgstr ""
+msgstr "Médecin"
 
 #. module: acs_hms_vaccination
 #: model:ir.actions.act_window,name:acs_hms_vaccination.acs_plan_vaccinations_action
 msgid "Plan Patient Vaccinations"
-msgstr ""
+msgstr "Planifier les vaccinations des patients"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_patient_vaccination_form
 msgid "Plan Vaccination"
-msgstr ""
+msgstr "Planifier la vaccination"
 
 #. module: acs_hms_vaccination
 #: code:addons/acs_hms_vaccination/models/vaccination.py:0
 #, python-format
 msgid "Please Set Product first."
-msgstr ""
+msgstr "Veuillez d'abord définir le produit."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__vaccine_lot
 msgid ""
 "Please check on the vaccine (product) production lot numberand tracking "
 "number when available !"
-msgstr ""
+msgstr "Veuillez vérifier le numéro de lot de production du vaccin (produit) et le numéro de suivi lorsqu'il est disponible !"
 
 #. module: acs_hms_vaccination
 #: code:addons/acs_hms_vaccination/models/vaccination.py:0
@@ -540,72 +540,72 @@ msgstr ""
 msgid ""
 "Please define a Vaccination location from where the consumables will be "
 "taken."
-msgstr ""
+msgstr "Veuillez définir un lieu de vaccination d'où les consommables seront retirés."
 
 #. module: acs_hms_vaccination
 #: code:addons/acs_hms_vaccination/models/vaccination.py:0
 #, python-format
 msgid ""
 "Please define a Vaccination location where the consumables will be used."
-msgstr ""
+msgstr "Veuillez définir un lieu de vaccination où les consommables seront utilisés."
 
 #. module: acs_hms_vaccination
 #: code:addons/acs_hms_vaccination/wizard/create_vaccination.py:0
 #, python-format
 msgid "Please set Date Of Birth first."
-msgstr ""
+msgstr "Veuillez d'abord définir la date de naissance."
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.vaccination_report_document
 msgid "Print Date:"
-msgstr ""
+msgstr "Date d'impression:"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_vaccination_group_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "Produit"
 
 #. module: acs_hms_vaccination
 #: code:addons/acs_hms_vaccination/models/vaccination.py:0
 #, python-format
 msgid "Record can be deleted only in Cancelled state."
-msgstr ""
+msgstr "L'enregistrement ne peut être supprimé qu'à l'état Annulé."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "Utilisateur responsable"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "Erreur de livraison SMS"
 
 #. module: acs_hms_vaccination
 #: model:product.template,name:acs_hms_vaccination.acs_vaccine_product_3
 msgid "STAMARIL Vaccine 0.5ml"
-msgstr ""
+msgstr "STAMARIL Vaccin 0,5ml"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__vaccination_on_birthday
 msgid "Schedule on birthday"
-msgstr ""
+msgstr "Programme pour l'anniversaire"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields.selection,name:acs_hms_vaccination.selection__acs_vaccination__state__scheduled
 msgid "Scheduled"
-msgstr ""
+msgstr "Programmé"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_vaccination_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 msgid "Shedule"
-msgstr ""
+msgstr "Calendrier"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__state
 msgid "State"
-msgstr ""
+msgstr "État"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__activity_state
@@ -614,47 +614,47 @@ msgid ""
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
+msgstr "Statut basé sur les activités En retard : la date d'échéance est déjà dépassée. Aujourd'hui : la date de l'activité est aujourd'hui. Planifiée : activités futures."
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_res_company__acs_vaccination_stock_location_id
 msgid "Stock Location for Consumed Vaccine"
-msgstr ""
+msgstr "Emplacement du stock de vaccins consommés"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_res_config_settings__acs_vaccination_stock_location_id
 msgid "Stock Location for Consumed acs_vaccination_usage_location_id"
-msgstr ""
+msgstr "Emplacement du stock pour les produits consommés acs_vaccination_usage_location_id"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__move_id
 msgid "Stock Move"
-msgstr ""
+msgstr "Mouvement de stock"
 
 #. module: acs_hms_vaccination
 #: model:product.template,name:acs_hms_vaccination.acs_vaccine_product_4
 msgid "TETANUS TOXOID Injection 5ml"
-msgstr ""
+msgstr "TOXOÏDE TÉTANIQUE Injection 5ml"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields.selection,name:acs_hms_vaccination.selection__acs_vaccination__state__to_invoice
 msgid "To Invoice"
-msgstr ""
+msgstr "Facturer"
 
 #. module: acs_hms_vaccination
 #: model:ir.model,name:acs_hms_vaccination.model_acs_plan_vaccinations
 msgid "Transfer Accommodation"
-msgstr ""
+msgstr "Transfert Hébergement"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_plan_vaccinations_wizard
 msgid "Transfer Patient Accommodation"
-msgstr ""
+msgstr "Transfert de l'hébergement des patients"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Type d’activité exceptionnelle enregistrée."
 
 #. module: acs_hms_vaccination
 #: model:product.template,uom_name:acs_hms_vaccination.acs_vaccine_product_0
@@ -663,27 +663,27 @@ msgstr ""
 #: model:product.template,uom_name:acs_hms_vaccination.acs_vaccine_product_3
 #: model:product.template,uom_name:acs_hms_vaccination.acs_vaccine_product_4
 msgid "Units"
-msgstr ""
+msgstr "Unités"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_unread
 msgid "Unread Messages"
-msgstr ""
+msgstr "Messages non lus"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Compteur de messages non lus"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_res_config_settings__acs_vaccination_usage_location_id
 msgid "Usage Location for Consumed Vaccine"
-msgstr ""
+msgstr "Lieu d'utilisation du vaccin consommé"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_res_company__acs_vaccination_usage_location_id
 msgid "Usage Location for Consumed Vaccine."
-msgstr ""
+msgstr "Lieu d'utilisation du vaccin consommé."
 
 #. module: acs_hms_vaccination
 #: model:ir.actions.act_window,name:acs_hms_vaccination.action_vaccination_vac
@@ -704,7 +704,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_list
 msgid "Vaccination"
-msgstr ""
+msgstr "Vaccination"
 
 #. module: acs_hms_vaccination
 #: model:ir.actions.act_window,name:acs_hms_vaccination.action_hms_vaccination_group
@@ -712,28 +712,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_plan_vaccinations__vaccination_group_id
 #: model:ir.ui.menu,name:acs_hms_vaccination.vaccination_group_menu
 msgid "Vaccination Group"
-msgstr ""
+msgstr "Groupe de vaccination"
 
 #. module: acs_hms_vaccination
 #: model:ir.model,name:acs_hms_vaccination.model_vaccination_group_line
 msgid "Vaccination Group Line"
-msgstr ""
+msgstr "Ligne de groupe de vaccination"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
 msgid "Vaccination Invoicing"
-msgstr ""
+msgstr "Facturation des vaccins"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_hms_appointment_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_patient_vaccination_form
 msgid "Vaccinations"
-msgstr ""
+msgstr "Vaccinations"
 
 #. module: acs_hms_vaccination
 #: model:ir.ui.menu,name:acs_hms_vaccination.vaccine_menu
 msgid "Vaccine"
-msgstr ""
+msgstr "Vaccin"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__product_id
@@ -743,29 +743,29 @@ msgid ""
 "tracking number, etc.. This  information must always be present. If "
 "available, please copy / scan the vaccine leaflet and attach it to this "
 "record"
-msgstr ""
+msgstr "Nom du vaccin. Assurez-vous que le vaccin (produit) contient toutes les informations appropriées au niveau du produit. Informations telles que fournisseur, code fournisseur, numéro de suivi, etc. Ces informations doivent toujours être présentes. Si disponible, veuillez copier/scanner la notice du vaccin et la joindre à ce dossier."
 
 #. module: acs_hms_vaccination
 #: model:ir.actions.act_window,name:acs_hms_vaccination.product_template_action_vaccines
 msgid "Vaccines"
-msgstr ""
+msgstr "Vaccins"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_vaccination_vac_form
 msgid "View Invoice"
-msgstr ""
+msgstr "Voir la facture"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,field_description:acs_hms_vaccination.field_acs_vaccination__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Messages du site Web"
 
 #. module: acs_hms_vaccination
 #: model:ir.model.fields,help:acs_hms_vaccination.field_acs_vaccination__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historique des communications du site Web"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.view_acs_plan_vaccinations_wizard
 msgid "or"
-msgstr ""
+msgstr "ou"
