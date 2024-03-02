@@ -205,7 +205,7 @@ msgstr "Nom du composant actif"
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__active_lang_count
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__active_lang_count
 msgid "Active Lang Count"
-msgstr ""
+msgstr "Nombre de langues actives"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__activity_ids
@@ -396,7 +396,7 @@ msgstr "Modèle de souhaits de date de naissance"
 #. module: acs_hms_base
 #: model:mail.template,subject:acs_hms_base.email_template_birthday_wish
 msgid "Birthday Wishes!!!"
-msgstr ""
+msgstr "Souhaits d'anniversaire!!!"
 
 #. module: acs_hms_base
 #: model:ir.actions.server,name:acs_hms_base.ir_cron_birth_ir_actions_server
@@ -736,7 +736,7 @@ msgstr "Créé sur"
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__credit_limit
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__credit_limit
 msgid "Credit Limit"
-msgstr ""
+msgstr "Limite de crédit"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__currency_id
@@ -841,7 +841,7 @@ msgstr "Nom du docteur"
 #. module: acs_hms_base
 #: model:ir.model,name:acs_hms_base.model_acs_documnt_mixin
 msgid "Document Mixin"
-msgstr ""
+msgstr "Mixage de documents"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_acs_documnt_mixin__attach_count
@@ -1093,7 +1093,7 @@ msgstr "Genre"
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_move_form
 msgid "General Details"
-msgstr ""
+msgstr "Détails Généraux"
 
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_patient_form
@@ -1256,13 +1256,13 @@ msgstr "ID utilisé pour l'identification des employés."
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__im_status
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__im_status
 msgid "IM Status"
-msgstr ""
+msgstr "Statut de messagerie instantanée"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__activity_exception_icon
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Icone"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,help:acs_hms_base.field_hms_patient__activity_exception_icon
@@ -1932,12 +1932,12 @@ msgstr "Odoobot a échoué"
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.res_config_settings_view_form
 msgid "On Apple Store"
-msgstr ""
+msgstr "Sur l'Apple Store"
 
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.res_config_settings_view_form
 msgid "On Google Play"
-msgstr ""
+msgstr "Sur Google Play"
 
 #. module: acs_hms_base
 #: model:ir.model.fields.selection,name:acs_hms_base.selection__res_partner__gender__other
@@ -2034,7 +2034,7 @@ msgstr "Mot de passe"
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_patient_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_patient_tree
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__education
@@ -2070,7 +2070,7 @@ msgstr " Limite payable"
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__phone
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__phone
 msgid "Phone"
-msgstr ""
+msgstr "Téléphone"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__phone_sanitized_blacklisted
@@ -2087,7 +2087,7 @@ msgstr "Phone/Mobile"
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.hms_external_layout_header
 msgid "Phone:"
-msgstr ""
+msgstr "Téléphone:"
 
 #. module: acs_hms_base
 #: model:ir.actions.act_window,name:acs_hms_base.action_physician
@@ -2304,7 +2304,7 @@ msgstr "Restreindre la publication sur ce site Web"
 #: model:ir.model.fields,field_description:acs_hms_base.field_product_product__route_id
 #: model:ir.model.fields,field_description:acs_hms_base.field_product_template__route_id
 msgid "Route"
-msgstr ""
+msgstr "Itinéraire"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__message_has_sms_error
@@ -2368,7 +2368,7 @@ msgstr "Définir le mot de passe"
 #: model:ir.model.fields,help:acs_hms_base.field_res_company__unique_gov_code
 #: model:ir.model.fields,help:acs_hms_base.field_res_config_settings__unique_gov_code
 msgid "Set this True if the Givernment Identity in patients should be unique."
-msgstr ""
+msgstr "Définissez cette valeur sur True si l'identité du gouvernement chez les patients doit être unique"
 
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.res_config_settings_view_form
@@ -2394,7 +2394,7 @@ msgstr "Partager l'utilisateur"
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__signature
 msgid "Signature"
-msgstr ""
+msgstr "Signature"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__signup_expiration
@@ -2691,7 +2691,7 @@ msgstr ""
 msgid ""
 "This payment term will be used instead of the default one for sales orders "
 "and customer invoices"
-msgstr ""
+msgstr "Ce délai de paiement sera utilisé à la place de celui par défaut pour les commandes clients et les factures clients."
 
 #. module: acs_hms_base
 #: model:ir.model.fields,help:acs_hms_base.field_hms_patient__property_product_pricelist
