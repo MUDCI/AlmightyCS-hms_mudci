@@ -19,9 +19,7 @@
             <field name="inherit_id" ref="acs_hms_base.patient_kanban_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='display_name']" position="after">
-                    <strong class="oe_partner_heading">
-                        <field name="last_name"/>
-                    </strong>
+                    <strong class="oe_partner_heading"> <field name="last_name"/></strong>
                 </xpath>
             </field>
         </record>
