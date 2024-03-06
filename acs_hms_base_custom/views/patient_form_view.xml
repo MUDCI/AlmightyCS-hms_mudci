@@ -1,17 +1,50 @@
 <odoo>
     <data>
+        <record model="ir.ui.view" id="hms_patient_inh_tree_view">
+            <field name="name">hms.patient.tree.inh</field>
+            <field name="model">hms.patient</field>
+            <field name="type">tree</field>
+            <field name="inherit_id" ref="acs_hms_base.view_patient_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="last_name"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="hms_patient_inh_kanban_view">
+            <field name="name">hms.patient.kanban.inh</field>
+            <field name="model">hms.patient</field>
+            <field name="type">kanban</field>
+            <field name="inherit_id" ref="acs_hms_base.patient_kanban_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='display_name']" position="after">
+                    <strong class="oe_partner_heading">
+                        <field name="last_name"/>
+                    </strong>
+                </xpath>
+            </field>
+        </record>
+
         <record model="ir.ui.view" id="hms_patient_inh_form_view">
             <field name="name">hms.patient.form.inh</field>
             <field name="model">hms.patient</field>
             <field name="type">form</field>
             <field name="inherit_id" ref="acs_hms_base.view_patient_form"/>
             <field name="arch" type="xml">
+
+                <xpath expr="/form/sheet/div/button[2]" position="after">
+                    <button name="action_import_image" string="Importer image" type="object" class="oe_highlight"/>
+                </xpath>
+
                 <xpath expr="//field[@name='code']" position="after">
                     <field name="registration_number"/>
                 </xpath>
 
                 <xpath expr="//field[@name='birthday']" position="after">
                     <field name="parent_identification_id"/>
+                    <field name="parent_id"/>
+                    <field name="familial_status"/>
                 </xpath>
 
                 <xpath expr="//field[@name='education']" position="after">
