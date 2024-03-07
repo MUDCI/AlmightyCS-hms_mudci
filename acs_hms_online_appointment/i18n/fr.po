@@ -1043,4 +1043,3 @@ msgstr "utiliser ce site Web d'une manière qui est ou pourrait être préjudici
 #: model_terms:website.page,arch_db:acs_hms_online_appointment.acs_website_legal_page
 msgid "using this Website to engage in any advertising or marketing."
 msgstr "utiliser ce site Web pour faire de la publicité ou du marketing."
-
