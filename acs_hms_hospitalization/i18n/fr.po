@@ -228,9 +228,7 @@ msgstr "<span>Quartier : </span>"
 msgid "<strong style=\"font-size: 20px;\">\n"
 "                                        <span>Visiting Pass</span>\n"
 "                                    </strong>"
-msgstr "<strong style=\"font-size: 20px;\">\n"
-"                                        <span>Pass de visite</span>\n"
-"                                    </strong>"
+msgstr "<strong style=\"font-size: 20px;\"> <span>Pass visite</span> </strong>"
 
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.report_hospital_discharge_document
@@ -320,7 +318,7 @@ msgstr "<strong>Étage :</strong>"
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.ward_patient_list_report_document
 msgid "<strong>Gender:</strong>"
-msgstr "<strong>Sexe :</strong>"
+msgstr "Sexe:</strong>"
 
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.report_attendance_pass
@@ -1677,14 +1675,12 @@ msgid ""
 "Keep this print as reference further communication and procedure.\n"
 "                    Should you have any questions please contact us at your convenience.<br/><br/>\n"
 "                    Best regards,<br/>"
-msgstr "Conservez cette impression comme référence pour toute communication et procédure.
- Si vous avez des questions, n’hésitez pas à nous contacter à votre convenance.<br/><br/>
- Cordialement,<br/>"
+msgstr "Conservez cette impression comme référence pour toute communication et procédure ultérieure. Si vous avez des questions, veuillez nous contacter à votre convenance. Meilleures salutations."
 
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_digest_digest__kpi_acs_hospitalization_total_value
 msgid "Kpi Acs Hospitalization Total Value"
-msgstr ""
+msgstr "Kpi Acs Hospitalisation Valeur Totale"
 
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_acs_hospitalization__last_evaluation_id
@@ -2417,8 +2413,8 @@ msgstr "Partage"
 msgid ""
 "Should you have any questions or any Emergency please contact us at your convenience.<br/><br/>\n"
 "                    Best regards,<br/>"
-msgstr "Si vous avez des questions ou des urgences, veuillez nous contacter à votre convenance.<br/><br/>
- Cordialement,<br/>"
+msgstr "Si vous avez des questions ou des urgences, veuillez nous contacter à votre convenance.<br/><br/>"
+ "Cordialement,<br/>"
 
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_acs_hospitalization__spo2
@@ -2446,10 +2442,10 @@ msgid ""
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr "Statut basé sur les activités
-En retard : la date d’échéance est déjà dépassée
-Aujourd’hui : la date de l’activité est aujourd’hui
-Prévu : Activités futures."
+msgstr "Statut basé sur les activités"
+"En retard : la date d’échéance est déjà dépassée"
+"Aujourd’hui : la date de l’activité est aujourd’hui"
+"Prévu : Activités futures."
 
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.res_config_settings_view_form
@@ -2580,8 +2576,8 @@ msgstr "Ce mois-ci"
 msgid ""
 "This information is as per our records, If have any questions please contact us.<br/><br/>\n"
 "                    Best regards,<br/>"
-msgstr "Ces informations sont conformes à nos dossiers, si vous avez des questions, veuillez nous contacter.<br/><br/>
- Cordialement,<br/>"
+msgstr "Ces informations sont conformes à nos dossiers, si vous avez des questions, veuillez nous contacter.<br/><br/>"
+ "Cordialement,<br/>"
 
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_acs_hospitalization_forecast__amount_total
