@@ -4543,7 +4543,7 @@ msgstr "Code spécifique pour la maladie (par exemple, code pour la CIM-10) »"
 #. module: acs_hms
 #: model_terms:ir.ui.view,arch_db:acs_hms.report_prescription_table
 msgid "Sr.No"
-msgstr ""
+msgstr "Numero serie"
 
 #. module: acs_hms
 #: model_terms:ir.ui.view,arch_db:acs_hms.view_hms_appointment_form
