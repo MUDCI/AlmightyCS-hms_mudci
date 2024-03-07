@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: fr\n"
 
 #. module: facility_management
 #: model:ir.model.fields,field_description:facility_management.field_facility_activity__message_needaction
@@ -187,7 +187,7 @@ msgstr "Abonnés (partenaires)"
 #: model:ir.model.fields,help:facility_management.field_facility_activity__activity_type_icon
 #: model:ir.model.fields,help:facility_management.field_facility_master__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icône Font Awesome, par exemple fa-tasks"
 
 #. module: facility_management
 #: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search
@@ -478,7 +478,7 @@ msgid ""
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
+msgstr "Statut basé sur les activités\n En retard : La date limite est déjà passée\n Aujourd'hui : La date de l'activité est aujourd'hui\n Planifié : Activités futures."
 
 #. module: facility_management
 #: model_terms:ir.ui.view,arch_db:facility_management.view_facility_activity_search

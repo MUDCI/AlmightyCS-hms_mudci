@@ -57,9 +57,7 @@ msgstr "(object.name or 'LabReport').replace('/','_') + '_LabReport'"
 msgid ""
 ")<br/>\n"
 "            <strong>Lab Request:-</strong>"
-msgstr ""
-")<br/>\n"
-"            <strong>Demande de Lab:-</strong>"
+msgstr ")<br/>\n <strong>Demande de Lab:-</strong>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_prescription_document
@@ -67,9 +65,8 @@ msgstr ""
 msgid ""
 "<b>Comment(If Any):</b>\n"
 "                    <br/>"
-msgstr ""
-"<b>Commentaire (s'il y en a un):</b>\n"
-"                    <br/>"
+msgstr "<b>Commentaire (s'il y en a un):</b>\n<br/>"
+
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
 msgid "<b>Disclaimer: </b>"
@@ -81,34 +78,28 @@ msgstr "<b>Avertissement: </b>"
 msgid ""
 "<b>Doctor’s Stamp/Signature</b>\n"
 "                    <br/>"
-msgstr ""
-"<b>Cachet/Signature du docteur</b>\n"
-" <br/>"
+msgstr "<b>Cachet/Signature du docteur</b>\n<br/>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
 msgid ""
 "<br/>\n"
 "            <strong>Birthdate:-</strong>"
-msgstr ""
-"<br/>\n"
-" <strong>Date de naissance :-</strong>"
+msgstr "<br/>\n<strong>Date de naissance :-</strong>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
 msgid ""
 "<br/>\n"
 "            <strong>Date:-</strong>"
-msgstr ""
+msgstr "<br/>\n<strong>Date:-</strong>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
 msgid ""
 "<br/>\n"
 "            <strong>Sample Container Code:-</strong>"
-msgstr ""
-"<br/>\n"
-" <strong>Code de conteneur d’échantillon :-</strong>"
+msgstr "<br/>\n<strong>Code de conteneur d’échantillon :-</strong>"
 
 #. module: acs_laboratory
 #: model:mail.template,body_html:acs_laboratory.acs_lab_req_email
@@ -140,35 +131,7 @@ msgid ""
 "    <p>Best regards.</p><br/>\n"
 "</div>\n"
 "                "
-msgstr ""
-
-"<div style=\"padding:0px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
-"    <p>Hello {{ object.laboratory_id.name }},</p><br/>\n"
-"    <p> Nous vous demanderons d'effectuer les tests de laboratoire demandés dans le document ci-joint dans votre laboratoire et de nous renvoyer sur ce courrier les résultats.</p><br/>\n"
-"    <ul>\n"
-"        <li>\n"
-"            <p>Reference Number: {{ object.name }}</p><br/>\n"
-"        </li>\n"
-"        % if object.patient_id:\n"
-"        <li>\n"
-"            <p>Patient: {{ object.patient_id.name|safe }}</p><br/>\n"
-"        </li>\n"
-"        % endif\n"
-"        % if object.physician_id:\n"
-"        <li>\n"
-"            <p>Prescrire By: {{ object.physician_id.name|safe }}</p><br/>\n"
-"        </li>\n"
-"        % endif\n"
-"        <li>\n"
-"            <p>Prescription Date: {{ object.date.date() }}</p><br/>\n"
-"        </li>\n"
-"    </ul>\n"
-"\n"
-"    <p> N'hésitez pas à appeler à tout moment pour plus d'informations ou pour toute question.</p>\n"
-"\n"
-"    <p>Cordialement</p><br/>\n"
-"</div>\n"
-"                "
+msgstr "<div style=\"padding:0px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n<p>Hello {{ object.laboratory_id.name }},</p><br/>\n<p> Nous vous demanderons d'effectuer les tests de laboratoire demandés dans le document ci-joint dans votre laboratoire et de nous renvoyer sur ce courrier les résultats.</p><br/>\n<ul>\n<li>\n<p>Reference Number: {{ object.name }}</p><br/>\n</li>\n% if object.patient_id:\n<li>\n<p>Patient: {{ object.patient_id.name|safe }}</p><br/>\n</li>\n% endif\n% if object.physician_id:\n<li>\n<p>Prescrire By: {{ object.physician_id.name|safe }}</p><br/>\n</li>\n% endif\n<li>\n<p>Prescription Date: {{ object.date.date() }}</p><br/>\n"</li>\n</ul>\n\n<p> N'hésitez pas à appeler à tout moment pour plus d'informations ou pour toute question.</p>\n\n<p>Cordialement</p><br/>\n</div>\n"
 
 
 #. module: acs_laboratory
@@ -312,7 +275,7 @@ msgstr "Compte Montant dû"
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_patient_laboratory_sample__acs_show_in_wc
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__acs_show_in_wc
 msgid "Acs Show In Wc"
-msgstr ""
+msgstr "Afficher dans WC"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__message_needaction
@@ -324,12 +287,12 @@ msgstr "Action nécessaire"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__active
 msgid "Active"
-msgstr ""
+msgstr "Actif"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__active_lang_count
 msgid "Active Lang Count"
-msgstr ""
+msgstr "Nombre de langues actives"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__activity_ids
@@ -389,16 +352,15 @@ msgstr "Avance"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__age
 msgid "Age"
-msgstr ""
+msgstr "Age"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__lang
 msgid ""
 "All the emails and documents sent to this contact will be translated in this"
 " language."
-msgstr ""
-"Tous les e-mails et documents envoyés à ce contact seront traduits dans ceci"
-" Langue."
+msgstr "Tous les e-mails et documents envoyés à ce contact seront traduits dans ceci Langue."
+
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.res_config_settings_view_form
 msgid "Allow Users to manage Collection Centers."
@@ -450,27 +412,27 @@ msgstr " Créer automatiquement des échantillons lorsque l'utilisateur accepte 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__avatar_1920
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__avatar_1024
 msgid "Avatar 1024"
-msgstr ""
+msgstr "Avatar 1024"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__avatar_128
 msgid "Avatar 128"
-msgstr ""
+msgstr "Avatar 128"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__avatar_256
 msgid "Avatar 256"
-msgstr ""
+msgstr "Avatar 256"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__avatar_512
 msgid "Avatar 512"
-msgstr ""
+msgstr "Avatar 512"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__bank_account_count
@@ -492,9 +454,7 @@ msgstr "Code à barre"
 msgid ""
 "Based on Configured option Create Invoice option will be shown on Laboratory"
 " request."
-msgstr ""
-"En fonction de l'option configurée, l'option Créer une facture sera affichée sur le laboratoire"
-" demande."
+msgstr "En fonction de l'option configurée, l'option Créer une facture sera affichée sur le laboratoire demande."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__is_blacklisted
@@ -616,7 +576,7 @@ msgstr "Cliquez pour ajouter un nouveau type d'échantillon de laboratoire"
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_lab_test__code
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_lab_test_uom__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: acs_laboratory
 #: model:ir.model.fields.selection,name:acs_laboratory.selection__acs_patient_laboratory_sample__state__collect
@@ -690,7 +650,7 @@ msgstr "Conf. paramètres "
 #. module: acs_laboratory
 #: model:ir.ui.menu,name:acs_laboratory.menu_hms_lab_cofig
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_lab_test__consumable_line_ids
@@ -707,7 +667,7 @@ msgstr "Matériel consommé"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__child_ids
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__contact_address_complete
@@ -811,7 +771,7 @@ msgstr "Rang client"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.acs_patient_laboratory_sample_search
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_results
@@ -850,7 +810,7 @@ msgstr " Degré de confiance que vous avez en ce débiteur "
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.hms_test_view
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.my_lab_test_result
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__diagnosis
@@ -913,7 +873,7 @@ msgstr " Médecin qui demande le test de laboratoire."
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.my_lab_test_result
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__document_preview_url
@@ -924,7 +884,7 @@ msgstr "Lien d'aperçu du document"
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__attach_count
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.patient_laboratory_test_view
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 #. module: acs_laboratory
 #: model:ir.model.fields.selection,name:acs_laboratory.selection__acs_laboratory_request__state__done
@@ -949,15 +909,12 @@ msgid ""
 "Either customer (not a user), either shared user. Indicated the current "
 "partner is a customer without access or with a limited access created for "
 "sharing data."
-msgstr ""
-"Soit client (pas utilisateur), soit utilisateur partagé. Indiqué le "
-"le partenaire est un client sans accès ou avec un accès limité créé pour "
-"partage de données."
+msgstr "Soit client (pas utilisateur), soit utilisateur partagé. Indiqué le partenaire est un client sans accès ou avec un accès limité créé pour partage de données."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__email
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__employee
@@ -997,9 +954,7 @@ msgstr "Note supplémentaire"
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
-msgstr ""
-"Champ utilisé pour stocker le numéro de téléphone épuré. Aide à accélérer les recherches et "
-"comparaisons."
+msgstr "Champ utilisé pour stocker le numéro de téléphone épuré. Aide à accélérer les recherches et comparaisons."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__property_account_position_id
@@ -1025,17 +980,17 @@ msgstr "Suiveurs"
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory_request__activity_type_icon
 #: model:ir.model.fields,help:acs_laboratory.field_patient_laboratory_test__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icône Font Awesome, par exemple fa-tasks"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr ""
+msgstr "Formattez l'adresse e-mail \"Nom <email@domaine>\""
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__email_formatted
 msgid "Formatted Email"
-msgstr ""
+msgstr "Email formaté"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__gender
@@ -1067,7 +1022,7 @@ msgstr "ID du gouvernement"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_hms_patient_laboratory_test_search
 msgid "Group By"
-msgstr ""
+msgstr "Regrouper par"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_laboratory_group__name
@@ -1133,7 +1088,7 @@ msgstr " Hopital type de produit"
 #: model:ir.model.fields,field_description:acs_laboratory.field_laboratory_request_line__id
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__im_status
@@ -1145,7 +1100,7 @@ msgstr "Statut"
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory_request__activity_exception_icon
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Icône"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__activity_exception_icon
@@ -1197,9 +1152,7 @@ msgstr " Si l'adresse e-mail est sur la liste noire, le contact ne recevra pas d
 msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
-msgstr ""
-"Si le numéro de téléphone épuré est sur la liste noire, le contact ne recevra pas"
-"plus de sms en masse, depuis n'importe quelle liste"
+msgstr "Si le numéro de téléphone épuré est sur la liste noire, le contact ne recevra pas plus de sms en masse, depuis n'importe quelle liste"
 
 
 #. module: acs_laboratory
@@ -1215,27 +1168,27 @@ msgstr " Si vous modifiez la liste de prix, la facture associée sera affectée.
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__image_1920
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__image_1024
 msgid "Image 1024"
-msgstr ""
+msgstr "Image 1024"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__image_128
 msgid "Image 128"
-msgstr ""
+msgstr "Image 128"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__image_256
 msgid "Image 256"
-msgstr ""
+msgstr "Image 256"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__image_512
 msgid "Image 512"
-msgstr ""
+msgstr "Image 512"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.patient_laboratory_test_view
@@ -1254,10 +1207,7 @@ msgid ""
 "Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
-msgstr ""
-"Indique si un numéro de téléphone épuré sur liste noire est un numéro de mobile. Aide "
-"distinguer quel numéro est sur liste noire lorsqu'il y a à la fois un "
-"champ mobile et téléphone dans un modèle."
+msgstr "Indique si un numéro de téléphone épuré sur liste noire est un numéro de mobile. Aide distinguer quel numéro est sur liste noire lorsqu'il y a à la fois un champ mobile et téléphone dans un modèle."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__phone_blacklisted
@@ -1265,10 +1215,7 @@ msgid ""
 "Indicates if a blacklisted sanitized phone number is a phone number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
-msgstr ""
-"Indique si un numéro de téléphone épuré sur liste noire est un numéro de téléphone. Aide "
-"distinguer quel numéro est sur liste noire lorsqu'il y a à la fois un "
-"champ mobile et téléphone dans un modèle."
+msgstr "Indique si un numéro de téléphone épuré sur liste noire est un numéro de téléphone. Aide distinguer quel numéro est sur liste noire lorsqu'il y a à la fois un champ mobile et téléphone dans un modèle."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__industry_id
@@ -1283,7 +1230,7 @@ msgstr " Insérez votre clause de non-responsabilité par défaut ici."
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 msgid "Institution"
-msgstr ""
+msgstr "Institution"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
@@ -1372,8 +1319,7 @@ msgstr " Est une entreprise "
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.res_config_settings_view_form
 msgid ""
 "It will set this disclaimer by default on lab Result &amp; Request Records."
-msgstr ""
-"Il définira cette clause de non-responsabilité par défaut sur les résultats de laboratoire et les enregistrements de demande."
+msgstr "Il définira cette clause de non-responsabilité par défaut sur les résultats de laboratoire et les enregistrements de demande."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__function
@@ -1398,7 +1344,7 @@ msgstr "Échantillon de lab"
 #. module: acs_laboratory
 #: model:res.groups,name:acs_laboratory.group_hms_lab_manager
 msgid "Lab Manager"
-msgstr ""
+msgstr "Responsable de laboratoire"
 
 #. module: acs_laboratory
 #: model:ir.actions.report,name:acs_laboratory.action_report_acs_lab_prescription
@@ -1493,7 +1439,7 @@ msgstr "Lab Tech"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_results
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.patient_laboratory_test_tree
 msgid "Lab Test"
-msgstr ""
+msgstr "Test de laboratoire"
 
 #. module: acs_laboratory
 #: model:ir.model,name:acs_laboratory.model_lab_test_critearea
@@ -1533,7 +1479,7 @@ msgstr " Le test de laboratoire ne peut être supprimé qu'à l'état de brouill
 #: model:ir.ui.menu,name:acs_laboratory.menu_lab_test
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.hms_test_view
 msgid "Lab Tests"
-msgstr ""
+msgstr "Tests de laboratoire"
 
 #. module: acs_laboratory
 #: model:ir.actions.act_window,name:acs_laboratory.action_acs_test_uom
@@ -1680,10 +1626,7 @@ msgid ""
 "Last time the invoices & payments matching was performed for this partner. "
 "It is set either if there's not at least an unreconciled debit and an "
 "unreconciled credit or if you click the \"Done\" button."
-msgstr ""
-"Dernière fois que le rapprochement des factures et des paiements a été effectué pour ce partenaire."
-"Il est défini soit s'il n'y a pas au moins un débit non rapproché et un "
-"crédit non rapproché ou si vous cliquez sur le bouton \"Terminé\"."
+msgstr "Dernière fois que le rapprochement des factures et des paiements a été effectué pour ce partenaire. Il est défini soit s'il n'y a pas au moins un débit non rapproché et un crédit non rapproché ou si vous cliquez sur le bouton \"Terminé\"."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__last_time_entries_checked
@@ -1773,12 +1716,12 @@ msgstr " Message pour le choix du stock"
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory_request__message_ids
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__mobile
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__my_activity_date_deadline
@@ -1806,7 +1749,7 @@ msgstr "Nom"
 #. module: acs_laboratory
 #: model:ir.model.fields.selection,name:acs_laboratory.selection__lab_test_critearea__result_type__negative
 msgid "Negative"
-msgstr ""
+msgstr "Negative"
 
 #. module: acs_laboratory
 #: code:addons/acs_laboratory/controllers/main.py:0
@@ -1880,7 +1823,7 @@ msgstr " E-mail normalisé "
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.acs_patient_laboratory_sample_form
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.patient_laboratory_test_request_form
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__message_needaction_counter
@@ -1920,7 +1863,7 @@ msgstr "Messages non lus"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__ocn_token
 msgid "OCN Token"
-msgstr ""
+msgstr "Jetons OCN"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory_request__group_patient_ids
@@ -1976,7 +1919,7 @@ msgstr "Pathologie"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_hms_patient_laboratory_test_search
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_consumable_line__patient_lab_test_id
@@ -1986,7 +1929,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_patient_laboratory_test_calendar
 msgid "Patient Lab Test"
-msgstr ""
+msgstr "Test de laboratoire du patient"
 
 #. module: acs_laboratory
 #: model:ir.model,name:acs_laboratory.model_acs_patient_laboratory_sample
@@ -2031,7 +1974,7 @@ msgstr "Jetons de paiement"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__phone
 msgid "Phone"
-msgstr ""
+msgstr "Téléphone"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__phone_sanitized_blacklisted
@@ -2041,7 +1984,7 @@ msgstr "Téléphone sur liste noire"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__phone_mobile_search
 msgid "Phone/Mobile"
-msgstr ""
+msgstr "Téléphone/Portable"
 
 #. module: acs_laboratory
 #: model:ir.model,name:acs_laboratory.model_hms_physician
@@ -2067,9 +2010,7 @@ msgstr " Veuillez d'abord ajouter des tests de laboratoire."
 msgid ""
 "Please define a Laboratory location from where the consumables will be "
 "taken."
-msgstr ""
-"Veuillez définir un emplacement de laboratoire à partir duquel les consommables seront"
-"pris."
+msgstr "Veuillez définir un emplacement de laboratoire à partir duquel les consommables seront pris."
 
 #. module: acs_laboratory
 #: code:addons/acs_laboratory/models/lab_test.py:0
@@ -2077,9 +2018,7 @@ msgstr ""
 msgid ""
 "Please define a location where the consumables will be used during the "
 "Laboratory test in company."
-msgstr ""
-"Veuillez définir un emplacement où les consommables seront utilisés pendant le "
-"Test de laboratoire en entreprise."
+msgstr "Veuillez définir un emplacement où les consommables seront utilisés pendant le Test de laboratoire en entreprise."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__access_url
@@ -2089,7 +2028,7 @@ msgstr "URL d'accès au portail"
 #. module: acs_laboratory
 #: model:ir.model.fields.selection,name:acs_laboratory.selection__lab_test_critearea__result_type__positive
 msgid "Positive"
-msgstr ""
+msgstr "Positive"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_payment_method_id
@@ -2097,10 +2036,8 @@ msgid ""
 "Preferred payment method when paying this vendor. This is used to filter "
 "vendor bills by preferred payment method to register payments in mass. Use "
 "cases: create bank files for batch wires, check runs."
-msgstr ""
-"Méthode de paiement préférée lors du paiement de ce fournisseur. Ceci est utilisé pour filtrer"
-"factures fournisseur par mode de paiement préféré pour enregistrer les paiements en masse. Utilisez "
-"cas : créer des fichiers bancaires pour les virements par lots, vérifier les cycles."
+msgstr "Méthode de paiement préférée lors du paiement de ce fournisseur. Ceci est utilisé pour filtrer factures fournisseur par mode de paiement préféré pour enregistrer les paiements en masse. Utilisez cas : créer des fichiers bancaires pour les virements par lots, vérifier les cycles."
+
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory_request__physician_id
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__physician_id
@@ -2112,7 +2049,7 @@ msgstr "Docteur prescripteur"
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__property_product_pricelist
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory_request__pricelist_id
 msgid "Pricelist"
-msgstr ""
+msgstr "Liste de prix"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.acs_patient_laboratory_sample_form
@@ -2130,7 +2067,7 @@ msgstr " Imprimer le code QR d'authentification sur le résultat du laboratoire 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__qr_image
 msgid "QR Code"
-msgstr ""
+msgstr "Code QR"
 
 #. module: acs_laboratory
 #: model:ir.model.fields.selection,name:acs_laboratory.selection__acs_lab_test__result_value_type__qualitative
@@ -2222,7 +2159,7 @@ msgstr "Utilisateur responsable"
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__website_id
 msgid "Restrict publishing to this website."
-msgstr ""
+msgstr "Restreindre la publication à ce site Web."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_lab_test_critearea__result
@@ -2303,10 +2240,7 @@ msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
-msgstr ""
-"Si vous sélectionnez l'option \"Avertissement\", l'utilisateur recevra le message "
-"Sélectionner \"Message bloquant\" lèvera une exception avec le message et "
-"bloquer le flux. Le message doit être écrit dans le champ suivant."
+msgstr "Si vous sélectionnez l'option \"Avertissement\", l'utilisateur recevra le message Sélectionner \"Message bloquant\" lèvera une exception avec le message et bloquer le flux. Le message doit être écrit dans le champ suivant."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__self
@@ -2333,7 +2267,7 @@ msgstr "Séquence"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_lab_test__product_id
 msgid "Service"
-msgstr ""
+msgstr "Service"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__partner_share
@@ -2459,17 +2393,17 @@ msgstr "Mots clés"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__vat
 msgid "Tax ID"
-msgstr ""
+msgstr "Identifiant fiscal"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_lab_test_critearea__result_type
 msgid "Technical field for UI purpose."
-msgstr ""
+msgstr "Champ technique à des fins d'interface utilisateur."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_lab_test_critearea__display_type
 msgid "Technical field for UX purpose."
-msgstr ""
+msgstr "Champ technique à des fins d'expérience utilisateur."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_laboratory_group_line__test_id
@@ -2573,7 +2507,7 @@ msgstr " Testé par"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_patient__test_ids
 msgid "Tests"
-msgstr ""
+msgstr "Tests"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__country_code
@@ -2592,9 +2526,7 @@ msgstr "Le code de test de laboratoire doit être unique"
 msgid ""
 "The Tax Identification Number. Complete it if the contact is subjected to "
 "government taxes. Used in some legal statements."
-msgstr ""
-"Le numéro d'identification fiscale. Complétez-le si le contact est soumis à "
-"taxes gouvernementales. Utilisé dans certaines déclarations légales."
+msgstr "Le numéro d'identification fiscale. Complétez-le si le contact est soumis à taxes gouvernementales. Utilisé dans certaines déclarations légales."
 
 #. module: acs_laboratory
 #: model:ir.model.constraint,message:acs_laboratory.constraint_acs_lab_test_code_company_uniq
@@ -2605,13 +2537,13 @@ msgstr " Le code du compte doit être unique par entreprise !"
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_account_position_id
 msgid ""
 "The fiscal position determines the taxes/accounts used for this contact."
-msgstr ""
-"La position fiscale détermine les taxes/comptes utilisés pour ce contact."
+msgstr "La position fiscale détermine les taxes/comptes utilisés pour ce contact."
+
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__website_url
 msgid "The full URL to access the document through the website."
-msgstr ""
-"L'URL complète pour accéder au document via le site Web."
+msgstr "L'URL complète pour accéder au document via le site Web."
+
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__user_id
 msgid "The internal user in charge of this contact."
@@ -2622,21 +2554,20 @@ msgstr "L'utilisateur interne en charge de ce contact."
 msgid ""
 "The partner has at least one unreconciled debit and credit since last time "
 "the invoices & payments matching was performed."
-msgstr ""
-"Le partenaire a au moins un débit et un crédit non rapprochés depuis la dernière fois"
-"le rapprochement des factures et des paiements a été effectué."
+msgstr "Le partenaire a au moins un débit et un crédit non rapprochés depuis la dernière fois le rapprochement des factures et des paiements a été effectué."
+
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_stock_customer
 msgid ""
 "The stock location used as destination when sending goods to this contact."
-msgstr ""
-"L'emplacement de stockage utilisé comme destination lors de l'envoi de marchandises à ce contact."
+msgstr "L'emplacement de stockage utilisé comme destination lors de l'envoi de marchandises à ce contact."
+
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_stock_supplier
 msgid ""
 "The stock location used as source when receiving goods from this contact."
-msgstr ""
-"L'emplacement du stock utilisé comme source lors de la réception des marchandises de ce contact."
+msgstr "L'emplacement du stock utilisé comme source lors de la réception des marchandises de ce contact."
+
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_requests
 msgid "There are currently no Lab Requests for your account."
@@ -2652,52 +2583,43 @@ msgstr " Il n'y a actuellement aucun résultat de laboratoire pour votre compte.
 msgid ""
 "This account will be used instead of the default one as the payable account "
 "for the current partner"
-msgstr ""
-"Ce compte sera utilisé à la place de celui par défaut comme compte payable"
-"pour le partenaire actuel"
+msgstr "Ce compte sera utilisé à la place de celui par défaut comme compte payable pour le partenaire actuel"
+
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_account_receivable_id
 msgid ""
 "This account will be used instead of the default one as the receivable "
 "account for the current partner"
-msgstr ""
-"Ce compte sera utilisé à la place de celui par défaut comme débiteur"
-"compte pour le partenaire actuel"
+msgstr "Ce compte sera utilisé à la place de celui par défaut comme débiteur compte pour le partenaire actuel"
+
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__email_normalized
 msgid ""
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
-msgstr ""
-"Ce champ est utilisé pour effectuer une recherche sur l'adresse e-mail comme le peut le champ e-mail principal"
-" contiennent plus que strictement une adresse e-mail."
+msgstr "Ce champ est utilisé pour effectuer une recherche sur l'adresse e-mail comme le peut le champ e-mail principal contiennent plus que strictement une adresse e-mail."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_supplier_payment_term_id
 msgid ""
 "This payment term will be used instead of the default one for purchase "
 "orders and vendor bills"
-msgstr ""
-"Ce terme de paiement sera utilisé à la place de celui par défaut pour l'achat"
-"commandes et factures fournisseurs"
+msgstr "Ce terme de paiement sera utilisé à la place de celui par défaut pour l'achat commandes et factures fournisseurs"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_payment_term_id
 msgid ""
 "This payment term will be used instead of the default one for sales orders "
 "and customer invoices"
-msgstr ""
-"Ce délai de paiement sera utilisé à la place de celui par défaut pour les commandes clients"
-"et factures clients"
+msgstr "Ce délai de paiement sera utilisé à la place de celui par défaut pour les commandes clients et factures clients"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__property_product_pricelist
 msgid ""
 "This pricelist will be used, instead of the default one, for sales to the "
 "current partner"
-msgstr ""
-"Cette liste de prix sera utilisée, à la place de celle par défaut, pour les ventes aux "
-"partenaire actuel"
+msgstr "Cette liste de prix sera utilisée, à la place de celle par défaut, pour les ventes aux partenaire actuel"
+
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__tz
 msgid "Timezone"
@@ -2918,11 +2840,7 @@ msgid ""
 "When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
 "If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
 "Anywhere else, time values are computed according to the time offset of your web client."
-msgstr ""
-
-"Lors de l'impression de documents et de l'exportation/importation de données, les valeurs horaires sont calculées en fonction de ce fuseau horaire.\n"
-"Si le fuseau horaire n'est pas défini, UTC (Coordinated Universal Time) est utilisé.\n"
-"Partout ailleurs, les valeurs temporelles sont calculées en fonction du décalage horaire de votre client Web."
+msgstr "Lors de l'impression de documents et de l'exportation/importation de données, les valeurs horaires sont calculées en fonction de ce fuseau horaire.\nSi le fuseau horaire n'est pas défini, UTC (Coordinated Universal Time) est utilisé.\nPartout ailleurs, les valeurs temporelles sont calculées en fonction du décalage horaire de votre client Web."
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__zip

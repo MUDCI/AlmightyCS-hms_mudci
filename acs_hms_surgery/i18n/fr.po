@@ -55,12 +55,7 @@ msgid ""
 "                        <span class=\"col-6\"><strong>Date:</strong></span><br/>\n"
 "                        <span/><br/>\n"
 "                        <span/><br/>"
-msgstr ""
-
-"<span style=\"margin-left:-15px;\" class=\"col-6\"><strong>Officier Médical:</strong></span>\n"
-"                        <span class=\"col-6\"><strong>Date:</strong></span><br/>\n"
-"                        <span/><br/>\n"
-"                        <span/><br/>"
+msgstr "<span style=\"margin-left:-15px;\" class=\"col-6\"><strong>Officier Médical:</strong></span>\n<span class=\"col-6\"><strong>Date:</strong></span><br/>\n<span/><br/>\<span/><br/>"
 
 
 
@@ -71,12 +66,7 @@ msgid ""
 "                        <span class=\"col-6\"><strong>Date:</strong></span><br/>\n"
 "                        <span/><br/>\n"
 "                        <span/><br/>"
-msgstr ""
-
-"<span style=\"margin-left:-15px;\" class=\"col-6\"><strong>Médecin principal:</strong></span>\n"
-"                        <span class=\"col-6\"><strong>Date:</strong></span><br/>\n"
-"                        <span/><br/>\n"
-"                        <span/><br/>"
+msgstr "<span style=\"margin-left:-15px;\" class=\"col-6\"><strong>Médecin principal:</strong></span>\n<span class=\"col-6\"><strong>Date:</strong></span><br/>\n<span/><br/>\n<span/><br/>"
 
 
 
@@ -249,12 +239,12 @@ msgstr " Histoire clinique"
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_past_surgeries__complication
 msgid "Complication"
-msgstr ""
+msgstr "Complication"
 
 #. module: acs_hms_surgery
 #: model:ir.ui.menu,name:acs_hms_surgery.menu_surgery_cofig
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_view
@@ -317,7 +307,7 @@ msgstr " Date de création"
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_past_surgeries__date
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_view
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_medicament_line__days
@@ -333,7 +323,7 @@ msgstr " Définir les médicaments à prendre après la chirurgie "
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_past_surgeries__description
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_hms_surgery__diagnosis
@@ -396,7 +386,7 @@ msgstr " Terminé "
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_medicament_line__dose
 msgid "Dosage"
-msgstr ""
+msgstr "Dosage"
 
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_template_view
@@ -428,12 +418,13 @@ msgstr " Date de fin "
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_template_view
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_view
 msgid "Examination"
-msgstr ""
+msgstr "Examen"
 
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.report_surgery_details
 msgid "Examination:"
-msgstr ""
+msgstr "Examen :"
+
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_hms_surgery__extra_info
@@ -491,7 +482,7 @@ msgstr "Hopital/Docteur"
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_pre_operative_check_list__id
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_pre_operative_check_list_template__id
 msgid "ID"
-msgstr ""
+msgstr "Identifiant"
 
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.report_surgery_details
@@ -502,7 +493,7 @@ msgstr " En chirurgie"
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_hms_surgery__post_instruction
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_medicament_line__instruction
 msgid "Instructions"
-msgstr ""
+msgstr "Instructions"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_hms_surgery__investigation
@@ -670,17 +661,17 @@ msgstr "Chirurgies passées"
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_hms_surgery__patient_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.view_acs_surgery_filter
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_past_surgeries__patient_id
 msgid "Patient ID"
-msgstr ""
+msgstr "Identifiant du patient"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,field_description:acs_hms_surgery.field_hms_surgery__age
 msgid "Patient age"
-msgstr ""
+msgstr "Âge du patient"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,help:acs_hms_surgery.field_hms_surgery__age
@@ -692,15 +683,15 @@ msgstr " Âge du patient au moment de la chirurgie. Peut être estimatif"
 #, python-format
 msgid ""
 "Please define a location where the consumables will be used in settings."
-msgstr ""
-"Veuillez définir un emplacement où les consommables seront utilisés dans les paramètres."
+msgstr "Veuillez définir un emplacement où les consommables seront utilisés dans les paramètres."
+
 #. module: acs_hms_surgery
 #: code:addons/acs_hms_surgery/models/surgery.py:0
 #, python-format
 msgid ""
 "Please define a surgery location from where the consumables will be taken."
-msgstr ""
-"Veuillez définir un lieu de chirurgie d'où les consommables seront prélevés."
+msgstr "Veuillez définir un lieu de chirurgie d'où les consommables seront prélevés."
+
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_view
 msgid "Post-Operative Orders"
@@ -808,9 +799,7 @@ msgstr "Rechercher un modèle de chirurgie"
 msgid ""
 "Should you have any questions or any Emergency please contact us at your convenience.<br/><br/>\n"
 "                    Best regards,<br/>"
-msgstr ""
-"Si vous avez des questions ou une urgence, veuillez nous contacter à votre convenance.<br/><br/>\n"
-"Meilleures salutations,<br/>"
+msgstr "Si vous avez des questions ou une urgence, veuillez nous contacter à votre convenance.<br/><br/>\nMeilleures salutations,<br/>"
 
 #. module: acs_hms_surgery
 #: model_terms:ir.ui.view,arch_db:acs_hms_surgery.hms_surgery_view
@@ -981,7 +970,7 @@ msgstr "Unités"
 #: model:ir.model.fields.selection,name:acs_hms_surgery.selection__hms_surgery__classification__u
 #: model:ir.model.fields.selection,name:acs_hms_surgery.selection__hms_surgery_template__classification__u
 msgid "Urgent"
-msgstr ""
+msgstr "Urgent"
 
 #. module: acs_hms_surgery
 #: model:ir.model.fields,help:acs_hms_surgery.field_res_config_settings__acs_surgery_usage_location_id

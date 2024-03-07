@@ -24,7 +24,7 @@ msgstr "Vaccination"
 #. module: acs_hms_vaccination
 #: model:ir.actions.report,print_report_name:acs_hms_vaccination.action_report_vaccination_report
 msgid "(object.code or object.name).replace('/','_') + '_Vaccination'"
-msgstr ""
+msgstr "(object.code or object.name).replace('/','_') + '_Vaccination'"
 
 #. module: acs_hms_vaccination
 #: model_terms:ir.ui.view,arch_db:acs_hms_vaccination.res_config_settings_view_form
