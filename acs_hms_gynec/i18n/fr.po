@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: fr\n"
 
 #. module: acs_hms_gynec
 #: code:addons/acs_hms_gynec/models/hms_gynec.py:0
@@ -40,7 +40,7 @@ msgstr "#Fœtus"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "1. L.M.P:"
-msgstr ""
+msgstr "1. L.M.P:"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
@@ -50,139 +50,133 @@ msgstr "10. Poids fœtal estimé"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "11. Cervix: Length:"
-msgstr ""
+msgstr "11. Col de l'utérus : Longueur :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "12. Internal OS:"
-msgstr ""
+msgstr "12. OS interne :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "13. Any Sonographically detectable fetal anomaly:"
-msgstr ""
+msgstr "13. Anomalie fœtale détectable par échographie :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "2. No. Of Fetues:"
-msgstr ""
+msgstr "2. Nombre de fœtus :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "3. Presentation:"
-msgstr "3. Présentation:"
+msgstr "3. Présentation :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "4. Cardiac Activity:"
-msgstr "4. Activité cardiaque:"
+msgstr "4. Activité cardiaque :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "5. Fetal Movement:"
-msgstr "5. Mouvement fœtal:"
+msgstr "5. Mouvement fœtal :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "6. Placenta:"
-msgstr "6. Placenta:"
+msgstr "6. Placenta :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "7. Amniotic Fluid:"
-msgstr "7. Liquide amniotique:"
+msgstr "7. Liquide amniotique :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "8. Fetal Parameter:"
-msgstr "8. Paramètre fœtal:"
+msgstr "8. Paramètre fœtal :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "9. Average Estimated Fetal Age:"
-msgstr "9. Âge fœtal moyen estimé:"
+msgstr "9. Âge fœtal moyen estimé :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "<b>Conclusion</b>:"
-msgstr "Conclusion"
+msgstr "<b>Conclusion</b> :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "<font color=\"white\">.........</font>"
-msgstr ""
+msgstr "<font color=\"white\">.........</font>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "<font color=\"white\">...</font>"
-msgstr ""
+msgstr "<font color=\"white\">...</font>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
-msgid ""
-"<i>\n"
+msgid "<i>\n"
 "                                <u>\n"
 "                                    <strong>Follicular Study Report</strong>\n"
 "                                </u>\n"
 "                            </i>"
-msgstr ""
+msgstr "<i>\n<u>\n<strong>Rapport d'étude folliculaire</strong>\n</u>\n</i>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
-msgid ""
-"<span>\n"
+msgid "<span>\n"
 "                        <strong>I HAVE NEITHER DETECTED NOR DISCLOSED THE SEX FOR HER\n"
 "                            FOETUS TO ANY BODY IN ANY MANNER</strong>\n"
 "                    </span>"
-msgstr ""
+msgstr "<span>\n<strong>JE N'AI NI DÉTECTÉ NI RÉVÉLÉ LE GENRE DE SON\n FŒTUS À QUI QUE CE SOIT DE QUELQUE MANIÈRE QUE CE SOIT</strong>\n</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
-msgid ""
-"<span>\n"
+msgid "<span>\n"
 "                        <u>\n"
 "                            <b>Advice:</b>\n"
 "                        </u>\n"
 "                    </span>"
-msgstr ""
+msgstr "<span>\n<u>\n<b>Conseil :</b>\n</u>\n</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
-msgid ""
-"<span>\n"
+msgid "<span>\n"
 "                        <u>\n"
 "                            <b>Conclusion:</b>\n"
 "                        </u>\n"
 "                    </span>\n"
 "                    <font color=\"white\">...</font>"
-msgstr ""
+msgstr "<span>\n<u>\n<b>Conclusion :</b>\n</u>\n</span>\n<font color=\"white\">...</font>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
-msgid ""
-"<span>\n"
+msgid "<span>\n"
 "                        <u>\n"
 "                            <b>Note</b>\n"
 "                        </u>\n"
 "                        :\n"
 "                    </span>\n"
 "                    <font color=\"white\">...</font>"
-msgstr ""
+msgstr "<span>\n<u>\n<b>Note</b>\n</u>\n:\n</span>\n<font color=\"white\">...</font>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
-msgid ""
-"<span>\n"
+msgid "<span>\n"
 "                        <u>Impression:</u>\n"
 "                    </span>"
-msgstr ""
+msgstr "<span>\n<u>Impression :</u>\n</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 msgid "<span>Drugs Given</span>"
-msgstr ""
+msgstr "<span>Médicaments donnés</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
@@ -192,7 +186,7 @@ msgid ""
 "                                    <i>BIRTH CARD</i>\n"
 "                                </u>\n"
 "                            </strong>"
-msgstr ""
+msgstr "<strong>\n<u>\n<i>CARTE DE NAISSANCE</i>\n</u>\n</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
@@ -200,17 +194,17 @@ msgid ""
 "<strong>\n"
 "                                <u><i>ULTRASONOGRAPHY PELVIS</i></u>\n"
 "                            </strong>"
-msgstr ""
+msgstr "<strong>\n<u><i>ÉCHOGRAPHIE DU BASSIN</i></u>\n</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>Age</strong>"
-msgstr "Age"
+msgstr "<strong>Âge</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 msgid "<strong>Blood Group: </strong>"
-msgstr "<strongGroupe sanguin: </strong>"
+msgstr "<strong>Groupe sanguin : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
@@ -222,7 +216,7 @@ msgstr "<strong>Date de naissance: </strong>"
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "<strong>Date: </strong>"
-msgstr ""
+msgstr "<strong>Date: </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
@@ -247,83 +241,83 @@ msgstr "<strong>Fœtus</strong>"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 msgid "<strong>Gender: </strong>"
-msgstr ""
+msgstr "<strong>Genre : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 msgid "<strong>Hospital Name: </strong>"
-msgstr ""
+msgstr "<strong>Nom de l'hôpital : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "<strong>LMP: </strong>"
-msgstr ""
+msgstr "<strong>DPP : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>LMP</strong>"
-msgstr ""
+msgstr "<strong>DPP</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 msgid "<strong>Mother's Name: </strong>"
-msgstr ""
+msgstr "<strong>Nom de la mère : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "<strong>Name: </strong>"
-msgstr ""
+msgstr "<strong>Nom : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "<strong>OBSTETRIC ULTRA SONOGRAPHY</strong>"
-msgstr ""
+msgstr "<strong>ÉCHOGRAPHIE OBSTÉTRICALE</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>Patient</strong>"
-msgstr ""
+msgstr "<strong>Patient</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 msgid "<strong>Place of Birth: </strong>"
-msgstr ""
+msgstr "<strong>Lieu de naissance : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>Pregnancy Due Date</strong>"
-msgstr ""
+msgstr "<strong>Date d'accouchement prévue</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>Pregnancy</strong>"
-msgstr ""
+msgstr "<strong>Grossesse</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>Prenatal Evaluations</strong>"
-msgstr ""
+msgstr "<strong>Évaluations prénatales</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_birth_card_document
 msgid "<strong>Registration ID: </strong>"
-msgstr ""
+msgstr "<strong>ID d'inscription : </strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "<strong>Result</strong>"
-msgstr ""
+msgstr "<strong>Résultat</strong>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid ""
 "<u><b>Doctor's Stamp/Signature</b></u>\n"
 "                        <br/>"
-msgstr ""
+msgstr "<u><b>Tampon/Signature du médecin</b></u>\n<br/>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
@@ -332,109 +326,109 @@ msgid ""
 "cells that are not normal. The cervix is the lower part of the uterus "
 "(womb), which opens into the vagina. Abnormal cervical cells, if not found "
 "and treated, can lead to cervical cancer."
-msgstr ""
+msgstr "Le test de Pap est un test que votre médecin ou infirmière effectue pour vérifier votre col de l'utérus afin de détecter toute cellule anormale. Le col de l'utérus est la partie inférieure de l'utérus (matrice), qui s'ouvre dans le vagin. Les cellules cervicales anormales, si elles ne sont pas détectées et traitées, peuvent conduire au cancer du col de l'utérus."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_prenatal_evaluation__placenta_previa
 msgid ""
 "A condition in which the placenta partially or wholly blocks the neck of the"
 " uterus, so interfering with normal delivery of a baby"
-msgstr ""
+msgstr "Une condition dans laquelle le placenta bloque partiellement ou totalement le col de l'utérus, interférant ainsi avec l'accouchement normal d'un bébé"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid ""
 "A mammography, or mammogram, is an X-ray of the breast. It’s a screening "
 "tool used to detect and diagnose breast cancer."
-msgstr ""
+msgstr "Une mammographie, ou mammogramme, est une radiographie du sein. C'est un outil de dépistage utilisé pour détecter et diagnostiquer le cancer du sein."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_prenatal_evaluation__polihydramnios
 msgid ""
 "A medical condition describing an excess of amniotic fluid in the amniotic "
 "sac"
-msgstr ""
+msgstr "Une condition médicale décrivant un excès de liquide amniotique dans le sac amniotique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_perinatal__episiotomy
 msgid ""
 "A surgical cut made at the opening of the vagina during childbirth, to aid a"
 " difficult delivery and prevent rupture of tissues."
-msgstr ""
+msgstr "Une incision chirurgicale pratiquée à l'ouverture du vagin pendant l'accouchement, pour faciliter un accouchement difficile et prévenir la rupture des tissus."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__acs_child_birth__blood_group__ab+
 msgid "AB+"
-msgstr ""
+msgstr "AB+"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__acs_child_birth__blood_group__ab-
 msgid "AB-"
-msgstr ""
+msgstr "AB-"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__ac
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__fetal_ac
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "AC"
-msgstr ""
+msgstr "AC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__ac_days
 msgid "AC Days"
-msgstr ""
+msgstr "Jours AC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__ac_weeks
 msgid "AC Weeks"
-msgstr ""
+msgstr "Semaines AC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pap_history__result__g4
 msgid "AIS"
-msgstr ""
+msgstr "AIS"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__aml
 msgid "AML"
-msgstr ""
+msgstr "AML"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pap_history__result__c2
 msgid "ASC-H"
-msgstr ""
+msgstr "ASC-H"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pap_history__result__c1
 msgid "ASC-US"
-msgstr ""
+msgstr "ASC-US"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pap_history__result__g1
 msgid "ASG"
-msgstr ""
+msgstr "ASG"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__systemic_examination__exa_type__abdominal
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
 msgid "Abdominal"
-msgstr ""
+msgstr "Abdominal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment_sonography_obstetric__ac
 msgid "Abdominal circumference"
-msgstr ""
+msgstr "Circonférence abdominale"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__abortion
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pregnancy__pregnancy_end_result__abortion
 msgid "Abortion"
-msgstr ""
+msgstr "Avortement"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__abortions
 msgid "Abortions"
-msgstr ""
+msgstr "Avortements"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__abruptio_placentae
@@ -493,18 +487,18 @@ msgstr "Conseil"
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__age
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__age
 msgid "Age"
-msgstr ""
+msgstr "Âge"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_puerperium_monitor__lochia_color__alba
 msgid "Alba"
-msgstr ""
+msgstr "Blanc"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_menstrual_history__frequency__amenorrhea
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_menstrual_history__volume__amenorrhea
 msgid "Amenorrhea"
-msgstr ""
+msgstr "Aménorrhée"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__amniotic_fluid
@@ -519,14 +513,14 @@ msgstr "Niveau de liquide amniotique"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_puerperium_monitor__lochia_amount
 msgid "Amount of the vaginal discharge you have after a vaginal delivery"
-msgstr ""
+msgstr "Quantité de la décharge vaginale que vous avez après un accouchement par voie vaginale"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__ectopic
 msgid ""
 "An ectopic pregnancy occurs when a fertilized egg implants and grows outside"
 " the main cavity of the uterus."
-msgstr ""
+msgstr "Une grossesse extra-utérine se produit lorsque un œuf fécondé s'implante et se développe en dehors de la cavité principale de l'utérus."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__placenta__anterior
@@ -536,7 +530,7 @@ msgstr "Antérieur"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__sono_fetal_anomaly
 msgid "Any Sonographically detectable fetal anomaly"
-msgstr ""
+msgstr "Toute anomalie fœtale détectable par échographie"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.action_appointment
@@ -571,40 +565,40 @@ msgstr "Âge fœtal moyen estimé"
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__mother_bp
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "BP"
-msgstr ""
+msgstr "Tension artérielle maternelle"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__bpd
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__fetal_bpd
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "BPD"
-msgstr ""
+msgstr "Diamètre bipariétal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__bpd_days
 msgid "BPD Days"
-msgstr ""
+msgstr "Jours de diamètre bipariétal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__bpd_weeks
 msgid "BPD Weeks"
-msgstr ""
+msgstr "Semaines de diamètre bipariétal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__back_spine
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Back Spine"
-msgstr "Colonne vertébrale arrière"
+msgstr "Colonne vertébrale dorsale"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Back Spine..."
-msgstr "Colonne vertébrale arrière..."
+msgstr "Colonne vertébrale dorsale..."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__place_of_death__transfer
 msgid "Being transferred to other hospital"
-msgstr "Être transféré dans un autre hôpital"
+msgstr "Transfert vers un autre hôpital"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment_sonography_obstetric__bpd
@@ -613,7 +607,8 @@ msgid ""
 "assess fetal size. BPD together with head circumference (HC), abdominal "
 "circumference (AC), and femur length (FL) are computed to produce an "
 "estimate of fetal weight."
-msgstr ""
+msgstr "Diamètre bipariétal (BPD) est l'un des paramètres biométriques de base utilisés pour évaluer la taille fœtale. Le BPD, associé au périmètre crânien (PC), au périmètre abdominal (PA) et à la longueur fémorale (LF), est calculé pour produire une estimation du poids fœtal."
+
 
 #. module: acs_hms_gynec
 #: model:ir.actions.report,name:acs_hms_gynec.action_report_birth_card
@@ -623,7 +618,7 @@ msgstr "Carte de naissance"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__birth_place
 msgid "Birth Place"
-msgstr ""
+msgstr "Lieu de naissance"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__birth_weight
@@ -668,53 +663,53 @@ msgstr "Ligament large"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "C.N.S"
-msgstr ""
+msgstr "S.N.C"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "C.N.S..."
-msgstr ""
+msgstr "S.N.C..."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "C.V.S"
-msgstr ""
+msgstr "S.V.C"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "C.V.S..."
-msgstr ""
+msgstr "S.V.C..."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 msgid "CERVICAL MUCUS"
-msgstr ""
+msgstr "MUCUS CERVICAL"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__cns
 msgid "CNS"
-msgstr ""
+msgstr "SNC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__crl
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "CRL"
-msgstr ""
+msgstr "LCC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__crl_days
 msgid "CRL Days"
-msgstr "CRL Jours"
+msgstr "Jours LCC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__crl_weeks
 msgid "CRL Weeks"
-msgstr "CRL Semaines"
+msgstr "Semaines LCC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__cvs
 msgid "CVS."
-msgstr ""
+msgstr "SVC."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_search
@@ -896,7 +891,7 @@ msgid ""
 "will depend on whether the patient is of reproductive age or postmenopausal "
 "and, if of reproductive age, at what point in the menstrual cycle they are "
 "examined. "
-msgstr ""
+msgstr "Paramètre couramment mesuré en échographie. L'épaisseur de l'endomètre dépendra du fait que le patient soit en âge de procréer ou ménopausé et, s'il est en âge de procréer, à quel moment du cycle menstruel il est examiné."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__fetus_presentation__cb
@@ -1016,7 +1011,7 @@ msgstr "Glaire cervicale"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 msgid "DATE"
-msgstr ""
+msgstr "DATE"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
@@ -1026,7 +1021,7 @@ msgstr "JOUR/CYCLE"
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__contraception_method__dui
 msgid "DUI"
-msgstr ""
+msgstr "DIU"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_follical__date
@@ -1042,7 +1037,7 @@ msgstr ""
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_mammography_history__date
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_pap_history__date
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal_monitor__date
@@ -1105,7 +1100,7 @@ msgstr "Décrire la colonne vertébrale du fœtus"
 msgid ""
 "Describe about Central Nerve System malformations. Neural tube defects are "
 "the most frequent CNS malformations"
-msgstr ""
+msgstr "Description des malformations du système nerveux central. Les défauts du tube neural sont les malformations du SNC les plus fréquentes"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment__cvs
@@ -1113,7 +1108,7 @@ msgid ""
 "Describe about Chorionic villus sampling. : biopsy of a villus of the "
 "chorion at usually 10 to 12 weeks of gestation to obtain fetal cells for the"
 " prenatal diagnosis of chromosomal abnormalities."
-msgstr ""
+msgstr "Description de l'échantillonnage des villosités choriales : biopsie d'une villosité du chorion généralement effectuée à 10-12 semaines de gestation pour obtenir des cellules fœtales permettant le diagnostic prénatal des anomalies chromosomiques."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment__rs
@@ -1213,22 +1208,22 @@ msgstr "Dystocie"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__edd
 msgid "EDD"
-msgstr ""
+msgstr "DPA"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "EDD:"
-msgstr ""
+msgstr "DPA :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__efw
 msgid "EFW"
-msgstr ""
+msgstr "PFE"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 msgid "ENDOMETRIULM"
-msgstr ""
+msgstr "ENDOMÈTRE"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__ectopic
@@ -1332,18 +1327,18 @@ msgstr "Organes génitaux externes..."
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__fhr
 msgid "FHR"
-msgstr ""
+msgstr "CFM"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "FHR:"
-msgstr ""
+msgstr "CFM :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__fl
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__fetal_fl
 msgid "FL"
-msgstr ""
+msgstr "LF"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__fl_days
@@ -1358,7 +1353,7 @@ msgstr "Semaines de Floride"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "FL."
-msgstr ""
+msgstr "LF."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__father_business
@@ -1591,13 +1586,13 @@ msgstr "Gravida"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__gravida_number
 msgid "Gravida #"
-msgstr ""
+msgstr "Gravida n°"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_acs_child_birth_search
 msgid "Group By"
-msgstr ""
+msgstr "Regrouper par"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
@@ -1605,27 +1600,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_search
 msgid "Group By..."
-msgstr ""
+msgstr "Regrouper par..."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Gynec"
-msgstr ""
+msgstr "Gynécologie"
 
 #. module: acs_hms_gynec
 #: model:res.groups,name:acs_hms_gynec.group_hms_user_gynec
 msgid "Gynec User"
-msgstr ""
+msgstr "Utilisateur Gynéco"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Gyneco"
-msgstr ""
+msgstr "Gynéco"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Gyneco / Obs"
-msgstr ""
+msgstr "Gynéco / Obs"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hr_department__department_type__gynec
@@ -1636,61 +1631,62 @@ msgstr "Gynécologie"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__hb
 msgid "HB"
-msgstr ""
+msgstr "HB"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "HB:"
-msgstr ""
+msgstr "HB :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__hbsag
 msgid "HBSAG"
-msgstr ""
+msgstr "HBSAG"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "HBSAG:"
-msgstr ""
+msgstr "HBSAG :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__hc
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__fetal_hc
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "HC"
-msgstr ""
+msgstr "PC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__hc_days
 msgid "HC Days"
-msgstr ""
+msgstr "Jours de PC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__hc_weeks
 msgid "HC Weeks"
-msgstr ""
+msgstr "Semaines de PC"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__hiv
 msgid "HIV"
-msgstr ""
+msgstr "VIH"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "HIV:"
-msgstr ""
+msgstr "VIH :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pap_history__result__c4
 msgid "HSIL"
-msgstr ""
+msgstr "HSIL"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment_sonography_obstetric__hc
 msgid ""
 "Head circumference (HC) is one of the basic biometric parameters used to "
 "assess fetal size."
-msgstr ""
+msgstr "La circonférence de la tête (HC) est l'un des paramètres biométriques de base utilisés pour évaluer la taille fœtale."
+
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_puerperium_monitor__frequency
@@ -1766,13 +1762,13 @@ msgstr "Hypoménorrhée"
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_sonography_follical_line__id
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_systemic_examination__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__iugr
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__iugr
 msgid "IUGR"
-msgstr ""
+msgstr "RETARDEMENT DE CROISSANCE INTRA-UTÉRIN (RCIU)"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_puerperium_monitor
@@ -1824,14 +1820,14 @@ msgstr "Restriction de croissance intra-utérine"
 msgid ""
 "Intrauterine growth restriction (IUGR) refers to poor growth of a fetus "
 "while in the mother's womb during pregnancy."
-msgstr ""
+msgstr "Le retard de croissance intra-utérin (RCIU) fait référence à une mauvaise croissance du fœtus dans le ventre de la mère pendant la grossesse."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__hbsag
 msgid ""
 "It is the surface antigen of the hepatitis B virus (HBV) which indicates "
 "current hepatitis B infection."
-msgstr ""
+msgstr "Il s'agit de l'antigène de surface du virus de l'hépatite B (VHB) qui indique une infection actuelle par l'hépatite B."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__lmp
@@ -1841,17 +1837,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_menstrual_history__lmp
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment_sonography_follical__lmp
 msgid "LMP"
-msgstr ""
+msgstr "DUM"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pap_history__result__c3
 msgid "LSIL"
-msgstr ""
+msgstr "LSIL"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 msgid "LT OVARY"
-msgstr ""
+msgstr "OV D GCH"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__start_labor_mode
@@ -1995,7 +1991,7 @@ msgstr "Odeur des lochies"
 msgid ""
 "Looking at the ovaries and uterus internally using a sterile (clean) "
 "transducer paying particular attention to the follicles within the ovaries."
-msgstr ""
+msgstr "Examen interne des ovaires et de l'utérus à l'aide d'un transducteur stérile (propre), en prêtant une attention particulière aux follicules dans les ovaires."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_sonography_follical_line__left_ovary_size
@@ -2016,7 +2012,7 @@ msgstr "Mâle"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__mammography
 msgid "Mammography"
-msgstr ""
+msgstr "Mammographie"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_patient_mammography_history
@@ -2207,7 +2203,7 @@ msgstr "Caduque normale"
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__notes
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_perinatal_from
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__abortions
@@ -2222,7 +2218,7 @@ msgstr "Nombre de grossesses"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_perinatal__prenatal_evaluations
 msgid "Number of visits to the doctor during pregnancy"
-msgstr ""
+msgstr "Nombre de visites chez le médecin pendant la grossesse"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__presentation__oblique
@@ -2258,7 +2254,7 @@ msgid ""
 " women should receive from an obstetrician or midwife during pregnancy. "
 "Prenatal development is the growth of a single-celled zygote formed by the "
 "combination of a sperm and an egg into a baby."
-msgstr ""
+msgstr "Survenant ou existant avant la naissance. Les soins prénatals sont les soins de santé réguliers que les femmes devraient recevoir d'un obstétricien ou d'une sage-femme pendant la grossesse.Le développement prénatal est la croissance d'un zygote unicellulaire formé par la combinaison d'un spermatozoïde et d'un ovule en un bébé."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_puerperium_monitor__lochia_odor__offensive
@@ -2288,17 +2284,17 @@ msgstr "En surpoids"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_systemic_examination__pa
 msgid "P/A"
-msgstr ""
+msgstr "P/A"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_systemic_examination__pr
 msgid "P/R"
-msgstr ""
+msgstr "P/R"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_systemic_examination__pv
 msgid "P/V"
-msgstr ""
+msgstr "P/V"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.action_hms_pap_history
@@ -2306,7 +2302,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pap_history_form
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pap_history_tree
 msgid "PAP Test"
-msgstr ""
+msgstr "Test de PAP"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_patient_pap_history
@@ -2361,7 +2357,7 @@ msgstr "Parité"
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_search
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__patient_education
@@ -2384,7 +2380,7 @@ msgstr "Grossesse des patientes"
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_follical_search
 msgid "Patients"
-msgstr ""
+msgstr "Patients"
 
 #. module: acs_hms_gynec
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_pelvis
@@ -2400,7 +2396,7 @@ msgstr "Par examen abdominal"
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Per Abdominal, P/R Examination and P/V Examination"
-msgstr ""
+msgstr "Examen abdominal, Examen P/R et Examen P/V"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_systemic_examination__pr
@@ -2425,50 +2421,50 @@ msgstr "Évaluations périnatales"
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__perinatal_ids
 msgid "Perinatal Info"
-msgstr ""
+msgstr "Informations périnatales"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__patient_preg_id
 msgid "Perinatal Infomation"
-msgstr ""
+msgstr "Information périnatale"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_perinatal_from
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_perinatal_monitor_from
 msgid "Perinatal Monitor"
-msgstr ""
+msgstr "Surveillance périnatale"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_perinatal_from
 msgid "Perinatal and Intrapartum Information"
-msgstr ""
+msgstr "Informations périnatales et intrapartum"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_perinatal_monitor
 msgid "Perinatal monitor"
-msgstr ""
+msgstr "Moniteur périnatal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__laceration__perineal
 msgid "Perineal"
-msgstr ""
+msgstr "Périnéal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__peripheral_pulsation
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Peripheral Pulsation"
-msgstr ""
+msgstr "Pulsation périphérique"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Peripheral Pulsation..."
-msgstr ""
+msgstr "Pulsation périphérique..."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 msgid "Perperium Monitor"
-msgstr ""
+msgstr "Surveillance du post-partum"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
@@ -2476,88 +2472,88 @@ msgid ""
 "Pertaining to the period immediately before and after birth. The perinatal "
 "period is defined in diverse ways. Depending on the definition, it starts at"
 " the 20th to 28th week of gestation and ends 1 to 4 weeks after birth."
-msgstr ""
+msgstr "Se rapportant à la période immédiatement avant et après la naissance. La période périnatale est définie de différentes manières. Selon la définition, elle commence à la 20e à la 28e semaine de gestation et se termine de 1 à 4 semaines après la naissance."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__physician_id
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__physician_id
 msgid "Physician"
-msgstr ""
+msgstr "Médecin"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__place_of_death
 msgid "Place of Death"
-msgstr ""
+msgstr "Lieu de décès"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__placenta
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_prenatal_evaluation_from
 msgid "Placenta"
-msgstr ""
+msgstr "Placenta"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__placenta_previa
 msgid "Placenta Previa"
-msgstr ""
+msgstr "Placenta praevia"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_perinatal_from
 msgid "Placenta anomalies"
-msgstr ""
+msgstr "Anomalies du placenta"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__invasive_placentation
 msgid "Placentation"
-msgstr ""
+msgstr "Placentation"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_pap_history__result
 msgid "Please check the lab results if the module is installed"
-msgstr ""
+msgstr "Veuillez vérifier les résultats de laboratoire si le module est installé"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_colposcopy_history__result
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_mammography_history__result
 msgid "Please check the lab test results if the module is installed"
-msgstr ""
+msgstr "Veuillez vérifier les résultats des tests de laboratoire si le module est installé"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__polihydramnios
 msgid "Polihydramnios"
-msgstr ""
+msgstr "Polyhydramnios"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_menstrual_history__frequency__polymenorrhea
 msgid "Polymenorrhea"
-msgstr ""
+msgstr "Polyménorrhée"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "Position:"
-msgstr ""
+msgstr "Position :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__hbsag__positive
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__hiv__positive
 msgid "Positive"
-msgstr ""
+msgstr "Positif"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__placenta__posterior
 msgid "Posterior"
-msgstr ""
+msgstr "Postérieur"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__preeclampsia
 msgid "Preeclampsia"
-msgstr ""
+msgstr "Prééclampsie"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.hms_action_pregnancies
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__pregnancy_history_ids
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_pregnancy
 msgid "Pregnancies"
-msgstr ""
+msgstr "Grossesses"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_puerperium_monitor__patient_preg_id
@@ -2565,74 +2561,74 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_calendar
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_tree
 msgid "Pregnancy"
-msgstr ""
+msgstr "Grossesse"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__gravida
 msgid "Pregnancy #"
-msgstr ""
+msgstr "Grossesse n°"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__pdd
 msgid "Pregnancy Due Date"
-msgstr ""
+msgstr "Date prévue de l'accouchement"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Pregnancy History"
-msgstr ""
+msgstr "Historique des grossesses"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__premature
 msgid "Premature"
-msgstr ""
+msgstr "Prématuré"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__premature
 msgid "Premature Deliveries"
-msgstr ""
+msgstr "Accouchements prématurés"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_perinatal__abruptio_placentae
 msgid "Premature separation of the placenta from the uterus"
-msgstr ""
+msgstr "Séparation prématurée du placenta de l'utérus"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_prenatal_evaluation_from
 msgid "Prenatal Evaluation"
-msgstr ""
+msgstr "Évaluation prénatale"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__prenatal_evaluation_ids
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__prenatal_evaluation_ids
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 msgid "Prenatal Evaluations"
-msgstr ""
+msgstr "Évaluations prénatales"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_patient_prenatal_evaluation
 msgid "Prenatal and Antenatal Evaluations"
-msgstr ""
+msgstr "Évaluations prénatales et anténatales"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__prenatal_evaluations
 msgid "Prenatal evaluations"
-msgstr ""
+msgstr "Évaluations prénatales"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_obstetric__presentation
 msgid "Presentation"
-msgstr ""
+msgstr "Présentation"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__contraception_method__preservative
 msgid "Preservative"
-msgstr ""
+msgstr "Préservatif"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__placenta__previa
 msgid "Previa"
-msgstr ""
+msgstr "Prévia"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_follical_tree
@@ -2642,79 +2638,79 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_tree
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_view
 msgid "Print Report"
-msgstr ""
+msgstr "Imprimer le rapport"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid ""
 "Procedure to closely examine your cervix, vagina and vulva for signs of "
 "disease."
-msgstr ""
+msgstr "Procédure visant à examiner de près votre col de l'utérus, votre vagin et votre vulve à la recherche de signes de maladie."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 msgid "Puerperium"
-msgstr ""
+msgstr "Puerpéralité"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_puerperium_monitor
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_puerperium_monitor
 msgid "Puerperium Monitor"
-msgstr ""
+msgstr "Moniteur de puerpéralité"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__puerperium_monitor_ids
 msgid "Puerperium monitor"
-msgstr ""
+msgstr "Moniteur de puerpéralité"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__rs
 msgid "R.S."
-msgstr ""
+msgstr "R.S."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "R/S"
-msgstr ""
+msgstr "R/S"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "R/S..."
-msgstr ""
+msgstr "R/S..."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__rbs
 msgid "RBS"
-msgstr ""
+msgstr "RBS"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "RBS:"
-msgstr ""
+msgstr "RBS :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_follical_document
 msgid "RT OVARY"
-msgstr ""
+msgstr "Ovaire droit"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__rbs
 msgid ""
 "Random blood sugar measures blood glucose regardless of when you last ate."
-msgstr ""
+msgstr "La glycémie à jeun mesure la glycémie quel que soit le moment du dernier repas."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__laceration__rectal
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__systemic_examination__exa_type__rectal
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
 msgid "Rectal"
-msgstr ""
+msgstr "Rectal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_menstrual_history__is_regular
 msgid "Regular"
-msgstr ""
+msgstr "Régulier"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__extra_info
@@ -2725,12 +2721,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_child_birth_view
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sys_examination_view
 msgid "Remarks"
-msgstr ""
+msgstr "Remarques"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_sonography_follical_line__follical_id
 msgid "Report"
-msgstr ""
+msgstr "Rapport"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_colposcopy_history__result
@@ -2738,135 +2734,135 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pap_history__result
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__pregnancy_end_result
 msgid "Result"
-msgstr ""
+msgstr "Résultat"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_pregnancy__pregnancy_end_result
 msgid "Result of the pregnancy."
-msgstr ""
+msgstr "Résultat de la grossesse."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__placenta_retained
 msgid "Retained Placenta"
-msgstr ""
+msgstr "Placenta retenu"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__hematoma__retroperitoneal
 msgid "Retroperitoneal"
-msgstr ""
+msgstr "Rétropéritonéal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_sonography_follical_line__right_ovary_size
 msgid "Right Ovary Size"
-msgstr ""
+msgstr "Taille de l'ovaire droit"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_pelvis__right_ovary_size
 msgid "Right Ovary size"
-msgstr ""
+msgstr "Taille de l'ovaire droit"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_sonography_follical_line__right_ovary_size
 msgid "Rt ovary"
-msgstr ""
+msgstr "Ovaire droit"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_puerperium_monitor__lochia_color__rubra
 msgid "Rubra"
-msgstr ""
+msgstr "Rubra"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__screatinine
 msgid "S Creatinine"
-msgstr ""
+msgstr "Créatinine S"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "Screatinine:"
-msgstr ""
+msgstr "Créatinine :"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_follical_search
 msgid "Search Follical Sonography Today"
-msgstr ""
+msgstr "Rechercher l'échographie folliculaire aujourd'hui"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_search
 msgid "Search Obstetric Sonography Today"
-msgstr ""
+msgstr "Rechercher l'échographie obstétricale aujourd'hui"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_search
 msgid "Search Plevis Sonography Today"
-msgstr ""
+msgstr "Rechercher l'échographie pelvienne aujourd'hui"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_search
 msgid "Search Pregnancies"
-msgstr ""
+msgstr "Rechercher les grossesses"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_acs_child_birth_search
 msgid "Search delivery"
-msgstr ""
+msgstr "Rechercher l'accouchement"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_puerperium_monitor__lochia_color__serosa
 msgid "Serosa"
-msgstr ""
+msgstr "Sérosa"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__screatinine
 msgid ""
 "Serum creatinine (a blood measurement) is an important indicator of "
 "renal(kidney) health"
-msgstr ""
+msgstr "La créatinine sérique (une mesure sanguine) est un indicateur important de la santé rénale (des reins)"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_child_birth_view
 msgid "Set to Draft"
-msgstr ""
+msgstr "Définir comme brouillon"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__fetues__single
 msgid "Single"
-msgstr ""
+msgstr "Unique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_puerperium_monitor__lochia_odor
 msgid "Smell of The vaginal discharge you have after a vaginal delivery"
-msgstr ""
+msgstr "Odeur des pertes vaginales que vous avez après un accouchement par voie vaginale"
 
 #. module: acs_hms_gynec
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_sonography
 msgid "Sonographies"
-msgstr ""
+msgstr "Échographies"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Sonography"
-msgstr ""
+msgstr "Échographie"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.hms_action_folical
 msgid "Sonography Follical"
-msgstr ""
+msgstr "Échographie folliculaire"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.report,name:acs_hms_gynec.action_report_sono_follical
 msgid "Sonography Follical Report"
-msgstr ""
+msgstr "Rapport d'échographie folliculaire"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__sonography_follical_ids
 msgid "Sonography Follical Reports"
-msgstr ""
+msgstr "Rapports d'échographie folliculaire"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_view
 msgid "Sonography Obstetric Report"
-msgstr ""
+msgstr "Rapport d'échographie obstétricale"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.report,name:acs_hms_gynec.action_report_sono_obstetric
@@ -2877,17 +2873,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Sonography Obstetric Reports"
-msgstr ""
+msgstr "Rapports d'échographie obstétricale"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.act_window,name:acs_hms_gynec.hms_action_pelvis
 msgid "Sonography Pelvis"
-msgstr ""
+msgstr "Échographie pelvienne"
 
 #. module: acs_hms_gynec
 #: model:ir.actions.report,name:acs_hms_gynec.action_report_sono_pelvis
 msgid "Sonography Pelvis Report"
-msgstr ""
+msgstr "Rapport d'échographie pelvienne"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment__sonography_pelvis_ids
@@ -2897,159 +2893,157 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Sonography Pelvis Reports"
-msgstr ""
+msgstr "Rapports d'échographie pelvienne"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_appointment_sonography_pelvis
 msgid "Sound waves to make pictures of the organs inside your pelvis"
-msgstr ""
+msgstr "Ondes sonores pour prendre des images des organes à l'intérieur de votre bassin"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_appointment_sonography_obstetric
 msgid "Sound waves to produce pictures of a baby."
-msgstr ""
+msgstr "Ondes sonores pour produire des images d'un bébé."
 
-#. module: acs_hms_gynec
-#: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "Sr.No"
-msgstr ""
+msgstr "N°"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__state
 msgid "Status"
-msgstr ""
+msgstr "État"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pregnancy__pregnancy_end_result__status_unknown
 msgid "Status unknown"
-msgstr ""
+msgstr "État inconnu"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pregnancy__pregnancy_end_result__stillbirth
 msgid "Stillbirth"
-msgstr ""
+msgstr "Mortinaissance"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__stillbirths
 msgid "Stillbirths"
-msgstr ""
+msgstr "Mortinaissances"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__contraception_method__subdermic
 msgid "Subdermic"
-msgstr ""
+msgstr "Sous-dermique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__dispareunia__superficial
 msgid "Superficial"
-msgstr ""
+msgstr "Superficiel"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_pregnancy__iugr__symmetric
 msgid "Symmetric"
-msgstr ""
+msgstr "Symétrique"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sys_examination_view
 msgid "Systematic Examination"
-msgstr ""
+msgstr "Examen systématique"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sys_examination_calendar
 msgid "Systematic Examinations"
-msgstr ""
+msgstr "Examens systématiques"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_systemic_examination
 #: model:ir.ui.menu,name:acs_hms_gynec.menu_acs_systemic_examination
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_appointment_form_inherit_gynec_1
 msgid "Systemic Examination"
-msgstr ""
+msgstr "Examen systématique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__examination_ids
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_hms_patient_form_gynec
 msgid "Systemic Examinations"
-msgstr ""
+msgstr "Examens systématiques"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__systolic_bp
 msgid "Systolic BP"
-msgstr ""
+msgstr "Tension artérielle systolique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal_monitor__systolic
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_puerperium_monitor__systolic
 msgid "Systolic Pressure"
-msgstr ""
+msgstr "Pression systolique"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_prenatal_evaluation_from
 msgid "Systolic/Diastolic BP"
-msgstr ""
+msgstr "Tension artérielle systolique/diastolique"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__tl_done
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__contraception_method__tl_done
 msgid "TL/Done"
-msgstr ""
+msgstr "LRT/Fait"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_perinatal__vaginal_tearing
 msgid ""
 "Tear occurs in your perineum – the area between your vagina and your anus."
-msgstr ""
+msgstr "Déchirure se produit dans votre périnée - la zone entre votre vagin et votre anus."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_puerperium_monitor__temperature
 msgid "Temperature"
-msgstr ""
+msgstr "Température"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment__external_genitals
 msgid ""
 "The external genitalia include the labia majora, mons pubis, labia minora, "
 "clitoris, and glands within the vestibule"
-msgstr ""
+msgstr "Les organes génitaux externes comprennent les grandes lèvres, le mont de Vénus, les petites lèvres, le clitoris et les glandes dans le vestibule."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_appointment_sonography_obstetric__internalos
 msgid "The opening of this canal into the uterus."
-msgstr ""
+msgstr "L'ouverture de ce canal dans l'utérus."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.acs_pregnancy_view
 msgid ""
 "The period of about six weeks after childbirth during which the mother's "
 "reproductive organs return to their original non-pregnant."
-msgstr ""
+msgstr "La période d'environ six semaines après l'accouchement pendant laquelle les organes reproducteurs de la mère retournent à leur état non enceinte original."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_perinatal__placenta_retained
 msgid "The placenta remains in the womb a period after birth"
-msgstr ""
+msgstr "Le placenta reste dans l'utérus un certain temps après la naissance."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_pelvis__evidence_of_intrauterine
 msgid ""
 "There is no evidence of intrauterine or extrauterine mass or gestation."
-msgstr ""
+msgstr "Il n'y a aucune preuve de masse intra-utérine ou extra-utérine ou de gestation."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_pelvis__free_fluid_in_pod
 msgid "There is no free fluid in POD (Pouch of Douglas)"
-msgstr ""
+msgstr "Il n'y a pas de liquide libre dans le POD (cul-de-sac de Douglas)"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_acs_child_birth_search
 msgid "This Month"
-msgstr ""
+msgstr "Ce mois-ci"
 
 #. module: acs_hms_gynec
 #: model:ir.model,name:acs_hms_gynec.model_hms_perinatal
 msgid "Time information immediately before and after birth"
-msgstr ""
+msgstr "Informations temporelles immédiatement avant et après la naissance."
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
@@ -3057,23 +3051,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_pelvis_search
 msgid "Today"
-msgstr ""
+msgstr "Aujourd'hui"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
 msgid "Today's Examination"
-msgstr ""
+msgstr "Examen d'aujourd'hui"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__presentation__transverse
 msgid "Transverse"
-msgstr ""
+msgstr "Transversal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__fetus_presentation__trans
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal_monitor__fetus_position__transverse_lie
 msgid "Transverse Lie"
-msgstr ""
+msgstr "Position transversale"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient__tl_done
@@ -3081,62 +3075,62 @@ msgid ""
 "Tubal ligation is a permanent voluntary form of birth control "
 "(contraception) in which a woman's Fallopian tubes are surgically cut or "
 "blocked off to prevent pregnancy."
-msgstr ""
+msgstr "La ligature des trompes est une forme permanente et volontaire de contrôle des naissances (contraception) dans laquelle les trompes de Fallope d'une femme sont chirurgicalement coupées ou bloquées pour empêcher la grossesse."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__fetues__twins
 msgid "Twins"
-msgstr ""
+msgstr "Jumeaux"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_pregnancy__monozygotic
 msgid "Twins derived from a single ovum, and so identical."
-msgstr ""
+msgstr "Jumeaux dérivés d'un seul ovule, et donc identiques."
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_acs_child_birth__delivery_type
 msgid "Type of Delivery"
-msgstr ""
+msgstr "Type d'accouchement"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_perinatal__dystocia
 msgid "Types of Birth Breeches. Difficult birth"
-msgstr ""
+msgstr "Types de présentations à l'accouchement. Accouchement difficile"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__laceration__urethral
 msgid "Urethral"
-msgstr ""
+msgstr "Urétal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__urinary_problem
 msgid "Urinary Problem"
-msgstr ""
+msgstr "Problème urinaire"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__urine
 msgid "Urine"
-msgstr ""
+msgstr "Urine"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "Urine:"
-msgstr ""
+msgstr "Urine :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__forceps
 msgid "Use of forceps"
-msgstr ""
+msgstr "Utilisation de forceps"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_pelvis__uterus
 msgid "Uterus"
-msgstr ""
+msgstr "Utérus"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_appointment_sonography_pelvis__uterus_size
 msgid "Uterus size"
-msgstr ""
+msgstr "Taille de l'utérus"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__hematoma__vaginal
@@ -3144,48 +3138,48 @@ msgstr ""
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__systemic_examination__exa_type__vaginal
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_exam_search
 msgid "Vaginal"
-msgstr ""
+msgstr "Vaginal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient__vaginal_birth
 msgid "Vaginal Birth"
-msgstr ""
+msgstr "Accouchement vaginal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal__vaginal_tearing
 msgid "Vaginal tearing"
-msgstr ""
+msgstr "Déchirure vaginale"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__presentation__variable
 msgid "Variable"
-msgstr ""
+msgstr "Variable"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__vasa_previa
 msgid "Vasa Previa"
-msgstr ""
+msgstr "Vasa previa"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_appointment_sonography_obstetric__presentation__vertex
 msgid "Vertex"
-msgstr ""
+msgstr "Vertex"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_menstrual_history__volume
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__hematoma__vulvar
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__laceration__vulvar
 msgid "Vulvar"
-msgstr ""
+msgstr "Vulvaire"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_pregnancy__warning
 msgid "Warn"
-msgstr ""
+msgstr "Avertissement"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
@@ -3193,131 +3187,131 @@ msgid ""
 "Weeks.\n"
 "                                <font color=\"white\">......</font>\n"
 "                                Days"
-msgstr ""
+msgstr "Semaines.\n<font color=\"white\">......</font>\nJours"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_patient_prenatal_evaluation__mother_weight
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_systemic_examination__weight
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_acs_pregnancy_document
 msgid "Weight"
-msgstr ""
+msgstr "Poids"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "Width:"
-msgstr ""
+msgstr "Largeur :"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient__tl_done__yes
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_colposcopy_history__result__abnormal
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_mammography_history__result__abnormal
 msgid "abnormal"
-msgstr ""
+msgstr "anormal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__start_labor_mode__c-sec
 msgid "c-section"
-msgstr ""
+msgstr "césarienne"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,help:acs_hms_gynec.field_hms_patient_prenatal_evaluation__vasa_previa
 msgid ""
 "condition in which fetal blood vessels cross or run near the internal "
 "opening of the uterus"
-msgstr ""
+msgstr "condition dans laquelle les vaisseaux sanguins fœtaux traversent ou passent près de l'ouverture interne de l'utérus"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_sonography_obstetric_view
 msgid "impression"
-msgstr ""
+msgstr "impression"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_perinatal__place_of_death__transit
 msgid "in transit to the hospital"
-msgstr ""
+msgstr "en transit vers l'hôpital"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 msgid "m.m"
-msgstr ""
+msgstr "m.m"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "measures"
-msgstr ""
+msgstr "mesures"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_obstetric_document
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "mm in size"
-msgstr ""
+msgstr "mm en taille"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.hms_patient_pregnancy_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.view_acs_child_birth_search
 msgid "month"
-msgstr ""
+msgstr "mois"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_colposcopy_history__result__normal
 #: model:ir.model.fields.selection,name:acs_hms_gynec.selection__hms_patient_mammography_history__result__normal
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #. module: acs_hms_gynec
 #: model:ir.model.fields,field_description:acs_hms_gynec.field_hms_perinatal_monitor__perinatal_id
 msgid "patient"
-msgstr ""
+msgstr "patient"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "● <span class=\"ml16\"> Uterus is </span>"
-msgstr ""
+msgstr "● <span class=\"ml16\"> L'utérus est </span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "● <span class=\"ml16\">Cerix appears to be normal</span>"
-msgstr ""
+msgstr "● <span class=\"ml16\">Le col de l'utérus semble normal</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "● <span class=\"ml16\">Endometrial echo is seen Centrally</span>"
-msgstr ""
+msgstr "● <span class=\"ml16\">L'écho endométrial est visible au centre</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "● <span class=\"ml16\">Left Ovary measures</span>"
-msgstr ""
+msgstr "● <span class=\"ml16\">Mesures de l'ovaire gauche</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "● <span class=\"ml16\">Right Ovary measures</span>"
-msgstr ""
+msgstr "● <span class=\"ml16\">Mesures de l'ovaire droit</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid ""
 "● <span class=\"ml16\">There is no evidence of intrauterine or extrauterine "
 "mass or gestation.</span>"
-msgstr ""
+msgstr "● <span class=\"ml16\">Il n'y a pas de preuve de masse intra-utérine ou extra-utérine.</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid "●<span class=\"ml16\">Endometrial thickness is </span>"
-msgstr ""
+msgstr "●<span class=\"ml16\">L'épaisseur de l'endomètre est</span>"
 
 #. module: acs_hms_gynec
 #: model_terms:ir.ui.view,arch_db:acs_hms_gynec.report_sono_pelvis_document
 msgid ""
 "●<span class=\"ml16\">There is no free fluid in POD ( Pouch of "
 "Douglas)</span>"
-msgstr ""
+msgstr "●<span class=\"ml16\">Il n'y a pas de liquide libre dans le POD (cul-de-sac de Douglas).</span>",
