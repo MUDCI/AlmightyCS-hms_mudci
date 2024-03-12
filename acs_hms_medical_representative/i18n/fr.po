@@ -1,0 +1,1540 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_hms_medical_representative
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-14 06:05+0000\n"
+"PO-Revision-Date: 2022-03-14 06:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: fr\n"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__meeting_count
+msgid "# Meetings"
+msgstr "# Réunions"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_ambulance_drive_count
+msgid "#Ambulance Drives"
+msgstr "#Ambulances"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_blood_requisition_count
+msgid "#Blood Donations"
+msgstr "#Dons de sang"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_blood_issuance_count
+msgid "#Blood Requisitions"
+msgstr "#Réquisitions de sang"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__announcement_count
+msgid "#SMS Announcement Count"
+msgstr "Nombre d'annonces SMS"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__sms_count
+msgid "#SMS Count"
+msgstr "Nombre de SMS"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__whatsapp_announcement_count
+msgid "#whatsapp Announcement Count"
+msgstr "Nombre d'annonces WhatsApp"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__whatsapp_count
+msgid "#whatsapp Count"
+msgstr "Nombre WhatsApp"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_represntative_kanban
+msgid "<b>Code:</b>"
+msgstr "<b>Code:</b>"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_represntative_kanban
+msgid "<b>Mobile:</b>"
+msgstr "<b>Mobile:</b>"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_represntative_kanban
+msgid "<b>Sex:</b>"
+msgstr "<b>Sexe :</b>"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_account_payable_id
+msgid "Account Payable"
+msgstr "Compte à payer"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Compte recevable"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_amount_due
+msgid "Acs Amount Due"
+msgstr "Montant des Acs dû"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_needaction
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_needaction
+msgid "Action Needed"
+msgstr "Action nécessaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__active_lang_count
+msgid "Active Lang Count"
+msgstr "Nombre de langues actives"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_ids
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_exception_decoration
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activité Exception Décoration"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_state
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_state
+msgid "Activity State"
+msgstr "État d'activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_type_icon
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icône de type d'activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__additional_info
+msgid "Additional info"
+msgstr "information additionnelle"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Address"
+msgstr "Addresse"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__type
+msgid "Address Type"
+msgstr "Type d'adresse"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__age
+msgid "Age"
+msgstr "Age"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr "Tous les emails et documents envoyés à ce contact seront traduits dans cette langue"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_ambulance_drive_ids
+msgid "Ambulance Drives"
+msgstr "Conduites d'ambulances"
+
+#. module: acs_hms_medical_representative
+#: model:ir.ui.menu,name:acs_hms_medical_representative.menu_mr
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Appointment"
+msgstr "Rendez-vous"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_form
+msgid "Approve"
+msgstr "Approuver"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields.selection,name:acs_hms_medical_representative.selection__acs_mr_visit__state__approved
+msgid "Approved"
+msgstr "Approuvé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_attachment_count
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre de pièces jointes"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__avatar_1920
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__bank_account_count
+msgid "Bank"
+msgstr "Banque"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__bank_ids
+msgid "Banks"
+msgstr "Banques"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__barcode
+msgid "Barcode"
+msgstr "code à barre"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_blacklisted
+msgid "Blacklist"
+msgstr "Liste noire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr "Le téléphone sur liste noire est mobile"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr "Le téléphone sur liste noire est le téléphone"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_blood_issuance_ids
+msgid "Blood Donations"
+msgstr "Dons de sang"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__blood_group
+msgid "Blood Group"
+msgstr "Groupe sanguin"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_blood_requisition_ids
+msgid "Blood Requisitions"
+msgstr "Réquisitions de sang"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_bounce
+msgid "Bounce"
+msgstr "Rebond"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__branch_id
+msgid "Branch"
+msgstr "Branche"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__commission_ids
+msgid "Business Commission"
+msgstr "Commission commerciale"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__can_publish
+msgid "Can Publish"
+msgstr "Peut publier"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields.selection,name:acs_hms_medical_representative.selection__acs_mr_visit__state__cancelled
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__channel_ids
+msgid "Channels"
+msgstr "Canaux"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__is_patient
+msgid "Check if customer is linked with patient."
+msgstr "Vérifiez si le client est lié au patient."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Vérifiez si le contact est une entreprise, sinon c'est une personne"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Cochez cette case si ce contact est un employé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__city
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "City"
+msgstr "Ville"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.actions.act_window,help:acs_hms_medical_representative.action_medical_representative
+msgid "Click to add a Medical Represenatative."
+msgstr "Cliquez pour ajouter un représentant médical"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.actions.act_window,help:acs_hms_medical_representative.action_medical_representative_visit
+msgid "Click to add a Medical Representative Visit."
+msgstr "Cliquez pour ajouter une visite d'un représentant médical."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__color
+msgid "Color Index"
+msgstr "Index des couleurs"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entité commerciale"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__commission_rule_ids
+msgid "Commission Rules"
+msgstr "Règles de la Commission"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Entreprises faisant référence à un partenaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__company_id
+msgid "Company"
+msgstr "Entreprise"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__company_name
+msgid "Company Name"
+msgstr "Nom de la société"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nom de la société Entité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__company_type
+msgid "Company Type"
+msgstr "Type de société"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__partner_gid
+msgid "Company database ID"
+msgstr "ID de base de données de l'entreprise"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__contact_address
+msgid "Complete Address"
+msgstr "Adresse complète"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__child_ids
+msgid "Contact"
+msgstr "Contact"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__contact_address_complete
+msgid "Contact Address Complete"
+msgstr "Adresse de contact complète"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Compteur du nombre d'emails rejetés pour ce contact"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__country_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Country"
+msgstr "Pays"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__country_code
+msgid "Country Code"
+msgstr "Code pays"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__create_uid
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__create_date
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__credit_limit
+msgid "Credit Limit"
+msgstr "Limite de crédit"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__currency_id
+msgid "Currency"
+msgstr "Devise"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_stock_customer
+msgid "Customer Location"
+msgstr "Emplacement du client"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Conditions de paiement client"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__customer_rank
+msgid "Customer Rank"
+msgstr "Classement des clients"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__date_visit
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__date
+msgid "Date"
+msgstr "Date"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__birthday
+msgid "Date of Birth"
+msgstr "Date de naissance"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__date_of_death
+msgid "Date of Death"
+msgstr "Date du décès"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__trust
+msgid "Degree of trust you have in this debtor"
+msgstr "Degré de confiance que vous avez en ce débiteur"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_form
+msgid "Description"
+msgstr "Description"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__display_name
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__physician_id
+msgid "Doctor"
+msgstr "Docteur"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields.selection,name:acs_hms_medical_representative.selection__acs_mr_visit__state__done
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_form
+msgid "Done"
+msgstr "Terminé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__remark
+msgid "Dr Remark"
+msgstr "Remarque du Dr"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields.selection,name:acs_hms_medical_representative.selection__acs_mr_visit__state__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+"Soit client (pas utilisateur), soit utilisateur partagé. "
+"Indiqué le courant le partenaire est un client sans accès ou avec un accès limité créé pour "
+"partage de données."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__email
+msgid "Email"
+msgstr "E-mail"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__employee_ids
+msgid "Employees"
+msgstr "Employés"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__employees_count
+msgid "Employees Count"
+msgstr "Nombre d'employés"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr "Champ utilisé pour stocker un numéro de téléphone nettoyé. Permet d'accélérer les recherches et comparaisons"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_account_position_id
+msgid "Fiscal Position"
+msgstr "Situation Fiscale"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_follower_ids
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_partner_ids
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__activity_type_icon
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icône de police géniale, par exemple fa-tasks"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Formater l'adresse email \"Nom <email@domain>\""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__email_formatted
+msgid "Formatted Email"
+msgstr "E-mail formaté"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__gender
+msgid "Gender"
+msgstr "Genre"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "General Information"
+msgstr "Informations générales"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__generated_otp_sms
+msgid "Generated OTP SMS"
+msgstr "SMS OTP généré"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__generated_otp_whatsapp
+msgid "Generated OTP Whatsapp"
+msgstr "Whatsapp OTP généré"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__partner_latitude
+msgid "Geo Latitude"
+msgstr "Géo Latitude"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__partner_longitude
+msgid "Geo Longitude"
+msgstr "Géo Longitude"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__provide_commission
+msgid "Give Commission"
+msgstr "Donner une commission"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__has_message
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__has_message
+msgid "Has Message"
+msgstr "A un message"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr "A des entrées non rapprochées"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__hospital_name
+msgid "Hospital Name"
+msgstr "Nom de l'hôpital"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__id
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__id
+msgid "ID"
+msgstr "ID"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__im_status
+msgid "IM Status"
+msgstr "Statut de la messagerie instantanée"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_represntative_kanban
+msgid "IMG"
+msgstr "IMG"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_exception_icon
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_exception_icon
+msgid "Icon"
+msgstr "Icône"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__activity_exception_icon
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icône pour indiquer une activité d'exception."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__code
+msgid "Identification Code"
+msgstr "Code d'identification"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__code
+msgid "Identifier provided by the Health Center."
+msgstr "Identifiant fourni par le Centre de Santé."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_needaction
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_unread
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_needaction
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, les nouveaux messages nécessitent votre attention."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_has_error
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_has_sms_error
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_has_error
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si coché, certains messages ont une erreur de livraison."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr "Si l'adresse email est sur la liste noire, le contact ne recevra pas de massene plus envoyer de mail, depuis n'importe quelle liste"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr "Si le numéro de téléphone désinfecté est sur la liste noire, le contact ne recevra pas Envoi massif de SMS, depuis n'importe quelle liste"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr "Indique si un numéro de téléphone désinfecté sur liste noire est un numéro de mobile. Aide distinguer quel numéro est sur liste noire lorsqu'il y a à la fois un Champ mobile et téléphonique dans un modèle."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr "Indique si un numéro de téléphone désinfecté sur liste noire est un numéro de téléphone. Aide distinguer quel numéro est sur liste noire lorsqu'il y a à la fois un Champ mobile et téléphonique dans un modèle."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__industry_id
+msgid "Industry"
+msgstr "Industrie"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__invoice_warn
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr "Les adresses de facturation et de livraison sont utilisées dans les commandes clients. Les adresses privées sont visible uniquement par les utilisateurs autorisés."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__invoice_ids
+msgid "Invoices"
+msgstr "Factures"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_donor
+msgid "Is Blood Donor"
+msgstr "Est-ce un donneur de sang"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_receiver
+msgid "Is Blood Receiver"
+msgstr "Est-ce qu'il reçoit du sang"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_driver
+msgid "Is Driver"
+msgstr "Est le pilote"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_is_follower
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_is_follower
+msgid "Is Follower"
+msgstr "Est un suiveur"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_patient
+msgid "Is Patient"
+msgstr "Est patient"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_published
+msgid "Is Published"
+msgstr "Est publié"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_referring_doctor
+msgid "Is Refereinng Physician"
+msgstr "Est un médecin référent"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__is_company
+msgid "Is a Company"
+msgstr "Est une entreprise"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__function
+msgid "Job Position"
+msgstr "Poste de travail"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__journal_item_count
+msgid "Journal Items"
+msgstr "Éléments du journal"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__lang
+msgid "Language"
+msgstr "Langue"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit____last_update
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__write_uid
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__write_date
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr "Dernière notification marquée comme lue dans le calendrier de base"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__last_time_entries_checked
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. "
+"It is set either if there's not at least an unreconciled debit and an "
+"unreconciled credit or if you click the \"Done\" button."
+msgstr ""
+"Dernière fois où la correspondance entre les factures et les paiements a été "
+"effectuée pour ce partenaire. Cela est défini soit s'il n'y a pas au moins "
+"un débit non rapproché et un crédit non rapproché, soit si vous cliquez sur "
+"le bouton \"Terminé\"."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Date la plus récente de correspondance des factures et des paiements"
+
+#. module: acs_hms_medical_representative
+#: model:ir.actions.act_window,name:acs_hms_medical_representative.action_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__medical_representative_id
+#: model:ir.ui.menu,name:acs_hms_medical_representative.menu_mr_appointment
+#: model:ir.ui.menu,name:acs_hms_medical_representative.menu_mr_main
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_tree
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_form
+msgid "MR"
+msgstr "MR"
+
+#. module: acs_hms_medical_representative
+#: model:ir.actions.act_window,name:acs_hms_medical_representative.action_medical_representative_visit
+msgid "MR Visit"
+msgstr "Visite de MR"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_main_attachment_id
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model,name:acs_hms_medical_representative.model_medical_representative
+msgid "Medical Representative"
+msgstr "Représentant médical"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model,name:acs_hms_medical_representative.model_acs_mr_visit
+msgid "Medical Visit"
+msgstr "Visite médicale"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__image_medium
+msgid "Medium-sized image"
+msgstr "Image de taille moyenne"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__meeting_ids
+msgid "Meetings"
+msgstr "Réunions"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_has_error
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur de livraison de message"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr "Message pour la facture"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__picking_warn_msg
+msgid "Message for Stock Picking"
+msgstr "Message pour le picking de stock"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_ids
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__mobile
+msgid "Mobile"
+msgstr "Mobile"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Mr Registration"
+msgstr "Enregistrement de MR"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__my_activity_date_deadline
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Date limite de mon activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__name
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__name
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Name"
+msgstr "Nom"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__physician_id
+msgid "Name of the Doctor"
+msgstr "Nom du médecin"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__medical_representative_id
+msgid "Name of the Mr"
+msgstr "Nom du représentant médical"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_calendar_event_id
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Prochain événement du calendrier d'activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_date_deadline
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Prochaine date limite d'activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_summary
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_summary
+msgid "Next Activity Summary"
+msgstr "Résumé de la prochaine activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_type_id
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_type_id
+msgid "Next Activity Type"
+msgstr "Type de prochaine activité"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__email_normalized
+msgid "Normalized Email"
+msgstr "Email normalisé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__comment
+msgid "Notes"
+msgstr "Notes"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_needaction_counter
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_has_error_counter
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'erreurs"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_needaction_counter
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages nécessitant une action"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_has_error_counter
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec erreur de livraison"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__message_unread_counter
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de messages non lus"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__ocn_token
+msgid "OCN Token"
+msgstr "Jeté OCN"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_otp_sms
+msgid "OTP SMS"
+msgstr "OTP SMS"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_otp_whatsapp
+msgid "OTP Whatsapp"
+msgstr "OTP Whatsapp"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__parent_name
+msgid "Parent name"
+msgstr "Nom du parent"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__partner_id
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__contract_ids
+msgid "Partner Contracts"
+msgstr "Contrats du partenaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "Partenaire avec le même identifiant fiscal"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_patient_id
+msgid "Patient"
+msgstr "Patient"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__debit_limit
+msgid "Payable Limit"
+msgstr "Limite de paiement"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_payment_method_id
+msgid "Payment Method"
+msgstr "Méthode de paiement"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__payment_token_count
+msgid "Payment Token Count"
+msgstr "Nombre de jetons de paiement"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__payment_token_ids
+msgid "Payment Tokens"
+msgstr "Jetons de paiement"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__commission_percentage
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__phone
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr "Téléphone sur liste noire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr "Téléphone/Mobile"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__plan_to_change_bike
+msgid "Plan To Change Bike"
+msgstr "Plan de changer de vélo"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__plan_to_change_car
+msgid "Plan To Change Car"
+msgstr "Plan de changer de voiture"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_payment_method_id
+msgid ""
+"Preferred payment method when paying this vendor. This is used to filter "
+"vendor bills by preferred payment method to register payments in mass. Use "
+"cases: create bank files for batch wires, check runs."
+msgstr ""
+"Méthode de paiement préférée lors du paiement de ce fournisseur. Cela est "
+"utilisé pour filtrer les factures de fournisseur par méthode de paiement "
+"préférée pour enregistrer les paiements en masse. Cas d'utilisation: "
+"créer des fichiers bancaires pour les virements groupés, les chèques."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_product_pricelist
+msgid "Pricelist"
+msgstr "Liste de prix"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__product_description
+msgid "Product Description"
+msgstr "Description du produit"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_name
+msgid "Purpose"
+msgstr "But"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__ref
+msgid "Reference"
+msgstr "Référence"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__parent_id
+msgid "Related Company"
+msgstr "Entreprise associée"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__employee_ids
+msgid "Related employees based on their private address"
+msgstr "Employés associés basés sur leur adresse privée"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_form
+msgid "Remark"
+msgstr "Remarque"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__activity_user_id
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__activity_user_id
+msgid "Responsible User"
+msgstr "Utilisateur responsable"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__website_id
+msgid "Restrict publishing to this website."
+msgstr "Restreindre la publication à ce site web."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__commission_role_id
+msgid "Role"
+msgstr "Rôle"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__sms_ids
+msgid "SMS"
+msgstr "SMS"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_has_sms_error
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erreur de livraison SMS"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__user_id
+msgid "Salesperson"
+msgstr "Commercial"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__phone_sanitized
+msgid "Sanitized Number"
+msgstr "Numéro sanitisé"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__invoice_warn
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__picking_warn
+msgid ""
+"Selecting the \"Warning\" option will notify the user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"will block the flow. The message must be written in the following field."
+msgstr ""
+"Sélectionner l'option \"Avertissement\" notifiera l'utilisateur avec le message, "
+"Sélectionner \"Blocking Message\" générera une exception avec le message et "
+"bloquera le flux. Le message doit être écrit dans le champ suivant."
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__self
+msgid "Self"
+msgstr "Soi-même"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__partner_share
+msgid "Share Partner"
+msgstr "Partage de partenaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__signup_expiration
+msgid "Signup Expiration"
+msgstr "Expiration de l'inscription"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__signup_token
+msgid "Signup Token"
+msgstr "Jetons d'inscription"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__signup_type
+msgid "Signup Token Type"
+msgstr "Type de jeton d'inscription"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__signup_valid
+msgid "Signup Token is Valid"
+msgstr "Le jeton d'inscription est valide"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__signup_url
+msgid "Signup URL"
+msgstr "URL d'inscription"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__state_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "State"
+msgstr "État"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__state
+msgid "Status"
+msgstr "État"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__activity_state
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date de l'activité est aujourd'hui\n"
+"Planifié : activités futures. "
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__picking_warn
+msgid "Stock Picking"
+msgstr "Sélectionner la Commande de Stock"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__street
+msgid "Street"
+msgstr "Rue"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Street 2..."
+msgstr "Rue 2..."
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "Street..."
+msgstr "Rue..."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__street2
+msgid "Street2"
+msgstr "Rue 2"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__supplier_rank
+msgid "Supplier Rank"
+msgstr "Classement Fournisseur"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__category_id
+msgid "Tags"
+msgstr "Mots-clés"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__vat
+msgid "Tax ID"
+msgstr "Identifiant Fiscal"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__country_code
+msgid "The ISO country code in two chars. You can use this field for quick search."
+msgstr "Le code pays ISO en deux caractères. Vous pouvez utiliser ce champ pour une recherche rapide."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__vat
+msgid "The Tax Identification Number. Complete it if the contact is subjected to government taxes. Used in some legal statements."
+msgstr "Le numéro d'identification fiscale. Complétez-le si le contact est soumis à des taxes gouvernementales. Utilisé dans certaines déclarations légales."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_account_position_id
+msgid "The fiscal position determines the taxes/accounts used for this contact."
+msgstr "La position fiscale détermine les taxes/comptes utilisés pour ce contact."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__website_url
+msgid "The full URL to access the document through the website."
+msgstr "L'URL complète pour accéder au document via le site Web."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__user_id
+msgid "The internal user in charge of this contact."
+msgstr "L'utilisateur interne en charge de ce contact."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__verified_mobile_sms
+msgid "The mobile number is verified using the SMS message"
+msgstr "Le numéro de mobile est vérifié en utilisant le message SMS"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__verified_mobile_whatsapp
+msgid "The mobile number is verified using the Whatsapp message"
+msgstr "Le numéro de mobile est vérifié en utilisant le message Whatsapp"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "Le partenaire a au moins un débit et un crédit non rapprochés depuis la dernière fois où la correspondance des factures et des paiements a été effectuée."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_stock_customer
+msgid "The stock location used as destination when sending goods to this contact."
+msgstr "L'emplacement de stock utilisé comme destination lors de l'envoi de marchandises à ce contact."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_stock_supplier
+msgid "The stock location used as source when receiving goods from this contact."
+msgstr "L'emplacement de stock utilisé comme source lors de la réception de marchandises de ce contact."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Cet compte sera utilisé à la place de celui par défaut en tant que compte payable pour le partenaire actuel"
+
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr "Ce compte sera utilisé à la place de celui par défaut en tant que compte à recevoir pour le partenaire actuel"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr "Ce champ est utilisé pour la recherche sur l'adresse e-mail car le champ d'e-mail principal peut contenir plus qu'une simple adresse e-mail."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr "Ce terme de paiement sera utilisé à la place de celui par défaut pour les commandes d'achat et les factures fournisseurs"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr "Ce terme de paiement sera utilisé à la place de celui par défaut pour les commandes clients et les factures clients"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr "Cette liste de prix sera utilisée, au lieu de celle par défaut, pour les ventes au partenaire actuel"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__tz
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__tz_offset
+msgid "Timezone offset"
+msgstr "Décalage horaire"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__title
+msgid "Title"
+msgstr "Titre"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__total_invoiced
+msgid "Total Invoiced"
+msgstr "Total des factures"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__debit
+msgid "Total Payable"
+msgstr "Total à payer"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__credit
+msgid "Total Receivable"
+msgstr "Total à recevoir"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__credit
+msgid "Total amount this customer owes you."
+msgstr "Montant total que ce client vous doit."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Montant total que vous devez payer à ce fournisseur."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__activity_exception_decoration
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d'activité d'exception enregistrée."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_unread
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_unread
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__message_unread_counter
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__barcode
+msgid "Use a barcode to identify this contact."
+msgstr "Utilisez un code-barres pour identifier ce contact."
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__ocn_token
+msgid "Used for sending notification to registered devices"
+msgstr "Utilisé pour l'envoi de notifications aux appareils enregistrés"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__user_ids
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__currency_id
+msgid "Utility field to express amount currency"
+msgstr "Champ utilitaire pour exprimer la devise de montant"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_stock_supplier
+msgid "Vendor Location"
+msgstr "Emplacement du fournisseur"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Conditions de paiement du fournisseur"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__verified_mobile_sms
+msgid "Verified SMS"
+msgstr "SMS vérifié"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__verified_mobile_whatsapp
+msgid "Verified Whatsapp"
+msgstr "Whatsapp vérifié"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__website_published
+msgid "Visible on current website"
+msgstr "Visible sur le site Web actuel"
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_calendar
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_pivot
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.view_medical_representative_tree
+msgid "Visit"
+msgstr "Visite"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__visitor_ids
+msgid "Visitors"
+msgstr "Visiteurs"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__acs_webcam_url
+msgid "Webcam Field"
+msgstr "Champ de la webcam"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__website_id
+msgid "Website"
+msgstr "Site Web"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__website
+msgid "Website Link"
+msgstr "Lien du site Web"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_acs_mr_visit__website_message_ids
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__website_message_ids
+msgid "Website Messages"
+msgstr "Messages du site Web"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__website_url
+msgid "Website URL"
+msgstr "URL du site Web"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_acs_mr_visit__website_message_ids
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__website_message_ids
+msgid "Website communication history"
+msgstr "Historique de communication du site Web"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,help:acs_hms_medical_representative.field_medical_representative__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+"Lors de l'impression de documents et de l'exportation/importation de données, les valeurs temporelles sont calculées en fonction de ce fuseau horaire.\n"
+"Si le fuseau horaire n'est pas défini, l'UTC (Temps Universel Coordonné) est utilisé.\n"
+"Ailleurs, les valeurs temporelles sont calculées en fonction du décalage horaire de votre client Web."
+
+#. module: acs_hms_medical_representative
+#: model_terms:ir.ui.view,arch_db:acs_hms_medical_representative.medical_representative_form
+msgid "ZIP"
+msgstr "Code postal"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__zip
+msgid "Zip"
+msgstr "Code postal"
+
+#. module: acs_hms_medical_representative
+#: model:ir.model.fields,field_description:acs_hms_medical_representative.field_medical_representative__whatsapp_ids
+msgid "whatsapp"
+msgstr "Whatsapp"

@@ -228,7 +228,7 @@ msgstr "<span>Quartier : </span>"
 msgid "<strong style=\"font-size: 20px;\">\n"
 "                                        <span>Visiting Pass</span>\n"
 "                                    </strong>"
-msgstr ""
+msgstr "<strong style=\"font-size: 20px;\"> <span>Pass visite</span> </strong>"
 
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.report_hospital_discharge_document
@@ -1675,12 +1675,13 @@ msgid ""
 "Keep this print as reference further communication and procedure.\n"
 "                    Should you have any questions please contact us at your convenience.<br/><br/>\n"
 "                    Best regards,<br/>"
-msgstr ""
+
+msgstr "Conservez cette impression comme référence pour toute communication et procédure ultérieure. Si vous avez des questions, veuillez nous contacter à votre convenance. Meilleures salutations."
 
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_digest_digest__kpi_acs_hospitalization_total_value
 msgid "Kpi Acs Hospitalization Total Value"
-msgstr ""
+msgstr "Kpi Acs Hospitalisation Valeur Totale"
 
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_acs_hospitalization__last_evaluation_id

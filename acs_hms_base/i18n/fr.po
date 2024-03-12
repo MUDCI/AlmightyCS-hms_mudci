@@ -561,7 +561,7 @@ msgstr "Entraîneur"
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_drug_form_search
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.view_drug_route_search
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient_tag__color
@@ -646,7 +646,7 @@ msgstr "Adresse complète"
 #: model:ir.ui.menu,name:acs_hms_base.menu_medicine_cofig
 #: model:ir.ui.menu,name:acs_hms_base.menu_physician_cofig
 msgid "Configuration"
-msgstr ""
+msgstr "Configiration"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_consumable_line__product_id
@@ -657,7 +657,7 @@ msgstr "Consommable"
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__child_ids
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__child_ids
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__contact_address_complete
@@ -1136,12 +1136,12 @@ msgstr "Groupes"
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.res_config_settings_view_form
 msgid "HMS"
-msgstr ""
+msgstr "HMS"
 
 #. module: acs_hms_base
 #: model:ir.model,name:acs_hms_base.model_acs_hms_mixin
 msgid "HMS Mixin"
-msgstr ""
+msgstr "HMS Mélanger"
 
 #. module: acs_hms_base
 #: model_terms:ir.ui.view,arch_db:acs_hms_base.res_config_settings_view_form
@@ -1399,7 +1399,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:acs_hms_base.field_product_product__indications
 #: model:ir.model.fields,field_description:acs_hms_base.field_product_template__indications
 msgid "Indication"
-msgstr ""
+msgstr "Indication"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,help:acs_hms_base.field_product_product__indications
@@ -1912,7 +1912,7 @@ msgstr "Numéro utilisé pour l'identification du patient"
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__ocn_token
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__ocn_token
 msgid "OCN Token"
-msgstr ""
+msgstr "Jeton OCN"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_patient__occupation
@@ -1957,7 +1957,7 @@ msgstr "Autres service"
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_physician__pin
 msgid "PIN"
-msgstr ""
+msgstr "CODE PIN"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,help:acs_hms_base.field_hms_physician__pin
@@ -2226,12 +2226,12 @@ msgstr "Code Postal privé"
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_acs_qrcode_mixin__qr_image
 msgid "QR Code"
-msgstr ""
+msgstr "Code QR"
 
 #. module: acs_hms_base
 #: model:ir.model,name:acs_hms_base.model_acs_qrcode_mixin
 msgid "QrCode Mixin"
-msgstr ""
+msgstr "Mélange QrCode"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_consumable_line__qty
