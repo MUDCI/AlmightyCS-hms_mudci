@@ -19,22 +19,22 @@ msgstr ""
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_physician__lab_request_count
 msgid "# Lab Request"
-msgstr "# Demande de lab"
+msgstr "# Demande de labo"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_patient__request_count
 msgid "# Lab Requests"
-msgstr "# Demande de lab"
+msgstr "# Demande de labo"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_physician__lab_result_count
 msgid "# Lab Result"
-msgstr "# Resultat de lab"
+msgstr "# Resultat de labo"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_patient__test_count
 msgid "# Lab Tests"
-msgstr "# Essais en lab"
+msgstr "# Essais en labo"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
@@ -56,10 +56,10 @@ msgstr "(object.name or 'LabReport').replace('/','_') + '_LabReport'"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
 msgid ""
 ")<br/>\n"
-"            <strong>Lab Request:-</strong>"
+"<strong>Lab Request:-</strong>"
 msgstr ""
 ")<br/>\n"
-"            <strong>Demande de Lab:-</strong>"
+"<strong>Demande de Labo:-</strong>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_prescription_document
@@ -1030,12 +1030,12 @@ msgstr ""
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__email_formatted
 msgid "Format email address \"Name <email@domain>\""
-msgstr ""
+msgstr "Formater l'adresse e-mail \"Nom <email@domain>\"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__email_formatted
 msgid "Formatted Email"
-msgstr ""
+msgstr "E-mail formaté"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__gender
@@ -1133,7 +1133,7 @@ msgstr " Hopital type de produit"
 #: model:ir.model.fields,field_description:acs_laboratory.field_laboratory_request_line__id
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__im_status
@@ -1283,7 +1283,7 @@ msgstr " Insérez votre clause de non-responsabilité par défaut ici."
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 msgid "Institution"
-msgstr ""
+msgstr "Institution"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_test_document
@@ -1778,7 +1778,7 @@ msgstr "Messages"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__mobile
 msgid "Mobile"
-msgstr ""
+msgstr "Mobile"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__my_activity_date_deadline
@@ -1920,7 +1920,7 @@ msgstr "Messages non lus"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory__ocn_token
 msgid "OCN Token"
-msgstr ""
+msgstr "Jeton OCN"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_acs_laboratory_request__group_patient_ids
@@ -1976,7 +1976,7 @@ msgstr "Pathologie"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_acs_laboratory_request_search
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.view_hms_patient_laboratory_test_search
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_consumable_line__patient_lab_test_id
@@ -2130,7 +2130,7 @@ msgstr " Imprimer le code QR d'authentification sur le résultat du laboratoire 
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_patient_laboratory_test__qr_image
 msgid "QR Code"
-msgstr ""
+msgstr "Code QR"
 
 #. module: acs_laboratory
 #: model:ir.model.fields.selection,name:acs_laboratory.selection__acs_lab_test__result_value_type__qualitative
@@ -2573,7 +2573,7 @@ msgstr " Testé par"
 #. module: acs_laboratory
 #: model:ir.model.fields,field_description:acs_laboratory.field_hms_patient__test_ids
 msgid "Tests"
-msgstr ""
+msgstr "Tests"
 
 #. module: acs_laboratory
 #: model:ir.model.fields,help:acs_laboratory.field_acs_laboratory__country_code

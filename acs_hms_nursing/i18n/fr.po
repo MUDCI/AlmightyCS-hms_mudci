@@ -19,12 +19,13 @@ msgstr ""
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_search_view
 msgid "ACS Ward Rounds"
-msgstr ""
+msgstr "Visites de service ACS"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.actions.act_window,help:acs_hms_nursing.hr_employee_public_action
 msgid "Add a new Nurse (employee)"
-msgstr ""
+msgstr "Ajouter un nouvel infirmier (employé)"
+
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__bmi_state
@@ -34,7 +35,7 @@ msgstr "État de l'IMC"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__glycemia
 msgid "Blood Glucose level"
-msgstr ""
+msgstr "Niveau de glucose sanguin"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__bmi
@@ -44,27 +45,27 @@ msgstr "Indice de masse corporelle"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__proximity
 msgid "Check if personal items, water, alarm, ... are not in easy reach"
-msgstr ""
+msgstr "Vérifiez si les objets personnels, l'eau, l'alarme, ... ne sont pas à portée facile"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__position
 msgid "Check if the patient needs to be repositioned or is unconfortable"
-msgstr ""
+msgstr "Vérifiez si le patient doit être repositionné ou est mal à l'aise"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__potty
 msgid "Check if the patient needs to urinate / defecate"
-msgstr ""
+msgstr "Vérifiez si le patient a besoin d'uriner / de déféquer"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__personal_needs
 msgid "Check if the patient requests anything"
-msgstr ""
+msgstr "Vérifiez si le patient demande quelque chose"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__pump
 msgid "Check if there is any issues with the pumps - IVs ... "
-msgstr ""
+msgstr "Vérifiez s'il y a des problèmes avec les pompes - IV ..."
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__warning
@@ -72,61 +73,62 @@ msgid ""
 "Check this box to alert the supervisor about this patient rounding. A "
 "warning icon will be shown in the rounding list"
 msgstr ""
+"Cocher cette case pour alerter le superviseur de l'arrondi de ce patient. Une icône d'avertissement sera affichée dans la liste de l'arrondi."
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__depression
 msgid "Check this if the patient shows signs of depression"
-msgstr ""
+msgstr "Cochez cette case si le patient présente des signes de dépression"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__evolution
 msgid "Check your judgement of currentpatient condition"
-msgstr ""
+msgstr "Vérifiez votre jugement de l'état actuel du patient"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_form_view
 msgid "Create Evaluation"
-msgstr ""
+msgstr "Créer une évaluation"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.actions.act_window,help:acs_hms_nursing.hms_ward_round_action
 msgid "Create the first cash rounding"
-msgstr ""
+msgstr "Créer le premier arrondi d'argent"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Créé par"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Créé le"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__date
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: acs_hms_nursing
 #: model:ir.model,name:acs_hms_nursing.model_hr_department
 msgid "Department"
-msgstr ""
+msgstr "Département"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__depression
 msgid "Depression"
-msgstr ""
+msgstr "Dépression"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__diastolic_bp
 msgid "Diastolic BP"
-msgstr ""
+msgstr "Pression artérielle diastolique"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nom à afficher"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__diuresis
@@ -147,23 +149,23 @@ msgstr "Brouillon"
 #. module: acs_hms_nursing
 #: model:ir.model,name:acs_hms_nursing.model_hr_employee
 msgid "Employee"
-msgstr ""
+msgstr "Employé"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__evaluation_id
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_form_view
 msgid "Evaluation"
-msgstr ""
+msgstr "Évaluation"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__evolution
 msgid "Evolution"
-msgstr ""
+msgstr "Évolution"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_form_view
 msgid "General Information"
-msgstr ""
+msgstr "Informations générales"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__glycemia
@@ -173,7 +175,7 @@ msgstr "Glycémie"
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_search_view
 msgid "Group By..."
-msgstr ""
+msgstr "Regrouper par..."
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__hr
@@ -198,7 +200,7 @@ msgstr "Taille en cm"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_hr_department__department_type
 msgid "Hospital Department"
-msgstr ""
+msgstr "Département hospitalier"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__hospitalization_id
@@ -209,37 +211,37 @@ msgstr "Hospitalisation"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields.selection,name:acs_hms_nursing.selection__acs_nurse_ward_round__evolution__improving
 msgid "Improving"
-msgstr "Améliorer"
+msgstr "Amélioration"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__invoice_id
 msgid "Invoice"
-msgstr ""
+msgstr "Facture"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_form_view
 msgid "NOTE: Details are shown based on Patient Evaluation"
-msgstr "Les détails sont affichés en fonction de l'évaluation du patient"
+msgstr "REMARQUE : Les détails sont affichés en fonction de l'évaluation du patient"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_search_view
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: acs_hms_nursing
 #: model:hr.department,name:acs_hms_nursing.nursing_department
@@ -260,7 +262,7 @@ msgstr "Id Infirmière"
 #: code:addons/acs_hms_nursing/models/hms_base.py:0
 #, python-format
 msgid "Nurse Ward Round Charges"
-msgstr ""
+msgstr "Frais de la tournée infirmière"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.view_acs_hospitalization_form_nursing
@@ -295,22 +297,22 @@ msgstr "Niveau de douleur"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__patient_id
 msgid "Patient"
-msgstr ""
+msgstr "Patient"
 
 #. module: acs_hms_nursing
 #: model:ir.model,name:acs_hms_nursing.model_acs_patient_evaluation
 msgid "Patient Evaluation"
-msgstr ""
+msgstr "Évaluation du patient"
 
 #. module: acs_hms_nursing
 #: model:ir.model,name:acs_hms_nursing.model_acs_hospitalization
 msgid "Patient Hospitalization"
-msgstr "Hospitalisation des patients"
+msgstr "Hospitalisation du patient"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_search_view
 msgid "Patient Id"
-msgstr ""
+msgstr "Identifiant du patient"
 
 #. module: acs_hms_nursing
 #: model:ir.ui.menu,name:acs_hms_nursing.menu_acs_patient_nurse_procedure
@@ -325,7 +327,7 @@ msgstr "Besoins personnels"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__position
 msgid "Position"
-msgstr ""
+msgstr "Position"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__potty
@@ -340,7 +342,7 @@ msgstr "Proximité"
 #. module: acs_hms_nursing
 #: model:ir.model,name:acs_hms_nursing.model_hr_employee_public
 msgid "Public Employee"
-msgstr ""
+msgstr "Employé public"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__pump
@@ -356,7 +358,7 @@ msgstr "F. Respiratoire"
 #: model:ir.model.fields,help:acs_hms_nursing.field_hr_employee__ward_round_product_id
 #: model:ir.model.fields,help:acs_hms_nursing.field_hr_employee_public__ward_round_product_id
 msgid "Registration Product"
-msgstr ""
+msgstr "Produit d'enregistrement"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__rr
@@ -374,9 +376,74 @@ msgid "Round Summary"
 msgstr "Résumé du tour"
 
 #. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__patient_id
+msgid "Patient"
+msgstr "Patient"
+
+#. module: acs_hms_nursing
+#: model:ir.model,name:acs_hms_nursing.model_acs_patient_evaluation
+msgid "Patient Evaluation"
+msgstr "Évaluation du patient"
+
+#. module: acs_hms_nursing
+#: model:ir.model,name:acs_hms_nursing.model_acs_hospitalization
+msgid "Patient Hospitalization"
+msgstr "Hospitalisation du patient"
+
+#. module: acs_hms_nursing
+#: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_search_view
+msgid "Patient Id"
+msgstr "ID du patient"
+
+#. module: acs_hms_nursing
+#: model:ir.ui.menu,name:acs_hms_nursing.menu_acs_patient_nurse_procedure
+msgid "Patient Procedures"
+msgstr "Procédures des patients"
+
+#. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__personal_needs
+msgid "Personal Needs"
+msgstr "Besoins personnels"
+
+#. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__position
+msgid "Position"
+msgstr "Position"
+
+#. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__potty
+msgid "Potty"
+msgstr "Toilettes"
+
+#. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__proximity
+msgid "Proximity"
+msgstr "Proximité"
+
+#. module: acs_hms_nursing
+#: model:ir.model,name:acs_hms_nursing.model_hr_employee_public
+msgid "Public Employee"
+msgstr "Employé public"
+
+#. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__pump
+msgid "Pump"
+msgstr "Pompe"
+
+#. module: acs_hms_nursing
+#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__rr
+msgid "RR"
+msgstr "FR"
+
+#. module: acs_hms_nursing
+#: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_form_view
+msgid "Systolic/Diastolic BP"
+msgstr "Tension artérielle systolique/diastolique"
+
+#. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__spo2
 msgid "SpO2"
-msgstr ""
+msgstr "SpO2"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__state
@@ -386,22 +453,12 @@ msgstr "Statut"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__systolic_bp
 msgid "Systolic BP"
-msgstr ""
-
-#. module: acs_hms_nursing
-#: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_form_view
-msgid "Systolic/Diastolic BP"
-msgstr ""
-
-#. module: acs_hms_nursing
-#: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__temp
-msgid "Temp"
-msgstr "Température"
+msgstr "Tension artérielle systolique"
 
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_tree_view
 msgid "Tree"
-msgstr ""
+msgstr "Arborescence"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__urinary_catheter
@@ -411,12 +468,12 @@ msgstr "Cathéter urinaire"
 #. module: acs_hms_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.view_acs_hospitalization_form_nursing
 msgid "Ward Round"
-msgstr ""
+msgstr "Visite de l'unité"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_hospitalization__ward_round_count
 msgid "Ward Round Count"
-msgstr ""
+msgstr "Nombre de visites de l'unité"
 
 #. module: acs_hms_nursing
 #: model:ir.actions.act_window,name:acs_hms_nursing.hms_ward_round_action
@@ -424,7 +481,7 @@ msgstr ""
 #: model:ir.ui.menu,name:acs_hms_nursing.menu_nursing
 #: model_terms:ir.ui.view,arch_db:acs_hms_nursing.ward_round_pivot_view
 msgid "Ward Rounds"
-msgstr "Visites d'infirmières"
+msgstr "Visites d'unité"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__warning
@@ -435,7 +492,7 @@ msgstr "Avertissement"
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_hr_employee__ward_round_product_id
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_hr_employee_public__ward_round_product_id
 msgid "Warround Service"
-msgstr ""
+msgstr "Service de visite d'unité"
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields,field_description:acs_hms_nursing.field_acs_nurse_ward_round__weight
@@ -454,6 +511,9 @@ msgid ""
 "            can easily find all the information you need for each person;\n"
 "            contact data, job position, availability, etc."
 msgstr ""
+"En un coup d'œil rapide sur l'écran des employés Odoo, vous pouvez "
+"facilement trouver toutes les informations dont vous avez besoin pour chaque "
+"personne ; coordonnées, poste, disponibilité, etc."
 
 #. module: acs_hms_nursing
 #: model:ir.model.fields.selection,name:acs_hms_nursing.selection__acs_nurse_ward_round__evolution__worsening
@@ -463,4 +523,5 @@ msgstr "Détérioration"
 #. module: acs_hms_nursing
 #: model:ir.model.fields,help:acs_hms_nursing.field_acs_nurse_ward_round__diuresis
 msgid "volume in ml"
-msgstr ""
+msgstr "volume en ml"
+

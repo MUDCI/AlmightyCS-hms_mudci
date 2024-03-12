@@ -19,9 +19,7 @@
             <field name="inherit_id" ref="acs_hms_base.patient_kanban_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='display_name']" position="after">
-                    <strong class="oe_partner_heading">
-                        <field name="last_name"/>
-                    </strong>
+                    <strong class="oe_partner_heading"> <field name="last_name"/></strong>
                 </xpath>
             </field>
         </record>
@@ -34,7 +32,7 @@
             <field name="arch" type="xml">
 
                 <xpath expr="/form/sheet/div/button[2]" position="after">
-                    <button name="action_import_image" string="Importer image" type="object" class="oe_highlight"/>
+                    <button name="action_import_image" string="Importer image" type="object" class="oe_highlight" invisible="1"/>
                 </xpath>
 
                 <xpath expr="//field[@name='code']" position="after">

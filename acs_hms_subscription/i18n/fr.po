@@ -43,9 +43,7 @@ msgstr "(object.name o 'Suscripción').replace('/','_') + '_Souscriptions'"
 msgid ""
 "<b>Comment(If Any):</b>\n"
 "                            <br/>"
-msgstr ""
-"<b>Commentaire (si nécessaire) :</b>\n"
-"                            <br/>"
+msgstr "<b>Commentaire (si nécessaire) :</b>\n<br/>"
 
 #. module: acs_hms_subscription
 #: model_terms:ir.ui.view,arch_db:acs_hms_subscription.report_acs_subscription
@@ -564,11 +562,7 @@ msgid ""
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
-"Statut basé sur les activités\n"
-"En Retard : La date d'échéance est déjà passée\n"
-"Aujourd'hui : La date de l'activité est aujourd'hui\n"
-"Planifié : Activités futures."
+msgstr "Statut basé sur les activités\nEn Retard : La date d'échéance est déjà passée\nAujourd'hui : La date de l'activité est aujourd'hui\nPlanifié : Activités futures."
 
 #. module: acs_hms_subscription
 #: model:ir.model.fields,field_description:acs_hms_subscription.field_account_bank_statement_line__subscription_id
