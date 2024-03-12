@@ -131,8 +131,7 @@ msgid ""
 "    <p>Best regards.</p><br/>\n"
 "</div>\n"
 "                "
-msgstr "<div style=\"padding:0px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n<p>Hello {{ object.laboratory_id.name }},</p><br/>\n<p> Nous vous demanderons d'effectuer les tests de laboratoire demandés dans le document ci-joint dans votre laboratoire et de nous renvoyer sur ce courrier les résultats.</p><br/>\n<ul>\n<li>\n<p>Reference Number: {{ object.name }}</p><br/>\n</li>\n% if object.patient_id:\n<li>\n<p>Patient: {{ object.patient_id.name|safe }}</p><br/>\n</li>\n% endif\n% if object.physician_id:\n<li>\n<p>Prescrire By: {{ object.physician_id.name|safe }}</p><br/>\n</li>\n% endif\n<li>\n<p>Prescription Date: {{ object.date.date() }}</p><br/>\n"</li>\n</ul>\n\n<p> N'hésitez pas à appeler à tout moment pour plus d'informations ou pour toute question.</p>\n\n<p>Cordialement</p><br/>\n</div>\n"
-
+msgstr ""
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.res_config_settings_view_form

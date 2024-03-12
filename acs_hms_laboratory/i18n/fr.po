@@ -56,10 +56,10 @@ msgstr "(object.name or 'LabReport').replace('/','_') + '_LabReport'"
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.lab_sample_report
 msgid ""
 ")<br/>\n"
-"            <strong>Lab Request:-</strong>"
+"<strong>Lab Request:-</strong>"
 msgstr ""
 ")<br/>\n"
-"            <strong>Demande de Labo:-</strong>"
+"<strong>Demande de Labo:-</strong>"
 
 #. module: acs_laboratory
 #: model_terms:ir.ui.view,arch_db:acs_laboratory.report_acs_lab_prescription_document

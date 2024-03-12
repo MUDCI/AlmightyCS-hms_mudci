@@ -56,7 +56,7 @@ msgid ""
 "    <p>Best regards.</p><br/>\n"
 "</div>\n"
 "            "
-msgstr "<div style=\"padding:0px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n<t t-set=\"call_date\" t-value=\"format_datetime(dt=object.date,tz=object.physician_id.tz or 'UTC', lang_code=object.physician_id.lang)\"/>\n<p>Bonjour Cher/chère <t t-out=\"object.patient_id.name\"/>,</p><br/>\n\n<p>Votre consultation vidéo avec <t t-out=\"object.physician_id.name\"/>a été programmée avec les détails suivants.</p>\n<ul>\n<li>\n<p>Numéro de rendez-vous : <t t-out=\"object.name\"/></p><br/>\n</li>\n<li t-if=\"object.video_call_id\">\n<p>Lien de la réunion : <a t-attf-href=\"{{ object.video_call_id.meeting_link }}\"><t t-out=\"object.video_call_id.meeting_link\"/></a></p><br/>\n</li>\n<li t-if=\"object.video_call_id.password\">\n<p>Mot de passe de la réunion : <t t-out=\"object.video_call_id.password\"/></p><br/>\n</li>\n<li t-if=\"object.date\">\n<p>Date : <t t-out=\"call_date\"/> (Fuseau horaire : <t t-out=\"object.physician_id.tz or 'UTC'\"/>)</p><br/>\n"</li>\n"<li t-if=\"object.physician_id\">\n"<p>Médecin : <t t-out=\"object.physician_id.name\"/></p><br/>\n</li>\n</ul>\n\n<p>N'hésitez pas à appeler à tout moment pour plus d'informations ou pour toute question.</p>\n\n<p>Cordialement.</p><br/>\n</div>\n"
+msgstr ""
 
 #. module: acs_hms_video_call
 #: model:ir.model,name:acs_hms_video_call.model_hms_appointment
