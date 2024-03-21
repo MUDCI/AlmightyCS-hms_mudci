@@ -12,7 +12,8 @@ class AcsConsentForm(models.Model):
         help="Patient whose consent form to be attached", tracking=True)
     physician_id = fields.Many2one('hms.physician',string='Doctor', ondelete="restrict", 
         help="Doctor who provided consent form to the patient", tracking=True)
-    appointment_id = fields.Many2one('hms.appointment', string='Appointment', ondelete="restrict", 
+    # appointment_id = fields.Many2one('hms.appointment', string='Appointment', ondelete="restrict", 
+    appointment_id = fields.Many2one('hms.appointment', string='Rendez-vous', ondelete="restrict", 
         help="Patient Appointment")
 
     @api.onchange('patient_id')

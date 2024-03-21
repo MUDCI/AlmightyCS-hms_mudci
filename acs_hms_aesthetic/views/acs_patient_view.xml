@@ -14,7 +14,8 @@
             </div>
             
             <page name="diseases" position="after">
-                <page string="Skin/Aesthetic" groups="acs_hms_aesthetic.group_hms_aesthetic">
+                <!-- <page string="Skin/Aesthetic" groups="acs_hms_aesthetic.group_hms_aesthetic"> -->
+                <page string="Peau/Esthétique" groups="acs_hms_aesthetic.group_hms_aesthetic">
                     <notebook>
                         <page string="Body Analysis">
                             <separator string="TECHNICAL DATA"/>

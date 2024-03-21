@@ -56,7 +56,8 @@ class AcsBloodRequisition(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict',
         string='Hospital', default=lambda self: self.env.company)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=True)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=True)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=True)
 
     @api.onchange('patient_id')
     def onchange_patient(self):
@@ -155,7 +156,8 @@ class AcsBloodIssuance(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict',
         string='Hospital', default=lambda self: self.env.company)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=True)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=True)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=True)
     blood_group = fields.Selection([
         ('A+', 'A+'),('A-', 'A-'),
         ('B+', 'B+'),('B-', 'B-'),

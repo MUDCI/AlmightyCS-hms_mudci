@@ -153,7 +153,8 @@ class ACSPhysiotherapy(models.Model):
     date = fields.Datetime(string='Physiotherapy Date', default=fields.Datetime.now) 
     grp_exercise_ids = fields.One2many('physiotherapy.exercise.group.lines','physiotherapy_id',
         string='Exercise group')
-    invoice_exempt =  fields.Boolean(string="Invoice Exempt")
+    # invoice_exempt =  fields.Boolean(string="Invoice Exempt")
+    invoice_exempt =  fields.Boolean(string="Facture exonérée")
     state = fields.Selection([('draft', 'Draft'), 
         ('accepted', 'Accepted'),
         ('in_progress', 'In Progress'),

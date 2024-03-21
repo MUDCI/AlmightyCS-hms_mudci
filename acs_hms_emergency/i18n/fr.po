@@ -227,7 +227,7 @@ msgstr "N° de Lit"
 #: model:ir.actions.act_window,name:acs_hms_emergency.action_hospital_bed
 #: model:ir.ui.menu,name:acs_hms_emergency.menuitem_action_emergency_bed
 msgid "Beds"
-msgstr "Des lits"
+msgstr "Lits"
 
 #. module: acs_hms_emergency
 #: model:ir.model.fields,field_description:acs_hms_emergency.field_acs_hms_emergency__bmi

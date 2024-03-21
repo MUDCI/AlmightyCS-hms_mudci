@@ -32,8 +32,10 @@ class ACSOphthalmologyEvaluation(models.Model):
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', 
         index=True, help='Physician\'s Name')
     appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", 
-        string='Appointment')
-    diseases_ids = fields.Many2many("hms.diseases", 'hms_diseases_ophthalmology_rel', 'evaluation_id', 'diseases_id', "Disease")
+        string='Rendez-vous')
+        # string='Appointment')
+    diseases_ids = fields.Many2many("hms.diseases", 'hms_diseases_ophthalmology_rel', 'evaluation_id', 'diseases_id', "Maladie")
+    # diseases_ids = fields.Many2many("hms.diseases", 'hms_diseases_ophthalmology_rel', 'evaluation_id', 'diseases_id', "Disease")
 
     # there are two types of charts, a meter chart.. 6/.. val
     # and ft chart.. 200/...

@@ -469,7 +469,8 @@
                         <group string="Cranial Nerve">
                             <field name="pe_nuerological_sensory" widget="radio" options="{'horizontal': true}" readonly="state in ['done','cancel']"/>
                         </group>
-                        <group string="Pain level">
+                        <!-- <group string="Pain level"> -->
+                        <group string="Niveau de douleur">
                             <field name="pe_nuerological_pain_level" widget="radio" options="{'horizontal': true}" readonly="state in ['done','cancel']"/>
                         </group>
                     </group>

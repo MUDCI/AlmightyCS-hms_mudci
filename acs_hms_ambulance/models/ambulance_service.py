@@ -48,9 +48,11 @@ class AcsAmbulanceService(models.Model):
     acs_ambulance_invoicing = fields.Boolean(related='company_id.acs_ambulance_invoicing',string='Allow Ambulance Service Invoicing', readonly=True)
     odometer_start = fields.Float('Odometer Start')
     odometer_stop = fields.Float('Odometer Stop')
-    invoice_exempt = fields.Boolean(string='Invoice Exempt', readonly=True)
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt', readonly=True)
+    invoice_exempt = fields.Boolean(string='Facture exonérée', readonly=True)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=True)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=True)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=True)
 
     @api.onchange('vehicle_id')
     def onchange_vehicle(self):

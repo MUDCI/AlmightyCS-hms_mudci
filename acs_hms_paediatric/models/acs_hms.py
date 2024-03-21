@@ -11,7 +11,8 @@ class Appointment(models.Model):
     _inherit = 'hms.appointment'
 
     is_child = fields.Boolean(related="patient_id.is_child", string="Is Child")    
-    head_circum = fields.Float(related="evaluation_id.head_circum", string="Head Circumference")
+    # head_circum = fields.Float(related="evaluation_id.head_circum", string="Head Circumference")
+    head_circum = fields.Float(related="evaluation_id.head_circum", string="Circonférence de la tête")
     acs_head_circum_name = fields.Char(related="evaluation_id.acs_head_circum_name", string='Patient Head Circumference unit of measure label')
 
 
@@ -83,7 +84,8 @@ class ACSPatient (models.Model):
     patient_height_growth = fields.Text(compute='_compute_dashboard_data')
     patient_weight_growth = fields.Text(compute='_compute_dashboard_data')
     patient_head_circum_graph = fields.Text(compute='_compute_dashboard_data')
-    head_circum = fields.Float(related="last_evaluation_id.head_circum", string="Head Circumference")
+    # head_circum = fields.Float(related="last_evaluation_id.head_circum", string="Head Circumference")
+    head_circum = fields.Float(related="last_evaluation_id.head_circum", string="Circonférence de la tête")
     acs_head_circum_name = fields.Char(related="last_evaluation_id.acs_head_circum_name", string='Patient Head Circumference unit of measure label')
 
     def show_growth_chart(self):

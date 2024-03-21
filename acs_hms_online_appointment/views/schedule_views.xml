@@ -106,7 +106,8 @@
     </record>
 
     <record id="action_appointment_schedule_slot_lines" model="ir.actions.act_window">
-        <field name="name">Appointment Slots</field>
+        <!-- <field name="name">Appointment Slots</field> -->
+        <field name="name">Créneaux de rendez-vous</field>
         <field name="res_model">acs.schedule.slot.lines</field>
         <field name="view_mode">calendar,form</field>
         <field name="help" type="html">

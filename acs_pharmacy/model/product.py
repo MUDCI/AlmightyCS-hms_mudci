@@ -6,9 +6,12 @@ from odoo.exceptions import UserError, ValidationError
 class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
-    manufacturer_pname = fields.Char('Product Name')
-    manufacturer_pref = fields.Char('Product Code')
-    manufacturer_purl = fields.Char('Product URL')
+    # manufacturer_pname = fields.Char('Product Name')
+    manufacturer_pname = fields.Char('Nom du produit')
+    # manufacturer_pref = fields.Char('Product Code')
+    manufacturer_pref = fields.Char('Code du produit')
+    # manufacturer_purl = fields.Char('Product URL')
+    manufacturer_purl = fields.Char('URL du produit')
 
 
 class ProductCategory(models.Model):

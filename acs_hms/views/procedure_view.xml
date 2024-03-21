@@ -6,7 +6,8 @@
         <field name="name">procedure.group.tree</field>
         <field name="model">procedure.group</field>
         <field name="arch" type="xml">
-            <tree string="Procedure Group">
+            <!-- <tree string="Procedure Group"> -->
+            <tree string="Groupe de procédure">
                 <field name="name"/>
             </tree>
         </field>
@@ -16,12 +17,15 @@
         <field name="name">procedure.group.form</field>
         <field name="model">procedure.group</field>
         <field name="arch" type="xml">
-            <form string="Procedure Group">
+            <!-- <form string="Procedure Group"> -->
+            <form string="Groupe de procédure">
                 <sheet>
                     <div class="oe_title">
-                        <label for="name" string="Name" class="oe_edit_only"/>
+                        <!-- <label for="name" string="Name" class="oe_edit_only"/> -->
+                        <label for="name" string="Nom" class="oe_edit_only"/>
                         <h1>
-                            <field name="name" placeholder="Procedure Group"/>
+                            <!-- <field name="name" placeholder="Procedure Group"/> -->
+                            <field name="name" placeholder="Groupe de procédure"/>
                         </h1>
                     </div>
                     <field name="line_ids">
@@ -39,16 +43,23 @@
     </record>
 
     <record id="action_procedure_group" model="ir.actions.act_window">
-        <field name="name">Procedure Group</field>
+        <!-- <field name="name">Procedure Group</field> -->
+        <field name="name">Groupe de procédure</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">procedure.group</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
-            <p class="o_view_nocontent_smiling_face">
+            <!-- <p class="o_view_nocontent_smiling_face">
                 No Record Found
             </p>
             <p>
                 Click to add new Procedure Group.
+            </p> -->
+            <p class="o_view_nocontent_smiling_face">
+                Aucun enregistrement n’a été trouvé.
+            </p>
+            <p>
+                Cliquez pour ajouter un nouveau groupe de procédure.
             </p>
         </field>
     </record>
@@ -131,7 +142,8 @@
                         </group>
                     </group>
                     <notebook>
-                        <page name="consumed_products" string="Consumed Products">
+                        <!-- <page name="consumed_products" string="Consumed Products"> -->
+                        <page name="consumed_products" string="Produits consommés">
                             <label for="acs_kit_id" invisible="state in ('done','cancel')"/>
                             <div name="acs_kit_id" invisible="state in ('done','cancel')">
                                 <field name="acs_kit_id" nolabel="1" options="{'no_create': True}"/>

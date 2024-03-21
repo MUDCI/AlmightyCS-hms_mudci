@@ -48,7 +48,8 @@ class AcsPatientProcedure(models.Model):
     repeat_type = fields.Selection([
         ('forever', 'Forever'),
         ('until', 'Until'),
-    ], default="forever", string="Until", compute='_compute_repeat', readonly=False)
+    ], default="forever", string="Jusqu’à", compute='_compute_repeat', readonly=False)
+    # ], default="forever", string="Until", compute='_compute_repeat', readonly=False)
     repeat_until = fields.Date(string="Recurrence End Date", compute='_compute_repeat', readonly=False)
 
     @api.model

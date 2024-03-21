@@ -8,6 +8,6 @@ class AccountMove(models.Model):
 
     ref_physician_id = fields.Many2one('res.partner', ondelete='restrict', string='Referring Physician', 
         index=True, help='Referring Physician')
-    appointment_id = fields.Many2one('hms.appointment', string='Appointment')
+    appointment_id = fields.Many2one('hms.appointment', string='Rendez-vous')
     procedure_id = fields.Many2one('acs.patient.procedure', string='Patient Procedure')
     hospital_invoice_type = fields.Selection(selection_add=[('appointment', 'Appointment'), ('treatment','Treatment'), ('procedure','Procedure')])

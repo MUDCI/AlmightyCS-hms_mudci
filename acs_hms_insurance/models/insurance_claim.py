@@ -32,8 +32,10 @@ class InsuranceClaim(models.Model):
 
     name = fields.Char('Claim Number', required=True, default="/", tracking=True)
     patient_id = fields.Many2one('hms.patient', 'Patient', required=True, tracking=True)
-    insurance_id = fields.Many2one('hms.patient.insurance', 'Insurance Policy', required=True, tracking=True)
-    appointment_id = fields.Many2one('hms.appointment', 'Appointment')
+    insurance_id = fields.Many2one('hms.patient.insurance', "Police d'Assurance", required=True, tracking=True)
+    # insurance_id = fields.Many2one('hms.patient.insurance', 'Insurance Policy', required=True, tracking=True)Police d'Assurance
+    appointment_id = fields.Many2one('hms.appointment', 'Rendez-vous')
+    # appointment_id = fields.Many2one('hms.appointment', 'Appointment')
     insurance_company_id = fields.Many2one('hms.insurance.company', related="insurance_id.insurance_company_id", string='Insurance Company', readonly=True, store=True)
     amount_requested = fields.Float('Total Claim Amount')
     amount_pass = fields.Float('Passed Amount')

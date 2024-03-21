@@ -5,7 +5,8 @@
     <menuitem id="menu_action_online_appointments" name="Online Appointments"
         parent="acs_hms.action_main_menu_appointmnet_opd" sequence="50" action="action_online_appointments"/>
 
-    <menuitem id="menu_appointment_schedule_slot_lines" name="Appointment Slots"
+    <!-- <menuitem id="menu_appointment_schedule_slot_lines" name="Appointment Slots" -->
+    <menuitem id="menu_appointment_schedule_slot_lines" name="Créneaux de rendez-vous"
         parent="acs_hms.action_main_menu_appointmnet_opd" sequence="50" action="action_appointment_schedule_slot_lines"/>
 
 </odoo>

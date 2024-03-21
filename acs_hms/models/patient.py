@@ -106,7 +106,8 @@ class ACSPatient(models.Model):
 
     #Diseases
     medical_history = fields.Text(string="Past Medical History")
-    patient_diseases_ids = fields.One2many('hms.patient.disease', 'patient_id', string='Diseases')
+    # patient_diseases_ids = fields.One2many('hms.patient.disease', 'patient_id', string='Diseases')
+    patient_diseases_ids = fields.One2many('hms.patient.disease', 'patient_id', string='Maladies')
 
     #Family Form Tab
     genetic_risks_ids = fields.One2many('hms.patient.genetic.risk', 'patient_id', 'Genetic Risks')

@@ -1956,7 +1956,7 @@ msgstr "Nom du maladie"
 #: model:ir.ui.menu,name:acs_hms.hms_diseases
 #: model_terms:ir.ui.view,arch_db:acs_hms.view_patient_form
 msgid "Diseases"
-msgstr "Diseases"
+msgstr "Maladies"
 
 #. module: acs_hms
 #: model:ir.model,name:acs_hms.model_diseases_category
@@ -3558,7 +3558,7 @@ msgstr "Carte patient"
 #. module: acs_hms
 #: model:ir.model.fields,field_description:acs_hms.field_hr_department__patient_department
 msgid "Patient Department"
-msgstr "Department du Patient"
+msgstr "Departement du Patient"
 
 #. module: acs_hms
 #: model:ir.model.fields,field_description:acs_hms.field_hms_patient__patient_diastolic_bp_line_graph

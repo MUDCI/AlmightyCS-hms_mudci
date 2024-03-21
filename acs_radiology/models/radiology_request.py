@@ -112,7 +112,8 @@ class RadiologyRequest(models.Model):
     radiology_bill_id = fields.Many2one('account.move',string='Vendor Bill', copy=False)
     line_ids = fields.One2many('radiology.request.line', 'radiology_request_id',
         string='Radiology Test Line', copy=True)
-    invoice_exempt = fields.Boolean(string='Invoice Exempt', readonly=True)
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt', readonly=True)
+    invoice_exempt = fields.Boolean(string='Facture exonérée', readonly=True)
     total_price = fields.Float(compute=_get_total_price, string='Total', store=True)
     info = fields.Text(string='Extra Info')
     company_id = fields.Many2one('res.company', ondelete='restrict', 

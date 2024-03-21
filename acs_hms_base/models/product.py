@@ -79,7 +79,7 @@ class product_template(models.Model):
     storage = fields.Char(string='Storage')
     adverse_reaction = fields.Char(string='Adverse Reactions')
     dosage = fields.Float(string='Dosage', help='Dosage')
-    product_uom_category_id = fields.Many2one('uom.category', related='uom_id.category_id')
+    product_uom_category_id = fields.Many2one('uom.category', related='uom_id.category_id', string="Catégorie")
     dosage_uom_id = fields.Many2one('uom.uom', string='Unit of Dosage', domain="[('category_id', '=', product_uom_category_id)]")
     route_id = fields.Many2one('drug.route', ondelete='cascade', 
         string='Route', help='')

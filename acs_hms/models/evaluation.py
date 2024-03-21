@@ -70,7 +70,8 @@ class AcsPatientEvaluation(models.Model):
     spo2 = fields.Integer(string='SpO2', 
         help='Oxygen Saturation, percentage of oxygen bound to hemoglobin')
     rbs = fields.Integer('RBS', help="Random blood sugar measures blood glucose regardless of when you last ate.")
-    head_circum = fields.Float('Head Circumference')
+    # head_circum = fields.Float('Head Circumference')
+    head_circum = fields.Float('Circonférence de la tête')
 
     pain_level = fields.Selection([
         ('0', '0'),
@@ -108,7 +109,8 @@ class AcsPatientEvaluation(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict',
         string='Hospital', default=lambda self: self.env.company)
 
-    appointment_id = fields.Many2one('hms.appointment', string='Appointment')
+    appointment_id = fields.Many2one('hms.appointment', string='Rendez-vous')
+    # appointment_id = fields.Many2one('hms.appointment', string='Appointment')
 
     acs_weight_name = fields.Char(string='Patient Weight unit of measure label', compute='_compute_uom_name')
     acs_height_name = fields.Char(string='Patient Height unit of measure label', compute='_compute_uom_name')

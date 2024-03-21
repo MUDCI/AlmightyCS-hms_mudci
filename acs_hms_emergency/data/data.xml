@@ -12,7 +12,8 @@
         </record>
 
         <record id="emergency_department" model="hr.department">
-            <field name="name">Emergency</field>
+            <!-- <field name="name">Emergency</field> -->
+            <field name="name">Urgence</field>
             <field name="patient_department">True</field>
             <field name="department_type">emergency_department</field>
             <field name="image" type="base64" file="acs_hms_emergency/static/description/icon.png"/>

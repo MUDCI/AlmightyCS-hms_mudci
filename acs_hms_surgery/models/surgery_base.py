@@ -14,15 +14,18 @@ class PreOpetativeCheckListTemplate(models.Model):
     _name="pre.operative.check.list.template"
     _description = "Pre Operative Checklist Template"
 
-    name = fields.Char(string="Name", required=True)
-    remark = fields.Char(string="Remarks")
+    # name = fields.Char(string="Name", required=True)
+    name = fields.Char(string="Nom", required=True)
+    remark = fields.Char(string="Remarques")
+    # remark = fields.Char(string="Remarks")
 
 
 class PreOpetativeCheckList(models.Model):
     _name="pre.operative.check.list"
     _description = "Pre Operative Checklist"
 
-    name = fields.Char(string="Name", required=True)
+    # name = fields.Char(string="Name", required=True)
+    name = fields.Char(string="Nom", required=True)
     is_done = fields.Boolean(string="Done")
     remark = fields.Char(string="Remarks")
     surgery_id = fields.Many2one("hms.surgery", ondelete="cascade", string="Surgery")
@@ -32,7 +35,8 @@ class ACSDietplan(models.Model):
     _name = "hms.dietplan"
     _description = "Diet plan"
 
-    name = fields.Char(string='Name', required=True)
+    # name = fields.Char(string='Name', required=True)
+    name = fields.Char(string='Nom', required=True)
 
 
 class PastSurgerys(models.Model):
@@ -51,9 +55,11 @@ class ACSMedicamentLine(models.Model):
     _name = "medicament.line"
     _description = "Medicine Lines"
     
-    product_id = fields.Many2one('product.product', ondelete="cascade", string='Medicine Name')
-    name = fields.Char(string='Name')
-    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
+    # product_id = fields.Many2one('product.product', ondelete="cascade", string='Medicine Name')
+    product_id = fields.Many2one('product.product', ondelete="cascade", string='Nom du médicament')
+    # name = fields.Char(string='Name')
+    name = fields.Char(string='Nom')
+    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id', string="Catégorie")
     medicine_uom_id = fields.Many2one('uom.uom', string='Unit', help='Amount of medication (eg, 250 mg) per dose', domain="[('category_id', '=', product_uom_category_id)]")
     qty = fields.Float(string='Qty',default=1.0)
     active_component_ids = fields.Many2many('active.comp','medica_line_comp_rel','medica_id','line_id',string='Active Component')

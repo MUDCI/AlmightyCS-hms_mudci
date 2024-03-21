@@ -14,17 +14,22 @@ class ACSAppointmentConsumable(models.Model):
 
     name = fields.Char(string='Name',default=lambda self: self.product_id.name)
     product_id = fields.Many2one('product.product', ondelete="restrict", string='Products/Services')
-    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
+    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id', string="Catégorie")
     product_uom_id = fields.Many2one('uom.uom', string='Unit of Measure', help='Amount of medication (eg, 250 mg) per dose', domain="[('category_id', '=', product_uom_category_id)]")
     qty = fields.Float(string='Quantity', default=1.0)
     tracking = fields.Selection(related='product_id.tracking', store=True)
-    lot_id = fields.Many2one('stock.lot', string='Lot/Serial Number', 
+    # lot_id = fields.Many2one('stock.lot', string='Lot/Serial Number', 
+    lot_id = fields.Many2one('stock.lot', string='Numéro de lot/de série', 
         domain="[('product_id', '=', product_id),('product_qty','>',0),'|',('expiration_date','=',False),('expiration_date', '>', context_today().strftime('%Y-%m-%d'))]")
-    price_unit = fields.Float(string='Unit Price', readonly=True)
-    subtotal = fields.Float(compute=acs_get_total_price, string='Subtotal', readonly=True, store=True)
+    # price_unit = fields.Float(string='Unit Price', readonly=True)
+    price_unit = fields.Float(string='Prix unitaire', readonly=True)
+    # subtotal = fields.Float(compute=acs_get_total_price, string='Subtotal', readonly=True, store=True)
+    subtotal = fields.Float(compute=acs_get_total_price, string='Sous-total', readonly=True, store=True)
     move_id = fields.Many2one('stock.move', string='Stock Move')
-    physician_id = fields.Many2one('hms.physician', string='Physician')
-    department_id = fields.Many2one('hr.department', string='Department')
+    # physician_id = fields.Many2one('hms.physician', string='Physician')
+    physician_id = fields.Many2one('hms.physician', string='Médecin')
+    # department_id = fields.Many2one('hr.department', string='Department')
+    department_id = fields.Many2one('hr.department', string='Departement')
     patient_id = fields.Many2one('hms.patient', string='Patient')
     date = fields.Date("Date", default=fields.Date.context_today)
     note = fields.Char("Note")

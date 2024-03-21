@@ -167,7 +167,8 @@
                                     <field name="bmi_state"/>
                                 </group>
                             </group>
-                            <separator string="Pain Level"/>
+                            <!-- <separator string="Pain Level"/> -->
+                            <separator string="Niveau de douleur"/>
                             <group>
                                 <group>
                                     <label for="pain_level"/>

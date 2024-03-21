@@ -22,7 +22,8 @@ class AcsProcedureRecurrence(models.Model):
     repeat_type = fields.Selection([
         ('forever', 'Forever'),
         ('until', 'Until'),
-    ], default="forever", string="Until")
+    ], default="forever", string="Jusqu’à")
+    # ], default="forever", string="Until")
     repeat_until = fields.Date(string="End Date")
 
     @api.constrains('repeat_interval')

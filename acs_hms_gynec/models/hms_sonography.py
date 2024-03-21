@@ -20,7 +20,8 @@ class SystemicExamination(models.Model):
         ('abdominal', 'Abdominal'), 
         ('vaginal', 'Vaginal'), 
         ('rectal', 'Rectal')], string='Examination Type', default='abdominal')
-    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
+    # appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
+    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Rendez-vous', required=True)
     company_id = fields.Many2one('res.company', ondelete='restrict', 
         string='Hospital',default=lambda self: self.env.company)
 
@@ -32,7 +33,8 @@ class AppointmentSonographyPelvis(models.Model):
     _rec_name = 'patient_id'
 
     name = fields.Char(string='Name', readonly=True, copy=False, default="/")
-    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
+    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Rendez-vous', required=True)
+    # appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', index=True)
     patient_id = fields.Many2one("hms.patient", string="Patient", required=True)
     date = fields.Date(string='Date',default=fields.Date.context_today, required=True)
@@ -88,7 +90,8 @@ class AppointmentSonographyFollical(models.Model):
     name = fields.Char(string='Name', readonly=True, copy=False, default="/")
     date = fields.Date(string='Date',default=fields.Date.context_today, required=True)
     lmp = fields.Date('LMP', help="LMP")
-    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
+    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Rendez-vous', required=True)
+    # appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', index=True)
     patient_id = fields.Many2one('hms.patient', string="Patient", required=True)
     line_ids = fields.One2many('sonography.follical.line', 'follical_id', 'Sonography Obstetric Reports')
@@ -121,7 +124,8 @@ class AppointmentSonographyObstetric(models.Model):
 
     name = fields.Char(string='Name', readonly=True, copy=False, default="/")
     date = fields.Date(string='Date',default=fields.Date.context_today, required=True)
-    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
+    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Rendez-vous', required=True)
+    # appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment', required=True)
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', index=True)
     patient_id = fields.Many2one("hms.patient",required=True, string="Patient")
     age = fields.Char(related='patient_id.age',string='Age')

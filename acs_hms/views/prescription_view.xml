@@ -134,21 +134,27 @@
                             <field name="prescription_line_ids" nolabel="1" colspan="4" context="{'default_appointment_id': appointment_id}" widget="section_and_note_one2many" readonly="state!='draft'">
                                 <tree string="Prescription Line" editable="bottom">
                                     <control>
-                                        <create name="add_line_control" string="Add a line"/>
-                                        <create name="add_section_control" string="Add a section" context="{'default_display_type': 'line_section'}"/>
-                                        <create name="add_note_control" string="Add a note" context="{'default_display_type': 'line_note'}"/>
+                                        <create name="add_line_control" string="Ajouter une ligne"/>
+                                        <!-- <create name="add_line_control" string="Add a line"/> -->
+                                        <create name="add_section_control" string="Ajouter une section" context="{'default_display_type': 'line_section'}"/>
+                                        <!-- <create name="add_section_control" string="Add a section" context="{'default_display_type': 'line_section'}"/> -->
+                                        <create name="add_note_control" string="Ajouter une note" context="{'default_display_type': 'line_note'}"/>
+                                        <!-- <create name="add_note_control" string="Add a note" context="{'default_display_type': 'line_note'}"/> -->
                                     </control>
                                     <field name="sequence" widget="handle"/>
-                                    <field name="product_id" string="Medicine Name"/>
+                                    <!-- <field name="product_id" string="Medicine Name"/> -->
+                                    <field name="product_id" string="Nom du médicament"/>
                                     <field name="name" required="1" widget="section_and_note" optional="hide"/>
                                     <field name="active_component_ids" widget="many2many_tags" optional="hide"/>
                                     <field name="allow_substitution" optional="hide"/>
                                     <field name="common_dosage_id"/>
-                                    <field name="dose" required="not display_type" string="Qty Dose"/>
+                                    <field name="dose" required="not display_type" string="Qté Dose"/>
+                                    <!-- <field name="dose" required="not display_type" string="Qty Dose"/> -->
                                     <field name="dosage_uom_id" optional="hide" groups="uom.group_uom"/>
                                     <field name="qty_per_day" required="not display_type" optional="hide"/>
                                     <field name="days" required="not display_type"/>
-                                    <field name="quantity" required="not display_type" readonly="not manual_prescription_qty" string="Total Qty" force_save="1"/>
+                                    <field name="quantity" required="not display_type" readonly="not manual_prescription_qty" string="Qté Total" force_save="1"/>
+                                    <!-- <field name="quantity" required="not display_type" readonly="not manual_prescription_qty" string="Total Qty" force_save="1"/> -->
                                     <field name="qty_available" readonly="1" optional="hide"/>
                                     <field name="short_comment"/>
                                     <!-- Others fields -->

@@ -67,7 +67,7 @@
                             </div>
                             <a type="object" name="acs_open_dashboard_action" t-attf-context="{'acs_action': '#{acs_record_action}' }" t-attf-style="color: #{acs_record_color};">
                                 <div class="card-footer acs-footer">
-                                    <span class="float-start">View Details</span>
+                                    <span class="float-start">Voir Détail</span>
                                     <span class="float-end">
                                         <i class="fa fa-arrow-circle-right" aria-label="Info" title="Info"></i>
                                     </span>
@@ -195,7 +195,8 @@
                                         <t t-set="acs_record_color" t-value="record.total_shedules_color.raw_value"/>
                                         <t t-set="acs_record_icon" t-value="'fa-calendar'"/>
                                         <t t-set="acs_field_name" t-value="record.total_shedules.raw_value"/>
-                                        <t t-set="acs_record_lable">Total Schedules</t>
+                                        <!-- <t t-set="acs_record_lable">Total Schedules</t> -->
+                                        <t t-set="acs_record_lable">Plannings Totaux</t>
                                         <t t-set="acs_record_action" t-value="'open_schedules'"/>
                                     </t>
                                 </div>

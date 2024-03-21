@@ -9,7 +9,8 @@ from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT,DEFAULT_SERVER_DATE_FORMAT
 class AcsSchedulerWizard(models.TransientModel):
     _inherit = 'acs.scheduler.wizard'
 
-    department_id = fields.Many2one('hr.department', string="Department")
+    department_id = fields.Many2one('hr.department', string="Departement")
+    # department_id = fields.Many2one('hr.department', string="Department")
     physician_ids = fields.Many2many('hms.physician', string="Physicians")
 
     @api.model

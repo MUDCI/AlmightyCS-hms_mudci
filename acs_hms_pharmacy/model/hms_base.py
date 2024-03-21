@@ -26,12 +26,17 @@ class PrescriptionLine(models.Model):
                 line.price_total = 0
                 line.price_subtotal = 0
 
-    invoice_id = fields.Many2one('account.move', string='Invoice', copy=False)
-    price_unit = fields.Float(string='Unit Price', store=True)
-    discount = fields.Float('% Discount')
-    price_subtotal = fields.Monetary(compute='_compute_amount', string='Subtotal', readonly=True, store=True)
+    invoice_id = fields.Many2one('account.move', string='Facture', copy=False)
+    # invoice_id = fields.Many2one('account.move', string='Invoice', copy=False)
+    price_unit = fields.Float(string='Prix unitaire', store=True)
+    # price_unit = fields.Float(string='Unit Price', store=True)
+    discount = fields.Float('% Remise')
+    # discount = fields.Float('% Discount')
+    price_subtotal = fields.Monetary(compute='_compute_amount', string='Sous-total', readonly=True, store=True)
+    # price_subtotal = fields.Monetary(compute='_compute_amount', string='Subtotal', readonly=True, store=True)
     price_tax = fields.Float(compute='_compute_amount', string='Taxes Amount', readonly=True, store=True)
     price_total = fields.Monetary(compute='_compute_amount', string='Total', readonly=True, store=True)
+    # price_total = fields.Monetary(compute='_compute_amount', string='Total', readonly=True, store=True)
     currency_id = fields.Many2one(related='prescription_id.company_id.currency_id', store=True, string='Currency', readonly=True)
     tax_ids = fields.Many2many('account.tax', string='Taxes', domain=['|', ('active', '=', False), ('active', '=', True)])
     move_id = fields.Many2one('stock.move', 'Stock Move', readonly=True)
@@ -83,14 +88,17 @@ class Prescription(models.Model):
             })
 
     invoice_id = fields.Many2one('account.move', string='Invoice', copy=False, groups="account.group_account_invoice")
-    picking_ids = fields.One2many('stock.picking', 'prescription_id', 'Pickings', groups="stock.group_stock_user")
+    picking_ids = fields.One2many('stock.picking', 'prescription_id', 'Prélèvements', groups="stock.group_stock_user")
+    # picking_ids = fields.One2many('stock.picking', 'prescription_id', 'Pickings', groups="stock.group_stock_user")
     picking_count = fields.Integer(compute="get_picking_count", string='#Pickings', groups="stock.group_stock_user")
-    deliverd = fields.Boolean(compute='_compute_delivery', store=True, groups="stock.group_stock_user")
+    deliverd = fields.Boolean(compute='_compute_delivery', store=True, groups="stock.group_stock_user", string="Livré")
+    # deliverd = fields.Boolean(compute='_compute_delivery', store=True, groups="stock.group_stock_user")
     warehouse_id = fields.Many2one('stock.warehouse', 'Warehouse', default=_get_default_warehouse, groups="stock.group_stock_user")
     currency_id = fields.Many2one("res.currency", related='company_id.currency_id', string="Currency", readonly=True, required=True)
     invoice_ids = fields.One2many("account.move", "prescription_id", string="Invoices", groups="account.group_account_invoice")
 
-    amount_untaxed = fields.Monetary(string='Untaxed Amount', store=True, readonly=True, compute='_amount_all', tracking=True, currency_field="currency_id")
+    amount_untaxed = fields.Monetary(string='Montant non imposé', store=True, readonly=True, compute='_amount_all', tracking=True, currency_field="currency_id")
+    # amount_untaxed = fields.Monetary(string='Untaxed Amount', store=True, readonly=True, compute='_amount_all', tracking=True, currency_field="currency_id")
     amount_tax = fields.Monetary(string='Taxes', store=True, readonly=True, compute='_amount_all', currency_field="currency_id")
     amount_total = fields.Monetary(string='Total', store=True, readonly=True, compute='_amount_all', tracking=True, currency_field="currency_id")
 

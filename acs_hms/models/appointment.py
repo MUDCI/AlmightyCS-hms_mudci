@@ -22,9 +22,11 @@ class AppointmentCabin(models.Model):
 
 class AcsCancelReason(models.Model):
     _name = 'acs.cancel.reason'
-    _description = "Cancel Reason"
+    _description = "Raison d'annulation"
+    # _description = "Cancel Reason"
 
-    name = fields.Char('Reason')
+    # name = fields.Char('Reason')
+    name = fields.Char('Motif')
 
 
 class Appointment(models.Model):
@@ -112,11 +114,13 @@ class Appointment(models.Model):
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', 
         index=True, help='Physician\'s Name', tracking=1, default=_get_default_physician)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=1)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=1)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=1)
 
     #ACS: Added department field agian here to avoid portal error. Insted of reading department_id used acs_department_idfield so error vanbe avoided.
     acs_department_id = fields.Many2one('hr.department', compute="acs_get_department")
-    invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    invoice_exempt = fields.Boolean(string='Facture exonérée')
     follow_date = fields.Datetime(string="Follow Up Date", copy=False)
     
     reminder_date = fields.Datetime(string="Reminder Date", copy=False)
@@ -127,7 +131,8 @@ class Appointment(models.Model):
         string='Evaluation', store=True)
 
     weight = fields.Float(related="evaluation_id.weight", string='Weight', help="Weight in KG")
-    height = fields.Float(related="evaluation_id.height", string='Height', help="Height in cm")
+    height = fields.Float(related="evaluation_id.height", string='Taille', help="Height in cm")
+    # height = fields.Float(related="evaluation_id.height", string='Height', help="Height in cm")
     temp = fields.Float(related="evaluation_id.temp", string='Temp')
     hr = fields.Integer(related="evaluation_id.hr", string='HR', help="Heart Rate")
     rr = fields.Integer(related="evaluation_id.rr", string='RR', help='Respiratory Rate')
@@ -145,7 +150,8 @@ class Appointment(models.Model):
     acs_spo2_name = fields.Char(related="evaluation_id.acs_spo2_name", string='Patient SpO2 unit of measure label')
     acs_rbs_name = fields.Char(related="evaluation_id.acs_rbs_name", string='Patient RBS unit of measure label')
     
-    pain_level = fields.Selection(related="evaluation_id.pain_level", string="Pain Level")
+    pain_level = fields.Selection(related="evaluation_id.pain_level", string="Niveau de douleur")
+    # pain_level = fields.Selection(related="evaluation_id.pain_level", string="Pain Level")
     pain = fields.Selection(related="evaluation_id.pain", string="Pain")
 
     differencial_diagnosis = fields.Text(string='Differential Diagnosis', help="The process of weighing the probability of one disease versus that of other diseases possibly accounting for a patient's illness.")
@@ -184,12 +190,14 @@ class Appointment(models.Model):
     appointment_invoice_policy = fields.Selection([('at_end','Invoice in the End'),
         ('anytime','Invoice Anytime'),
         ('advance','Invoice in Advance')],compute=_acs_invoice_policy, string="Appointment Invoicing Policy")
-    invoice_exempt = fields.Boolean('Invoice Exempt')
+    # invoice_exempt = fields.Boolean('Invoice Exempt')
+    invoice_exempt = fields.Boolean('Facture exonérée')
     consultation_type = fields.Selection([
         ('consultation','Consultation'),
         ('followup','Follow Up')],'Consultation Type', copy=False)
 
-    diseases_ids = fields.Many2many('hms.diseases', 'diseases_appointment_rel', 'diseas_id', 'appointment_id', 'Diseases')
+    # diseases_ids = fields.Many2many('hms.diseases', 'diseases_appointment_rel', 'diseas_id', 'appointment_id', 'Diseases')
+    diseases_ids = fields.Many2many('hms.diseases', 'diseases_appointment_rel', 'diseas_id', 'appointment_id', 'Maladies')
     medical_history = fields.Text(related='patient_id.medical_history', 
         string="Past Medical History", readonly=True)
     patient_diseases_ids = fields.One2many('hms.patient.disease', readonly=True, 
@@ -241,7 +249,8 @@ class Appointment(models.Model):
         help="If you change the pricelist, related invoice will be affected.")
     location = fields.Char(string="Appointment Location")
     outside_appointment = fields.Boolean(string="Outside Appointment")
-    is_video_call = fields.Boolean("Is Video Call")
+    # is_video_call = fields.Boolean("Is Video Call")
+    is_video_call = fields.Boolean("Il s’agit d’un appel vidéo")
     cancel_reason = fields.Text(string="Cancel Reason", copy=False)
     cancel_reason_id = fields.Many2one('acs.cancel.reason', string='Cancellation Reason')
     user_id = fields.Many2one('res.users',string='Responsible',
@@ -251,7 +260,8 @@ class Appointment(models.Model):
     invoice_ids = fields.One2many("account.move", "appointment_id", string="Invoices", groups="account.group_account_invoice")
     invoice_count = fields.Integer(compute="_acs_get_invoice_count", string="#Invoices", groups="account.group_account_invoice")
     procedure_to_invoice_ids = fields.Many2many('acs.patient.procedure', 'acs_appointment_procedure_rel', 'appointment_id', 'procedure_id', compute="get_procudures_to_invoice", string="Procedures to Invoice")
-    refer_reason = fields.Text(string='Refer Reason')
+    # refer_reason = fields.Text(string='Refer Reason')
+    refer_reason = fields.Text(string='Raison de renvoi')
 
     refered_from_appointment_id = fields.Many2one("hms.appointment", string="Refered From Appointment")
     refered_from_physician_id = fields.Many2one('hms.physician', related='refered_from_appointment_id.physician_id', string='Refered from Physician', tracking=1, store=True)
@@ -265,7 +275,8 @@ class Appointment(models.Model):
 
     #Just to make object selectable in selction field this is required: Waiting Screen
     acs_show_in_wc = fields.Boolean(default=True)
-    nurse_id = fields.Many2one('res.users','Assigned Nurse')
+    # nurse_id = fields.Many2one('res.users','Assigned Nurse')
+    nurse_id = fields.Many2one('res.users','Infirmière assignée')
     acs_show_create_invoice = fields.Boolean(compute="get_acs_show_create_invoice", string="Show Create Invoice Button")
     acs_show_conumable_create_invoice = fields.Boolean(compute="get_acs_show_create_invoice", string="Show Consumable Create Invoice Button")
 
@@ -855,6 +866,7 @@ class Appointment(models.Model):
 class StockMove(models.Model):
     _inherit = "stock.move"
 
-    appointment_id = fields.Many2one('hms.appointment', string="Appointment", ondelete="restrict")
+    appointment_id = fields.Many2one('hms.appointment', string="Rendez-vous", ondelete="restrict")
+    # appointment_id = fields.Many2one('hms.appointment', string="Appointment", ondelete="restrict")
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

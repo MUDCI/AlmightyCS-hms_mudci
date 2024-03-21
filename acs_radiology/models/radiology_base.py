@@ -41,8 +41,10 @@ class LabTest(models.Model):
     description = fields.Text(string='Description')
     active = fields.Boolean(string="Active", default=True)
     product_id = fields.Many2one('product.product',string='Service', required=True)
-    list_price = fields.Float(related='product_id.list_price', string="Price", readonly=True)
-    remark = fields.Char(string='Remark')
+    # list_price = fields.Float(related='product_id.list_price', string="Price", readonly=True)
+    list_price = fields.Float(related='product_id.list_price', string="Prix", readonly=True)
+    # remark = fields.Char(string='Remark')
+    remark = fields.Char(string='Remarque')
     report = fields.Text (string='Test Report')
     company_id = fields.Many2one('res.company', ondelete='restrict', 
         string='Company' , default=lambda self: self.env.company)

@@ -46,7 +46,8 @@
         <field name="name">acs.product.kit.tree</field>
         <field name="model">acs.product.kit</field>
         <field name="arch" type="xml">
-            <tree string="Product Kits">
+            <!-- <tree string="Product Kits"> -->
+            <tree string="kit de produits">
                 <field name="sequence" widget="handle"/>
                 <field name="name"/>
             </tree>
@@ -79,16 +80,23 @@
     </record>
 
     <record id="action_acs_product_kit" model="ir.actions.act_window">
-        <field name="name">Product Kits</field>
+        <!-- <field name="name">Product Kits</field> -->
+        <field name="name">Kit de produits</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">acs.product.kit</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
-            <p class="o_view_nocontent_smiling_face">
+            <!-- <p class="o_view_nocontent_smiling_face">
                 No Record Found
             </p>
             <p>
                 Click to add Product Kit.
+            </p> -->
+            <p class="o_view_nocontent_smiling_face">
+                Aucun Enregistrement Trouvé
+            </p>
+            <p>
+                Cliquez pour ajouter le kit de produits.
             </p>
         </field>
     </record>

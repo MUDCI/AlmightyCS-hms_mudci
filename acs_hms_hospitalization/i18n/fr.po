@@ -2704,22 +2704,22 @@ msgstr "Produit rond Ward"
 #. module: acs_hms_hospitalization
 #: model:ir.model.fields,field_description:acs_hms_hospitalization.field_hms_physician__ward_round_service_id
 msgid "Ward Round Service"
-msgstr "Service de la ronde de quartier"
+msgstr "Service de visite médicale des services hospitaliers"
 
 #. module: acs_hms_hospitalization
 #: model:ir.model,name:acs_hms_hospitalization.model_ward_rounds
 msgid "Ward Rounds"
-msgstr "Rondes de quartier"
+msgstr "Visite de service"
 
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.ward_search
 msgid "Ward Search"
-msgstr "Recherche de quartier"
+msgstr "Recherche de visite"
 
 #. module: acs_hms_hospitalization
 #: model_terms:ir.ui.view,arch_db:acs_hms_hospitalization.view_ward_tree
 msgid "Ward Tree"
-msgstr "Arbre de quartier"
+msgstr "Arbre de classification"
 
 #. module: acs_hms_hospitalization
 #: model:ir.model,name:acs_hms_hospitalization.model_hospital_ward

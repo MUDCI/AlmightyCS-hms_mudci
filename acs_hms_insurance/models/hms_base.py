@@ -34,7 +34,8 @@ class ACSPatient(models.Model):
 class ACSAppointment(models.Model):
     _inherit = 'hms.appointment'
 
-    insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
+    # insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
+    insurance_id = fields.Many2one('hms.patient.insurance', string="Police d'Assurance")
     claim_id = fields.Many2one('hms.insurance.claim', string='Claim')
     insurance_company_id = fields.Many2one('hms.insurance.company', related='insurance_id.insurance_company_id', string='Insurance Company', readonly=True, store=True)
     app_insurance_percentage = fields.Float(related='insurance_id.app_insurance_percentage', string="Insured Percentage", readonly=True)
@@ -76,7 +77,8 @@ class ACSAppointment(models.Model):
 class Invoice(models.Model):
     _inherit = 'account.move'
 
-    insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
+    # insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')Police d'Assurance
+    insurance_id = fields.Many2one('hms.patient.insurance', string="Police d'Assurance")
     claim_id = fields.Many2one('hms.insurance.claim', 'Claim')
     insurance_company_id = fields.Many2one('hms.insurance.company', related='claim_id.insurance_company_id', string='Insurance Company', readonly=True)
     claim_sheet_id = fields.Many2one('acs.claim.sheet', string='Claim Sheet')
@@ -184,7 +186,8 @@ class product_template(models.Model):
 class ACSPrescriptionOrder(models.Model):
     _inherit = 'prescription.order'
 
-    insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
+    # insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
+    insurance_id = fields.Many2one('hms.patient.insurance', string="Police d'Assurance")
     claim_id = fields.Many2one('hms.insurance.claim', string='Claim')
     insurance_company_id = fields.Many2one('hms.insurance.company', related='insurance_id.insurance_company_id', string='Insurance Company', readonly=True, store=True)
     pha_insurance_percentage = fields.Float(related='insurance_id.pha_insurance_percentage', string="Insured Percentage", readonly=True)

@@ -6,8 +6,10 @@ from odoo.exceptions import UserError
 class HmsAppointment(models.Model):
     _inherit = 'hms.appointment'
 
-    calendar_event_id = fields.Many2one('calendar.event', string='Video Call')
-    video_call_link = fields.Char(related="calendar_event_id.videocall_location", string="Video Call Link", readonly=True)
+    # calendar_event_id = fields.Many2one('calendar.event', string='Video Call')
+    calendar_event_id = fields.Many2one('calendar.event', string='Appel vidéo')
+    # video_call_link = fields.Char(related="calendar_event_id.videocall_location", string="Video Call Link", readonly=True)
+    video_call_link = fields.Char(related="calendar_event_id.videocall_location", string="Lien de l'appel vidéo", readonly=True)
 
     def appointment_confirm(self):
         super(HmsAppointment, self).appointment_confirm()

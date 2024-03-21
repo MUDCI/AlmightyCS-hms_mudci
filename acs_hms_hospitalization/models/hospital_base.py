@@ -18,7 +18,8 @@ class Bed(models.Model):
     product_id = fields.Many2one('product.product', ondelete='cascade',
         string='Bed Product', required=True, domain=[('hospital_product_type', '=', 'bed')],
         context={'default_hospital_product_type': 'bed'})
-    list_price = fields.Float(related='product_id.list_price', string="Price", readonly=True)
+    # list_price = fields.Float(related='product_id.list_price', string="Price", readonly=True)
+    list_price = fields.Float(related='product_id.list_price', string="Prix", readonly=True)
     bed_type = fields.Selection([
         ('gatch', 'Gatch Bed'),
         ('electric', 'Electric'),
@@ -33,7 +34,8 @@ class Bed(models.Model):
         ('reserved', 'Reserved'),
         ('occupied', 'Occupied'),
         ('blocked', 'Out of Use'),], string='Status', default="free")
-    ward_id = fields.Many2one('hospital.ward', ondelete='restrict', string='Ward/Room')
+    # ward_id = fields.Many2one('hospital.ward', ondelete='restrict', string='Ward/Room')
+    ward_id = fields.Many2one('hospital.ward', ondelete='restrict', string='Salle/Chambre')
     accommodation_history_ids = fields.One2many("patient.accommodation.history","bed_id",
         string="Accommodation History")
     notes = fields.Text(string='Notes')
@@ -43,7 +45,8 @@ class Bed(models.Model):
     invoice_policy = fields.Selection([
         ('full', 'Days (Full)'),
         ('hourly', 'Hours')], string='Invoice Policy', default='full', required=True)
-    department_id = fields.Many2one('hr.department', related="ward_id.department_id", string='Department', store=True, readonly=True)
+    department_id = fields.Many2one('hr.department', related="ward_id.department_id", string='Departement', store=True, readonly=True)
+    # department_id = fields.Many2one('hr.department', related="ward_id.department_id", string='Department', store=True, readonly=True)
 
     @api.onchange('product_id')
     def onchnage_product_id(self):
@@ -99,7 +102,8 @@ class ACSHospitalWard(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict', 
         string='Hospital', default=lambda self: self.env.company)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department')
+        domain=[('patient_department', '=', True)], string='Departement')
+        # domain=[('patient_department', '=', True)], string='Department')
 
     #Facility
     private = fields.Boolean(string='Private',

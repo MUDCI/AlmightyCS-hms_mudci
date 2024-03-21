@@ -12,12 +12,14 @@ class MedicamentGroupLine(models.Model):
             rec.quantity = rec.days * rec.dose
 
     group_id = fields.Many2one('medicament.group', ondelete='restrict', string='Medicament Group')
-    product_id = fields.Many2one('product.product', ondelete='restrict', string='Medicine Name', required=True)
+    product_id = fields.Many2one('product.product', ondelete='restrict', string='Nom du médicament', required=True)
+    # product_id = fields.Many2one('product.product', ondelete='restrict', string='Medicine Name', required=True)
     allow_substitution = fields.Boolean(string='Allow substitution')
     prnt = fields.Boolean(string='Print', help='Check this box to print this line of the prescription.')
     dose = fields.Float(string='Dosage', digits=(16, 2), help="Amount of medication (eg, 250 mg) per dose", default=1.0)
     dosage_uom_id = fields.Many2one('uom.uom', string='Unit of Dosage', help='Amount of Medicine (eg, mg) per dose', domain="[('category_id', '=', product_uom_category_id)]")
-    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
+    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id', string="Catégorie")
+    # product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
     common_dosage_id = fields.Many2one('medicament.dosage', ondelete='cascade', 
         string='Dosage Frequency', help='Amount of medication (eg, 250 mg) per dose')
     short_comment = fields.Char(string='Comment', help='Short comment on the specific drug')
@@ -45,9 +47,12 @@ class ACSMedicamentGroup(models.Model):
     _rec_name = 'name'
 
     name = fields.Char(string='Group Name', required=True)
-    physician_id = fields.Many2one('hms.physician', ondelete='set null', string='Physician')
-    diseases_id = fields.Many2one('hms.diseases', ondelete='set null', string='Diseases')
-    medicament_group_line_ids = fields.One2many('medicament.group.line', 'group_id', string='Medicament line')
+    # physician_id = fields.Many2one('hms.physician', ondelete='set null', string='Physician')
+    physician_id = fields.Many2one('hms.physician', ondelete='set null', string='Médecin')
+    # diseases_id = fields.Many2one('hms.diseases', ondelete='set null', string='Diseases')
+    diseases_id = fields.Many2one('hms.diseases', ondelete='set null', string='Maladies')
+    # medicament_group_line_ids = fields.One2many('medicament.group.line', 'group_id', string='Medicament line')
+    medicament_group_line_ids = fields.One2many('medicament.group.line', 'group_id', string='Ligne de médicament')
     limit = fields.Integer('Limit')
 
 

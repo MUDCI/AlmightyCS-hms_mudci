@@ -59,7 +59,8 @@
                             <separator string="Prescribed Medicine"/>
                             <field name="prescription_line_ids" string="Medicine" readonly='1'>
                                 <tree string="Medicine" create='false'>
-                                    <field name="product_id" string="Medicine Name"/>
+                                    <!-- <field name="product_id" string="Medicine Name"/> -->
+                                    <field name="product_id" string="Nom du médicament"/>
                                     <field name="active_component_ids" widget="many2many_tags" optional="show"/>
                                     <field name="allow_substitution" optional="show"/>
                                     <field name="quantity" string="Qty"/>

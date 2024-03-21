@@ -970,12 +970,12 @@ msgstr "Nettoyeur"
 #. module: acs_hms_aesthetic
 #: model:ir.model.fields,field_description:acs_hms_aesthetic.field_hms_patient__routine_clear
 msgid "Clear"
-msgstr "Limpieza"
+msgstr "Propreté"
 
 #. module: acs_hms_aesthetic
 #: model:ir.model.fields,field_description:acs_hms_aesthetic.field_hms_patient__routine_clear_comment
 msgid "Clear Remark"
-msgstr "Observación sobre la limpieza"
+msgstr "Note sur la propreté"
 
 #. module: acs_hms_aesthetic
 #: model_terms:ir.actions.act_window,help:acs_hms_aesthetic.action_acs_treatment
@@ -2070,7 +2070,7 @@ msgstr "ACTIVITÉ NERVEUSE"
 #: model:ir.model.fields.selection,name:acs_hms_aesthetic.selection__hms_patient__ach_use_cb__no
 #: model:ir.model.fields.selection,name:acs_hms_aesthetic.selection__hms_patient__ach_use_contraceptives__no
 msgid "NO"
-msgstr "NO"
+msgstr "NON"
 
 #. module: acs_hms_aesthetic
 #: code:addons/acs_hms_aesthetic/controllers/main.py:0
@@ -2140,7 +2140,7 @@ msgstr "Type d'activité suivant"
 #. module: acs_hms_aesthetic
 #: model_terms:ir.ui.view,arch_db:acs_hms_aesthetic.my_aesthetic_history_fields
 msgid "No"
-msgstr "No"
+msgstr "NON"
 
 #. module: acs_hms_aesthetic
 #: model_terms:ir.actions.act_window,help:acs_hms_aesthetic.action_acs_treatment

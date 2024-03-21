@@ -39,12 +39,15 @@
                         </group>
                     </group>
                     <notebook>
-                        <page name="lines" string="Lines">
+                        <!-- <page name="lines" string="Lines"> -->
+                        <page name="lines" string="Lignes">
                             <field name="order_line" widget="section_and_note_one2many">
                                 <tree string="Workorder Lines" editable="bottom">
                                     <control>
-                                        <create string="Add a line"/>
-                                        <create string="Add a section" context="{'default_display_type': 'line_section'}"/>
+                                        <create string="Ajouter une ligne"/>
+                                        <!-- <create string="Add a line"/> -->
+                                        <create string="Ajouter une section" context="{'default_display_type': 'line_section'}"/>
+                                        <!-- <create string="Add a section" context="{'default_display_type': 'line_section'}"/> -->
                                     </control>
                                     
                                     <field name="sequence" widget="handle"/>

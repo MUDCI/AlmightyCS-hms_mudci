@@ -10,9 +10,11 @@ class ACSSurgeryTemplate(models.Model):
     name= fields.Char(string='Surgery Code', 
         help="Procedure Code, for example ICD-10-PCS Code 7-character string")
     surgery_name= fields.Char (string='Surgery Name')
-    diseases_ids = fields.Many2many('hms.diseases', 'diseases_surgery_template_rel', 'diseas_id', 'surgery_id', string='Diseases')
+    diseases_ids = fields.Many2many('hms.diseases', 'diseases_surgery_template_rel', 'diseas_id', 'surgery_id', string='Maladies')
+    # diseases_ids = fields.Many2many('hms.diseases', 'diseases_surgery_template_rel', 'diseas_id', 'surgery_id', string='Diseases')
     #odoo18 remove diseases_id
-    diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', string='Disease', help="Reason for the surgery.")
+    # diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', string='Disease', help="Reason for the surgery.")
+    diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', string='Maladies', help="Reason for the surgery.")
     dietplan_id = fields.Many2one('hms.dietplan', ondelete='set null', string='Diet Plan')
     surgery_product_id = fields.Many2one('product.product', ondelete='cascade',
         string= "Product", required=True)
@@ -77,10 +79,12 @@ class ACSSurgery(models.Model):
         ('cancel', 'Cancelled'),
         ('done', 'Done'),], string='Status', default='draft')
     surgery_name= fields.Char (string='Surgery Name')
-    diseases_ids = fields.Many2many('hms.diseases', 'diseases_surgery_rel', 'diseas_id', 'surgery_id', string='Diseases')
+    diseases_ids = fields.Many2many('hms.diseases', 'diseases_surgery_rel', 'diseas_id', 'surgery_id', string='Maladies')
+    # diseases_ids = fields.Many2many('hms.diseases', 'diseases_surgery_rel', 'diseas_id', 'surgery_id', string='Diseases')
     #odoo18 remove diseases_id
     diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', 
-        string='Disease', help="Reason for the surgery.")
+        string='Maladies', help="Reason for the surgery.")
+        # string='Disease', help="Reason for the surgery.")
     dietplan_id = fields.Many2one('hms.dietplan', ondelete='set null', 
         string='Diet Plan')
     surgery_product_id = fields.Many2one('product.product', ondelete='cascade',
@@ -105,7 +109,8 @@ class ACSSurgery(models.Model):
     special_precautions = fields.Text(string="Special Precautions")
     consumable_line_ids = fields.One2many('hms.consumable.line', 'surgery_id', string='Consumable Line', help="List of items that are consumed during the surgery.")
     medicament_line_ids = fields.One2many('medicament.line', 'surgery_id', string='Medicament Line', help="Define the medicines to be taken after the surgery")
-    invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    invoice_exempt = fields.Boolean(string='Facture exonérée')
 
     #Hospitalization Surgery
     start_date = fields.Datetime(string='Surgery Date')
@@ -113,9 +118,11 @@ class ACSSurgery(models.Model):
     anesthetist_id = fields.Many2one('hms.physician', string='Anesthetist', ondelete="set null", 
         help='Anesthetist data of the patient')
     anesthesia_id = fields.Many2one('hms.anesthesia', ondelete="set null", 
-        string="Anesthesia")
+        string="Anesthesie")
+        # string="Anesthesia")
     primary_physician_id = fields.Many2one('hms.physician', ondelete="restrict", 
-        string='Main Surgeon')
+        string='Chirurgien Principal')
+        # string='Main Surgeon')
     primary_physician_ids = fields.Many2many('hms.physician','hosp_pri_doc_rel','hosp_id','doc_id',
         string='Primary Surgeons')
     assisting_surgeon_ids = fields.Many2many('hms.physician','hosp_doc_rel','hosp_id','doc_id',
@@ -134,8 +141,10 @@ class ACSSurgery(models.Model):
     invoice_id = fields.Many2one('account.move', string='Invoice', copy=False)
     treatment_id = fields.Many2one('hms.treatment', string='Treatment', copy=False)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=True)
-    appointment_id = fields.Many2one('hms.appointment', string='Appointment', copy=False)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=True)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=True)
+    appointment_id = fields.Many2one('hms.appointment', string='Rendez-vous', copy=False)
+    # appointment_id = fields.Many2one('hms.appointment', string='Appointment', copy=False)
     invoice_ids = fields.One2many('account.move', 'surgery_id', string='Invoices')
     invoice_count = fields.Integer(compute='_acs_rec_count', string='# Invoices')
 

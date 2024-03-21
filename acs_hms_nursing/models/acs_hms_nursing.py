@@ -26,7 +26,8 @@ class AcsNurseWardRound(models.Model):
     diastolic_bp = fields.Integer(related="evaluation_id.diastolic_bp", string="Diastolic BP")
     spo2 = fields.Integer(related="evaluation_id.spo2", string='SpO2', 
         help='Oxygen Saturation, percentage of oxygen bound to hemoglobin')
-    pain_level = fields.Selection(related="evaluation_id.pain_level", string="Pain Level")
+    # pain_level = fields.Selection(related="evaluation_id.pain_level", string="Pain Level")
+    pain_level = fields.Selection(related="evaluation_id.pain_level", string="Niveau de douleur")
     pain = fields.Selection(related="evaluation_id.pain", string="Pain")
     bmi = fields.Float(related="evaluation_id.bmi", string='Body Mass Index', store=True)
     bmi_state = fields.Selection(related="evaluation_id.bmi_state", string='BMI State', store=True)

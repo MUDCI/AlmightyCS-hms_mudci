@@ -73,13 +73,15 @@ class Hospitalization(models.Model):
     image_128 = fields.Binary(related='patient_id.image_128',string='Image', readonly=True)
     age = fields.Char(string="Age" ,related="patient_id.age")
     appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", 
-        string='Appointment')
+        string='Rendez-vous')
+        # string='Appointment')
     hospitalization_date = fields.Datetime(string='Hospitalization Date', 
         default=fields.Datetime.now, tracking=True)
     company_id = fields.Many2one('res.company', ondelete="restrict", 
         string='Hospital', default=lambda self: self.env.company)
     department_id = fields.Many2one('hr.department', ondelete="restrict", 
-        string='Department', domain=[('patient_department', '=', True)])
+        string='Departement', domain=[('patient_department', '=', True)])
+        # string='Department', domain=[('patient_department', '=', True)])
     attending_physician_ids = fields.Many2many('hms.physician','hosp_pri_att_doc_rel','hosp_id','doc_id',
         string='Primary Doctors')
     relative_id = fields.Many2one('res.partner', ondelete="cascade", 
@@ -93,9 +95,12 @@ class Hospitalization(models.Model):
         ('urgent','Urgent'),
         ('emergency','Emergency')], string='Admission type', default='routine')
     diseases_ids = fields.Many2many('hms.diseases', 'diseases_hospitalization_rel', 'diseas_id', 'hospitalization_id', 
-        string='Diseases')
-    discharge_date = fields.Datetime (string='Discharge date', tracking=True)
-    invoice_exempt = fields.Boolean(string='Invoice Exempt')
+        string='Maladies')
+        # string='Diseases')
+    # discharge_date = fields.Datetime (string='Discharge date', tracking=True)
+    discharge_date = fields.Datetime (string='Date de sortie', tracking=True)
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    invoice_exempt = fields.Boolean(string='Facture exonérée')
     accommodation_history_ids = fields.One2many("patient.accommodation.history", "hospitalization_id", 
         string="Accommodation History")
     accommodation_count = fields.Integer(compute='_rec_count', string='# Accommodation History')

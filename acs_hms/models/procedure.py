@@ -10,19 +10,25 @@ class ProcedureGroupLine(models.Model):
     _order = 'sequence'
 
     sequence = fields.Integer("Sequence", default=10)
-    group_id = fields.Many2one('procedure.group', ondelete='restrict', string='Procedure Group')
+    # group_id = fields.Many2one('procedure.group', ondelete='restrict', string='Procedure Group')
+    group_id = fields.Many2one('procedure.group', ondelete='restrict', string='Groupe des procédures')
     product_id = fields.Many2one('product.product', string='Procedure', ondelete='restrict', required=True)
-    days_to_add = fields.Integer('Days to add',help="Days to add for next date")
-    procedure_time = fields.Float(related='product_id.procedure_time', string='Procedure Time', readonly=True)
-    price_unit = fields.Float(related='product_id.list_price', string='Price', readonly=True)
+    # days_to_add = fields.Integer('Days to add',help="Days to add for next date")
+    days_to_add = fields.Integer('Jours à ajouter',help="Days to add for next date")
+    # procedure_time = fields.Float(related='product_id.procedure_time', string='Procedure Time', readonly=True)
+    procedure_time = fields.Float(related='product_id.procedure_time', string='Temps de procédure', readonly=True)
+    # price_unit = fields.Float(related='product_id.list_price', string='Price', readonly=True)
+    price_unit = fields.Float(related='product_id.list_price', string='Prix', readonly=True)
 
 
 class ProcedureGroup(models.Model):
     _name = "procedure.group"
     _description = "Procedure Group"
 
-    name = fields.Char(string='Group Name', required=True)
-    line_ids = fields.One2many('procedure.group.line', 'group_id', string='Group lines')
+    # name = fields.Char(string='Group Name', required=True)
+    name = fields.Char(string='Nom du groupe', required=True)
+    # line_ids = fields.One2many('procedure.group.line', 'group_id', string='Group lines')
+    line_ids = fields.One2many('procedure.group.line', 'group_id', string='Lignes de groupe')
 
 
 class AcsPatientProcedure(models.Model):
@@ -45,11 +51,13 @@ class AcsPatientProcedure(models.Model):
         attachments += self.appointment_ids.mapped('attachment_ids')
         return attachments
 
-    name = fields.Char(string="Name", tracking=1)
+    # name = fields.Char(string="Name", tracking=1)
+    name = fields.Char(string="Nom", tracking=1)
     patient_id = fields.Many2one('hms.patient', string='Patient', required=True, tracking=1)
     product_id = fields.Many2one('product.product', string='Procedure', 
         change_default=True, ondelete='restrict', required=True)
-    price_unit = fields.Float("Price")
+    # price_unit = fields.Float("Price")
+    price_unit = fields.Float("Prix")
     invoice_id = fields.Many2one('account.move', string='Invoice', copy=False)
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', 
         index=True)
@@ -62,22 +70,28 @@ class AcsPatientProcedure(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict',
         string='Hospital', default=lambda self: self.env.company)
     date = fields.Datetime("Date")
-    date_stop = fields.Datetime("End Date")
-    duration = fields.Float('Duration', compute="acs_get_duration", store=True)
+    # date_stop = fields.Datetime("End Date")
+    date_stop = fields.Datetime("Date de fin")
+    # duration = fields.Float('Duration', compute="acs_get_duration", store=True)
+    duration = fields.Float('Durée', compute="acs_get_duration", store=True)
 
-    diseas_id = fields.Many2one('hms.diseases', 'Disease')
+    # diseas_id = fields.Many2one('hms.diseases', 'Disease')
+    diseas_id = fields.Many2one('hms.diseases', 'Maladie')
     description = fields.Text(string="Description")
-    treatment_id = fields.Many2one('hms.treatment', 'Treatment')
+    # treatment_id = fields.Many2one('hms.treatment', 'Treatment')
+    treatment_id = fields.Many2one('hms.treatment', 'Treatement')
     appointment_ids = fields.Many2many('hms.appointment', 'acs_appointment_procedure_rel', 'appointment_id', 'procedure_id', 'Appointments')
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=1)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=1)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=1)
     department_type = fields.Selection(related='department_id.department_type', string="Appointment Department", store=True)
 
     consumable_line_ids = fields.One2many('hms.consumable.line', 'procedure_id',
         string='Consumable Line', copy=False)
     acs_kit_id = fields.Many2one('acs.product.kit', string='Kit')
     acs_kit_qty = fields.Integer("Kit Qty", default=1)
-    invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    invoice_exempt = fields.Boolean(string='Facture exonérée')
 
     @api.model
     def default_get(self, fields):

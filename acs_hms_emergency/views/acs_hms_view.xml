@@ -30,14 +30,18 @@
 
     <!-- Bed -->
     <record id="action_hospital_bed" model="ir.actions.act_window">
-        <field name="name">Beds</field>
+        <!-- <field name="name">Beds</field> -->
+        <field name="name">Lits</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">hospital.bed</field>
         <field name="view_mode">kanban,tree,form</field>
         <field name="domain">[('department_id.department_type','=','emergency_department')]</field>
         <field name="help" type="html">
-            <p class="o_view_nocontent_smiling_face">
+            <!-- <p class="o_view_nocontent_smiling_face">
                 Add a Bed from Hospitalization menu with Emergencey Department.
+            </p> -->
+            <p class="o_view_nocontent_smiling_face">
+                Ajouter un lit depuis le menu Hospitalisation avec le service d'urgence.
             </p>
         </field>
     </record>

@@ -27,7 +27,8 @@ class ACSPrescriptionOrder(models.Model):
 
     name = fields.Char(size=256, string='Number', help='Prescription Number of this prescription', readonly=True, copy=False, tracking=1)
     diseases_ids = fields.Many2many('hms.diseases', 'diseases_prescription_rel', 'diseas_id', 'prescription_id', 
-        string='Diseases', tracking=1)
+        string='Maladies', tracking=1)
+        # string='Diseases', tracking=1)
     group_id = fields.Many2one('medicament.group', ondelete="set null", string='Medicaments Group', copy=False)
     patient_id = fields.Many2one('hms.patient', ondelete="restrict", string='Patient', required=True, tracking=1)
     pregnancy_warning = fields.Boolean(string='Pregnancy Warning')
@@ -42,7 +43,8 @@ class ACSPrescriptionOrder(models.Model):
         ('prescription', 'Prescribed'),
         ('canceled', 'Cancelled')], string='Status', default='draft', tracking=1)
     appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", 
-        string='Appointment')
+        string='Rendez-vous')
+        # string='Appointment')
     patient_age = fields.Char(related='patient_id.age', string='Age', store=True, readonly=True)
     treatment_id = fields.Many2one('hms.treatment', 'Treatment')
     medical_alert_ids = fields.Many2many('acs.medical.alert', 'prescription_medical_alert_rel','prescription_id', 'alert_id',
@@ -216,13 +218,14 @@ class ACSPrescriptionLine(models.Model):
     manual_quantity = fields.Float(string='Manual Total Qty', default=1)
     active_component_ids = fields.Many2many('active.comp','product_pres_comp_rel','product_id','pres_id','Active Component')
     dose = fields.Float('Dosage', help="Amount of medication (eg, 250 mg) per dose",default=1.0)
-    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
+    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id', string="Catégorie")
     dosage_uom_id = fields.Many2one('uom.uom', string='Unit of Dosage', help='Amount of Medicine (eg, mg) per dose', domain="[('category_id', '=', product_uom_category_id)]")
     form_id = fields.Many2one('drug.form',related='product_id.form_id', string='Form',help='Drug form, such as tablet or gel')
     route_id = fields.Many2one('drug.route', ondelete="cascade", string='Route', help='Drug form, such as tablet or gel')
     common_dosage_id = fields.Many2one('medicament.dosage', ondelete="cascade", string='Dosage/Frequency', help='Drug form, such as tablet or gel')
     short_comment = fields.Char(string='Comment', help='Short comment on the specific drug')
-    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment')
+    appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Rendez-vous')
+    # appointment_id = fields.Many2one('hms.appointment', ondelete="restrict", string='Appointment')
     treatment_id = fields.Many2one('hms.treatment', related='prescription_id.treatment_id', string='Treatment', store=True)
     company_id = fields.Many2one('res.company', ondelete="cascade", string='Hospital', related='prescription_id.company_id')
     qty_available = fields.Float(related='product_id.qty_available', string='Available Qty')

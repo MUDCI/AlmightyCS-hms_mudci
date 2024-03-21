@@ -37,9 +37,11 @@ class AcsPatientProcedure(models.Model):
     _inherit="acs.patient.procedure"
 
     tooth_surface_ids = fields.Many2many('acs.tooth.surface', string='Surface')
-    tooth_ids = fields.Many2many('acs.hms.tooth', string='Tooths')
+    # tooth_ids = fields.Many2many('acs.hms.tooth', string='Tooths')
+    tooth_ids = fields.Many2many('acs.hms.tooth', string='Dents')
     #ACS Note: For migration only.
-    tooth_id = fields.Many2one('acs.hms.tooth', string='Tooth')
+    # tooth_id = fields.Many2one('acs.hms.tooth', string='Tooth')
+    tooth_id = fields.Many2one('acs.hms.tooth', string='Dent')
 
 
 class HrDepartment(models.Model): 

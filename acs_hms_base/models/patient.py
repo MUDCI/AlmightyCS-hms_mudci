@@ -46,10 +46,10 @@ class ACSPatient(models.Model):
     occupation = fields.Char("Occupation")
     acs_religion_id = fields.Many2one('acs.religion', string="Religion")
     caste = fields.Char("Tribe")
-    nationality_id = fields.Many2one("res.country", string="Nationality")
-    passport = fields.Char("Passport Number")
+    nationality_id = fields.Many2one("res.country", string="Nationalité")
+    passport = fields.Char("Numéro de passeport")
     active = fields.Boolean(string="Active", default=True)
-    location_url = fields.Text()
+    location_url = fields.Text(string="URL de localisation")
 
     def acs_get_gov_code_label(self):
         for rec in self:

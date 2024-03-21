@@ -5,7 +5,8 @@ from odoo import api, fields, models,_
 class AccountMove(models.Model):
     _inherit = "account.move"
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization',
+    # hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization',
+    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalisation',
         help="Enter the patient hospitalization code")
     hospital_invoice_type = fields.Selection(selection_add=[('hospitalization', 'Hospitalization')])
 
@@ -13,10 +14,13 @@ class AccountMove(models.Model):
 class Prescription(models.Model):
     _inherit = 'prescription.order'
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization',
+    # hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization',
+    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalisation',
         help="Enter the patient hospitalization code")
-    ward_id = fields.Many2one('hospital.ward', string='Ward/Room No.', ondelete="restrict")
-    bed_id = fields.Many2one("hospital.bed", string="Bed No.", ondelete="restrict")
+    # ward_id = fields.Many2one('hospital.ward', string='Ward/Room No.', ondelete="restrict")
+    ward_id = fields.Many2one('hospital.ward', string='Numéro Salle/Chambre', ondelete="restrict")
+    # bed_id = fields.Many2one("hospital.bed", string="Bed No.", ondelete="restrict")
+    bed_id = fields.Many2one("hospital.bed", string="Numéro Lit", ondelete="restrict")
     ward_round_id = fields.Many2one("ward.rounds", string="Ward Round", ondelete="restrict")
     print_in_discharge = fields.Boolean('Print In Discharge')
  
@@ -75,14 +79,16 @@ class ACSSurgery(models.Model):
     _inherit = "hms.surgery"
 
     hospital_ot_id = fields.Many2one('acs.hospital.ot', ondelete="restrict", 
-        string='Operation Theater')
+        string="Salle d'opération")
+        # string='Operation Theater')
     hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization')
 
 
 class ACSMedicamentLine(models.Model):
     _inherit = "medicament.line"
     
-    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Inpatient')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Inpatient')
+    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalisé')
 
 
 class product_template(models.Model):
@@ -100,7 +106,8 @@ class AcsPatientEvaluation(models.Model):
 class PatientProcedure(models.Model):
     _inherit="acs.patient.procedure"
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Inpatient')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Inpatient')
+    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalisé')
 
 
 class Physician(models.Model):
@@ -113,7 +120,7 @@ class Physician(models.Model):
 
     hospitalization_count = fields.Integer(compute='_hos_rec_count', string='# Hospitalization')
     ward_round_service_id = fields.Many2one('product.product', domain=[('type','=','service')],
-        string='Ward Round Service',  ondelete='cascade', help='Ward Round Product')
+        string='Service de visite médicale des services hospitaliers',  ondelete='cascade', help='Ward Round Product')
 
     def action_hospitalization(self):
         action = self.env["ir.actions.actions"]._for_xml_id("acs_hms_hospitalization.acs_action_form_inpatient")

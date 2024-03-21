@@ -9,7 +9,8 @@ class ACSDiseases(models.Model):
     _rec_names_search = ['name', 'code']
     _order = "sequence"
 
-    category_id = fields.Many2one('diseases.category', string='Category', ondelete='cascade',
+    # category_id = fields.Many2one('diseases.category', string='Category', ondelete='cascade',
+    category_id = fields.Many2one('diseases.category', string='Categorie', ondelete='cascade',
         help='Select the category for this disease This is usually'\
         'associated to the standard. For instance, the chapter on the ICD-10'\
         'will be the main category for the disease')
@@ -52,7 +53,8 @@ class ACSPatientDisease(models.Model):
     _name = 'hms.patient.disease'
     _description = "Patient Diseases"
 
-    disease_id = fields.Many2one('hms.diseases', ondelete='set null', string='Disease')
+    # disease_id = fields.Many2one('hms.diseases', ondelete='set null', string='Disease')
+    disease_id = fields.Many2one('hms.diseases', ondelete='set null', string='Maladie')
     description = fields.Char(string='Treatment Description')
     diagnosed_date = fields.Date(string='Date of Diagnosis')
     healed_date = fields.Date(string='Healed')
@@ -121,7 +123,8 @@ class FamilyDiseases(models.Model):
     _description = 'Family Diseases'
 
     patient_id = fields.Many2one('hms.patient', ondelete='cascade', string='Patient', index=True)
-    diseases_ids = fields.Many2many('hms.diseases', 'rz_id','pz_id','cz_id' ,'Disease', required=True)
+    # diseases_ids = fields.Many2many('hms.diseases', 'rz_id','pz_id','cz_id' ,'Disease', required=True)
+    diseases_ids = fields.Many2many('hms.diseases', 'rz_id','pz_id','cz_id' ,'Maladie', required=True)
     xory = fields.Selection([
             ('m', 'Maternal'),
             ('f', 'Paternal')

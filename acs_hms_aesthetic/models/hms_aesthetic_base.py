@@ -22,7 +22,8 @@ class AcsAestheticQuestionnaire(models.Model):
     name = fields.Char(string="Name", required=True)
     is_done = fields.Boolean(string="Y/N", default=False)
     remark = fields.Char(string="Remarks")
-    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
 
 
 class AcsmedicalQuestionnaire(models.Model):
@@ -32,7 +33,8 @@ class AcsmedicalQuestionnaire(models.Model):
     name = fields.Char(string="Name", required=True)
     is_done = fields.Boolean(string="Y/N", default=False)
     remark = fields.Char(string="Remarks")
-    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
 
 
 class AcsAestheticFaceMapping(models.Model):
@@ -40,7 +42,8 @@ class AcsAestheticFaceMapping(models.Model):
     _description = "Face Mapping"
 
     date = fields.Date(string="Date", default=fields.Date.today)
-    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
     patient_id = fields.Many2one("hms.patient", ondelete="cascade", string="Patient")
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', index=True,)
 
@@ -69,7 +72,8 @@ class AcsBodyEvolution(models.Model):
     _order = "date desc"
 
     date = fields.Date(string="Date", default=fields.Date.today)
-    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
     patient_id = fields.Many2one("hms.patient", ondelete="cascade", string="Patient", required=True)
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', index=True,)
 

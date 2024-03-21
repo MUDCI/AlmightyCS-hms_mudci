@@ -22,7 +22,8 @@ class AcsConsentForm(models.Model):
     _order = "id desc"
 
     name = fields.Char(string='Name', required=True, readonly=True, default='/', copy=False)
-    subject = fields.Char(string='Subject', required=True)
+    # subject = fields.Char(string='Subject', required=True)
+    subject = fields.Char(string='Sujet', required=True)
     partner_id = fields.Many2one('res.partner', string='Partner', ondelete="restrict", 
         help="Partner to whome Document asigned")
     user_id = fields.Many2one('res.users', string='User', ondelete="restrict", 

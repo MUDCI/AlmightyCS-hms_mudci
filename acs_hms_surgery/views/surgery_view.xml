@@ -182,7 +182,7 @@
                 <filter string="Confirmed" name="confirmed" domain="[('state','=','confirm')]"/>
                 <filter string="Done" name="done" domain="[('state','=','done')]"/>
                 <group expand="0" string="Group By">
-                    <filter name="group_by_anesthesia" string="Anesthesia" context="{'group_by':'anesthesia_id'}"/>
+                    <filter name="group_by_anesthesia" string="Anesthesie" context="{'group_by':'anesthesia_id'}"/>
                     <filter name="group_by_surgery_poduct" string="Surgery Product" context="{'group_by':'surgery_product_id'}"/>
                     <filter string="Patient" name="patient_groupby" domain="[]" context="{'group_by':'patient_id'}"/>
                     <filter string="State" name="state_groupby" domain="[]" context="{'group_by':'state'}"/>

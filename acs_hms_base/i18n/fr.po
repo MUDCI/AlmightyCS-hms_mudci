@@ -646,7 +646,7 @@ msgstr "Adresse complète"
 #: model:ir.ui.menu,name:acs_hms_base.menu_medicine_cofig
 #: model:ir.ui.menu,name:acs_hms_base.menu_physician_cofig
 msgid "Configuration"
-msgstr "Configiration"
+msgstr "Configuration"
 
 #. module: acs_hms_base
 #: model:ir.model.fields,field_description:acs_hms_base.field_hms_consumable_line__product_id

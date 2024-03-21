@@ -74,14 +74,18 @@
     </record>
 
     <record id="action_acs_hms_anesthesia" model="ir.actions.act_window">
-        <field name="name">Anesthesia</field>
+        <field name="name">Anesthesie</field>
+        <!-- <field name="name">Anesthesia</field> -->
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">hms.anesthesia</field>
         <field name="view_mode">tree,form</field>
         <field name="view_id" ref="acs_hms_anesthesia_tree_view" />
         <field name="help" type="html">
-            <p class="o_view_nocontent_smiling_face">
+            <!-- <p class="o_view_nocontent_smiling_face">
                 Click to add a Anesthesia.
+            </p> -->
+            <p class="o_view_nocontent_smiling_face">
+                Cliquer Pour Ajouter Une Anesthesie.
             </p>
         </field>
     </record>

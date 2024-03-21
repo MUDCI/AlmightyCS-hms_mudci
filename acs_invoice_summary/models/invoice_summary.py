@@ -237,7 +237,7 @@ class AcsInvoiceSummaryLine(models.Model):
     sequence = fields.Integer(string='Sequence', default=10)
     product_id = fields.Many2one('product.product', string='Product', domain=[('sale_ok', '=', True)], change_default=True, ondelete='restrict')
     quantity = fields.Float(string='Quantity', digits=('Product Unit of Measure'), default=1.0)
-    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
+    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id', string="Catégorie")
     product_uom_id = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]")
     price_unit = fields.Float()
     discount = fields.Float()

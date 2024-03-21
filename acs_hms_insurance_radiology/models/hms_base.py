@@ -5,9 +5,12 @@ from odoo import api, fields, models, _
 class AcsRadiologyRequest(models.Model):
     _inherit = 'acs.radiology.request'
 
-    insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
-    claim_id = fields.Many2one('hms.insurance.claim', string='Claim')
-    insurance_company_id = fields.Many2one('hms.insurance.company', related='insurance_id.insurance_company_id', string='Insurance Company', readonly=True, store=True)
+    # insurance_id = fields.Many2one('hms.patient.insurance', string='Insurance Policy')
+    insurance_id = fields.Many2one('hms.patient.insurance', string="Police d'Assurance")
+    claim_id = fields.Many2one('hms.insurance.claim', string='Réclamation')
+    # claim_id = fields.Many2one('hms.insurance.claim', string='Claim')
+    # insurance_company_id = fields.Many2one('hms.insurance.company', related='insurance_id.insurance_company_id', string='Insurance Company', readonly=True, store=True)
+    insurance_company_id = fields.Many2one('hms.insurance.company', related='insurance_id.insurance_company_id', string="Compagnie d'Assurance", readonly=True, store=True)
     radiology_insurance_percentage = fields.Float(related='insurance_id.radiology_insurance_percentage', string="Insured Percentage", readonly=True)
 
     @api.onchange('patient_id')

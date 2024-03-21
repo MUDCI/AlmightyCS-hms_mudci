@@ -77,6 +77,7 @@ class AestheticProductProcedure(models.Model):
     product_tmpl_id = fields.Many2one('product.template', 'Product Tempalte', required=True)
     product_id = fields.Many2one('product.product', 'Product', required=True)
     repeat_for = fields.Integer('Repetition for',help="Repetition Count", default=1, required=True)
-    days_to_add = fields.Integer('Days to add',help="Days to add for next date")
+    # days_to_add = fields.Integer('Days to add',help="Days to add for next date")
+    days_to_add = fields.Integer('Jours à ajouter',help="Days to add for next date")
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -28,7 +28,8 @@ class ACSReligion(models.Model):
     _name = 'acs.religion'
     _description = "ACS Religion"
 
-    name = fields.Char(string="Name", required=True,translate=True)
+    # name = fields.Char(string="Name", required=True,translate=True)
+    name = fields.Char(string="Nom", required=True,translate=True)
     code = fields.Char(string='code')
     notes = fields.Char(string='Notes')
 

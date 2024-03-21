@@ -28,9 +28,11 @@ class ACSTreatment(models.Model):
             rec.patient_procedure_count = len(rec.patient_procedure_ids)
 
     name = fields.Char(string='Name', readonly=True, index=True, copy=False, tracking=1)
-    subject = fields.Char(string='Subject', tracking=1)
+    # subject = fields.Char(string='Subject', tracking=1)
+    subject = fields.Char(string='Sujet', tracking=1)
     patient_id = fields.Many2one('hms.patient', 'Patient', required=True, index=True, tracking=1)
-    department_id = fields.Many2one('hr.department', ondelete='restrict', string='Department',
+    # department_id = fields.Many2one('hr.department', ondelete='restrict', string='Department',
+    department_id = fields.Many2one('hr.department', ondelete='restrict', string='Departement',
         domain=[('patient_department', '=', True)], tracking=1)
     image_128 = fields.Binary(related='patient_id.image_128', string='Image', readonly=True)
     date = fields.Datetime(string='Date of Diagnosis', default=fields.Datetime.now)

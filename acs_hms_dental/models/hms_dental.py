@@ -21,7 +21,8 @@ class AcsDentalQuestionnaire(models.Model):
     name = fields.Char(string="Name", required=True)
     is_done = fields.Boolean(string="Y/N")
     remark = fields.Char(string="Remarks")
-    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
 
 
 class AcsmedicalQuestionnaire(models.Model):
@@ -31,7 +32,8 @@ class AcsmedicalQuestionnaire(models.Model):
     name = fields.Char(string="Name", required=True)
     is_done = fields.Boolean(string="Y/N")
     remark = fields.Char(string="Remarks")
-    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", ondelete="cascade", string="Appointment")
 
 
 class AcsHmsTooth(models.Model):

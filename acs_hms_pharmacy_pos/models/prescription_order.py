@@ -12,8 +12,10 @@ class PrescriptionOrder(models.Model):
     partner_id = fields.Many2one(related='patient_id.partner_id', string='Customer', store=True)
     pricelist_id = fields.Many2one('product.pricelist', string='Pricelist')
     date_order = fields.Datetime(related='prescription_date', store=True, string="Order Date")
-    deliver_only_once = fields.Boolean("Deliver only Once", default=True)
-    acs_pos_processed = fields.Boolean(compute="_check_acs_pos_processed", store=True)
+    deliver_only_once = fields.Boolean("Livraison unique", default=True)
+    # deliver_only_once = fields.Boolean("Deliver only Once", default=True)
+    acs_pos_processed = fields.Boolean(compute="_check_acs_pos_processed", store=True, string="Traitement du Point de Service pour l'Accident Cardiovasculaire Soudain")
+    # acs_pos_processed = fields.Boolean(compute="_check_acs_pos_processed", store=True)
 
     @api.model
     def search_read(self, domain=None, fields=None, offset=0, limit=None, order=None):

@@ -154,13 +154,15 @@ class product_template(models.Model):
     appointment_invoice_policy = fields.Selection([('at_end','Invoice in the End'),
         ('anytime','Invoice Anytime'),
         ('advance','Invoice in Advance')], string="Appointment Invoicing Policy")
-    acs_allow_substitution = fields.Boolean(string='Allow Substitution')
+    # acs_allow_substitution = fields.Boolean(string='Allow Substitution')
+    acs_allow_substitution = fields.Boolean(string='Autoriser la substitution')
 
 
 class ACSConsumableLine(models.Model):
     _inherit = "hms.consumable.line"
 
-    appointment_id = fields.Many2one('hms.appointment', ondelete="cascade", string='Appointment')
+    appointment_id = fields.Many2one('hms.appointment', ondelete="cascade", string='Rendez-vous')
+    # appointment_id = fields.Many2one('hms.appointment', ondelete="cascade", string='Appointment')
     procedure_id = fields.Many2one('acs.patient.procedure', ondelete="cascade", string="Procedure")
     move_ids = fields.Many2many('stock.move', 'consumable_line_stock_move_rel', 'move_id', 'consumable_id', 'Kit Stock Moves', readonly=True)
     #ACS: In case of kit moves set move_ids but add move_id also. Else it may lead to comume material process again.

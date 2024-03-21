@@ -121,7 +121,8 @@ class ACSCarePlanTemplate(models.Model):
     _description = "Care Plan Template"
 
     name= fields.Char(string='Care Plan Name')
-    diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', string='Disease')
+    # diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', string='Disease')
+    diseases_id = fields.Many2one ('hms.diseases', ondelete='restrict', string='Maladies')
     nursing_plan = fields.Text (string='Nursing Plan')
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

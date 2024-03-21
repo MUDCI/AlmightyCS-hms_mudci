@@ -36,7 +36,8 @@ class ACSVaccination(models.Model):
         ' be present. If available, please copy / scan the vaccine leaflet'\
         ' and attach it to this record')
     tracking = fields.Selection(related='product_id.tracking', store=True)
-    lot_id = fields.Many2one("stock.lot", string="Lot/Serial Number", domain="[('product_id','=',product_id)]")
+    lot_id = fields.Many2one("stock.lot", string="Numéro de lot/série", domain="[('product_id','=',product_id)]")
+    # lot_id = fields.Many2one("stock.lot", string="Lot/Serial Number", domain="[('product_id','=',product_id)]")
     dose = fields.Integer(string='Dose #')
     observations = fields.Char(string='Observations')
     next_dose_date = fields.Datetime(string='Next Dose Date')
@@ -55,7 +56,8 @@ class ACSVaccination(models.Model):
     move_id = fields.Many2one('stock.move', string='Stock Move')
     company_id = fields.Many2one('res.company', ondelete='restrict',
         string='Hospital', default=lambda self: self.env.company)
-    appointment_id = fields.Many2one("hms.appointment", string="Appointment")
+    appointment_id = fields.Many2one("hms.appointment", string="Rendez-vous")
+    # appointment_id = fields.Many2one("hms.appointment", string="Appointment")
 
     @api.onchange('product_id')
     def onchange_product(self):

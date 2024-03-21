@@ -50,7 +50,8 @@ class AcsHmsEmergency(models.Model):
     physician_id = fields.Many2one('hms.physician', ondelete='restrict', string='Physician', 
         index=True, help='Physician\'s Name', tracking=True)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
-        domain=[('patient_department', '=', True)], string='Department', tracking=True)
+        domain=[('patient_department', '=', True)], string='Departement', tracking=True)
+        # domain=[('patient_department', '=', True)], string='Department', tracking=True)
     state = fields.Selection([
             ('draft', 'Draft'),
             ('under_care', 'Under Care'),
@@ -58,15 +59,20 @@ class AcsHmsEmergency(models.Model):
             ('done', 'Done'),
         ], string='Status',default='draft', required=True, copy=False, tracking=True)
     date = fields.Datetime(string='Admission Date', default=fields.Datetime.now, tracking=True, copy=False)
-    discharge_date = fields.Datetime (string='Discharge date', tracking=True)
+    # discharge_date = fields.Datetime (string='Discharge date', tracking=True)
+    discharge_date = fields.Datetime (string='Date de sortie', tracking=True)
 
     product_id = fields.Many2one('product.product', ondelete='restrict', 
-        string='Emergency Service', help="Emergency Service Charge", 
+        # string='Emergency Service', help="Emergency Service Charge", 
+        string='Service urgence', help="Emergency Service Charge", 
         domain=[('hospital_product_type', '=', "emergency")], required=True, 
         default=_get_service_id)
-    invoice_exempt = fields.Boolean(string='Invoice Exempt')
-    ward_id = fields.Many2one('hospital.ward', ondelete="restrict", string='Ward/Room')
-    bed_id = fields.Many2one ('hospital.bed', ondelete="restrict", string='Bed No.')
+    # invoice_exempt = fields.Boolean(string='Invoice Exempt')
+    invoice_exempt = fields.Boolean(string='Facture exonérée')
+    # ward_id = fields.Many2one('hospital.ward', ondelete="restrict", string='Ward/Room')
+    ward_id = fields.Many2one('hospital.ward', ondelete="restrict", string='Salle/Chambre')
+    # bed_id = fields.Many2one ('hospital.bed', ondelete="restrict", string='Bed No.')
+    bed_id = fields.Many2one ('hospital.bed', ondelete="restrict", string='Numéro lit')
     responsible_id = fields.Many2one('hms.physician', "Responsible Jr. Doctor")
     notes = fields.Text(string='Notes')
     age = fields.Char(compute="get_patient_age", string='Age', store=True,
@@ -128,7 +134,8 @@ class AcsHmsEmergency(models.Model):
     invoice_count = fields.Integer(compute="_acs_get_invoice_count", string="#Invoices", groups="account.group_account_invoice")
     accommodation_history_ids = fields.One2many("patient.accommodation.history", "emergency_id", 
         string="Accommodation History")
-    hospitalization_ids = fields.One2many('acs.hospitalization', 'emergency_id',string='Hospitalizations')
+    # hospitalization_ids = fields.One2many('acs.hospitalization', 'emergency_id',string='Hospitalizations')
+    hospitalization_ids = fields.One2many('acs.hospitalization', 'emergency_id',string='Hospitalisations')
 
     def action_hospitalization(self):
         action = self.env["ir.actions.actions"]._for_xml_id("acs_hms_hospitalization.acs_action_form_inpatient")

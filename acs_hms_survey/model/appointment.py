@@ -6,8 +6,10 @@ class Appointment(models.Model):
     _inherit = 'hms.appointment'
 
     survey_start_url = fields.Char(string='Survey Start Link', copy=False)
-    survey_invite_id = fields.Many2one('survey.user_input', string='Feedback Survey Invite', readonly=True)
-    survey_status = fields.Selection(related="survey_invite_id.state", readonly=True, store=True, string="Survey Status")
+    # survey_invite_id = fields.Many2one('survey.user_input', string='Feedback Survey Invite', readonly=True)
+    survey_invite_id = fields.Many2one('survey.user_input', string='Invitation à une enquête de rétroaction', readonly=True)
+    survey_status = fields.Selection(related="survey_invite_id.state", readonly=True, store=True, string="Statut de l'enquête")
+    # survey_status = fields.Selection(related="survey_invite_id.state", readonly=True, store=True, string="Survey Status")
 
     def appointment_done(self):
         if self.sudo().company_id.survey_id:

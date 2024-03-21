@@ -106,7 +106,7 @@ class ACSSampleLine(models.Model):
 
     name = fields.Char(string='Name',default=lambda self: self.product_id.name)
     product_id = fields.Many2one('product.product', ondelete="restrict", string='Consumable')
-    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id')
+    product_uom_category_id = fields.Many2one('uom.category', related='product_id.uom_id.category_id', string="Catégorie")
     product_uom_id = fields.Many2one('uom.uom', string='Unit of Measure', help='Amount of medication (eg, 250 mg) per dose', domain="[('category_id', '=', product_uom_category_id)]")
     qty = fields.Float(string='Quantity', default=1.0)
     tracking = fields.Selection(related='product_id.tracking', store=True)
@@ -115,7 +115,8 @@ class ACSSampleLine(models.Model):
     subtotal = fields.Float(compute=acs_get_total_price, string='Subtotal', readonly=True, store=True)
     move_id = fields.Many2one('stock.move', string='Stock Move')
     physician_id = fields.Many2one('hms.physician', string='Physician')
-    department_id = fields.Many2one('hr.department', string='Department')
+    # department_id = fields.Many2one('hr.department', string='Department')
+    department_id = fields.Many2one('hr.department', string='Departement')
     visit_id = fields.Many2one('acs.mr.visit', string='Visit')
     medical_representative_id = fields.Many2one('medical.representative', string='MR', help="Name of the Mr")
     date = fields.Date("Date", default=fields.Date.context_today)

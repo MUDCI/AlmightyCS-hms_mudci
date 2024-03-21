@@ -38,7 +38,8 @@ class Physician(models.Model):
     degree_ids = fields.Many2many('physician.degree', 'physician_rel_education', 'physician_ids','degree_ids', string='Degree')
     specialty_id = fields.Many2one('physician.specialty', ondelete='set null', string='Specialty', help='Specialty Code', tracking=True)
     medical_license = fields.Char(string='Medical License', tracking=True)
-    is_portal_user = fields.Boolean("Is Portal User")
+    # is_portal_user = fields.Boolean("Is Portal User")
+    is_portal_user = fields.Boolean("Est un utilisateur du portail")
 
     #define company to make company optional
     company_id = fields.Many2one('res.company', string='Hospital', context={'user_preference': True})

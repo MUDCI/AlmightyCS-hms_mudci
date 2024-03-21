@@ -30,7 +30,8 @@ class ACSActiveComp(models.Model):
 
     name = fields.Char(string='Active Component', required=True, translate=True)
     amount = fields.Float(string='Amount of component', help='Amount of component used in the drug (eg, 250 mg) per dose')
-    uom_id = fields.Many2one('uom.uom', string='Unit of Measure')
+    # uom_id = fields.Many2one('uom.uom', string='Unit of Measure')
+    uom_id = fields.Many2one('uom.uom', string='Unité de mesure')
 
 
 class ACSDrugCompany(models.Model):

@@ -42,7 +42,8 @@ class WhatsappAnnouncement(models.Model):
         ('employees', 'Employees'),
     ], string='Type', copy=False, default='all', required=True)
     employee_ids = fields.Many2many("hr.employee", "whatsapp_employee_announement_rel", "employee_id", "announcement_id", "Employees")
-    department_id = fields.Many2one("hr.department", "Department")
+    department_id = fields.Many2one("hr.department", "Departement")
+    # department_id = fields.Many2one("hr.department", "Department")
     partner_ids = fields.Many2many("res.partner", "whatsapp_partner_announement_rel", "partner_id", "announcement_id", "Contacts")
     template_id = fields.Many2one("acs.whatsapp.template", "Template")
     company_id = fields.Many2one('res.company', string='Company', required=True,

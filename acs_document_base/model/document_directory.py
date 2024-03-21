@@ -27,7 +27,8 @@ class DocumentDirectory(models.Model):
     description = fields.Text(string='Description')
     tag_ids = fields.Many2many('acs.document.tag', 'directory_tag_rel', 'directory_id', 'tag_id', 
         string='Tags', help="Classify and analyze your Document")
-    department_id = fields.Many2one('hr.department', string='Department', ondelete='restrict')
+    # department_id = fields.Many2one('hr.department', string='Department', ondelete='restrict')
+    department_id = fields.Many2one('hr.department', string='Departement', ondelete='restrict')
     attchement_count = fields.Integer(compute='_get_attachment_count', string="Number of documents attached")
     res_model = fields.Many2one('ir.model', 'Model', ondelete='cascade')
 
