@@ -229,7 +229,8 @@
                                 </tree>
                             </field>
                         </page>
-                        <page name="other_info" string="Other Information" groups="acs_hms.group_hms_receptionist">
+                        <!-- <page name="other_info" string="Other Information" groups="acs_hms.group_hms_receptionist"> -->
+                        <page name="other_info" string="Autres Informations" groups="acs_hms.group_hms_receptionist">
                             <group name="extra_info">
                                 <group>
                                     <field name="ref_physician_id" readonly="state in ['done','cancel']"/>

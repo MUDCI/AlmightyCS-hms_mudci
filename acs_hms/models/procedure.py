@@ -79,7 +79,7 @@ class AcsPatientProcedure(models.Model):
     diseas_id = fields.Many2one('hms.diseases', 'Maladie')
     description = fields.Text(string="Description")
     # treatment_id = fields.Many2one('hms.treatment', 'Treatment')
-    treatment_id = fields.Many2one('hms.treatment', 'Treatement')
+    treatment_id = fields.Many2one('hms.treatment', 'Traitement')
     appointment_ids = fields.Many2many('hms.appointment', 'acs_appointment_procedure_rel', 'appointment_id', 'procedure_id', 'Appointments')
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
         domain=[('patient_department', '=', True)], string='Departement', tracking=1)

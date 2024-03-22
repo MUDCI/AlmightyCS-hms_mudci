@@ -9,7 +9,8 @@
             <page name="physician_data" position="inside">
                 <group string="Online Appoitnment">
                     <group>
-                        <field name="acs_allowed_online_booking" string="Allowed Online Booking"/>
+                        <field name="acs_allowed_online_booking" string="Réservation en ligne autorisée"/>
+                        <!-- <field name="acs_allowed_online_booking" string="Allowed Online Booking"/> -->
                         <field name="acs_allow_home_appointment" string="Allowed Home Visit Booking"/>
                     </group>
                     <group>

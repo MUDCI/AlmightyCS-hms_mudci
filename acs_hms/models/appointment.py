@@ -226,7 +226,8 @@ class Appointment(models.Model):
     cabin_id = fields.Many2one('appointment.cabin', ondelete='cascade', 
         string='Consultation Room (Cabin)', help="Appointment Cabin", copy=False)
     treatment_id = fields.Many2one('hms.treatment', ondelete='cascade', 
-        string='Treatment', help="Treatment Id", tracking=1)
+        string='Traitement', help="Treatment Id", tracking=1)
+        # string='Treatment', help="Treatment Id", tracking=1)
 
     ref_physician_id = fields.Many2one('res.partner', ondelete='restrict', string='Referring Physician', 
         index=True, help='Referring Physician', domain=[('is_referring_doctor','=',True)])

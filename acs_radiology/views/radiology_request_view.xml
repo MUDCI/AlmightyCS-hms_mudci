@@ -59,7 +59,8 @@
                                 </group>
                             </group>
                         </page>
-                        <page string="Other Information" name="other_info">
+                        <!-- <page string="Other Information" name="other_info"> -->
+                        <page string="Autres Informations" name="other_info">
                             <group>
                                 <group>
                                     <label for="invoice_exempt"/>

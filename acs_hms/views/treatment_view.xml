@@ -100,7 +100,8 @@
                                 </tree>
                             </field>
                         </page>
-                        <page string="Other Information" name="other_info" groups="acs_hms.group_hms_nurse">
+                        <!-- <page string="Other Information" name="other_info" groups="acs_hms.group_hms_nurse"> -->
+                        <page string="Autres Informations" name="other_info" groups="acs_hms.group_hms_nurse">
                             <group>
                                 <group>
                                     <field name="disease_status" readonly="state in ['cancel','done']"/>

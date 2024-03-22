@@ -8,10 +8,13 @@ from odoo.http import request
 class AcsLaboratoryRequest(models.Model):
     _inherit = 'acs.laboratory.request'
 
-    patient_count = fields.Integer("Patient Count", default=1)
-    schedule_date = fields.Date(string='Schedule Date', readonly=False)
+    patient_count = fields.Integer("Nombre de patients", default=1)
+    # patient_count = fields.Integer("Patient Count", default=1)
+    schedule_date = fields.Date(string='Date de planification', readonly=False)
+    # schedule_date = fields.Date(string='Schedule Date', readonly=False)
     schedule_slot_id = fields.Many2one('acs.schedule.slot.lines', string = 'Schedule Slot')
-    booked_online = fields.Boolean('Booked Online')
+    booked_online = fields.Boolean('Réservé en ligne')
+    # booked_online = fields.Boolean('Booked Online')
 
     @api.onchange('schedule_date')
     def onchange_schedule_date(self):
@@ -77,7 +80,8 @@ class AcsLabTest(models.Model):
     _inherit = 'acs.lab.test'
 
     image_1920 = fields.Image("Image")
-    allowed_online_booking = fields.Boolean("Allowed Online Booking")
+    allowed_online_booking = fields.Boolean("Réservation en ligne autorisée")
+    # allowed_online_booking = fields.Boolean("Allowed Online Booking")
 
 
 class PaymentTransaction(models.Model):

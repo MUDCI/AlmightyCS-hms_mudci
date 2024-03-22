@@ -20,7 +20,8 @@ class PatientLabTest(models.Model):
     patient_id = fields.Many2one('hms.patient', string='Patient', required=True, ondelete='restrict', tracking=True)
     user_id = fields.Many2one('res.users',string='Lab User', default=lambda self: self.env.user)
     physician_id = fields.Many2one('hms.physician',string='Prescribing Doctor', help="Doctor who requested the test", ondelete='restrict')
-    lab_physician_id = fields.Many2one('hms.physician',string='Pathology Doctor', help="Doctor who Approved the test", ondelete='restrict')
+    lab_physician_id = fields.Many2one('hms.physician',string='Médecin pathologiste', help="Doctor who Approved the test", ondelete='restrict')
+    # lab_physician_id = fields.Many2one('hms.physician',string='Pathology Doctor', help="Doctor who Approved the test", ondelete='restrict')
 
     diagnosis = fields.Text(string='Diagnosis')
     critearea_ids = fields.One2many('lab.test.critearea', 'patient_lab_id', string='Test Cases', copy=True)
@@ -42,7 +43,8 @@ class PatientLabTest(models.Model):
         string='Consumable Line')
     disclaimer = fields.Text("Dislaimer", default=_get_disclaimer)
     collection_center_id = fields.Many2one('acs.laboratory', string='Collection Center', related="request_id.collection_center_id")
-    parent_test_id = fields.Many2one('patient.laboratory.test', string='Parent Test', ondelete='cascade', copy=False)
+    # parent_test_id = fields.Many2one('patient.laboratory.test', string='Parent Test', ondelete='cascade', copy=False)
+    parent_test_id = fields.Many2one('patient.laboratory.test', string='Test Parental', ondelete='cascade', copy=False)
     child_test_ids = fields.One2many('patient.laboratory.test', 'parent_test_id', string='Child Tests', copy=False)
 
     #Just to make object selectable in selction field this is required: Waiting Screen

@@ -410,7 +410,8 @@
                                 </tree>
                             </field>
                         </page>
-                        <page name="other_info" string="Other Information" groups="acs_hms.group_hms_receptionist">
+                        <!-- <page name="other_info" string="Other Information" groups="acs_hms.group_hms_receptionist"> -->
+                        <page name="other_info" string="Autres Informations" groups="acs_hms.group_hms_receptionist">
                             <group name="extra_info">
                                 <group>
                                     <field name="waiting_duration_timer" widget="AcsTimer" invisible="state!='waiting'" options="{'widget_start_field': 'waiting_date_start', 'widget_stop_field': 'waiting_date_end', 'duration_field': 'waiting_duration_timer'}"/>

@@ -57,8 +57,10 @@ class LabTest(models.Model):
         ('qualitative','Qualitative'),
     ], string='Result Type', default='quantitative')
     sample_type_id = fields.Many2one('acs.laboratory.sample.type', string='Sample Type')
-    acs_use_other_test_sample = fields.Boolean(string="Share Sample with Other Tests", default=True)
-    subsequent_test_ids = fields.Many2many("acs.lab.test", "acs_lab_test_rel", "test_id", "sub_test_id", "Subsequent Tests")
+    acs_use_other_test_sample = fields.Boolean(string="Partager un échantillon avec d'autres tests", default=True)
+    # acs_use_other_test_sample = fields.Boolean(string="Share Sample with Other Tests", default=True)
+    subsequent_test_ids = fields.Many2many("acs.lab.test", "acs_lab_test_rel", "test_id", "sub_test_id", "Tests ultérieurs")
+    # subsequent_test_ids = fields.Many2many("acs.lab.test", "acs_lab_test_rel", "test_id", "sub_test_id", "Subsequent Tests")
 
     _sql_constraints = [
         ('code_company_uniq', 'unique (code,company_id)', 'The code of the account must be unique per company !')

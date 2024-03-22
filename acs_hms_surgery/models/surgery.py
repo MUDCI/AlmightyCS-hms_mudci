@@ -139,7 +139,8 @@ class ACSSurgery(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict', 
         string='Hospital', default=lambda self: self.env.company)
     invoice_id = fields.Many2one('account.move', string='Invoice', copy=False)
-    treatment_id = fields.Many2one('hms.treatment', string='Treatment', copy=False)
+    treatment_id = fields.Many2one('hms.treatment', string='Traitement', copy=False)
+    # treatment_id = fields.Many2one('hms.treatment', string='Treatment', copy=False)
     department_id = fields.Many2one('hr.department', ondelete='restrict', 
         domain=[('patient_department', '=', True)], string='Departement', tracking=True)
         # domain=[('patient_department', '=', True)], string='Department', tracking=True)

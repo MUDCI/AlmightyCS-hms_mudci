@@ -51,7 +51,8 @@ class LabTest(models.Model):
     consumable_line_ids = fields.One2many('hms.consumable.line', 'radiology_test_id',
         string='Consumable Line')
     acs_tat = fields.Char(string='Turnaround Time')
-    subsequent_test_ids = fields.Many2many("acs.radiology.test", "acs_radiology_test_rel", "test_id", "sub_test_id", "Subsequent Tests")
+    subsequent_test_ids = fields.Many2many("acs.radiology.test", "acs_radiology_test_rel", "test_id", "sub_test_id", "Tests ultérieurs")
+    # subsequent_test_ids = fields.Many2many("acs.radiology.test", "acs_radiology_test_rel", "test_id", "sub_test_id", "Subsequent Tests")
 
     _sql_constraints = [
         ('code_company_uniq', 'unique (code,company_id)', 'The code of the account must be unique per company !')

@@ -5,7 +5,8 @@
         <field name="name">Test Requests</field>
         <field name="model">acs.laboratory.request</field>
         <field name="arch" type="xml">
-            <form string="Lab Requests">
+            <!-- <form string="Lab Requests"> -->
+            <form string="Demandes de laboratoire">
                 <header>
                     <button name="button_requested" invisible="state!='draft'" string="Submit Request" class="oe_highlight" type="object"/>
                     <button name="button_accept" invisible="state!='requested'" string="Accept" type="object" class="oe_highlight" groups="acs_laboratory.group_hms_lab_user"/>
@@ -65,7 +66,8 @@
                                 </group>
                             </group>
                         </page>
-                        <page string="Other Information" name="other_info">
+                        <!-- <page string="Other Information" name="other_info"> -->
+                        <page string="Autres Informations" name="other_info">
                             <group>
                                 <group>
                                     <label for="invoice_exempt"/>
@@ -170,7 +172,8 @@
     </record>
 
     <record id="hms_action_lab_test_request" model="ir.actions.act_window">
-        <field name="name">Lab Requests</field>
+        <!-- <field name="name">Lab Requests</field> -->
+        <field name="name">Demandes de laboratoire</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">acs.laboratory.request</field>
         <field name="view_mode">tree,form,calendar,pivot</field>

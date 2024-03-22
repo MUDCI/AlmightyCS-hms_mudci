@@ -7,7 +7,8 @@ from odoo.exceptions import ValidationError, AccessError, UserError, RedirectWar
 class InsuranceClaim(models.Model):
     _inherit = 'hms.insurance.claim'
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalisation')
     claim_for = fields.Selection(selection_add=[('hospitalization', 'Hospitalization')])
     package_id = fields.Many2one('acs.hms.package', string='Package')
     

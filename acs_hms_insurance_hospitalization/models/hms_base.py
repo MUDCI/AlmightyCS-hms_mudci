@@ -7,7 +7,8 @@ from odoo.exceptions import ValidationError, AccessError, UserError, RedirectWar
 class Attachments(models.Model):
     _inherit = "ir.attachment"
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalisation')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization')
 
 
 class AcsHmsPackage(models.Model):

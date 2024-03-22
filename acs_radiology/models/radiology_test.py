@@ -39,7 +39,8 @@ class PatientLabTest(models.Model):
     consumable_line_ids = fields.One2many('hms.consumable.line', 'patient_radiology_test_id',
         string='Consumable Line')
     disclaimer = fields.Text("Dislaimer", default=_get_disclaimer)
-    parent_test_id = fields.Many2one('patient.radiology.test', string='Parent Test', ondelete='cascade', copy=False)
+    parent_test_id = fields.Many2one('patient.radiology.test', string='Test Parental', ondelete='cascade', copy=False)
+    # parent_test_id = fields.Many2one('patient.radiology.test', string='Parent Test', ondelete='cascade', copy=False)
     child_test_ids = fields.One2many('patient.radiology.test', 'parent_test_id', string='Child Tests', copy=False)
 
     #Just to make object selectable in selction field this is required: Waiting Screen

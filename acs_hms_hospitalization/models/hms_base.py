@@ -28,7 +28,8 @@ class Prescription(models.Model):
 class ACSAppointment(models.Model):
     _inherit = 'hms.appointment'
 
-    hospitalization_ids = fields.One2many('acs.hospitalization', 'appointment_id',string='Hospitalizations')
+    hospitalization_ids = fields.One2many('acs.hospitalization', 'appointment_id',string='Hospitalisations')
+    # hospitalization_ids = fields.One2many('acs.hospitalization', 'appointment_id',string='Hospitalizations')
 
     def action_hospitalization(self):
         action = self.env["ir.actions.actions"]._for_xml_id("acs_hms_hospitalization.acs_action_form_inpatient")
@@ -44,7 +45,8 @@ class ACSPatient(models.Model):
         for rec in self:
             rec.hospitalization_count = len(rec.hospitalization_ids)
 
-    hospitalization_ids = fields.One2many('acs.hospitalization', 'patient_id',string='Hospitalizations')
+    hospitalization_ids = fields.One2many('acs.hospitalization', 'patient_id',string='Hospitalisations')
+    # hospitalization_ids = fields.One2many('acs.hospitalization', 'patient_id',string='Hospitalizations')
     hospitalization_count = fields.Integer(compute='_get_hospitalization_count', string='# Hospitalizations')
     death_register_id = fields.Many2one('patient.death.register', string='Death Register')
 
@@ -66,13 +68,15 @@ class ACSPatient(models.Model):
 class StockMove(models.Model):
     _inherit = "stock.move"
     
-    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalisation')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization')
 
 
 class ACSConsumableLine(models.Model):
     _inherit = "hms.consumable.line"
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalisation')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization')
 
 
 class ACSSurgery(models.Model):
@@ -81,7 +85,8 @@ class ACSSurgery(models.Model):
     hospital_ot_id = fields.Many2one('acs.hospital.ot', ondelete="restrict", 
         string="Salle d'opération")
         # string='Operation Theater')
-    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalisation')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', ondelete="restrict", string='Hospitalization')
 
 
 class ACSMedicamentLine(models.Model):
@@ -100,7 +105,8 @@ class product_template(models.Model):
 class AcsPatientEvaluation(models.Model):
     _inherit = 'acs.patient.evaluation'
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalisation')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalization')
 
 
 class PatientProcedure(models.Model):

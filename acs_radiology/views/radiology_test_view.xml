@@ -34,7 +34,8 @@
                                 </tree>
                             </field>
                         </page>
-                        <page name="other_info" string="Other Information">
+                        <!-- <page name="other_info" string="Other Information"> -->
+                        <page name="other_info" string="Autres Informations">
                             <group>
                                 <group>
                                     <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}"/>

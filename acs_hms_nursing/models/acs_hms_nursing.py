@@ -9,7 +9,8 @@ class AcsNurseWardRound(models.Model):
 
     name = fields.Char(string='Round Number', readonly=True)
     nurse_id = fields.Many2one('hr.employee', string='Nurse', default=lambda self: self.env.user.employee_id.id, required=True)
-    hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalization')
+    hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalisation')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalization')
     patient_id = fields.Many2one('hms.patient', string='Patient', related='hospitalization_id.patient_id', store=True)
     date = fields.Datetime('Date', default=fields.Datetime.now, required=True)
     state = fields.Selection([

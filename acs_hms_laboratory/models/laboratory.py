@@ -9,7 +9,8 @@ class AcsLaboratoryRequest(models.Model):
     
     # appointment_id = fields.Many2one('hms.appointment', string='Appointment', ondelete='restrict')
     appointment_id = fields.Many2one('hms.appointment', string='Rendez-vous', ondelete='restrict')
-    treatment_id = fields.Many2one('hms.treatment', string='Treatment', ondelete='restrict')
+    treatment_id = fields.Many2one('hms.treatment', string='Traitement', ondelete='restrict')
+    # treatment_id = fields.Many2one('hms.treatment', string='Treatment', ondelete='restrict')
 
     def prepare_test_result_data(self, line, patient):
         res = super(AcsLaboratoryRequest, self).prepare_test_result_data(line, patient)

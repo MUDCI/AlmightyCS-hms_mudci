@@ -7,7 +7,8 @@ from odoo.exceptions import UserError
 class AcsLaboratoryRequest(models.Model):
     _inherit = 'acs.laboratory.request'
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalization', ondelete='restrict')
+    hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalisation', ondelete='restrict')
+    # hospitalization_id = fields.Many2one('acs.hospitalization', string='Hospitalization', ondelete='restrict')
 
     def prepare_test_result_data(self, line, patient):
         res = super(AcsLaboratoryRequest, self).prepare_test_result_data(line, patient)

@@ -41,7 +41,8 @@ class AcsAestheticPatientWish(models.Model):
     company_id = fields.Many2one('res.company', ondelete='restrict',
         string='Hospital', default=lambda self: self.env.company)
     date = fields.Datetime("Date", default=fields.Datetime.now)
-    treatment_id = fields.Many2one('hms.treatment', 'Treatment')
+    treatment_id = fields.Many2one('hms.treatment', 'Traitement')
+    # treatment_id = fields.Many2one('hms.treatment', 'Treatment')
     note = fields.Text("Notes")
 
     #BODY TREATMENT PLAN

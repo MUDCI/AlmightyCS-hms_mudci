@@ -20,4 +20,5 @@ class AcsScheduleSlotLines(models.Model):
                 linked_records = len(self.env['acs.laboratory.request'].sudo().search([('schedule_slot_id','=',slot.id),('state','!=','canceled')]))
                 slot.rem_limit = slot.limit - linked_records
 
-    laboratory_request_ids = fields.One2many('acs.laboratory.request', 'schedule_slot_id', string="Lab Requests")
+    laboratory_request_ids = fields.One2many('acs.laboratory.request', 'schedule_slot_id', string="Demandes de laboratoire")
+    # laboratory_request_ids = fields.One2many('acs.laboratory.request', 'schedule_slot_id', string="Lab Requests")

@@ -6,7 +6,8 @@ class TransferAccommodation(models.TransientModel):
     _name = "transfer.accommodation"
     _description = "Transfer Accommodation"
 
-    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization', required=True)
+    # hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalization', required=True)
+    hospitalization_id = fields.Many2one('acs.hospitalization', 'Hospitalisation', required=True)
     patient_id = fields.Many2one ('hms.patient','Patient', required=True)
     current_ward = fields.Many2one ('hospital.ward', 'Current Ward/Room')
     current_bed = fields.Many2one ('hospital.bed', 'Current Bed No.')

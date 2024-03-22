@@ -71,7 +71,8 @@
                         </group>
                     </group>
                     <notebook>
-                        <page string="Other Information" groups="base.group_no_one">
+                        <!-- <page string="Other Information" groups="base.group_no_one"> -->
+                        <page string="Autres Informations" groups="base.group_no_one">
                             <group>
                                 <group>
                                     <field name="show_patient_name_image" />

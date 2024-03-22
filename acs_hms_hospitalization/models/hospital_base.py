@@ -157,7 +157,8 @@ class ACSHospitalOT(models.Model):
     name = fields.Char(string='Name', index=True, required=True, 
         help='Name of the Operating Room')
     physician_id = fields.Many2one('hms.physician', string='Physician', ondelete="restrict")
-    building_id = fields.Many2one('hospital.building', string='Bulding', index=True, ondelete="restrict")
+    building_id = fields.Many2one('hospital.building', string='Bâtiment', index=True, ondelete="restrict")
+    # building_id = fields.Many2one('hospital.building', string='Bulding', index=True, ondelete="restrict")Bâtiment
     telephone_number = fields.Integer(string='Telephone Number',
         help='Telephone number / Extension')
     state = fields.Selection([

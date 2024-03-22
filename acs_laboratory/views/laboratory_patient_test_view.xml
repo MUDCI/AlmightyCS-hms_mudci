@@ -77,7 +77,8 @@
                                 </tree>
                             </field>
                         </page>
-                        <page name="other_info" string="Other Information">
+                        <!-- <page name="other_info" string="Other Information"> -->
+                        <page name="other_info" string="Autres Informations">
                             <group>
                                 <group>
                                     <field name="request_id" domain="[('patient_id','=',patient_id)]" readonly="state!='draft'"/>

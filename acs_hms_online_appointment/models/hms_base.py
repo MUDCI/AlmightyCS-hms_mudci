@@ -7,9 +7,11 @@ from datetime import timedelta
 class Appointment(models.Model):
     _inherit = 'hms.appointment'
 
-    schedule_date = fields.Date(string='Schedule Date')
+    # schedule_date = fields.Date(string='Schedule Date')
+    schedule_date = fields.Date(string='Date de planification')
     schedule_slot_id = fields.Many2one('acs.schedule.slot.lines', string='Schedule Slot')
-    booked_online = fields.Boolean('Booked Online')
+    booked_online = fields.Boolean('Réservé en ligne')
+    # booked_online = fields.Boolean('Booked Online')
 
     @api.model
     def clear_appointment_cron(self):
@@ -69,7 +71,8 @@ class Appointment(models.Model):
 class HrDepartment(models.Model):
     _inherit = "hr.department"
 
-    allowed_online_booking = fields.Boolean("Allowed Online Booking", help="Publish on website")
+    allowed_online_booking = fields.Boolean("Réservation en ligne autorisée", help="Publish on website")
+    # allowed_online_booking = fields.Boolean("Allowed Online Booking", help="Publish on website")
     basic_info = fields.Char("Basic Info", help="Show basic infomration on website")
     image = fields.Binary(string='Image')
     allow_home_appointment = fields.Boolean("Allowed Home Visit Booking")
@@ -79,7 +82,8 @@ class HrDepartment(models.Model):
 class HmsPhysician(models.Model):
     _inherit = "hms.physician"
 
-    allowed_online_booking = fields.Boolean("Allowed Online Booking", help="Publish on website")
+    allowed_online_booking = fields.Boolean("Réservation en ligne autorisée", help="Publish on website")
+    # allowed_online_booking = fields.Boolean("Allowed Online Booking", help="Publish on website")
     basic_info = fields.Char("Basic Info", help="Show basic infomration on website")
     allow_home_appointment = fields.Boolean("Allowed Home Visit Booking")
     show_fee_on_booking = fields.Boolean("Show Fees")

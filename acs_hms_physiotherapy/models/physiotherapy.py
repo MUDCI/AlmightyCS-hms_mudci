@@ -191,7 +191,8 @@ class ACSPhysiotherapy(models.Model):
     lower_seldata_ids =  fields.One2many('acs.physiotherapy.selection.note','lower_selectdata_id',string='Lower Selection Note')
     upper_seldata_ids =  fields.One2many('acs.physiotherapy.selection.note','upper_selectdata_id',string='Upper Selection Note')
 
-    appointment_id = fields.Many2one('hms.appointment', 'Appointment')
+    # appointment_id = fields.Many2one('hms.appointment', 'Appointment')
+    appointment_id = fields.Many2one('hms.appointment', 'Rendez-vous')
     notes = fields.Text(string="Notes")
     company_id = fields.Many2one('res.company', ondelete='restrict', 
         string='Institution', default=lambda self: self.env.company)

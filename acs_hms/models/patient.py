@@ -121,7 +121,8 @@ class ACSPatient(models.Model):
     family_member_ids = fields.One2many('acs.family.member', 'patient_id', string='Family')
 
     prescription_count = fields.Integer(compute='_rec_count', string='# Prescriptions')
-    treatment_ids = fields.One2many('hms.treatment', 'patient_id', 'Treatments')
+    treatment_ids = fields.One2many('hms.treatment', 'patient_id', 'Traitements')
+    # treatment_ids = fields.One2many('hms.treatment', 'patient_id', 'Treatments')
     treatment_count = fields.Integer(compute='_rec_count', string='# Treatments')
     appointment_count = fields.Integer(compute='_rec_count', string='# Appointments')
     appointment_ids = fields.One2many('hms.appointment', 'patient_id', 'Appointments')

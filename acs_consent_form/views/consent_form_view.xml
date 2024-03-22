@@ -94,7 +94,8 @@
                         <page string="Document">
                             <field name="consent_form_content" nolabel="1" placeholder="Digial Document Content" readonly="state!='draft'"/>
                         </page>
-                        <page string="Other Information">
+                        <!-- <page string="Other Information"> -->
+                        <page string="Autres Informations">
                             <group>
                                 <field name="acs_access_url" readonly="1"  widget="CopyClipboardChar"/>
                                 <field name="acs_has_to_be_signed" invisible="1"/>

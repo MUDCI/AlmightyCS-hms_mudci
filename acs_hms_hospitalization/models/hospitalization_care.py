@@ -18,7 +18,8 @@ class AdmissionCheckList(models.Model):
     name = fields.Char(string="Name", required=True)
     is_done = fields.Boolean(string="Y/N")
     remark = fields.Char(string="Remarks")
-    hospitalization_id = fields.Many2one("acs.hospitalization", ondelete="cascade", string="Hospitalization")
+    hospitalization_id = fields.Many2one("acs.hospitalization", ondelete="cascade", string="Hospitalisation")
+    # hospitalization_id = fields.Many2one("acs.hospitalization", ondelete="cascade", string="Hospitalization")
 
 
 class PreWardCheckListTemplate(models.Model):
@@ -36,7 +37,8 @@ class PreWardCheckList(models.Model):
     name = fields.Char(string="Name", required=True)
     is_done = fields.Boolean(string="Done")
     remark = fields.Char(string="Remarks")
-    hospitalization_id = fields.Many2one("acs.hospitalization", ondelete="cascade", string="Hospitalization")
+    hospitalization_id = fields.Many2one("acs.hospitalization", ondelete="cascade", string="Hospitalisation")
+    # hospitalization_id = fields.Many2one("acs.hospitalization", ondelete="cascade", string="Hospitalization")
 
 
 class PatientAccommodationHistory(models.Model):

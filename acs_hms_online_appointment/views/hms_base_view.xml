@@ -55,7 +55,8 @@
                 </group>
             </group>
             <field name="planned_duration" position="after">
-                <label for="date" string="Schedule Date"/>
+                <label for="date" string="Date de planification"/>
+                <!-- <label for="date" string="Schedule Date"/> -->
                 <div class="o_row">
                     <field name="schedule_date"  nolabel="1" class="oe_inline" readonly="state!='draft'"/>
                     <field name='schedule_slot_id' nolabel="1" class="oe_inline" readonly="state!='draft'"

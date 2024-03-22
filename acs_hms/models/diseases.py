@@ -89,7 +89,8 @@ class ACSPatientDisease(models.Model):
     age = fields.Char(string='Age when diagnosed',
         help='Patient age at the moment of the diagnosis. Can be estimative')
     treatment_id = fields.Many2one('hms.treatment', ondelete='cascade', 
-        string='Treatment', help="Treatment Id")
+        string='Traitement', help="Treatment Id")
+        # string='Treatment', help="Treatment Id")
 
 
 class ACSDiseaseGene(models.Model):

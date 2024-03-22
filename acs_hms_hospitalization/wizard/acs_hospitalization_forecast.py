@@ -30,7 +30,8 @@ class AcsHospitalizationForecast(models.TransientModel):
         for rec in self:
             rec.acs_final_due = rec.acs_amount_due + rec.amount_total
 
-    hospitalization_id = fields.Many2one("acs.hospitalization", string="Hospitalization", readonly=True, required=True)
+    # hospitalization_id = fields.Many2one("acs.hospitalization", string="Hospitalization", readonly=True, required=True)
+    hospitalization_id = fields.Many2one("acs.hospitalization", string="Hospitalisation", readonly=True, required=True)
     patient_id = fields.Many2one("hms.patient", related="hospitalization_id.patient_id", string="Patient", readonly=True, required=True)
     partner_id = fields.Many2one("res.partner", related="hospitalization_id.patient_id.partner_id", string="Partner", readonly=True, required=True)
     date = fields.Datetime("Date", default=fields.Datetime.now())
